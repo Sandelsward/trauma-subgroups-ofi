@@ -2,6 +2,9 @@
 title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
 output: html_document
 author: "George Sandelswärd"
+title: ""
+output: html_document
+author: ""
 bibliography: bibliography.bib
 csl: vancouver.csl
 ---
@@ -31,7 +34,7 @@ and opportunities for improvement in adult trauma patients: A cohort
 study" -->
 
 Abstract
-========
+
 
 <!-- Provide in the abstract an informative and balanced summary of
 what was done and what was found. Not more than 300 words. -->
@@ -49,8 +52,8 @@ Conclusion
 ----------
 
 Introduction
-============
-Trauma is a wide term including various physical injuries to the human body. It is one of the leading causes of mortality and morbidity in the world. Over the last decade almost 50 million people have died from trauma (1).
+
+
 
 <!-- Explain the scientific background and rationale for the
 investigation being reported. End by stating the aim or specific
@@ -62,7 +65,7 @@ You can cite document here like this [@exampleKey9999]. Open the file
 bibliography.bib to learn more.
 
 Methods 
-=======
+
 
 Study design
 ------------
@@ -144,7 +147,7 @@ taking account of sampling strategy
 -->
 
 Results
-=======
+
 
 <!-- 
 
@@ -219,7 +222,7 @@ plot(pressure)
 You can also mix text and code, so called inline code, like this: `r 2+5`.
 
 Discussion
-==========
+
 
 <!--
 
@@ -249,11 +252,11 @@ Discuss the generalisability (external validity) of the study results
 -->
 
 Conclusion
-==========
+
 
 <!-- Give a short conclusion, corresponding to the aim -->
 
 References
-==========
+
 
 <!-- Do not edit by hand, references will be inserted and formatted automatically once you knit this document -->
