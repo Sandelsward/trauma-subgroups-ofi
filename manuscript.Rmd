@@ -1,7 +1,7 @@
 ---
-title: "Manuscript title here"
+title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
 output: html_document
-author: "Your name here"
+author: "George Sandelswärd"
 bibliography: bibliography.bib
 csl: vancouver.csl
 ---
