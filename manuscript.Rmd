@@ -1,7 +1,7 @@
 ---
-title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
+title: ""
 output: html_document
-author: "George Sandelswärd"
+author: ""
 bibliography: bibliography.bib
 csl: vancouver.csl
 ---
