@@ -57,6 +57,15 @@ Trauma is a wide term including various physical injuries to the human body.
 It is one of the leading causes of mortality and morbidity in the world. 
 Over the last decade almost 50 million people have died from trauma.(1)
 
+Since trauma is so multifaceted it is very important to have a good 
+understanding of treatment for every different subgroup. Such as men and women,
+blunt and penetrating injury, minor and major trauma and across body regions 
+injured. 
+
+However it is today poorly understood whether different subgroups have greater 
+opportunities for improvement than others, such as lack of resources and 
+management errors.
+
 <!-- Explain the scientific background and rationale for the
 investigation being reported. End by stating the aim or specific
 objectives, including any prespecified hypotheses. The introduction
