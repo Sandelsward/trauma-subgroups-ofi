@@ -8,7 +8,7 @@ author: ""
 bibliography: bibliography.bib
 csl: vancouver.csl
 ---
-
+<!--Notera i texten ovan att du kan ändra exv html_document till pdf_document. När du sedan trycker på knit så skapas ett pdf document istället. Fyll även i Title. Rmarkdown kommer formatera detta till ett snyggt dokument när du trycker knit -->
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -50,33 +50,36 @@ Results
 
 Conclusion
 ----------
-
+<!-- Mycket bra! Du är igång! Generellt så kan det vara önskvärt med ytterligare källor/stycke. 
+Fokus på en röd tråd, något i stil med detta: Varför är trauma ett problem -> Preventable deaths och Preventable errors/OFI ->Trauma systems inkluderat multidisciplinära konferanser för att förbättra vård  -> Vad vet vi och vad vet vi inte om subgrupperna? -> Vad är vårt aim.
+--> 
 Introduction
+=====
+<!-- Notera att jag la till ==== under Introduction, detta kommer tillse att Introduction blir formaterat som en rubrik när du sedan "knitar", alltså gör om ditt dokument till PDF/DOC osv. Googa/youtuba Rmarkdown för ytterligare knep/knåp. -->
 
 Trauma is a wide term including various physical injuries to the human body. 
 It is one of the leading causes of mortality and morbidity in the world, 
 representing about 9 % of annual global deaths. Over the last decade almost 
 50 million people world wide have died from trauma.(1)
-
+<!-- Se kommentaren gällande källhänvisning: istället för (1) bör det stå [@exampleKey9999]. Kolla i din bibliography fil -->
 Since trauma is a multifaceted clinical entity, it is very important to have a 
 sufficient understanding of treatment and resources for every different trauma 
 subgroup. Such as men and women, blunt and penetrating injury, minor and major 
 trauma and across body regions injured. It has for example been shown that 
 trauma patients in Sweden who were treated at a trauma center rather than a 
 non-trauma center have a 41 % lower 30-day adjusted mortality rate. (2)
-
+<!--Svårt att förstå exakt hur du menar när du först beskriver demografiska subgrupper för att sedan slå ihop det med minskat mortalitet i Sverige? -->
 To further stress the need for more knowledge and research about Trauma care,
 some studies indicate that the number of trauma related deaths that
 potentially could have been prevented is as high as 20-40 %. (3,4)
-
+<!--Kan variera ytterligare, här är en studie från KS på delar av ditt material:
+https://pubmed-ncbi-nlm-nih-gov.sll.idm.oclc.org/29797712/ -->
 Today however, it is poorly understood whether different subgroups have greater 
 opportunities for improvement than others. Such opportunities for improvement 
 could be lack of resources and management errors. 
 
 In this study we aim to assess the frequency of oppotunity for improvement in
 important clinical subgroups. 
-
-
 
 <!-- Explain the scientific background and rationale for the
 investigation being reported. End by stating the aim or specific
