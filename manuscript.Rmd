@@ -58,19 +58,29 @@ It is one of the leading causes of mortality and morbidity in the world,
 representing about 9 % of annual global deaths. Over the last decade almost 
 50 million people world wide have died from trauma.(1)
 
-Since trauma is multifaceted it is very important to have a good 
-understanding of treatment and resources for every different trauma subgroup. 
-Such as men and women, blunt and penetrating injury, minor and major trauma and
-across body regions injured. It has for example been shown that trauma patients 
-in Sweden who were treated at a trauma center rather than a non-trauma center 
-have a 41 % lower 30-day adjusted mortality rate. (2)
+Since trauma is a multifaceted clinical entity, it is very important to have a 
+sufficient understanding of treatment and resources for every different trauma 
+subgroup. Such as men and women, blunt and penetrating injury, minor and major 
+trauma and across body regions injured. It has for example been shown that 
+trauma patients in Sweden who were treated at a trauma center rather than a 
+non-trauma center have a 41 % lower 30-day adjusted mortality rate. (2)
 
-However it is today poorly understood whether different subgroups have greater 
+To further stress the need for more knowledge and reesearch about Trauma care 
+is that some studies inicate that the nuber of deaths that could have been 
+prevented is as high as 20-40 %. (3)
+
+Today however, it is poorly understood whether different subgroups have greater 
 opportunities for improvement than others. Such opportunities for improvement 
 could be lack of resources and management errors. 
 
 In this study we aim to assess the frequency of oppotunity for improvement in
 important clinical subgroups.
+
+ (The large range of different subgropus that is included in Trauma care require
+ that 
+
+Given the fact that Trauma care is both time sensitive and complex,)
+
 
 <!-- Explain the scientific background and rationale for the
 investigation being reported. End by stating the aim or specific
@@ -97,13 +107,13 @@ Study design
 
 Setting
 -------
-
+Beskriva att det är ett examenarbete, att det sker under handledning av er, håller på under 20 veckor osv?
 <!-- Describe the setting, locations, and relevant dates, including
 periods of recruitment, exposure, follow-up, and data collection -->
 
 Participants
 ------------
-
+Beskriva kriterier för att bli tillagd i traumaregistren?
 <!-- Cohort study: Give the eligibility criteria, and the sources and
 methods of selection of participants. Describe methods of
 follow-up. For matched studies, give matching criteria and number of
