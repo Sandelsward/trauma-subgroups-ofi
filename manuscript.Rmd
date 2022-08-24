@@ -65,9 +65,9 @@ trauma and across body regions injured. It has for example been shown that
 trauma patients in Sweden who were treated at a trauma center rather than a 
 non-trauma center have a 41 % lower 30-day adjusted mortality rate. (2)
 
-To further stress the need for more knowledge and reesearch about Trauma care 
-is that some studies inicate that the nuber of deaths that could have been 
-prevented is as high as 20-40 %. (3)
+To further stress the need for more knowledge and research about Trauma care,
+some studies indicate that the number of trauma related deaths that
+potentially could have been prevented is as high as 20-40 %. (3,4)
 
 Today however, it is poorly understood whether different subgroups have greater 
 opportunities for improvement than others. Such opportunities for improvement 
@@ -76,10 +76,6 @@ could be lack of resources and management errors.
 In this study we aim to assess the frequency of oppotunity for improvement in
 important clinical subgroups.
 
- (The large range of different subgropus that is included in Trauma care require
- that 
-
-Given the fact that Trauma care is both time sensitive and complex,)
 
 
 <!-- Explain the scientific background and rationale for the
