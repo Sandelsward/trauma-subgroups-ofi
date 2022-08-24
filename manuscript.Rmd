@@ -55,10 +55,10 @@ Introduction
 
 Trauma is a wide term including various physical injuries to the human body. 
 It is one of the leading causes of mortality and morbidity in the world, 
-especially in low income countries. 
-Over the last decade almost 50 million people world wide have died from trauma.(1)
+representing about 9 % of annual global deaths. Over the last decade almost 
+50 million people world wide have died from trauma.(1)
 
-Since trauma is so multifaceted it is very important to have a good 
+Since trauma is multifaceted it is very important to have a good 
 understanding of treatment and resources for every different trauma subgroup. 
 Such as men and women, blunt and penetrating injury, minor and major trauma and
 across body regions injured. It has for example been shown that trauma patients 
@@ -68,7 +68,6 @@ have a 41 % lower 30-day adjusted mortality rate. (2)
 However it is today poorly understood whether different subgroups have greater 
 opportunities for improvement than others. Such opportunities for improvement 
 could be lack of resources and management errors. 
-
 
 In this study we aim to assess the frequency of oppotunity for improvement in
 important clinical subgroups.
@@ -84,6 +83,12 @@ bibliography.bib to learn more.
 
 Methods 
 
+This is a registry based cohort study that uses data from two different Swedish
+trauma registers. The first one is the Trauma registry at the Karolinska 
+University Hospital in Solna, which includes about 21000 patients between the 
+years 2012 and 2021. The second register is the Trauma quality database. By 
+linking these databases together the opportunity for improvement in the trauma 
+subgroups mentioned in the introduction will be assessed. 
 
 Study design
 ------------
