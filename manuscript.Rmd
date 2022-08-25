@@ -60,7 +60,7 @@ Introduction
 Trauma is a wide term including various physical injuries to the human body. 
 It is one of the leading causes of mortality and morbidity in the world, 
 representing about 9 % of annual global deaths. Over the last decade almost 
-50 million people world wide have died from trauma.(1)
+50 million people world wide have died from trauma. (1)
 <!-- Se kommentaren gällande källhänvisning: istället för (1) bör det stå [@exampleKey9999]. Kolla i din bibliography fil -->
 Not only does truama represent a large share the global mortality rate, studies have shown a significant drifference in outcome depending on where patients are treated. It has for example been shown that trauma patients in Sweden who were treated at a trauma center rather than a 
 non-trauma center have a 41 % lower 30-day adjusted mortality rate. (2)
