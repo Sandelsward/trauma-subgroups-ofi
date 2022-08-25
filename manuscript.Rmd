@@ -60,39 +60,39 @@ Introduction
 Trauma is a wide term including various physical injuries to the human body. 
 It is one of the leading causes of mortality and morbidity in the world, 
 representing about 9 % of annual global deaths. Over the last decade almost 
-50 million people world wide have died from trauma. (1)
+50 million people worldwide have died from trauma.[@GBD_2017_Causes_of_Death_Collaborators2018-oe]
 <!-- Se kommentaren gällande källhänvisning: istället för (1) bör det stå [@exampleKey9999]. Kolla i din bibliography fil -->
-Not only does truama represent a large share the global mortality rate, studies 
-have shown a significant drifference in outcome depending on where patients are
+Not only does trauma represent a large share of the global mortality rate, but studies 
+have also shown a significant difference in outcome depending on where patients are
 treated. It has for example been shown that trauma patients in Sweden who were 
 treated at a trauma center rather than a non-trauma center have a 41 % lower 
-30-day adjusted mortality rate. (2)
+30-day adjusted mortality rate. [@Candefjord2022-pe]
 
 To further stress the need for more knowledge and research about Trauma care,
-some studies indicate that the number of trauma related deaths that
-potentially could have been prevented is as high as 20 to over 50 %. (3, 4, 5)
+some studies indicate that the number of trauma-related deaths that
+potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh]
 
-There are several different systems that is being used in Trauma care. 
+Several different systems that are being used in Trauma care. 
 Such as Advanced Trauma Life Support (ATLS) and Primary Trauma Care (PTC), 
 where ATLS is the more established system. The purpose of these systems is to 
-secure a time efficient, standardized and structured way of treating trauma 
-patients.(6,7)
+secure a time-efficient, standardized and structured way of treating trauma 
+patients.[6; @Kadhum2020-wa]
 
-ATLS is practiced in over 80 countries with and 1 million doctors have gone thru 
-this training.  (6). PTC is also used in over 80 counries, however more 
-frequently in low and middle income countries. One reason for this could be that 
-the PTC program is free while ATLS is not.(7)
+ATLS is practiced in over 80 countries and 1 million doctors have gone thru 
+this training.  (6). PTC is also used in over 80 countries, however more 
+frequently in low and middle-income countries. One reason for this could be that 
+the PTC program is free while ATLS is not.[@Kadhum2020-wa]
 
-Since trauma is a multifaceted clinical entity, it is very important to have a 
+Since trauma patients are a very heterogeneous group, it is very important to have a 
 sufficient understanding of treatment and resources for every different trauma 
-subgroup. Such as men and women, blunt and penetrating injury, minor and major 
-trauma and across body regions injured.
+subgroup. Such as men and women, blunt and penetrating injuries, minor and major 
+trauma ,and across body regions injured.
 
 Today however, it is poorly understood whether different subgroups have greater 
 opportunities for improvement than others. Such opportunities for improvement 
 could be lack of resources and management errors. 
 
-In this study we aim to assess the frequency of oppotunity for improvement in
+In this study we aim to assess the frequency of opportunity for improvement in
 important clinical subgroups. 
 <!--Svårt att förstå exakt hur du menar när du först beskriver demografiska subgrupper för att sedan slå ihop det med minskat mortalitet i Sverige? -->
 
