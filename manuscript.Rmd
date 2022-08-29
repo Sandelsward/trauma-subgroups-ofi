@@ -94,10 +94,6 @@ could be lack of resources and management errors.
 
 In this study we aim to assess the frequency of opportunity for improvement in
 important clinical subgroups. 
-<!--Svårt att förstå exakt hur du menar när du först beskriver demografiska subgrupper för att sedan slå ihop det med minskat mortalitet i Sverige? -->
-
-<!--Kan variera ytterligare, här är en studie från KS på delar av ditt material:
-https://pubmed-ncbi-nlm-nih-gov.sll.idm.oclc.org/29797712/ -->
 
 
 <!-- Explain the scientific background and rationale for the
