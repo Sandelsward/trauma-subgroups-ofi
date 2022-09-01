@@ -83,7 +83,7 @@ this training.  (6). PTC is also used in over 80 countries, however more
 frequently in low and middle-income countries. One reason for this could be that 
 the PTC program is free while ATLS is not.[@Kadhum2020-wa]
 
-Since trauma patients are a very heterogeneous group, it is very important to have a 
+Since trauma patients is a very heterogeneous group, it is important to have a 
 sufficient understanding of treatment and resources for every different trauma 
 subgroup. Such as men and women, blunt and penetrating injuries, minor and major 
 trauma ,and across body regions injured.
@@ -112,7 +112,9 @@ trauma registers. The first one is the Trauma registry at the Karolinska
 University Hospital in Solna, which includes about 21000 patients between the 
 years 2012 and 2021. The second register is the Trauma quality database. By 
 linking these databases together the opportunity for improvement in the trauma 
-subgroups mentioned in the introduction will be assessed. 
+subgroups mentioned in the introduction will be assessed.
+
+Whether there is opportunity for improvement for a specific case or not is decided by an group of experts during a conference where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
 
 Study design
 ------------
@@ -121,12 +123,20 @@ Study design
 
 Setting
 -------
+
+The Karolinska University Hospital in Solna is the leading trauma center in Sweden, and the only hospital in Sweden that can be considered as a level one trauma center. Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
+
+A Trauma priority one is considered directly life thretening. Therefore when arriving to Karolinska Solna every one of these patients are taken care of by a full trauma team. This team consists of a trauma leader wo is a general surgeon or a resident in general surgury and an anesthetist with a nurse specialized in anesthesiology. The team also has a Orthopedic surgeon, Radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
+
+
 Beskriva att det är ett examenarbete, att det sker under handledning av er, håller på under 20 veckor osv?
 <!-- Describe the setting, locations, and relevant dates, including
 periods of recruitment, exposure, follow-up, and data collection -->
 
 Participants
 ------------
+
+
 Beskriva kriterier för att bli tillagd i traumaregistren?
 <!-- Cohort study: Give the eligibility criteria, and the sources and
 methods of selection of participants. Describe methods of
