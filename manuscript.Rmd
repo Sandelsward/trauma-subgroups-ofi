@@ -72,7 +72,7 @@ To further stress the need for more knowledge and research about Trauma care,
 some studies indicate that the number of trauma-related deaths that
 potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh]
 
-Several different systems that are being used in Trauma care. 
+Several different systems are being used in Trauma care. 
 Such as Advanced Trauma Life Support (ATLS) and Primary Trauma Care (PTC), 
 where ATLS is the more established system. The purpose of these systems is to 
 secure a time-efficient, standardized and structured way of treating trauma 
@@ -135,7 +135,11 @@ periods of recruitment, exposure, follow-up, and data collection -->
 
 Participants
 ------------
+Patients included in SweTrau. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event serious enough to activate the Trauma code in the hospital and have a NISS over 15. (https://rcsyd.se/swetrau/om-swetrau/about-swetrau-in-english/swetrau-the-swedish-trauma-registry)
 
+The exclusion criterias for SweTrau are as following:
+Patients where the only traumatic injury is a chronic subdural hematoma
+Patients where a trauma alarm is triggered without an underlying traumatic event.(https://rcsyd.se/swetrau/om-swetrau/about-swetrau-in-english/swetrau-the-swedish-trauma-registry)
 
 Beskriva kriterier för att bli tillagd i traumaregistren?
 <!-- Cohort study: Give the eligibility criteria, and the sources and
