@@ -58,7 +58,7 @@ Trauma is a wide term including various physical injuries to the human body.
 It is one of the leading causes of mortality and morbidity in the world, 
 representing about 9 % of annual global deaths. Over the last decade almost 
 50 million people worldwide have died from trauma.[@GBD_2017_Causes_of_Death_Collaborators2018-oe]
-<!-- Se kommentaren gällande källhänvisning: istället för (1) bör det stå [@exampleKey9999]. Kolla i din bibliography fil -->
+
 Not only does trauma represent a large share of the global mortality rate, but studies 
 have also shown a significant difference in outcome depending on where patients are
 treated. It has for example been shown that trauma patients in Sweden who were 
@@ -109,16 +109,10 @@ Shirley, P and Walsh, M and Tai, N},
   file = {[[file:~/projects/bibliography/papers/OReilly2013.pdf]]}
 } -->
 
-OFI is a relatively new term. It is defined as when the treatment of a patient in at least one aspect have differed from the golden standard treatment. At KUH all trauma patient end up in a data base. An AI <!-- Inte AI än iaf ;) utan audit filters. -->then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS ≤ 8 where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO".
-<!--Stora delar av det du skriver ovan hör hemma i metoddelen. Se Elias och Husseins arbeten -->
-During a conference where certain trauma cases are discussed a gruop of doctors from several different field 
 
 In this study we aim to assess the frequency of opportunity for improvement in
 important clinical subgroups. 
 
-Hur bestäms ofi idag
-
-def av OFI
 <!--Se tidigare arbeten -->
 
 
@@ -142,6 +136,9 @@ linking these databases together the opportunity for improvement in the trauma
 subgroups mentioned in the introduction will be assessed.
 
 Whether there is opportunity for improvement for a specific case or not is decided by an group of experts during a conference where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
+
+At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 ol less where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO".
+<!--Stora delar av det du skriver ovan hör hemma i metoddelen. Se Elias och Husseins arbeten -->
 
 Study design
 ------------
