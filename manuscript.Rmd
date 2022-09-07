@@ -1,10 +1,7 @@
 ---
 title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
-output: html_document
 author: "George Sandelswärd"
-title: ""
 output: pdf_document
-author: ""
 bibliography: bibliography.bib
 csl: vancouver.csl
 ---
@@ -89,23 +86,33 @@ subgroup. Such as men and women, blunt and penetrating injuries, minor and major
 trauma ,and across body regions injured.
 
 Today however, it is poorly understood whether different subgroups have greater 
-opportunities for improvement than others. Such opportunities for improvement 
+opportunities for improvement (OFI) than others. Such opportunities for improvement 
 could be lack of resources and management errors. 
+
+OFI is a relatively new term. It is defined as when the treatment of a patient in at least one aspect have differed from the golden standard treatment. At KUH all trauma patient end up in a data base. An AI then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS ≤ 8 where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO".
+
+During a conference where certain trauma cases are discussed a gruop of doctors from several different field 
 
 In this study we aim to assess the frequency of opportunity for improvement in
 important clinical subgroups. 
+
+Hur bestäms ofi idag
+
+def av OFI
+
 
 
 <!-- Explain the scientific background and rationale for the
 investigation being reported. End by stating the aim or specific
 objectives, including any prespecified hypotheses. The introduction
 should not be longer than 1-1.5 pages, typically 4-5 paragraphs, each
-6-8 lines long. Support every statement with a citation -->
+6-8 lines long. Support every statement with a citation You can cite document here like this [@exampleKey9999]. Open the file
+bibliography.bib to learn more. -->
 
-You can cite document here like this [@exampleKey9999]. Open the file
-bibliography.bib to learn more.
 
-Methods 
+
+Methods
+=====
 
 This is a registry based cohort study that uses data from two different Swedish
 trauma registers. The first one is the Trauma registry at the Karolinska 
@@ -135,11 +142,7 @@ periods of recruitment, exposure, follow-up, and data collection -->
 
 Participants
 ------------
-Patients included in SweTrau. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event serious enough to activate the Trauma code in the hospital and have a NISS over 15. (https://rcsyd.se/swetrau/om-swetrau/about-swetrau-in-english/swetrau-the-swedish-trauma-registry)
 
-The exclusion criterias for SweTrau are as following:
-Patients where the only traumatic injury is a chronic subdural hematoma
-Patients where a trauma alarm is triggered without an underlying traumatic event.(https://rcsyd.se/swetrau/om-swetrau/about-swetrau-in-english/swetrau-the-swedish-trauma-registry)
 
 Beskriva kriterier för att bli tillagd i traumaregistren?
 <!-- Cohort study: Give the eligibility criteria, and the sources and
