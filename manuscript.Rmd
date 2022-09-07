@@ -52,7 +52,7 @@ Fokus på en röd tråd, något i stil med detta: Varför är trauma ett problem
 --> 
 Introduction
 =====
-<!-- Notera att jag la till ==== under Introduction, detta kommer tillse att Introduction blir formaterat som en rubrik när du sedan "knitar", alltså gör om ditt dokument till PDF/DOC osv. Googa/youtuba Rmarkdown för ytterligare knep/knåp. -->
+<!-- Notera att jag la till ==== under Introduction, detta kommer tillse att Introduction blir formaterat som en rubrik när du sedan "knitar", alltså gör om ditt dokument till PDF/DOC osv. Googla/youtuba Rmarkdown för ytterligare knep/knåp. -->
 
 Trauma is a wide term including various physical injuries to the human body. 
 It is one of the leading causes of mortality and morbidity in the world, 
@@ -63,11 +63,11 @@ Not only does trauma represent a large share of the global mortality rate, but s
 have also shown a significant difference in outcome depending on where patients are
 treated. It has for example been shown that trauma patients in Sweden who were 
 treated at a trauma center rather than a non-trauma center have a 41 % lower 
-30-day adjusted mortality rate. [@Candefjord2022-pe]
+30-day adjusted mortality rate<!--Compared to?-->. [@Candefjord2022-pe] 
 
 To further stress the need for more knowledge and research about Trauma care,
 some studies indicate that the number of trauma-related deaths that
-potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh]
+potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] <!-- Jag skulle lägga till ytterligare meningar här  -->
 
 Several different systems are being used in Trauma care. 
 Such as Advanced Trauma Life Support (ATLS) and Primary Trauma Care (PTC), 
@@ -79,18 +79,38 @@ ATLS is practiced in over 80 countries and 1 million doctors have gone thru
 this training.  (6). PTC is also used in over 80 countries, however more 
 frequently in low and middle-income countries. One reason for this could be that 
 the PTC program is free while ATLS is not.[@Kadhum2020-wa]
+<!-- Du kan absolut prata om ATLS men kanske främst då i din KI uppsats. Då som ett exempel på potentiell utbildningsinsats. Evidensen för ATLS är inte 100%, Martin har bla fått stort anslag för att undersöka detta.
 
+mitt förslag är istället att fokusera på kvalitetsarbeten mer riktade mot systemen i stort exv MoM-konferanser -->
 Since trauma patients is a very heterogeneous group, it is important to have a 
 sufficient understanding of treatment and resources for every different trauma 
 subgroup. Such as men and women, blunt and penetrating injuries, minor and major 
-trauma ,and across body regions injured.
+trauma ,and across body regions injured. <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
 
 Today however, it is poorly understood whether different subgroups have greater 
 opportunities for improvement (OFI) than others. Such opportunities for improvement 
-could be lack of resources and management errors. 
+could be lack of resources and management errors. <!-- ge vanliga exempel, se exv: 
 
-OFI is a relatively new term. It is defined as when the treatment of a patient in at least one aspect have differed from the golden standard treatment. At KUH all trauma patient end up in a data base. An AI then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS ≤ 8 where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO".
+@article{OReilly2013,
+  title =	 {Opportunities for improvement in the management of
+patients who die from haemorrhage after trauma},
+  volume =	 {100},
+  ISSN =	 {1365-2168},
+  url =		 {http://dx.doi.org/10.1002/bjs.9096},
+  DOI =		 {10.1002/bjs.9096},
+  number =	 {6},
+  journal =	 {British Journal of Surgery},
+  publisher =	 {Oxford University Press (OUP)},
+  author =	 {O’Reilly, D and Mahendran, K and West, A and
+Shirley, P and Walsh, M and Tai, N},
+  year =	 {2013},
+  month =	 {Mar},
+  pages =	 {749–755},
+  file = {[[file:~/projects/bibliography/papers/OReilly2013.pdf]]}
+} -->
 
+OFI is a relatively new term. It is defined as when the treatment of a patient in at least one aspect have differed from the golden standard treatment. At KUH all trauma patient end up in a data base. An AI <!-- Inte AI än iaf ;) utan audit filters. -->then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS ≤ 8 where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO".
+<!--Stora delar av det du skriver ovan hör hemma i metoddelen. Se Elias och Husseins arbeten -->
 During a conference where certain trauma cases are discussed a gruop of doctors from several different field 
 
 In this study we aim to assess the frequency of opportunity for improvement in
@@ -99,7 +119,7 @@ important clinical subgroups.
 Hur bestäms ofi idag
 
 def av OFI
-
+<!--Se tidigare arbeten -->
 
 
 <!-- Explain the scientific background and rationale for the
@@ -136,7 +156,9 @@ The Karolinska University Hospital in Solna is the leading trauma center in Swed
 A Trauma priority one is considered directly life thretening. Therefore when arriving to Karolinska Solna every one of these patients are taken care of by a full trauma team. This team consists of a trauma leader wo is a general surgeon or a resident in general surgury and an anesthetist with a nurse specialized in anesthesiology. The team also has a Orthopedic surgeon, Radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
 
-Beskriva att det är ett examenarbete, att det sker under handledning av er, håller på under 20 veckor osv?
+Beskriva att det är ett examenarbete, att det sker under handledning av er, håller på under 20 veckor osv? <!--Nej det behöver du inte göra-->
+
+
 <!-- Describe the setting, locations, and relevant dates, including
 periods of recruitment, exposure, follow-up, and data collection -->
 
