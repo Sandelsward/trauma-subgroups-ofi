@@ -63,55 +63,25 @@ Not only does trauma represent a large share of the global mortality rate, but s
 have also shown a significant difference in outcome depending on where patients are
 treated. It has for example been shown that trauma patients in Sweden who were 
 treated at a trauma center rather than a non-trauma center have a 41 % lower 
-30-day adjusted mortality rate<!--Compared to?-->. [@Candefjord2022-pe] 
+30-day adjusted mortality rate<!--Compared to? SVAR: Compared to those treated at a non trauma center -->. [@Candefjord2022-pe] 
 
 To further stress the need for more knowledge and research about Trauma care,
 some studies indicate that the number of trauma-related deaths that
-potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] <!-- Jag skulle lägga till ytterligare meningar här  -->
+potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Jag skulle lägga till ytterligare meningar här  -->
 
-Several different systems are being used in Trauma care. 
-Such as Advanced Trauma Life Support (ATLS) and Primary Trauma Care (PTC), 
-where ATLS is the more established system. The purpose of these systems is to 
-secure a time-efficient, standardized and structured way of treating trauma 
-patients.[6; @Kadhum2020-wa]
-
-ATLS is practiced in over 80 countries and 1 million doctors have gone thru 
-this training.  (6). PTC is also used in over 80 countries, however more 
-frequently in low and middle-income countries. One reason for this could be that 
-the PTC program is free while ATLS is not.[@Kadhum2020-wa]
-<!-- Du kan absolut prata om ATLS men kanske främst då i din KI uppsats. Då som ett exempel på potentiell utbildningsinsats. Evidensen för ATLS är inte 100%, Martin har bla fått stort anslag för att undersöka detta.
-
-mitt förslag är istället att fokusera på kvalitetsarbeten mer riktade mot systemen i stort exv MoM-konferanser -->
-Since trauma patients is a very heterogeneous group, it is important to have a 
-sufficient understanding of treatment and resources for every different trauma 
-subgroup. Such as men and women, blunt and penetrating injuries, minor and major 
-trauma ,and across body regions injured. <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
+<!--mitt förslag är istället att fokusera på kvalitetsarbeten mer riktade mot systemen i stort exv MoM-konferanser -->
 
 Today however, it is poorly understood whether different subgroups have greater 
-opportunities for improvement (OFI) than others. Such opportunities for improvement 
-could be lack of resources and management errors. <!-- ge vanliga exempel, se exv: 
+opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas where OFIs were found.[@OReilly2013] <!-- ge vanliga exempel, se exv: 
 
-@article{OReilly2013,
-  title =	 {Opportunities for improvement in the management of
-patients who die from haemorrhage after trauma},
-  volume =	 {100},
-  ISSN =	 {1365-2168},
-  url =		 {http://dx.doi.org/10.1002/bjs.9096},
-  DOI =		 {10.1002/bjs.9096},
-  number =	 {6},
-  journal =	 {British Journal of Surgery},
-  publisher =	 {Oxford University Press (OUP)},
-  author =	 {O’Reilly, D and Mahendran, K and West, A and
-Shirley, P and Walsh, M and Tai, N},
-  year =	 {2013},
-  month =	 {Mar},
-  pages =	 {749–755},
-  file = {[[file:~/projects/bibliography/papers/OReilly2013.pdf]]}
-} -->
+-->
+Since trauma patients is a very heterogeneous group, it is important to have a 
+sufficient understanding of OFIs for different trauma 
+subgroups. <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
 
-
-In this study we aim to assess the frequency of opportunity for improvement in
-important clinical subgroups. 
+In this study we aim to assess the frequency of opportunity for improvement in the following
+important clinical subgroups. Men and women, blunt and penetrating injuries, minor and major 
+trauma ,and across body regions injured. 
 
 <!--Se tidigare arbeten -->
 

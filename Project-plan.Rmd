@@ -1,0 +1,225 @@
+---
+title: "Project-plan"
+output: pdf_document
+bibliography: bibliography.bib
+csl: vancouver.csl
+---
+
+Background
+=====
+<!-- Notera att jag la till ==== under Introduction, detta kommer tillse att Introduction blir formaterat som en rubrik när du sedan "knitar", alltså gör om ditt dokument till PDF/DOC osv. Googla/youtuba Rmarkdown för ytterligare knep/knåp. -->
+
+Trauma is a wide term including various physical injuries to the human body. 
+It is one of the leading causes of mortality and morbidity in the world, 
+representing about 9 % of annual global deaths. Over the last decade almost 
+50 million people worldwide have died from trauma.[@GBD_2017_Causes_of_Death_Collaborators2018-oe]
+
+Not only does trauma represent a large share of the global mortality rate, but studies 
+have also shown a significant difference in outcome depending on where patients are
+treated. It has for example been shown that trauma patients in Sweden who were 
+treated at a trauma center rather than a non-trauma center have a 41 % lower 
+30-day adjusted mortality rate<!--Compared to? SVAR: Compared to those treated at a non trauma center -->. [@Candefjord2022-pe] 
+
+To further stress the need for more knowledge and research about Trauma care,
+some studies indicate that the number of trauma-related deaths that
+potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Jag skulle lägga till ytterligare meningar här  -->
+
+<!--mitt förslag är istället att fokusera på kvalitetsarbeten mer riktade mot systemen i stort exv MoM-konferanser -->
+Knowledge gap 
+=====
+
+Today It is poorly understood whether different subgroups have greater 
+opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas where OFIs were found.[@OReilly2013] <!-- ge vanliga exempel, se exv: -->
+
+Since trauma patients is a very heterogeneous group, it is important to have a 
+sufficient understanding of OFIs for different trauma subgroups. <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
+
+Aim
+=====
+
+In this study we aim to assess the frequency of opportunity for improvement in the following
+important clinical subgroups. Men and women, blunt and penetrating injuries, minor and major 
+trauma ,and across body regions injured. 
+
+Trauma Registries
+=====
+
+I sweden there is a national trauma register (SweTrau) holdng records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event serious enough to activate the Trauma code in the hospital or have a NISS over 15 without trauma code activation. [@swetrau]
+
+The exclusion criterias for SweTrau are as following:
+Patients where the only traumatic injury is a chronic subdural hematoma
+Patients where a trauma alarm is triggered without an underlying traumatic event.[@swetrau]
+ 
+The KUH trauma register is a part of the Swedish Trauma Register, with the same inclusion and exclusion critera. (källa jonatan, VAR FINNS INFO OM KAROLINSKAS REGISTER?)
+
+The Trauma Quality Database (TCQD) holds all all severe trauma cases treated at KUH Solna. VAR FINNS MER INFO OM TCQD?
+
+Advanced Trauma Life Support and Primary Trauma Care
+=====
+Several different systems are being used in Trauma care. 
+Such as Advanced Trauma Life Support (ATLS) and Primary Trauma Care (PTC), 
+where ATLS is the more established system. The purpose of these systems is to 
+secure a time-efficient, standardized and structured way of treating trauma 
+patients.[@FACS; @Kadhum2020-wa]
+
+ATLS is practiced in over 80 countries and 1 million doctors have gone thru 
+this training.[@FACS] 
+
+PTC is also used in over 80 countries, however more 
+frequently in low and middle-income countries. One reason for this could be that 
+the PTC program is free while ATLS is not.[@Kadhum2020-wa]
+
+
+
+
+Oppotrunity for improvement
+=====
+
+Whether there is opportunity for improvement for a specific case or not is decided by a group of experts during a conference where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
+
+At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 ol less where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO". (BEskrivet utifrån vad Jonatan berättade, finns det någon källa man kan hänvisa till. Tex det dokument som jonatan visade när vi träffades.)
+
+Injury severity score 
+=====
+The Injury severity score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score a patient get is based on the Abbreviated Injury Scale (AIS) points from the injured body regions. The higher ISS score the more serious injury the patients suffers from.[@ISS]
+
+ISS takes injuries in 6 different body regions into account. Those are head/neck, face, chest, abdomen, extremiteis and external. The ISS is the sum of the squares of the highest AIS code in each of the three most severely injured ISS Body Regions. AIS can vary from 1-5, and the ISS from 1-75.[@ISS]
+
+Prehospital triage
+=====
+
+Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
+
+A Trauma priority one is considered directly life thretening. Therefore when arriving to Karolinska Solna every one of these patients are taken care of by a full trauma team. This team consists of a trauma leader wo is a general surgeon or a resident in general surgury and an anesthetist with a nurse specialized in anesthesiology. The team also has an rthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
+
+
+Methods
+=====
+
+
+<!--Stora delar av det du skriver ovan hör hemma i metoddelen. Se Elias och Husseins arbeten -->
+
+Study design
+------------
+This is a registry based cohort study that uses data from two different Swedish
+trauma registers. The first one is the Trauma registry at the Karolinska 
+University Hospital in Solna, which includes about 21000 patients between the 
+years 2012 and 2021. The second register is the Trauma quality database (TCQD). By 
+linking these databases together the opportunity for improvement in the trauma 
+subgroups mentioned in the introduction will be assessed.
+
+Whether there is opportunity for improvement for a specific case or not is decided by an group of experts during a conference where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
+
+At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 ol less where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO".
+<!-- Present key elements of study design -->
+
+Setting
+-------
+
+The Karolinska University Hospital in Solna is the leading trauma center in Sweden, and the only hospital in Sweden that can be considered as a level one trauma center.
+
+
+
+<!-- Describe the setting, locations, and relevant dates, including
+periods of recruitment, exposure, follow-up, and data collection -->
+
+Participants
+------------
+
+All patients from KUH trauma register and from TQ
+
+
+<!-- Cohort study: Give the eligibility criteria, and the sources and
+methods of selection of participants. Describe methods of
+follow-up. For matched studies, give matching criteria and number of
+exposed and unexposed -->
+
+<!-- Case-control study: Give the eligibility criteria, and the
+sources and + methods of case ascertainment and control
+selection. Give the rationale for the choice of cases and
+controls. For matched studies, give matching criteria and the number
+of controls per case -->
+
+<!-- Cross-sectional study: Give the eligibility criteria, and the
+sources and methods of selection of participants -->
+
+Variables and data sources/measurements
+---------------------------------------
+
+<!-- Clearly define all outcomes, exposures, predictors, potential
+confounders, and effect modifiers. Give diagnostic criteria, if
+applicable. For each variable of interest, give sources of data and
+details of methods of assessment (measurement). Describe comparability
+of assessment methods if there is more than one group -->
+
+Bias 
+----
+No Bias?
+
+
+<!-- Describe any efforts to address potential sources of bias -->
+
+Study size 
+----------
+
+<!-- Explain how the study size was arrived at -->
+
+Quantitative variables
+----------------------
+
+<!-- Explain how quantitative variables were handled in the
+analyses. If applicable, describe which groupings were chosen and why
+-->
+
+Statistical methods
+-------------------
+
+<!-- 
+
+(a) Describe all statistical methods, including those used to control
+for confounding
+
+(b) Describe any methods used to examine subgroups and interactions
+
+(c) Explain how missing data were addressed 
+
+(d) 
+
+Cohort study: If applicable, explain how loss to follow-up was addressed 
+
+Case-control study:If applicable, explain how matching of cases and
+controls was addressed
+
+Cross-sectional study: If applicable, describe analytical methods
+taking account of sampling strategy
+
+(e) Describe any sensitivity analyses
+-->
+Ethical considerations
+=====
+
+
+
+
+ En skriftlig redogörelse på ca en A4-sida av projektets utveckling, plus tidsplan för 
+resterande del av kursen (använd tidsplanmallen i Canvas). Ange så exakt som möjligt: 
+• Vilken typ av data, kategorier, variabler etc du avser att samla in 
+
+Detta är en retrospektiv registerstudie som kommer använda sig av data från KUH trauma register och KUH kvalitetsdatabas. 
+
+Hittills har jag
+- Skrivit Introduktion
+- Påbörjat materiela och metod
+
+
+• Hur data planeras presenteras (t ex tabeller och hur de kan struktureras, diagramtyper, 
+vävnadssnitt, intervjucitat etc) 
+
+Datan kommer presenteras i en tabell där de aktuella subgrupperna kommer presenteras samt huruvuda det finns OFI för dessa grupper. Det kommer även redogöras för i vilken utsträckning varje subgrupp har OFI. 
+
+
+• Hur data planeras analyseras; vilka statistiska metoder för jämförelser mellan en eller 
+flera grupper, andra matematiska metoder, kvalitativ analys etc 
+
+References
+=====
