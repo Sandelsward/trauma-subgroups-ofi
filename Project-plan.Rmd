@@ -26,7 +26,7 @@ potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020
 
 <!--mitt förslag är istället att fokusera på kvalitetsarbeten mer riktade mot systemen i stort exv MoM-konferanser -->
 Knowledge gap 
-=====
+------------
 
 Today It is poorly understood whether different subgroups have greater 
 opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas where OFIs were found.[@OReilly2013] <!-- ge vanliga exempel, se exv: -->
@@ -35,14 +35,13 @@ Since trauma patients is a very heterogeneous group, it is important to have a
 sufficient understanding of OFIs for different trauma subgroups. <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
 
 Aim
-=====
-
+------------
 In this study we aim to assess the frequency of opportunity for improvement in the following
 important clinical subgroups. Men and women, blunt and penetrating injuries, minor and major 
 trauma ,and across body regions injured. 
 
 Trauma Registries
-=====
+------------
 
 I sweden there is a national trauma register (SweTrau) holdng records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event serious enough to activate the Trauma code in the hospital or have a NISS over 15 without trauma code activation. [@swetrau]
 
@@ -55,7 +54,7 @@ The KUH trauma register is a part of the Swedish Trauma Register, with the same 
 The Trauma Quality Database (TCQD) holds all all severe trauma cases treated at KUH Solna. VAR FINNS MER INFO OM TCQD?
 
 Advanced Trauma Life Support and Primary Trauma Care
-=====
+------------
 Several different systems are being used in Trauma care. 
 Such as Advanced Trauma Life Support (ATLS) and Primary Trauma Care (PTC), 
 where ATLS is the more established system. The purpose of these systems is to 
@@ -73,20 +72,20 @@ the PTC program is free while ATLS is not.[@Kadhum2020-wa]
 
 
 Oppotrunity for improvement
-=====
+------------
 
 Whether there is opportunity for improvement for a specific case or not is decided by a group of experts during a conference where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
 
 At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 ol less where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO". (BEskrivet utifrån vad Jonatan berättade, finns det någon källa man kan hänvisa till. Tex det dokument som jonatan visade när vi träffades.)
 
 Injury severity score 
-=====
+------------
 The Injury severity score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score a patient get is based on the Abbreviated Injury Scale (AIS) points from the injured body regions. The higher ISS score the more serious injury the patients suffers from.[@ISS]
 
 ISS takes injuries in 6 different body regions into account. Those are head/neck, face, chest, abdomen, extremiteis and external. The ISS is the sum of the squares of the highest AIS code in each of the three most severely injured ISS Body Regions. AIS can vary from 1-5, and the ISS from 1-75.[@ISS]
 
-Prehospital triage
-=====
+Initial Trauma care
+------------
 
 Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
 
@@ -116,7 +115,7 @@ At KUH all trauma patient end up in a data base. Audit filters then point out ce
 Setting
 -------
 
-The Karolinska University Hospital in Solna is the leading trauma center in Sweden, and the only hospital in Sweden that can be considered as a level one trauma center.
+The Karolinska University Hospital in Solna is the leading trauma center in Sweden, and the only hospital in Sweden that can be considered as a level one trauma center. 
 
 
 
@@ -126,7 +125,7 @@ periods of recruitment, exposure, follow-up, and data collection -->
 Participants
 ------------
 
-All patients from KUH trauma register and from TQ
+All patients from KUH trauma register and from TCQD
 
 
 <!-- Cohort study: Give the eligibility criteria, and the sources and
@@ -198,10 +197,15 @@ taking account of sampling strategy
 Ethical considerations
 =====
 
+All patients have given consent before added to Swetrau and TCQD. As this is a registry based study no interventions were made that could effect the patients. The only risk with this typy of studies is that personal information may leak. In these registers however, all personal data was scrambled to minimize that risk. 
+
+DET STÅR ATT ALLA GETT MEDGIVANDE FÖR ATT LÄGGAS TILL I SWETRAU PÅ DERAS HEMSIDA. MEN HUR FUNKAR DET MED DE SOM DOG INNAN SAMTYCKE GAVS? 
 
 
-
- En skriftlig redogörelse på ca en A4-sida av projektets utveckling, plus tidsplan för 
+En skriftlig redogörelse på ca en A4-sida av projektets utveckling
+=====
+ 
+plus tidsplan för 
 resterande del av kursen (använd tidsplanmallen i Canvas). Ange så exakt som möjligt: 
 • Vilken typ av data, kategorier, variabler etc du avser att samla in 
 
