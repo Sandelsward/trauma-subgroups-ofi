@@ -77,7 +77,7 @@ opportunities for improvement (OFI) than others. The most common cause of death 
 -->
 Since trauma patients is a very heterogeneous group, it is important to have a 
 sufficient understanding of OFIs for different trauma 
-subgroups. <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
+subgroups.[@Coats2020-wj] <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
 
 In this study we aim to assess the frequency of opportunity for improvement in the following
 important clinical subgroups. Men and women, blunt and penetrating injuries, minor and major 

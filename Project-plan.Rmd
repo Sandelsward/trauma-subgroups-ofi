@@ -24,6 +24,7 @@ To further stress the need for more knowledge and research about Trauma care,
 some studies indicate that the number of trauma-related deaths that
 potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Jag skulle lägga till ytterligare meningar här  -->
 
+
 <!--mitt förslag är istället att fokusera på kvalitetsarbeten mer riktade mot systemen i stort exv MoM-konferanser -->
 Knowledge gap 
 ------------
@@ -32,7 +33,7 @@ Today It is poorly understood whether different subgroups have greater
 opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas where OFIs were found.[@OReilly2013] <!-- ge vanliga exempel, se exv: -->
 
 Since trauma patients is a very heterogeneous group, it is important to have a 
-sufficient understanding of OFIs for different trauma subgroups. <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
+sufficient understanding of OFIs for different trauma subgroups.[@Coats2020-wj] <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
 
 Aim
 ------------
@@ -43,7 +44,7 @@ trauma ,and across body regions injured.
 Trauma Registries
 ------------
 
-I sweden there is a national trauma register (SweTrau) holdng records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event serious enough to activate the Trauma code in the hospital or have a NISS over 15 without trauma code activation. [@swetrau]
+In sweden there is a national trauma register (SweTrau) holdng records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event serious enough to activate the Trauma code in the hospital or have a NISS over 15 without trauma code activation. [@swetrau]
 
 The exclusion criterias for SweTrau are as following:
 Patients where the only traumatic injury is a chronic subdural hematoma
@@ -68,7 +69,7 @@ PTC is also used in over 80 countries, however more
 frequently in low and middle-income countries. One reason for this could be that 
 the PTC program is free while ATLS is not.[@Kadhum2020-wa]
 
-
+Tycker ni att jag kan beskriva de olika systemen mer i detalj här för utfyllnad?
 
 
 Oppotrunity for improvement
@@ -76,7 +77,9 @@ Oppotrunity for improvement
 
 Whether there is opportunity for improvement for a specific case or not is decided by a group of experts during a conference where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
 
-At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 ol less where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO". (BEskrivet utifrån vad Jonatan berättade, finns det någon källa man kan hänvisa till. Tex det dokument som jonatan visade när vi träffades.)
+At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 ol less where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO". 
+
+(BEskrivet utifrån vad Jonatan berättade, finns det någon källa man kan hänvisa till. Tex det dokument som jonatan visade när vi träffades.)
 
 Injury severity score 
 ------------
@@ -95,7 +98,6 @@ A Trauma priority one is considered directly life thretening. Therefore when arr
 Methods
 =====
 
-
 <!--Stora delar av det du skriver ovan hör hemma i metoddelen. Se Elias och Husseins arbeten -->
 
 Study design
@@ -103,20 +105,19 @@ Study design
 This is a registry based cohort study that uses data from two different Swedish
 trauma registers. The first one is the Trauma registry at the Karolinska 
 University Hospital in Solna, which includes about 21000 patients between the 
-years 2012 and 2021. The second register is the Trauma quality database (TCQD). By 
-linking these databases together the opportunity for improvement in the trauma 
+years 2012 and 2021. The second register is the Trauma quality database (TCQD) which is a subset of the trauma registry and includes about 2200 patients selected for review between 2014 and 2021.
+
+By linking these databases together the opportunity for improvement in the trauma 
 subgroups mentioned in the introduction will be assessed.
 
-Whether there is opportunity for improvement for a specific case or not is decided by an group of experts during a conference where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
+Whether there is opportunity for improvement for a specific case or not is identified by the multidisciplinary review board where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
 
 At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 ol less where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO".
 <!-- Present key elements of study design -->
 
 Setting
 -------
-
-The Karolinska University Hospital in Solna is the leading trauma center in Sweden, and the only hospital in Sweden that can be considered as a level one trauma center. 
-
+The Karolinska University Hospital in Solna is the leading trauma center in Sweden, and ranked as one of the best hospitals in the world.[@Karolinska] The Trauma department at KUH Solna handles about 1800 trauma cases every year, out of which about 200 are children.[@Traumanks] 
 
 
 <!-- Describe the setting, locations, and relevant dates, including
@@ -125,7 +126,7 @@ periods of recruitment, exposure, follow-up, and data collection -->
 Participants
 ------------
 
-All patients from KUH trauma register and from TCQD
+All patients from KUH trauma register and from the TCQD.
 
 
 <!-- Cohort study: Give the eligibility criteria, and the sources and
@@ -144,6 +145,7 @@ sources and methods of selection of participants -->
 
 Variables and data sources/measurements
 ---------------------------------------
+Ska jag här bara beskriva igen att det mått som vi använder är OFI?
 
 <!-- Clearly define all outcomes, exposures, predictors, potential
 confounders, and effect modifiers. Give diagnostic criteria, if
@@ -153,7 +155,7 @@ of assessment methods if there is more than one group -->
 
 Bias 
 ----
-No Bias?
+No bias to report.
 
 
 <!-- Describe any efforts to address potential sources of bias -->
@@ -197,33 +199,34 @@ taking account of sampling strategy
 Ethical considerations
 =====
 
-All patients have given consent before added to Swetrau and TCQD. As this is a registry based study no interventions were made that could effect the patients. The only risk with this typy of studies is that personal information may leak. In these registers however, all personal data was scrambled to minimize that risk. 
+All patients have given consent before added to Swetrau and TCQD. As this is a registry based study no interventions were made that could effect the patients. The only risk with this typ of studies is that personal information could leak. In these registers however, all personal data was scrambled to minimize that risk. 
 
-DET STÅR ATT ALLA GETT MEDGIVANDE FÖR ATT LÄGGAS TILL I SWETRAU PÅ DERAS HEMSIDA. MEN HUR FUNKAR DET MED DE SOM DOG INNAN SAMTYCKE GAVS? 
+Ethical permission has been granted for tis project. Dnr number for this permission is 2021-02541 and 2021-0253.
+
+DET STÅR ATT ALLA GETT MEDGIVANDE FÖR ATT LÄGGAS TILL I SWETRAU PÅ DERAS HEMSIDA. MEN HUR FUNKAR DET MED DE SOM DOG INNAN SAMTYCKE GAVS? Jonatan pratade om att man antog samtycke för de patienterna. Men hittar ingen info om detta. 
 
 
-En skriftlig redogörelse på ca en A4-sida av projektets utveckling
+En skriftlig redogörelse av projektets utveckling
 =====
- 
-plus tidsplan för 
-resterande del av kursen (använd tidsplanmallen i Canvas). Ange så exakt som möjligt: 
-• Vilken typ av data, kategorier, variabler etc du avser att samla in 
 
-Detta är en retrospektiv registerstudie som kommer använda sig av data från KUH trauma register och KUH kvalitetsdatabas. 
+All data är redan insamlad från start och finns tillgängliga i de register som beskrivs i projektredogörelsen. Datan kommer delas in efter olika trauma-subgrupper. De variabler som kommer användas är "Ja" där det finns "Opportunity for improvement" samt "nej" där det inte finns "opportunity for improvement.
 
 Hittills har jag
+- Läst in mig på ämnet
 - Skrivit Introduktion
 - Påbörjat materiela och metod
-
+- Börjat sätta mig in i R som är det program som kommer användas för att sammanställa data.
 
 • Hur data planeras presenteras (t ex tabeller och hur de kan struktureras, diagramtyper, 
 vävnadssnitt, intervjucitat etc) 
 
 Datan kommer presenteras i en tabell där de aktuella subgrupperna kommer presenteras samt huruvuda det finns OFI för dessa grupper. Det kommer även redogöras för i vilken utsträckning varje subgrupp har OFI. 
 
-
 • Hur data planeras analyseras; vilka statistiska metoder för jämförelser mellan en eller 
-flera grupper, andra matematiska metoder, kvalitativ analys etc 
+flera grupper, andra matematiska metoder, kvalitativ analys etc --> Detta skulle jag behöva diskutera med er innan jag kan svara.
+
+
+Ingen reservplan behövs då all data finns insamlad och risken för att projektet inte går att genomföra somplanerat bedöms minimal.
 
 References
 =====
