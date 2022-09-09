@@ -47,8 +47,8 @@ Trauma Registries
 In sweden there is a national trauma register (SweTrau) holdng records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event serious enough to activate the Trauma code in the hospital or have a NISS over 15 without trauma code activation. [@swetrau]
 
 The exclusion criterias for SweTrau are as following:
-Patients where the only traumatic injury is a chronic subdural hematoma
-Patients where a trauma alarm is triggered without an underlying traumatic event.[@swetrau]
+Patients where the only traumatic injury is a chronic subdural hematoma and
+patients where a trauma alarm is triggered without an underlying traumatic event.[@swetrau]
  
 The KUH trauma register is a part of the Swedish Trauma Register, with the same inclusion and exclusion critera. (källa jonatan, VAR FINNS INFO OM KAROLINSKAS REGISTER?)
 
@@ -77,15 +77,15 @@ Oppotrunity for improvement
 
 Whether there is opportunity for improvement for a specific case or not is decided by a group of experts during a conference where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
 
-At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 ol less where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO". 
+At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 or less where the patient was not intubated, time to CT, time to Surgery and so on. Then a manual selection is done by a nurse, where some cases are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO". 
 
 (BEskrivet utifrån vad Jonatan berättade, finns det någon källa man kan hänvisa till. Tex det dokument som jonatan visade när vi träffades.)
 
-Injury severity score 
+ New Injury Severity Score 
 ------------
-The Injury severity score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score a patient get is based on the Abbreviated Injury Scale (AIS) points from the injured body regions. The higher ISS score the more serious injury the patients suffers from.[@ISS]
+The NISS is an anatomic severity scale developed to assess multiple-injured patients. The NISS score a patient get is based on the Abbreviated Injury Scale (AIS) points from the injured body regions. The higher NISS score the more serious injury the patients suffers from.[@Li2021-ag]
 
-ISS takes injuries in 6 different body regions into account. Those are head/neck, face, chest, abdomen, extremiteis and external. The ISS is the sum of the squares of the highest AIS code in each of the three most severely injured ISS Body Regions. AIS can vary from 1-5, and the ISS from 1-75.[@ISS]
+NISS takes injuries in 6 different body regions into account. Those are head/neck, face, chest, abdomen, extremiteis and external. The NISS is the sum of the squares of the highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. AIS can vary from 1-5, and the NISS from 1-75.[@Li2021-ag]
 
 Initial Trauma care
 ------------
@@ -102,7 +102,7 @@ Methods
 
 Study design
 ------------
-This is a registry based cohort study that uses data from two different Swedish
+This is a registry based cohort study that uses data from two different swedish
 trauma registers. The first one is the Trauma registry at the Karolinska 
 University Hospital in Solna, which includes about 21000 patients between the 
 years 2012 and 2021. The second register is the Trauma quality database (TCQD) which is a subset of the trauma registry and includes about 2200 patients selected for review between 2014 and 2021.
@@ -110,14 +110,11 @@ years 2012 and 2021. The second register is the Trauma quality database (TCQD) w
 By linking these databases together the opportunity for improvement in the trauma 
 subgroups mentioned in the introduction will be assessed.
 
-Whether there is opportunity for improvement for a specific case or not is identified by the multidisciplinary review board where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
-
-At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 ol less where the patient was not intubated, time to CT, time to Surgery and so on. Then A manual selection is done by a nurse, where some cased are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO".
 <!-- Present key elements of study design -->
 
 Setting
 -------
-The Karolinska University Hospital in Solna is the leading trauma center in Sweden, and ranked as one of the best hospitals in the world.[@Karolinska] The Trauma department at KUH Solna handles about 1800 trauma cases every year, out of which about 200 are children.[@Traumanks] 
+The Karolinska University Hospital in Solna, Stockholm, is the leading trauma center in Sweden, and ranked as one of the best hospitals in the world. It is also considred as a level 1 trauma center.[@Karolinska] The Trauma department at KUH Solna handles about 1800 trauma cases every year, out of which about 200 are children. KUH is the primary trauma center for a population of 2,8 million people.[@Traumanks] 
 
 
 <!-- Describe the setting, locations, and relevant dates, including
@@ -155,13 +152,15 @@ of assessment methods if there is more than one group -->
 
 Bias 
 ----
-No bias to report.
+To prevent research bias all data will be scrambled while used to write the analysis model.
+
 
 
 <!-- Describe any efforts to address potential sources of bias -->
 
 Study size 
 ----------
+
 
 <!-- Explain how the study size was arrived at -->
 
