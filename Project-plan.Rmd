@@ -5,9 +5,10 @@ bibliography: bibliography.bib
 csl: vancouver.csl
 ---
 
+<!--Försök att rensa dokumentet från kommentarer som denna när de är fixade och du är nöjd. -->
+
 Background
 =====
-<!-- Notera att jag la till ==== under Introduction, detta kommer tillse att Introduction blir formaterat som en rubrik när du sedan "knitar", alltså gör om ditt dokument till PDF/DOC osv. Googla/youtuba Rmarkdown för ytterligare knep/knåp. -->
 
 Trauma is a wide term including various physical injuries to the human body. 
 It is one of the leading causes of mortality and morbidity in the world, 
@@ -18,42 +19,43 @@ Not only does trauma represent a large share of the global mortality rate, but s
 have also shown a significant difference in outcome depending on where patients are
 treated. It has for example been shown that trauma patients in Sweden who were 
 treated at a trauma center rather than a non-trauma center have a 41 % lower 
-30-day adjusted mortality rate<!--Compared to? SVAR: Compared to those treated at a non trauma center -->. [@Candefjord2022-pe] 
+30-day adjusted mortality rate. [@Candefjord2022-pe] 
 
 To further stress the need for more knowledge and research about Trauma care,
 some studies indicate that the number of trauma-related deaths that
-potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Jag skulle lägga till ytterligare meningar här  -->
+potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats -->
 
 
 <!--mitt förslag är istället att fokusera på kvalitetsarbeten mer riktade mot systemen i stort exv MoM-konferanser -->
+
+<!--Behövs fortfarande info om Morbiditets och mortalitets konferanser. Se tid studs arbeten för förslag kring källor och formuleringar -->
 Knowledge gap 
 ------------
 
 Today It is poorly understood whether different subgroups have greater 
-opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas where OFIs were found.[@OReilly2013] <!-- ge vanliga exempel, se exv: -->
+opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas where OFIs were found.[@OReilly2013] <!-- Bättre! Se om du kan leta ytterligare litteratur och ev rational varför begreppet OFI(eller annan snarlik benämnin) är bättre. Tipps, titta på tidigare arbeten av studenter -->
 
 Since trauma patients is a very heterogeneous group, it is important to have a 
 sufficient understanding of OFIs for different trauma subgroups.[@Coats2020-wj] <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
 
 Aim
 ------------
-In this study we aim to assess the frequency of opportunity for improvement in the following
-important clinical subgroups. Men and women, blunt and penetrating injuries, minor and major 
-trauma ,and across body regions injured. 
-
+In this study we aim to assess the frequency of opportunity for improvement in the following important clinical subgroups. Men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. 
+<!-- Aim bör vara i slutet på introduktionen. 
+Tänkt att introduktionen ska vara som en stor tratt, börjar brett och så sakta smalnas det av så att du förklarat varför just ditt aim är av värde. Från Varför trauma är dåligt -> Massa mellansteg -> varför vi behöver titta på ofi i olika grupper -->
 Trauma Registries
 ------------
-
-In sweden there is a national trauma register (SweTrau) holdng records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event serious enough to activate the Trauma code in the hospital or have a NISS over 15 without trauma code activation. [@swetrau]
-
+<!--När du pratar specifikt om dessa trauma register som vi faktist använder så hör det hemma i metoden. Så stycken nedan kan flyttas/slås ihop. -->
+In sweden there is a national trauma register (SweTrau) holdng records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event serious enough <!--Serious enough är lite vagt, se tid studs arbeten för förslag på inclusion/exclusion --> to activate the Trauma code in the hospital or have a NISS over 15 without trauma code activation. [@swetrau]
+<!--Genuin fråga, kallas det "trauma code" nu får tiden? Tidigare var det "trauma team" -->
 The exclusion criterias for SweTrau are as following:
 Patients where the only traumatic injury is a chronic subdural hematoma and
 patients where a trauma alarm is triggered without an underlying traumatic event.[@swetrau]
  
 The KUH trauma register is a part of the Swedish Trauma Register, with the same inclusion and exclusion critera. (källa jonatan, VAR FINNS INFO OM KAROLINSKAS REGISTER?)
-
+<!--Du behöver inte källa för detta. Det finns flertalet databaser som ej är tillgängliga publikt och ej går att hänvisa till. -->
 The Trauma Quality Database (TCQD) holds all all severe trauma cases treated at KUH Solna. VAR FINNS MER INFO OM TCQD?
-
+<!--Det finns ej publikt, Du får bara skriva att det är ett tilläggsregister för samtliga trauma patienter som inkommer till KUH och som innehåller info om detaljerna  från MoM inkluderat OFI-->
 Advanced Trauma Life Support and Primary Trauma Care
 ------------
 Several different systems are being used in Trauma care. 
@@ -70,17 +72,32 @@ frequently in low and middle-income countries. One reason for this could be that
 the PTC program is free while ATLS is not.[@Kadhum2020-wa]
 
 Tycker ni att jag kan beskriva de olika systemen mer i detalj här för utfyllnad?
-
+<!--Iom att fokus inte är på ATLS så skulle jag, om något, bara nämna dem kort i introduktionen. För en publicerbar variant så behöver de nog uteslutas för plats men för KI:s uppsats kan det vara bra för att få ihop sidor -->
 
 Oppotrunity for improvement
 ------------
-
+<!--Även detta hör hemma i metoden. Titta på Elias och Husseins arbeten. -->
 Whether there is opportunity for improvement for a specific case or not is decided by a group of experts during a conference where every trauma case is discussed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.
 
 At KUH all trauma patient end up in a data base. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 or less where the patient was not intubated, time to CT, time to Surgery and so on. Then a manual selection is done by a nurse, where some cases are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a conference where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the KUH Trauma register and those patient where no OFI is found are mared with "NO". 
 
 (BEskrivet utifrån vad Jonatan berättade, finns det någon källa man kan hänvisa till. Tex det dokument som jonatan visade när vi träffades.)
+<!--Så i metoden kan du nämna ovan utan källor, det beskriver bara vad vi gör. Om du pratar kring OFI i en bredare kontext så kommer den definitionen vara annorlunda. Det du beskriver är KS approach.
 
+Se: @ARTICLE{Lewis2017,
+  title    = "``Delay to operating room'' fails to identify adverse outcomes at
+              a Level {I} trauma center",
+  author   = "Lewis, Paul R and Badiee, Jayraan and Sise, Michael J and Calvo,
+              Richard Y and Brill, Jason B and Wallace, James D and Shackford,
+              Steven R and Dunne, Casey E and Bansal, Vishal and Sise, C Beth",
+  journal  = "J. Trauma Acute Care Surg.",
+  volume   =  82,
+  number   =  2,
+  pages    = "334--337",
+  month    =  feb,
+  year     =  2017,
+  language = "en"
+}-->
  New Injury Severity Score 
 ------------
 The NISS is an anatomic severity scale developed to assess multiple-injured patients. The NISS score a patient get is based on the Abbreviated Injury Scale (AIS) points from the injured body regions. The higher NISS score the more serious injury the patients suffers from.[@Li2021-ag]
@@ -89,16 +106,16 @@ NISS takes injuries in 6 different body regions into account. Those are head/nec
 
 Initial Trauma care
 ------------
-
+<!--Hör hemma i metoden, Setting -->
 Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
 
-A Trauma priority one is considered directly life thretening. Therefore when arriving to Karolinska Solna every one of these patients are taken care of by a full trauma team. This team consists of a trauma leader wo is a general surgeon or a resident in general surgury and an anesthetist with a nurse specialized in anesthesiology. The team also has an rthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
+A Trauma priority one is considered directly life thretening. Therefore when arriving to Karolinska Solna every one of these patients are taken care of by a full trauma team. This team consists of a trauma leader wo is a general surgeon or a resident in general surgury and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
 
 Methods
 =====
 
-<!--Stora delar av det du skriver ovan hör hemma i metoddelen. Se Elias och Husseins arbeten -->
+<!--Stora delar av det du skriver ovan hör fortfarande hemma i metoddelen. Se Elias och Husseins arbeten -->
 
 Study design
 ------------
@@ -142,6 +159,7 @@ sources and methods of selection of participants -->
 
 Variables and data sources/measurements
 ---------------------------------------
+<!--Egentligen är det första gången du tydligt definerar vad OFI är. Du ska även definera de andra variablerna, kön/ålder/penetrerande osv osv. Lär på vad "major traum" är samt hur AIS scores fungerar för att extrahera kroppsdelar -->
 Ska jag här bara beskriva igen att det mått som vi använder är OFI?
 
 <!-- Clearly define all outcomes, exposures, predictors, potential
@@ -203,7 +221,7 @@ All patients have given consent before added to Swetrau and TCQD. As this is a r
 Ethical permission has been granted for tis project. Dnr number for this permission is 2021-02541 and 2021-0253.
 
 DET STÅR ATT ALLA GETT MEDGIVANDE FÖR ATT LÄGGAS TILL I SWETRAU PÅ DERAS HEMSIDA. MEN HUR FUNKAR DET MED DE SOM DOG INNAN SAMTYCKE GAVS? Jonatan pratade om att man antog samtycke för de patienterna. Men hittar ingen info om detta. 
-
+<!--Jag skulle bara undvika att nämna det exakt. Vi kan prata om det med Martin senare men det är 100% ok att använda datan -->
 
 En skriftlig redogörelse av projektets utveckling
 =====
