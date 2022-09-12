@@ -25,6 +25,7 @@ To further stress the need for more knowledge and research about Trauma care,
 some studies indicate that the number of trauma-related deaths that
 potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats -->
 
+An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidiciplinary conferens with representatives from all medical specialties in the trauma team. The purpose of M&M is to learn from medical misstakes and to evaluate if anything could have been done to prevent a certain outcome.[@Aboumatar2007-ws]As it is not possible to analyze every trauma case in detail Audit filters ar often used to decided which cases that is to be reviewed at M&M. Such audit filter can be time frames in which a test should be taken or a specific treatment provided.[@Evans2009-oy]. 
 
 <!--mitt förslag är istället att fokusera på kvalitetsarbeten mer riktade mot systemen i stort exv MoM-konferanser -->
 
@@ -110,6 +111,9 @@ Initial Trauma care
 Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
 
 A Trauma priority one is considered directly life thretening. Therefore when arriving to Karolinska Solna every one of these patients are taken care of by a full trauma team. This team consists of a trauma leader wo is a general surgeon or a resident in general surgury and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
+
+Morbidity and Mortality Conferences
+------------
 
 
 Methods
