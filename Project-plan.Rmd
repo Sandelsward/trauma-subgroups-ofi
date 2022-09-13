@@ -34,16 +34,15 @@ Knowledge gap
 ------------
 
 Today It is poorly understood whether different subgroups have greater 
-opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas where OFIs were found.[@OReilly2013] <!-- Bättre! Se om du kan leta ytterligare litteratur och ev rational varför begreppet OFI(eller annan snarlik benämnin) är bättre. Tipps, titta på tidigare arbeten av studenter -->
+opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas were OFIs were found.[@OReilly2013]
+
+OFI can be a more nuanced measure for trauma care improvement then the more established term preventable deaths. This is because there can be OFI in a case where a patient has died, even if the death was not preventable.[@Traumaguidelines09] Furthermore there is no consensus for classification of preventable and non preventable death, leading authors to use different classifications.[@Montmany2016-hz]. The term OFI also has the advantage over the term preventable death by sounding more positive and encouraging, preventing review board members from having to classify colleagues patient care as inappropriate.[@Sanddal2011-cl]
+<!-- Bättre! Se om du kan leta ytterligare litteratur och ev rational varför begreppet OFI(eller annan snarlik benämnin) är bättre. Tipps, titta på tidigare arbeten av studenter SVAR: KÄNNS SOM DETTA STYCKE NU PASSAR BÄTTE UNDER OFI-RUBRIKEN?-->
 
 Since trauma patients is a very heterogeneous group, it is important to have a 
 sufficient understanding of OFIs for different trauma subgroups.[@Coats2020-wj] <!--Sant, behöver dock källa. Jag skulle också lägga detta mot slutet i introduktionen för att tydligt kunna knyta ann till ditt aim. -->
 
-Aim
-------------
-In this study we aim to assess the frequency of opportunity for improvement in the following important clinical subgroups. Men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. 
-<!-- Aim bör vara i slutet på introduktionen. 
-Tänkt att introduktionen ska vara som en stor tratt, börjar brett och så sakta smalnas det av så att du förklarat varför just ditt aim är av värde. Från Varför trauma är dåligt -> Massa mellansteg -> varför vi behöver titta på ofi i olika grupper -->
+
 Trauma Registries
 ------------
 <!--När du pratar specifikt om dessa trauma register som vi faktist använder så hör det hemma i metoden. Så stycken nedan kan flyttas/slås ihop. -->
@@ -111,6 +110,12 @@ Initial Trauma care
 Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
 
 A Trauma priority one is considered directly life thretening. Therefore when arriving to Karolinska Solna every one of these patients are taken care of by a full trauma team. This team consists of a trauma leader wo is a general surgeon or a resident in general surgury and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
+
+Aim
+------------
+In this study we aim to assess the frequency of opportunity for improvement in the following important clinical subgroups. Men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. 
+<!-- Aim bör vara i slutet på introduktionen. 
+Tänkt att introduktionen ska vara som en stor tratt, börjar brett och så sakta smalnas det av så att du förklarat varför just ditt aim är av värde. Från Varför trauma är dåligt -> Massa mellansteg -> varför vi behöver titta på ofi i olika grupper -->
 
 Morbidity and Mortality Conferences
 ------------
