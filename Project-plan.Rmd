@@ -7,10 +7,16 @@ csl: vancouver.csl
 
 <!--Försök att rensa dokumentet från kommentarer som denna när de är fixade och du är nöjd. -->
 
+<!-- If you need more text you can always expand on trauma as a global health issue, 
+trauma in Sweden (see SweTraus annual report), trauma quality improvement programs 
+and so on. -->
+
 Background
 =====
 
-Trauma is a wide term including various physical injuries to the human body. 
+Trauma is a wide term including various physical injuries to the human body.
+<!-- I typically define trauma as the clinical entity composed of physical injury  
+and the body's associated response. You can cite my thesis https://openarchive.ki.se/xmlui/handle/10616/44832 -->
 It is one of the leading causes of mortality and morbidity in the world, 
 representing about 9 % of annual global deaths. Over the last decade almost 
 50 million people worldwide have died from trauma.[@GBD_2017_Causes_of_Death_Collaborators2018-oe]
@@ -21,7 +27,7 @@ treated. It has for example been shown that trauma patients in Sweden who were
 treated at a trauma center rather than a non-trauma center have a 41 % lower 
 30-day adjusted mortality rate. [@Candefjord2022-pe] 
 
-To further stress the need for more knowledge and research about Trauma care,
+To further stress the need for more knowledge and research about trauma care<!-- Do you really need this sentence? Consider removing, and start "Some studies indicate..." -->,
 some studies indicate that the number of trauma-related deaths that
 potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats -->
 
@@ -30,7 +36,7 @@ potentially could have been prevented is as high as 20 to over 50 %. [@Drake2020
 
 Morbidity and Mortality Conferences
 ------------
-An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidiciplinary conferens with representatives from all medical specialties in the trauma team. The purpose of M&M is to learn from medical misstakes and to evaluate if anything could have been done to prevent a certain outcome.[@Aboumatar2007-ws]As it is not possible to analyze every trauma case in detail Audit filters ar often used to decided which cases that is to be reviewed at M&M. Such audit filter can be time frames in which a test should be taken or a specific treatment provided.[@Evans2009-oy]. 
+An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidisciplinary conference with representatives from all medical specialties and professions in the trauma team. The purpose of M&M is to learn from the care provided, identify opportunities for improvements, and implement corrective actions.[@Aboumatar2007-ws] As it is not possible to analyze every trauma case in detail audit filters are often used to decide which cases that are to be reviewed at M&M. Such audit filter can be time frames in which a test should be taken or a specific treatment provided.[@Evans2009-oy]. <!-- Feel free to provide more specific examples of audit filters. Audit filters and their association to M&M could also be a separate section -->
 
 Trauma Registries
 ------------
@@ -54,16 +60,20 @@ the PTC program is free while ATLS is not.[@Kadhum2020-wa]
 Tycker ni att jag kan beskriva de olika systemen mer i detalj här för utfyllnad?
 <!--Iom att fokus inte är på ATLS så skulle jag, om något, bara nämna dem kort i introduktionen. För en publicerbar variant så behöver de nog uteslutas för plats men för KI:s uppsats kan det vara bra för att få ihop sidor -->
 
+<!-- I agree, but consider having this before you discuss M&M and audit filters, as they relate more closely to the aim. The closer you get to presenting the aim, the more relevant should the introduction be.-->
+
+
 Oppotrunity for improvement
 ------------
 <!--Även detta hör hemma i metoden. Titta på Elias och Husseins arbeten. SVAR: Bättre såhär? -->
-Whether there is opportunity for improvement for a specific case or not is decided by a group of experts during M&M where selected trauma casees are reviewed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.[@Sanddal2011-cl]
+Whether there is opportunity for improvement for a specific case or not is decided during M&M where selected trauma casees are reviewed. OFI<!-- Note that you haven't used this abbreviation before --> is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.[@Sanddal2011-cl]
 
 OFI can be a more nuanced measure for trauma care improvement than the more established terms preventable deaths and non preventable deaths. This is because there can be OFI in a case where a patient has died, even if the death was not preventable.[@Traumaguidelines09] Furthermore there is no consensus for classification of preventable and non preventable death, leading authors to use different classifications.[@Montmany2016-hz]. The term OFI also has the advantage over the term preventable death by sounding more positive and encouraging, preventing review board members from having to classify colleagues patient care as inappropriate.[@Sanddal2011-cl]
 
 
  New Injury Severity Score 
 ------------
+<!-- See my comment above on the association between distance to the aim and relavance for the aim. This is not relevant to the aim and should therefore be farther away from it. I'm not sure it's relevant at all, at least not as a separate section.-->
 The NISS is an anatomic severity scale developed to assess multiple-injured patients. The NISS score a patient get is based on the Abbreviated Injury Scale (AIS) points from the injured body regions. The higher NISS score the more serious injury the patients suffers from.[@Li2021-ag]
 
 NISS takes injuries in 6 different body regions into account. Those are head/neck, face, chest, abdomen, extremiteis and external. The NISS is the sum of the squares of the highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. AIS can vary from 1-5, and the NISS from 1-75.[@Li2021-ag]
@@ -78,10 +88,11 @@ opportunities for improvement (OFI) than others. The most common cause of death 
 
 Since trauma patients is a very heterogeneous group, it is important to have a 
 sufficient understanding of OFIs for different trauma subgroups.[@Coats2020-wj] 
+<!-- You haven't mentioned subgroups before, so you might want to introduce these in a separate section first. -->
 
 Aim
 ------------
-In this study we aim to assess the frequency of opportunity for improvement in the following important clinical subgroups. Men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. 
+In this study we aim to assess the frequency of opportunity for improvement in the following important clinical subgroups: men and women, blunt and penetrating injuries, minor and major trauma, and across body regions injured. 
 
 
 <!-- Aim bör vara i slutet på introduktionen. 
@@ -96,31 +107,30 @@ Methods
 
 Study design
 ------------
-This is a registry based cohort study that uses data from two different swedish
+This is a registry based cohort study that uses data from two different Swedish
 trauma registers. 
 
-The first one is the Trauma registry at the Karolinska 
-University Hospital in Solna, which includes about 21000 patients between the 
-years 2012 and 2021. 
+The first registry is the Trauma registry at the Karolinska University Hospital 
+in Solna, which includes about 21000 patients between the years 2012 and 2021. 
 
-The second register is the Trauma quality database (TCQD) which is a subset of the trauma registry and includes about 2200 patients selected for review between 2014 and 2021. It holds details and conclusions from M&M. Such details are whether or not there is OFI for a certain case.
+The second register is the Trauma quality database (TCQD)<!-- Try to avoid non-standard abbreviations, as they tend to slow down the reader. Just write trauma care quality database.--> which is a subset of the trauma registry and includes about 2200 patients selected for review between 2014 and 2021. The trauma care quality database includes details and conclusions from the M&M.
 
-By linking these databases together the opportunity for improvement in the trauma 
+We will link these databases using... <!-- Use first person active voice, much easier to read -->By linking these databases together the opportunity for improvement in the trauma 
 subgroups mentioned in the introduction will be assessed.
 
 <!-- Present key elements of study design -->
 
 Setting
 -------
-The Karolinska University Hospital in Solna, Stockholm, is the leading trauma center in Sweden, and ranked as one of the best hospitals in the world. It is also considered as a level 1 trauma center.[@Karolinska] The Trauma department at KUH Solna handles about 1800 trauma cases every year, out of which about 200 are children. KUH is the primary trauma center for a population of 2,8 million people.[@Traumanks] 
+The Karolinska University Hospital in Solna, Stockholm, is the leading trauma center in Sweden, and ranked as one of the best hospitals in the world<!-- Provide a source, if you want to include this-->. The hospital is a level 1 trauma center.[@Karolinska] The Trauma department at KUH<!-- I would just remove this abbeviation as well and spell out the full name--> Solna handles about 1800 trauma cases every year, out of which about 200 are children. KUH is the primary trauma center for a population of 2,8 million people.[@Traumanks] 
 
-In sweden there is a national trauma register (SweTrau) holdng records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event leading to trauma team activation, or have a NISS over 15 without trauma team activation. [@swetrau]
+In Sweden there is a national trauma register (SweTrau) holding records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event leading to trauma team activation, or have a NISS over 15 without trauma team activation. [@swetrau]
 
 Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
 
-A Trauma priority one is considered directly life thretening. Therefore when arriving to Karolinska Solna every one of these patients are taken care of by a full trauma team. This team consists of a trauma leader wo is a general surgeon or a resident in general surgury and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
+A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
-At KUH all trauma patient end up in the KUH trauma register. The KUH trauma register is a part of the Swedish Trauma Register, with the same inclusion and exclusion critera. Audit filters then point out certain trauma cases where things might have differed from the golden standard treatment based on different criterias. Such criterias are GCS 8 or less where the patient was not intubated, time to CT, time to Surgery and so on. Then a manual selection is done by a nurse, where some cases are removed from the group of potential OFI cases because obvious reasons for the treatment can be found. The patients who are then left are discussed at a M&M where doctors from several specialties participate. At this conference every case is gone through thoroughly. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the TCQD and those patient where no OFI is found are mared with "NO".
+At KUH all trauma patients are included in the KUH trauma register<!-- Use registry-->. The KUH trauma register is a part of the Swedish Trauma Register, with the same eligibility criteria. Audit filters then identify certain trauma cases for whom the care might have deviated from the gold standard treatment based on different criteria. Such criteria are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes, time to Surgery and so on. Then a manual selection is done by a nurse, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation can be found. The patients who are then left are discussed at a M&M where doctors<!-- Not only doctors, there are nurses as well --> from several specialties participate. At this conference every case is reviewed. Then those patients where OFI is found are marked with "YES" in the OFI colomn in the TCQD and those patient where no OFI is found are mared with "NO"<!-- Not really, OFIs are identified as the actual OFI, like lack of resources, or missed injury, or something like that. We then recode these OFIs into either "Yes, at least one OFI identified" or "No, no OFIs identified".-->.
 
 
 
@@ -153,7 +163,7 @@ Variables and data sources/measurements
 The data from the trauma registers were analyzed for OFI in seperate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. Gender and age will be continuous variables. The location of injuries will be analyzed based on AIS codes and AIS scores will be used to gruop patients into fitting cohorts. 
 <!-- Vet inte om jag fattat detta rätt, men jag ska alltså använda AIS-scores för att dela in patienter i de olika cohorterna, då för att avgöra om de uppnår tillräcklig allvarlighetsgrad för att räknas som major trauma? Sen Titta på specifika koder för vilka kroppsdelar som drabbats? Blir det då olika underkategorier som ex en kategori för trubbigt trauma mot buken och en med skarpt trauma mot buken. Eller blir det att jag tittar på OFI för truppigt och skarpt trauma som helhet och sen de olika kroppsdelarna oavsett om det är skarpt eller trubbigt? (Detta är bara lösa tankar som vi kan diskutera när vi ses, har lite svårt att visualisera detta, men det kommer nog klarna när jag väl börjar arbeta med datan. ) -->
 
-OFI will was treated as a binary variable, with "yes" and "no" as the only possible outcome. For the M&M conference to put a "yes" in the OFI section at at least one of the following areas needed to differ from the best practice  guidelines for trauma care: emergency department triage; tertiary survey; processing; communication; time to computed tomography; time to surgical intervention; level of physician and nursing competency; level of care; neurosurgical intervention; hospital staff routine; resource management; logistics and technology; overall management and documentation.
+OFI will was treated as a binary variable, with "yes" and "no" as the only possible outcome. For the M&M conference to put a "yes" in the OFI section at at least one of the following areas needed to differ from the best practice  guidelines for trauma care: emergency department triage; tertiary survey; processing; communication; time to computed tomography; time to surgical intervention; level of physician and nursing competency; level of care; neurosurgical intervention; hospital staff routine; resource management; logistics and technology; overall management and documentation.<!-- This information should be included in the section above instead -->
 
 
 Göra en tablell här för inklusion och exklusionskriterier för de olika cohorterna baserat på på AIS scores. 
