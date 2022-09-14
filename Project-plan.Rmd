@@ -57,7 +57,7 @@ Tycker ni att jag kan beskriva de olika systemen mer i detalj här för utfyllna
 Oppotrunity for improvement
 ------------
 <!--Även detta hör hemma i metoden. Titta på Elias och Husseins arbeten. SVAR: Bättre såhär? -->
-Whether there is opportunity for improvement for a specific case or not is decided by a group of experts during a conference where selected trauma case are reviewed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.[@Sanddal2011-cl]
+Whether there is opportunity for improvement for a specific case or not is decided by a group of experts during M&M where selected trauma casees are reviewed. OFI is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.[@Sanddal2011-cl]
 
 OFI can be a more nuanced measure for trauma care improvement than the more established terms preventable deaths and non preventable deaths. This is because there can be OFI in a case where a patient has died, even if the death was not preventable.[@Traumaguidelines09] Furthermore there is no consensus for classification of preventable and non preventable death, leading authors to use different classifications.[@Montmany2016-hz]. The term OFI also has the advantage over the term preventable death by sounding more positive and encouraging, preventing review board members from having to classify colleagues patient care as inappropriate.[@Sanddal2011-cl]
 
@@ -150,12 +150,19 @@ sources and methods of selection of participants -->
 
 Variables and data sources/measurements
 ---------------------------------------
-ofi
+The data from the trauma registers were analyzed for OFI in seperate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. Gender and age will be continuous variables. The location of injuries will be analyzed based on AIS codes and AIS scores will be used to gruop patients into fitting cohorts. 
+<!-- Vet inte om jag fattat detta rätt, men jag ska alltså använda AIS-scores för att dela in patienter i de olika cohorterna, då för att avgöra om de uppnår tillräcklig allvarlighetsgrad för att räknas som major trauma? Sen Titta på specifika koder för vilka kroppsdelar som drabbats? Blir det då olika underkategorier som ex en kategori för trubbigt trauma mot buken och en med skarpt trauma mot buken. Eller blir det att jag tittar på OFI för truppigt och skarpt trauma som helhet och sen de olika kroppsdelarna oavsett om det är skarpt eller trubbigt? (Detta är bara lösa tankar som vi kan diskutera när vi ses, har lite svårt att visualisera detta, men det kommer nog klarna när jag väl börjar arbeta med datan. ) -->
+
+OFI will was treated as a binary variable, with "yes" and "no" as the only possible outcome. For the M&M conference to put a "yes" in the OFI section at at least one of the following areas needed to differ from the best practice  guidelines for trauma care: emergency department triage; tertiary survey; processing; communication; time to computed tomography; time to surgical intervention; level of physician and nursing competency; level of care; neurosurgical intervention; hospital staff routine; resource management; logistics and technology; overall management and documentation.
+
+
+Göra en tablell här för inklusion och exklusionskriterier för de olika cohorterna baserat på på AIS scores. 
+
 Se elias och hussein
 
 <!--Egentligen är det första gången du tydligt definerar vad OFI är. Du ska även definera de andra variablerna, kön/ålder/penetrerande osv osv. Lär på vad "major traum" är samt hur AIS scores fungerar för att extrahera kroppsdelar -->
 
-Ska jag här bara beskriva igen att det mått som vi använder är OFI?
+
 
 <!-- Clearly define all outcomes, exposures, predictors, potential
 confounders, and effect modifiers. Give diagnostic criteria, if
@@ -186,7 +193,7 @@ analyses. If applicable, describe which groupings were chosen and why
 
 Statistical methods
 -------------------
-
+The stastistical computing program R will be used to analyze the data.
 <!-- 
 
 (a) Describe all statistical methods, including those used to control
