@@ -4,4 +4,7 @@ example_function <- function() {
     ## This is a comment and will not be interpreted by R
     x <- 1 + 2
     return (x)
+    
 }
+y <- 1 + 3
+return (y)
