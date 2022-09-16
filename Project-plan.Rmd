@@ -3,11 +3,25 @@ title: "Project-plan"
 output: pdf_document
 bibliography: bibliography.bib
 csl: vancouver.csl
+fontsize: 11pt
 ---
-
 <!-- If you need more text you can always expand on trauma as a global health issue, 
 trauma in Sweden (see SweTraus annual report), trauma quality improvement programs 
 and so on. -->
+<!--Sånt jag ev kan lägga til
+problem med få pat per sjukhus. viktigt med register. alla pat sen 2011 registreras. 
+dödsorsaksanalys och tid till reg i traumaregistret.-->
+Abbreviations
+=====
+AIS - Abbreviated Injury Scale
+ATLS - Advanced Trauma Life Support
+LMIC - Low and middle income countries
+M&M - Morbidity and Mortality Conferences
+NISS - New Injury Severity Score 
+OFI - Opportunity for improvement
+PTC - Primary Trauma Care
+SweTrau - The Swedish trauma registry
+
 
 Background
 =====
@@ -21,6 +35,7 @@ treated at a trauma center rather than a non-trauma center have a 41 % lower
 30-day adjusted mortality rate. [@Candefjord2022-pe] 
 
 Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats -->
+
 
 Advanced Trauma Life Support and Primary Trauma Care
 ------------
@@ -67,14 +82,14 @@ Trauma subgroups
 Since trauma patients is a heterogeneous group, it is important to have a 
 sufficient understanding of OFIs for different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and Traumatic brain injury.[@arsrapportswetrau]
 
-In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example traumatic injuries from stabbing and shooting violence are more common in men while women are overrepresented in fall traumas. There is a lot of existing data about subgroups regarding transportation time to hospital, NISS score at the Emergency department, rehabilitation, morbidity and mortality rate and so on. [@arsrapportswetrau]
-
+In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example, traumatic injuries from stabbing and from shooting violence are more common in men while women are over represented in fall traumas. There is a lot of existing data about subgroups regarding transportation time to hospital, NISS score at the Emergency department, rehabilitation, morbidity and mortality rate and so on. [@arsrapportswetrau]
 
 Knowledge gap 
 ------------
 
 Despite having all this data about the trauma patients it is poorly understood whether different subgroups have greater opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas were OFIs were found.[@OReilly2013] However we do not know whether the same OFI areas apply for the trauma subgroups, or in what frequency. 
 <!-- You haven't mentioned subgroups before, so you might want to introduce these in a separate section first. SVAR: Som stycket ovan?-->
+
 
 Aim
 ------------
@@ -110,7 +125,7 @@ Setting
 -------
 The Karolinska University Hospital in Solna, Stockholm, is the leading trauma center in Sweden, and ranked as one of the best hospitals in the world<!-- Provide a source, if you want to include this: SVAR, första och andra meningen har samma källa, är det fel hänvisat då?-->. The hospital is a level 1 trauma center.[@Karolinska] The Trauma department at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. KUH <!--Aldrig förkortningen KUH? Sett att de andra studenterna använt det. -->is the primary trauma center for a population of 2,8 million people.[@Traumanks] 
 
-In Sweden there is a national trauma registry (SweTrau) holding records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event leading to trauma team activation, or have a NISS over 15 without trauma team activation. [@swetrau]
+In Sweden there is a national trauma registry (SweTrau) holding records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event leading to trauma team activation, or have a NISS over 15 without trauma team activation. Or patients moved to a hospital within 7 days of a traumatic event with NISS over 15. [@swetrau]
 
 Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
 

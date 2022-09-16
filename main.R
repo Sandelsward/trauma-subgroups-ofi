@@ -25,3 +25,16 @@ noacsr::source_all_functions()
 data <- import_data(test = TRUE)
 
 ## Whatever you do next, maybe clean data?
+
+data[['swetrau']] <- data$swetrau_scrambled
+data[['fmp']] <- data$fmp_scrambled
+data[['atgarder']] <- data$atgarder_scrambled
+data[['problem']] <- data$problem_scrambled
+data[['kvalgranskning2014.2017']] <- data$kvalgranskning2014.2017_scrambled
+
+merge_data <- merge_data(data)
+
+test <- unique(data$swetrau_scrambled$pt_Gender)
+print(test)
+
+
