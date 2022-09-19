@@ -13,14 +13,14 @@ problem med få pat per sjukhus. viktigt med register. alla pat sen 2011 registr
 dödsorsaksanalys och tid till reg i traumaregistret.-->
 Abbreviations
 =====
-AIS - Abbreviated Injury Scale
-ATLS - Advanced Trauma Life Support
-LMIC - Low and middle income countries
-M&M - Morbidity and Mortality Conferences
-NISS - New Injury Severity Score 
-OFI - Opportunity for improvement
-PTC - Primary Trauma Care
-SweTrau - The Swedish trauma registry
+* AIS - Abbreviated Injury Scale
+* ATLS - Advanced Trauma Life Support
+* LMIC - Low and middle income countries
+* M&M - Morbidity and Mortality Conferences
+* NISS - New Injury Severity Score 
+* OFI - Opportunity for improvement
+* PTC - Primary Trauma Care
+* SweTrau - The Swedish trauma registry
 
 
 Background

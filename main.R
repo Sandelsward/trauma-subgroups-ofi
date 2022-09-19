@@ -19,6 +19,9 @@
 ## manuscript file or run this file as a job, as that happens in a
 ## clean R session.
 library("rofi")
+library(labelled)
+library(tableone)
+
 noacsr::source_all_functions()
 
 ## Import data
@@ -34,7 +37,19 @@ data[['kvalgranskning2014.2017']] <- data$kvalgranskning2014.2017_scrambled
 
 merge_data <- merge_data(data)
 
-test <- unique(data$swetrau_scrambled$pt_Gender)
-print(test)
+merge_data$OFI <- create_ofi(merge_data)
+print(create_ofi)
+
+
+## Whatever you do next, maybe clean data?
+##Frågor
+##1: clean data, behöver jag göra det nu eller vänta tills jag gjort subgrupper?
+  ##2: Skapa kolumner för alla subgrupper som inte finns?
+  ##3: Hur ska jag skapa en kolumn för OFI?
+
+  
+
+
+
 
 
