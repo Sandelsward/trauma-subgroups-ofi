@@ -27,7 +27,7 @@ noacsr::source_all_functions()
 ## Import data
 data <- import_data(test = TRUE)
 
-## Whatever you do next, maybe clean data?
+## Renaming data sets fo work with merge function
 
 data[['swetrau']] <- data$swetrau_scrambled
 data[['fmp']] <- data$fmp_scrambled
@@ -36,16 +36,36 @@ data[['problem']] <- data$problem_scrambled
 data[['kvalgranskning2014.2017']] <- data$kvalgranskning2014.2017_scrambled
 
 merge_data <- merge_data(data)
+########
+## NYTT
+
 
 merge_data$OFI <- create_ofi(merge_data)
-print(create_ofi)
+combined.datasets <- merge_data
 
+all.ais <- combined.datasets[, 153:203]
+
+small.data <- combined.datasets[,c("Gender","OFI", "pt_age_yrs","inj_dominant", "inj_mechanism")]
+
+all.subgroups <- merge(small.data, all.ais) hur?
+  
+  
+
+## Clean data 
+
+## Cohort grouping
+##hur många pat i databasen:
+  
+  ##vilka variabler behövs för att skapa subgrupperna. 
+
+##behöver kön, alla pat med AIS, Alla med NISS. Ålder, trubbigt/penetrerande våld -> traumamekanism.
+## börja med table 1
 
 ## Whatever you do next, maybe clean data?
 ##Frågor
 ##1: clean data, behöver jag göra det nu eller vänta tills jag gjort subgrupper?
   ##2: Skapa kolumner för alla subgrupper som inte finns?
-  ##3: Hur ska jag skapa en kolumn för OFI?
+
 
   
 
