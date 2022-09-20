@@ -47,7 +47,8 @@ all.ais <- combined.datasets[, 153:203]
 
 small.data <- combined.datasets[,c("Gender","OFI", "pt_age_yrs","inj_dominant", "inj_mechanism")]
 
-all.subgroups <- merge(small.data, all.ais) hur?
+all.subgroups <- merge(small.data, all.ais) HUR? Testade att lägga till 153:203 i 
+#combined.datasets[,c()] men det funkade inte heller...
   
   
 
