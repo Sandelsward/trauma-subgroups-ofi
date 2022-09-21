@@ -20,9 +20,9 @@
 ## clean R session.
 library("rofi")
 library(labelled)
-library(tableone)
+library(table1)
 
-noacsr::source_all_functions()
+#noacsr::source_all_functions()
 
 ## Import data
 data <- import_data(test = TRUE)
@@ -45,15 +45,16 @@ combined.datasets <- merge_data
 
 all.ais <- combined.datasets[, 153:203]
 
-small.data <- combined.datasets[,c("Gender","OFI", "pt_age_yrs","inj_dominant", "inj_mechanism")]
+small.data <- combined.datasets[,c( "Gender","OFI", "pt_age_yrs","inj_dominant", "inj_mechanism")]
 
-all.subgroups <- merge(small.data, all.ais) HUR? Testade att lägga till 153:203 i 
-#combined.datasets[,c()] men det funkade inte heller...
-  
-  
+all.subgroups <- cbind(small.data, all.ais)
+
+as <- all.subgroups
+
+t1 <- make_table_one(as)
 
 ## Clean data 
-
+small.data <- small.data.frame(Index=df["pat_id"])
 ## Cohort grouping
 ##hur många pat i databasen:
   
@@ -63,7 +64,7 @@ all.subgroups <- merge(small.data, all.ais) HUR? Testade att lägga till 153:203
 ## börja med table 1
 
 ## Whatever you do next, maybe clean data?
-##Frågor
+##För att få bort alla NA? all.subgroups.without.na <-subset(, (!is.na(all.subgrops[,2])) & (!is.na(all.subgroups[,3])))  
 ##1: clean data, behöver jag göra det nu eller vänta tills jag gjort subgrupper?
   ##2: Skapa kolumner för alla subgrupper som inte finns?
 
