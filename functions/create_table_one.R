@@ -5,12 +5,12 @@
    # x <- 1 + 2
   #  return (x)
 
-make_table_one <- function(all.subgroups) {
+create_table_one <- function(all.subgroups) {
   
   ## Renaming data labels
   
-  all.subgroups$Gender <- factor(
-    all.subgroups$Gender,
+  all.subgroups$pt_Gender <- factor(
+    all.subgroups$pt_Gender,
     levels = c(1, 2),
     labels = c("Male", "Female")
   )
@@ -18,7 +18,7 @@ make_table_one <- function(all.subgroups) {
   all.subgroups$inj_mechanism <- factor(
     all.subgroups$inj_mechanism,
     levels = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 999),
-    labels = c("Traffic - motor veichle accident, not motorcycle", "Traffic - motorcycle accident", "Traffic - bicycle accident", "Traffic - pedall.subgroupstrian", "Traffic - other", "Shot by handgun, shotgun, rifle, other firearm of any calibre ", "Stabbed by knife, sword, dagger other pointed or sharp object", "Struck or hit by blunt object", "Low energy fall - fall in the same level", "High energy fall - fall from a higher level","Blall.subgroupst injury", "Other", "Unknown")
+    labels = c("Traffic - motor veichle accident, not motorcycle", "Traffic - motorcycle accident", "Traffic - bicycle accident", "Traffic - pedastrian", "Traffic - other", "Shot by handgun, shotgun, rifle, other firearm of any calibre ", "Stabbed by knife, sword, dagger other pointed or sharp object", "Struck or hit by blunt object", "Low energy fall - fall in the same level", "High energy fall - fall from a higher level","Blast injury", "Other", "Unknown")
   )
   
   all.subgroups$inj_dominant <- factor(
@@ -30,29 +30,19 @@ make_table_one <- function(all.subgroups) {
 all.subgroups$ofi <- factor(
   all.subgroups$ofi,
   levels = c("Yes", "No"),
-  labels = c("Yes atleall.subgroupst one opportunity for improvement", "No opportunities for improvement"),
+  labels = c("Yes, atleast one opportunity for improvement", "No opportunities for improvement"),
 )
 
 
 ## Renaming column labels
 var_label(all.subgroups) <- list (
   pt_age_yrs = "Age (years)",
-  Gender = "Gender",
-  NISS = "NISS",
+  pt_Gender = "Gender",
   inj_dominant = "Dominating Type of Injury",
   ofi = "Opportunity for improvement",
   inj_mechanism = "Mechanism of injury"
 )
 
-
-## Not being used
-## rndr <- function(x, name, ...) {
-##  if (!is.numeric(x)) return(render.categorical.default(x))
-##  what <- switch(name,
-##                 pt_age_years = "Mean (SD)",
-##                 ISS  = "Mean (SD)")
-##  parse.abbrev.render.code(c("", what))(x)
-## }
 
 
 ## Fixing weird rounding issues + removing mean from table
@@ -68,8 +58,8 @@ my.render.cont <- function(x) {
 }
 
 ## Making table one
-vars2 <- c("pt_age_yrs", "Gender", "inj_mechanism", "NISS", "inj_dominant", "ofi")
-table.1 <- table1(~ pt_age_yrs + Gender + inj_mechanism + NISS + inj_dominant + ed_sbp_value | ofi, 
+vars2 <- c("pt_age_yrs", "pt_Gender", "inj_mechanism", "inj_dominant", "ofi")
+table.1 <- table1(~ pt_age_yrs + pt_Gender + inj_mechanism + inj_dominant | ofi, 
              data=all.subgroups[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
 
 return(table.1)

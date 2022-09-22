@@ -22,7 +22,7 @@ library("rofi")
 library(labelled)
 library(table1)
 
-#noacsr::source_all_functions()
+noacsr::source_all_functions()
 
 ## Import data
 data <- import_data(test = TRUE)
@@ -42,7 +42,6 @@ merged.data <- merge_data(data)
 
 prepared.data <- prepare_data(merged.data)
 table.1 <- create_table_one(prepared.data)
-
 ## Clean data 
 
 ## Cohort grouping
