@@ -1,1 +1,1 @@
-merge_data$OFI <- create_ofi(merge_data)
+merged.data$OFI <- create_ofi(merged.data)

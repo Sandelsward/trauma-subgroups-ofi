@@ -35,26 +35,16 @@ data[['atgarder']] <- data$atgarder_scrambled
 data[['problem']] <- data$problem_scrambled
 data[['kvalgranskning2014.2017']] <- data$kvalgranskning2014.2017_scrambled
 
-merge_data <- merge_data(data)
+merged.data <- merge_data(data)
 ########
 ## NYTT
 
 
-merge_data$OFI <- create_ofi(merge_data)
-combined.datasets <- merge_data
-
-all.ais <- combined.datasets[, 153:203]
-
-small.data <- combined.datasets[,c( "Gender","OFI", "pt_age_yrs","inj_dominant", "inj_mechanism")]
-
-all.subgroups <- cbind(small.data, all.ais)
-
-as <- all.subgroups
-
-t1 <- make_table_one(as)
+prepared.data <- prepare_data(merged.data)
+table.1 <- create_table_one(prepared.data)
 
 ## Clean data 
-small.data <- small.data.frame(Index=df["pat_id"])
+
 ## Cohort grouping
 ##hur många pat i databasen:
   

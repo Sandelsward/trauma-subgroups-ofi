@@ -5,45 +5,42 @@
    # x <- 1 + 2
   #  return (x)
 
-make_table_one <- function(as) {
+make_table_one <- function(all.subgroups) {
   
   ## Renaming data labels
   
-  as$Gender <- factor(
-    as$Gender,
+  all.subgroups$Gender <- factor(
+    all.subgroups$Gender,
     levels = c(1, 2),
     labels = c("Male", "Female")
   )
   
-  as$inj_mechanism <- factor(
-    as$inj_mechanism,
+  all.subgroups$inj_mechanism <- factor(
+    all.subgroups$inj_mechanism,
     levels = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 999),
-    labels = c("Traffic - motor veichle accident, not motorcycle", "Traffic - motorcycle accident", "Traffic - bicycle accident", "Traffic - pedastrian", "Traffic - other", "Shot by handgun, shotgun, rifle, other firearm of any calibre ", "Stabbed by knife, sword, dagger other pointed or sharp object", "Struck or hit by blunt object", "Low energy fall - fall in the same level", "High energy fall - fall from a higher level", "Other", "Unknown")
+    labels = c("Traffic - motor veichle accident, not motorcycle", "Traffic - motorcycle accident", "Traffic - bicycle accident", "Traffic - pedall.subgroupstrian", "Traffic - other", "Shot by handgun, shotgun, rifle, other firearm of any calibre ", "Stabbed by knife, sword, dagger other pointed or sharp object", "Struck or hit by blunt object", "Low energy fall - fall in the same level", "High energy fall - fall from a higher level","Blall.subgroupst injury", "Other", "Unknown")
   )
   
-  
-  )
-
-as$inj_dominant <- factor(
-  as$inj_dominant,
+  all.subgroups$inj_dominant <- factor(
+  all.subgroups$inj_dominant,
   levels = c(1, 2),
   labels = c("Blunt", "Penetrating"),
 )
 
-as$ofi <- factor(
-  as$ofi,
+all.subgroups$ofi <- factor(
+  all.subgroups$ofi,
   levels = c("Yes", "No"),
-  labels = c("Yes, atleast one opportunity for improvement", "No opportunities for improvement"),
+  labels = c("Yes atleall.subgroupst one opportunity for improvement", "No opportunities for improvement"),
 )
 
 
 ## Renaming column labels
-var_label(as) <- list (
+var_label(all.subgroups) <- list (
   pt_age_yrs = "Age (years)",
-  pt_Gender = "Gender",
+  Gender = "Gender",
   NISS = "NISS",
   inj_dominant = "Dominating Type of Injury",
-  ofi = "Opportunity for improvement"
+  ofi = "Opportunity for improvement",
   inj_mechanism = "Mechanism of injury"
 )
 
@@ -72,8 +69,9 @@ my.render.cont <- function(x) {
 
 ## Making table one
 vars2 <- c("pt_age_yrs", "Gender", "inj_mechanism", "NISS", "inj_dominant", "ofi")
-t1 <- table1(~ pt_age_yrs + Gender + inj_mechanism + NISS + inj_dominant + ed_sbp_value | ofi, 
-             data=as[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
+table.1 <- table1(~ pt_age_yrs + Gender + inj_mechanism + NISS + inj_dominant + ed_sbp_value | ofi, 
+             data=all.subgroups[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
 
-return(t1)
+return(table.1)
 }
+
