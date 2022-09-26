@@ -40,7 +40,8 @@ var_label(all.subgroups) <- list (
   pt_Gender = "Gender",
   inj_dominant = "Dominating Type of Injury",
   ofi = "Opportunity for improvement",
-  inj_mechanism = "Mechanism of injury"
+  inj_mechanism = "Mechanism of injury",
+  NISS = "NISS"
 )
 
 
@@ -58,8 +59,8 @@ my.render.cont <- function(x) {
 }
 
 ## Making table one
-vars2 <- c("pt_age_yrs", "pt_Gender", "inj_mechanism", "inj_dominant", "ofi")
-table.1 <- table1(~ pt_age_yrs + pt_Gender + inj_mechanism + inj_dominant | ofi, 
+vars2 <- c("pt_age_yrs", "pt_Gender", "inj_mechanism", "inj_dominant", "ofi", "NISS")
+table.1 <- table1(~ pt_age_yrs + pt_Gender + NISS + inj_mechanism + inj_dominant | ofi, 
              data=all.subgroups[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
 
 return(table.1)

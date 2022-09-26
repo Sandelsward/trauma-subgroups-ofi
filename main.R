@@ -21,7 +21,7 @@
 library("rofi")
 library(labelled)
 library(table1)
-
+library(dplyr)
 noacsr::source_all_functions()
 
 ## Import data
@@ -41,7 +41,8 @@ merged.data <- merge_data(data)
 
 
 prepared.data <- prepare_data(merged.data)
-table.1 <- create_table_one(prepared.data)
+cleaned.data <- clean_data(prepared.data)
+table.1 <- create_table_one(cleaned.data)
 ## Clean data 
 
 ## Cohort grouping
