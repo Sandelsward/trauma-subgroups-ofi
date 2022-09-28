@@ -22,6 +22,7 @@ library("rofi")
 library(labelled)
 library(table1)
 library(dplyr)
+library(tidyverse)
 noacsr::source_all_functions()
 
 ## Import data
@@ -43,6 +44,16 @@ merged.data <- merge_data(data)
 prepared.data <- prepare_data(merged.data)
 cleaned.data <- clean_data(prepared.data)
 table.1 <- create_table_one(cleaned.data)
+
+cleaned.data <- ais_last(cleaned.data)
+cleaned.data <- ais_first(cleaned.data)
+#cleaned.data <- most.damaged.region(cleaned.data)
+
+#test.data <- cleaned.data %>% mutate(across(7:56, ~substr(.x, 8, 8), .names = "{col}.last"))
+
+#cleaned.data$ais.last.1 <- apply(cleaned.data, 1, ais_last)
+
+#cleaned.data$ais.first.1 <- apply(cleaned.data, 1, ais_first)
 ## Clean data 
 
 ## Cohort grouping

@@ -12,7 +12,7 @@
 
 
 ##Head or neck – including cervical spine - AIS: 1, 2, 3, 6 
-##Chest – thoracic spine and diaphragm - 4, thoracic spine hamnar under AIS 6? köra ala spina här.
+##Chest – thoracic spine and diaphragm - 4, thoracic spine hamnar under AIS 6? köra alla spine här.
 ##Abdomen or pelvic contents – abdominal organs and lumbar spine- AIS 5.
 ##Extremities or pelvic girdle – pelvic skeleton: AIS 7, 8.
 ##External - AIS - 9.

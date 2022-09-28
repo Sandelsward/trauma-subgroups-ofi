@@ -1,0 +1,1 @@
+#Funkton för att avgöra om det finns en eller fler skador. Dvs fler ais_first.
