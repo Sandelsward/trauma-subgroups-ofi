@@ -1,9 +1,20 @@
 
-#### Funktionen får bara matas med en patient i taget! Stoppa in prepare data
+#### Funktionen får bara matas med en patient i taget! Stoppa in prepare data,
+## "AISCode_01" får inte vara NA.
+#
+# Förslag är:
+# data <- prepare_data(merged.data)
+# data<-data[complete.cases(data[,c("AISCode_01")]),]
+#
+# for (i in 1:nrow(data)) {
+# print(i)
+# test2[i,"area"] <- areas_severe_damage(data[i,])    
+# }
+
 
 areas_severe_damage <- function(data) {
  ### use your functions first
-
+  data <- hard.case
 data2 <- ais_first(data)
 data3 <- ais_last(data2)
 ##### Gets the maximum value in the first collumn
@@ -25,31 +36,56 @@ cols <- apply(data3[,grep("sev", colnames(data3))] == max, 1, function(x) names(
 cols.area <- sub('.sev', '.reg', cols)
 
 areas <-data3[,cols.area]
+unique.areas <- unique(as.numeric(areas))
+
+if(length(unique.areas) == 1){
+  return(unique.areas)
+} else {
+  
 number.areas <- as.data.frame(sort(table(as.numeric(areas)),decreasing=T))
+vanlig.area <- number.areas[1,"Freq"]
+nr2.area <- number.areas[2,"Freq"]
+if(vanlig.area != nr2.area){
+  
+  samma.area <-  as.numeric(as.character(number.areas[1,"Var1"]))
+  
+  return(samma.area)
+} else { 
+  
+  ### Nedan missar en kolumn av oklar anledning?
+new.cols.reg <- apply(data3[,grep(".reg", colnames(data3))] == as.character(unique.areas), 1, function(x) names(which(x)))
+new.cols.area <- as.vector(sub('.reg', '.sev', new.cols.reg))
+cols2 <- as.vector(cols)
+new.cols.area2 <- new.cols.area[!(new.cols.area %in% cols)]
 
-if(length(areas) == 1){
-  return(areas)
+data4 <- data3[,new.cols.area2]
+unique.areas.2 <- unique(as.numeric(data4))
+
+if(length(unique.areas.2) == 1){
+  return(as.numeric(unique.areas.2))
 } else {
-  return(number.areas[1,1])
-}
-}
 
-
-if ( length(areas) == 1) {
-  return(areas)
-} else if ( number.areas[1,2]=!number.areas[2,2]) {
-  return(number.areas[1,1])
-} else if ( number.areas[1,2]=!number.areas[2,2]) {
-  return("hejåå")
+same <- length(unique.areas.2)  
+if(same == 0){
+  return("multiple")
 } else {
-  return("hej")
+
+  number.areas.multiple <- as.data.frame(sort(table(as.numeric(data4)),decreasing=T))
+  vanlig.area.multiple <- number.areas.multiple[1,"Freq"]
+  nr2.area.multiple <- number.areas.multiple[2,"Freq"]
+
+  if(vanlig.area.multiple > nr2.area.multiple){
+    
+    samma.area.multiple <-  as.numeric(as.character(number.areas.multiple[1,"Var1"]))
+    
+    return(samma.area.multiple)
+  } else { 
+  
+   return("hejåå")
+  
 }
-
-
-
-number.areas <- sort(table(as.numeric(areas)),decreasing=T)
-data <- prepare_data(merged.data)
-test <- areas_severe_damage(data = data[4,])
-
-
-
+}
+}
+}
+}
+}
