@@ -14,13 +14,16 @@
 
 areas_severe_damage <- function(data) {
  ### use your functions first
-  data <- hard.case
+
 data2 <- ais_first(data)
 data3 <- ais_last(data2)
+
+
+
 ##### Gets the maximum value in the first collumn
 
 # Testa att köra alla koder nedan för att se va de gör.
-# grep("first", colnames(data3)) Getts all collumns with first in name
+ # grep("sev", colnames(data3)) Getts all collumns with first in name
 
 # as.numeric(data3[4,grep("fast", colnames(data3))]) = En vector/patient med alla skador. exemplet är pat 4
 
