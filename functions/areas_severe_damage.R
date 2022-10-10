@@ -14,7 +14,7 @@
 
 areas_severe_damage <- function(data) {
  ### use your functions first
-  data <- hard.case
+
 data2 <- ais_first(data)
 data3 <- ais_last(data2)
 ##### Gets the maximum value in the first collumn
