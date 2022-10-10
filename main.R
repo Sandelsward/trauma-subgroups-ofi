@@ -23,6 +23,7 @@ library(labelled)
 library(table1)
 library(dplyr)
 library(tidyverse)
+library(testthat)
 noacsr::source_all_functions()
 
 ## Import data
@@ -56,7 +57,10 @@ table.1 <- create_table_one(cleaned.data)
 
 cleaned.data <- ais_last(cleaned.data)
 cleaned.data <- ais_first(cleaned.data)
+#cleaned.data <- ais_to_iss(cleaned.data)
 #cleaned.data <- most.damaged.region(cleaned.data)
+cleaned.data[, 108:157] <- convert_ais_data_to_iss_regions(cleaned.data[, 108:157])
+
 
 #test.data <- cleaned.data %>% mutate(across(7:56, ~substr(.x, 8, 8), .names = "{col}.last"))
 
@@ -65,18 +69,8 @@ cleaned.data <- ais_first(cleaned.data)
 #cleaned.data$ais.first.1 <- apply(cleaned.data, 1, ais_first)
 ## Clean data 
 
-## Cohort grouping
-##hur många pat i databasen:
-  
-  ##vilka variabler behövs för att skapa subgrupperna. 
 
-##behöver kön, alla pat med AIS, Alla med NISS. Ålder, trubbigt/penetrerande våld -> traumamekanism.
-## börja med table 1
 
-## Whatever you do next, maybe clean data?
-##För att få bort alla NA? all.subgroups.without.na <-subset(, (!is.na(all.subgrops[,2])) & (!is.na(all.subgroups[,3])))  
-##1: clean data, behöver jag göra det nu eller vänta tills jag gjort subgrupper?
-  ##2: Skapa kolumner för alla subgrupper som inte finns?
 
 
   
