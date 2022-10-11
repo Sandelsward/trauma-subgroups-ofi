@@ -43,11 +43,12 @@ merged.data <- merge_data(data)
 
 
 prepared.data <- prepare_data(merged.data)
-cleaned.data <- clean_data(prepared.data)
 table.1 <- create_table_one(cleaned.data)
+
 
 cleaned.data <- ais_last(cleaned.data)
 cleaned.data <- ais_first(cleaned.data)
+
 #cleaned.data <- ais_to_iss(cleaned.data)
 #cleaned.data <- most.damaged.region(cleaned.data)
 cleaned.data[, 108:157] <- convert_ais_data_to_iss_regions(cleaned.data[, 108:157])
