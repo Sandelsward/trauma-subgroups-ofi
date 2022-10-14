@@ -37,6 +37,12 @@ nrow(total.ofi.women)
 
 freq.ofi.women = nrow(total.ofi.women)/sum(total.women)
 
+# Delta frekvens kön
+
+delta.gender <- abs((freq.ofi.men)-(freq.ofi.women))
+
+
+
 #Antal patienter med blunt trauma
 
 total.blunt <- test2[test2$inj_dominant == 1,4]
@@ -68,7 +74,12 @@ nrow(total.ofi.penetrating)
 
 freq.ofi.penetrating <- nrow(total.ofi.penetrating)/(total.penetrating)
 
+# delta inj.dominant
+
+delta.inj.dominant <- abs((freq.ofi.blunt)-(freq.ofi.penetrating))
+
 #Traumamekanism - alla patienter och ofi-kolumn
+
 
 inj.mechanism <- test2[,c(2,5)]
 
@@ -226,3 +237,95 @@ nrow(ofi.other)
 
 #frekvens av ofi hos "Other" kod 12
 freq.ofi.other <- nrow(ofi.other)/nrow(tot.other)
+
+
+#delta inom inj mechanism
+
+delta.mechanism1 <- abs((freq.ofi.traffic1)-(freq.ofi.traffic2))
+delta.mechanism2 <- abs((freq.ofi.traffic1)-(freq.ofi.traffic3))
+delta.mechanism3 <- abs((freq.ofi.traffic1)-(freq.ofi.traffic4))
+delta.mechanism4 <- abs((freq.ofi.traffic1)-(freq.ofi.traffic5))
+delta.mechanism5 <- abs((freq.ofi.traffic1)-(freq.ofi.shot))
+delta.mechanism6 <- abs((freq.ofi.traffic1)-(freq.ofi.stabbed))
+delta.mechanism7 <- abs((freq.ofi.traffic1)-(freq.ofi.struck))
+delta.mechanism8 <- abs((freq.ofi.traffic1)-(freq.ofi.low.energy))
+delta.mechanism9 <- abs((freq.ofi.traffic1)-(freq.ofi.high.energy))
+delta.mechanism10 <- abs((freq.ofi.traffic1)-(freq.ofi.blast))
+delta.mechanism11 <- abs((freq.ofi.traffic1)-(freq.ofi.other))
+delta.mechanism12 <- abs((freq.ofi.traffic2)-(freq.ofi.traffic3))
+delta.mechanism13 <- abs((freq.ofi.traffic2)-(freq.ofi.traffic4))
+delta.mechanism14 <- abs((freq.ofi.traffic2)-(freq.ofi.traffic5))
+delta.mechanism15 <- abs((freq.ofi.traffic2)-(freq.ofi.shot))
+delta.mechanism16 <- abs((freq.ofi.traffic2)-(freq.ofi.stabbed))
+delta.mechanism17 <- abs((freq.ofi.traffic2)-(freq.ofi.struck))
+delta.mechanism18 <- abs((freq.ofi.traffic2)-(freq.ofi.low.energy))
+delta.mechanism18 <- abs((freq.ofi.traffic2)-(freq.ofi.high.energy))
+delta.mechanism19 <- abs((freq.ofi.traffic2)-(freq.ofi.blast))
+delta.mechanism20 <- abs((freq.ofi.traffic2)-(freq.ofi.other))
+delta.mechanism21 <- abs((freq.ofi.traffic2)-(freq.ofi.other))
+delta.mechanism22 <- abs((freq.ofi.traffic3)-(freq.ofi.traffic4))
+delta.mechanism23 <- abs((freq.ofi.traffic3)-(freq.ofi.traffic5))
+delta.mechanism24 <- abs((freq.ofi.traffic3)-(freq.ofi.shot))
+delta.mechanism25 <- abs((freq.ofi.traffic3)-(freq.ofi.stabbed))
+delta.mechanism26 <- abs((freq.ofi.traffic3)-(freq.ofi.struck))
+delta.mechanism27 <- abs((freq.ofi.traffic3)-(freq.ofi.low.energy))
+delta.mechanism27 <- abs((freq.ofi.traffic3)-(freq.ofi.high.energy))
+delta.mechanism28 <- abs((freq.ofi.traffic3)-(freq.ofi.blast))
+delta.mechanism29 <- abs((freq.ofi.traffic3)-(freq.ofi.other))
+delta.mechanism30 <- abs((freq.ofi.traffic4)-(freq.ofi.traffic5))
+delta.mechanism31 <- abs((freq.ofi.traffic4)-(freq.ofi.shot))
+delta.mechanism32 <- abs((freq.ofi.traffic4)-(freq.ofi.stabbed))
+delta.mechanism33 <- abs((freq.ofi.traffic4)-(freq.ofi.struck))
+delta.mechanism34 <- abs((freq.ofi.traffic4)-(freq.ofi.low.energy))
+delta.mechanism35 <- abs((freq.ofi.traffic4)-(freq.ofi.high.energy))
+delta.mechanism35 <- abs((freq.ofi.traffic4)-(freq.ofi.blast))
+delta.mechanism36 <- abs((freq.ofi.traffic4)-(freq.ofi.other))
+delta.mechanism37 <- abs((freq.ofi.traffic5)-(freq.ofi.shot))
+delta.mechanism38 <- abs((freq.ofi.traffic5)-(freq.ofi.stabbed))
+delta.mechanism39 <- abs((freq.ofi.traffic5)-(freq.ofi.struck))
+delta.mechanism40 <- abs((freq.ofi.traffic5)-(freq.ofi.low.energy))
+delta.mechanism41 <- abs((freq.ofi.traffic5)-(freq.ofi.high.energy))
+delta.mechanism42 <- abs((freq.ofi.traffic5)-(freq.ofi.blast))
+delta.mechanism43 <- abs((freq.ofi.traffic5)-(freq.ofi.other))
+delta.mechanism44 <- abs((freq.ofi.shot)-(freq.ofi.stabbed))
+delta.mechanism45 <- abs((freq.ofi.shot)-(freq.ofi.struck))
+delta.mechanism46 <- abs((freq.ofi.shot)-(freq.ofi.low.energy))
+delta.mechanism47 <- abs((freq.ofi.shot)-(freq.ofi.high.energy))
+delta.mechanism48 <- abs((freq.ofi.shot)-(freq.ofi.blast))
+delta.mechanism49 <- abs((freq.ofi.shot)-(freq.ofi.other))
+delta.mechanism50 <- abs((freq.ofi.stabbed)-(freq.ofi.struck))
+delta.mechanism51 <- abs((freq.ofi.stabbed)-(freq.ofi.low.energy))
+delta.mechanism52 <- abs((freq.ofi.stabbed)-(freq.ofi.high.energy))
+delta.mechanism53 <- abs((freq.ofi.stabbed)-(freq.ofi.blast))
+delta.mechanism54 <- abs((freq.ofi.stabbed)-(freq.ofi.other))
+delta.mechanism55 <- abs((freq.ofi.struck)-(freq.ofi.low.energy))
+delta.mechanism56 <- abs((freq.ofi.struck)-(freq.ofi.high.energy))
+delta.mechanism57 <- abs((freq.ofi.struck)-(freq.ofi.blast))
+delta.mechanism58 <- abs((freq.ofi.struck)-(freq.ofi.other))
+delta.mechanism59 <- abs((freq.ofi.low.energy)-(freq.ofi.high.energy))
+delta.mechanism60 <- abs((freq.ofi.low.energy)-(freq.ofi.blast))
+delta.mechanism61 <- abs((freq.ofi.low.energy)-(freq.ofi.other))
+delta.mechanism62 <- abs((freq.ofi.high.energy)-(freq.ofi.blast))
+delta.mechanism63 <- abs((freq.ofi.high.energy)-(freq.ofi.other))
+delta.mechanism63 <- abs((freq.ofi.blast)-(freq.ofi.other))
+
+
+
+
+
+
+freq.ofi.traffic2
+freq.ofi.traffic3
+freq.ofi.traffic4
+freq.ofi.traffic5
+freq.ofi.shot
+freq.ofi.stabbed
+freq.ofi.struck
+freq.ofi.low.energy
+freq.ofi.high.energy
+freq.ofi.blast
+freq.ofi.other
+
+
+
+
