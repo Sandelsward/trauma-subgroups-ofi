@@ -10,9 +10,17 @@ fontsize: 11pt
 ---
 
 
-```{r code, echo=FALSE}
-source("code.R")
+```{r , echo=FALSE}
+setwd("~/trauma-subgroups-ofi")
 ```
+
+
+
+```{r main, echo=FALSE}
+source("main.R") 
+```
+
+
 <!-- If you need more text you can always expand on trauma as a global health issue, 
 trauma in Sweden (see SweTraus annual report), trauma quality improvement programs 
 and so on. -->

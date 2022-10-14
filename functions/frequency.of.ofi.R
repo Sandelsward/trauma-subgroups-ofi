@@ -313,19 +313,3 @@ delta.mechanism63 <- abs((freq.ofi.blast)-(freq.ofi.other))
 
 
 
-
-freq.ofi.traffic2
-freq.ofi.traffic3
-freq.ofi.traffic4
-freq.ofi.traffic5
-freq.ofi.shot
-freq.ofi.stabbed
-freq.ofi.struck
-freq.ofi.low.energy
-freq.ofi.high.energy
-freq.ofi.blast
-freq.ofi.other
-
-
-
-
