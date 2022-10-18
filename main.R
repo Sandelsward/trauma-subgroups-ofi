@@ -68,10 +68,17 @@ test2[,"area"] <- NA        #
 #SKapar kollumneen "area" i det nya setet men ser till att den är fylld med NA
 for (i in 1:nrow(cleaned.data)) {       
 #Här börjar loopen! där det står data ska du stoppa ditt tvättade dataset.
-print(i)
+
 test2[i,"area"] <- areas_severe_damage(test2[i,])
 }
 #test.data <- cleaned.data %>% mutate(across(7:56, ~substr(.x, 8, 8), .names = "{col}.last"))
+setwd("~/trauma-subgroups-ofi")
+
+
+source("frequency.of.ofi.R") #### Inladdad istället för att ha den i functions. Du skulle också kunnat skriva koden direkt här. 
+
+
+
 
 #cleaned.data$ais.last.1 <- apply(cleaned.data, 1, ais_last)
 
