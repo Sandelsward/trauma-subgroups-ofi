@@ -43,22 +43,23 @@ merged.data <- merge_data(data)
 ########
 ## NYTT
 
-
+merged.data$OFI <- create_ofi(merged.data)
 prepared.data <- prepare_data(merged.data)
+cleaned.data <- clean_data(prepared.data)
 table.1 <- create_table_one(cleaned.data)
 
 
-#cleaned.data <- ais_last(cleaned.data)
-#cleaned.data <- ais_first(cleaned.data)
+cleaned.data <- ais_last(cleaned.data)
+cleaned.data <- ais_first(cleaned.data)
 
 #cleaned.data <- ais_to_iss(cleaned.data)
 #cleaned.data <- most.damaged.region(cleaned.data)
 #cleaned.data[, 108:157] <- convert_ais_data_to_iss_regions(cleaned.data[, 108:157])
 #table(test2$area)
 all.patients <- nrow(merged.data)
-
+areas.severe.damage <- areas_severe_damage(cleaned.data)
 #test.data <- cleaned.data %>% mutate(across(7:56, ~substr(.x, 8, 8), .names = "{col}.last"))
-
+total.cohort <- nrow(test2)
 #cleaned.data$ais.last.1 <- apply(cleaned.data, 1, ais_last)
 
 #cleaned.data$ais.first.1 <- apply(cleaned.data, 1, ais_first)

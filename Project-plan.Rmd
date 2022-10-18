@@ -28,9 +28,9 @@ and so on. -->
 problem med få pat per sjukhus. viktigt med register. alla pat sen 2011 registreras. 
 dödsorsaksanalys och tid till reg i traumaregistret.-->
 
-`all.patients`
+`r all.patients`
 
-
+`r all.men`
 Background
 =====
 
@@ -242,8 +242,8 @@ Participants
 All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information was missing for age, gender, OFI, trauma mechanism, NISS, or AIS code the patient was excluded.
 
 
-After merging the Karolinska trauma registry and the Trauma quality data base there was x patients. After applying the inclusion criteria the number of patients was reduced to xxxx. 
-
+After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients. After applying the inclusion criteria the number of patients was reduced to `r total.cohort`
+`r freq.ofi.women`
 <!--
 (a) Report numbers of individuals at each stage of study—eg numbers
 potentially eligible, examined for eligibility, confirmed eligible,
