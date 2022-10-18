@@ -30,7 +30,7 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 
 `r all.patients`
 
-`r all.men`
+`r delta.gender`
 Background
 =====
 

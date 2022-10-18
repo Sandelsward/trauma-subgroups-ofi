@@ -57,9 +57,22 @@ cleaned.data <- ais_first(cleaned.data)
 #cleaned.data[, 108:157] <- convert_ais_data_to_iss_regions(cleaned.data[, 108:157])
 #table(test2$area)
 all.patients <- nrow(merged.data)
-areas.severe.damage <- areas_severe_damage(cleaned.data)
+
+
+data <- prepare_data(merged.data)
+data<-data[complete.cases(data[,c("AISCode_01")]),]    
+#Här är bara din önskade preprocessing/tvätt
+test2 <- data                     
+#nytt dataset som vi ska byta till, i detta fall test2 men eg kan det heta vad som.
+test2[,"area"] <- NA        #
+#SKapar kollumneen "area" i det nya setet men ser till att den är fylld med NA
+for (i in 1:nrow(cleaned.data)) {       
+#Här börjar loopen! där det står data ska du stoppa ditt tvättade dataset.
+print(i)
+test2[i,"area"] <- areas_severe_damage(test2[i,])
+}
 #test.data <- cleaned.data %>% mutate(across(7:56, ~substr(.x, 8, 8), .names = "{col}.last"))
-total.cohort <- nrow(test2)
+
 #cleaned.data$ais.last.1 <- apply(cleaned.data, 1, ais_last)
 
 #cleaned.data$ais.first.1 <- apply(cleaned.data, 1, ais_first)
