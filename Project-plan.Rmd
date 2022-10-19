@@ -8,24 +8,30 @@ bibliography: bibliography.bib
 csl: vancouver.csl
 fontsize: 11pt
 ---
+
+
+```{r ,include = FALSE, echo=FALSE}
+setwd("~/trauma-subgroups-ofi")
+```
+
+
+
+```{r main, include = FALSE, echo=FALSE}
+#### Viktigt att ha med include = FALSE i chunks som inte ska skrivas ut i sin helhet.
+source("main.R") 
+```
+
+
 <!-- If you need more text you can always expand on trauma as a global health issue, 
 trauma in Sweden (see SweTraus annual report), trauma quality improvement programs 
 and so on. -->
 <!--Sånt jag ev kan lägga til
 problem med få pat per sjukhus. viktigt med register. alla pat sen 2011 registreras. 
 dödsorsaksanalys och tid till reg i traumaregistret.-->
-Abbreviations
-=====
-* AIS - Abbreviated Injury Scale
-* ATLS - Advanced Trauma Life Support
-* LMIC - Low and middle income countries
-* M&M - Morbidity and Mortality Conferences
-* NISS - New Injury Severity Score 
-* OFI - Opportunity for improvement
-* PTC - Primary Trauma Care
-* SweTrau - The Swedish trauma registry
 
+`r all.patients`
 
+`r delta.gender`
 Background
 =====
 
@@ -142,12 +148,12 @@ At KUH all trauma patients are included in the KUH trauma registry. The KUH trau
 
 
 <!-- Describe the setting, locations, and relevant dates, including
-periods of recruitment, exposure, follow-up, and data collection 
+periods of recruitment, exposure, follow-up, and data collection -->
 
 Participants
 ------------
 
-All patients from KUH trauma registry and from the Trauma Quality Database.
+All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information was missing for age, gender, trauma mechanism, NISS, or AIS code the patient was excluded.
 
 
 <!-- Cohort study: Give the eligibility criteria, and the sources and
@@ -170,7 +176,7 @@ The data from the trauma registries were analyzed for OFI in seperate cohorts. T
 <!-- Vet inte om jag fattat detta rätt, men jag ska alltså använda AIS-scores för att dela in patienter i de olika cohorterna, då för att avgöra om de uppnår tillräcklig allvarlighetsgrad för att räknas som major trauma? Sen Titta på specifika koder för vilka kroppsdelar som drabbats? Blir det då olika underkategorier som ex en kategori för trubbigt trauma mot buken och en med skarpt trauma mot buken. Eller blir det att jag tittar på OFI för truppigt och skarpt trauma som helhet och sen de olika kroppsdelarna oavsett om det är skarpt eller trubbigt? (Detta är bara lösa tankar som vi kan diskutera när vi ses, har lite svårt att visualisera detta, men det kommer nog klarna när jag väl börjar arbeta med datan. ) -->OFI  was treated as a binary variable, with "yes" and "no" as the only possible outcome. For the M&M conference to put a "yes" in the OFI section at at least one of the following areas needed to differ from the best practice  guidelines for trauma care: emergency department triage; tertiary survey; processing; communication; time to computed tomography; time to surgical intervention; level of physician and nursing competency; level of care; neurosurgical intervention; hospital staff routine; resource management; logistics and technology; overall management and documentation.<!-- This information should be included in the section above instead SVAR: såhär?
 
 
-Göra en tablell här för inklusion och exklusionskriterier för de olika cohorterna baserat på på AIS scores. 
+Göra en tablell här för inklusion och exklusionskriterier för de olika cohorterna
 
 Se elias och hussein
 
@@ -190,7 +196,7 @@ To prevent research bias all data will be scrambled while used to write the anal
 
 
 
-<!-- Describe any efforts to address potential sources of bias 
+<!-- Describe any efforts to address potential sources of bias -->
 
 Study size 
 ----------
@@ -198,14 +204,16 @@ Study size
 
 <!-- Explain how the study size was arrived at -->
 
+Quantitative variables
+----------------------
 
 <!-- Explain how quantitative variables were handled in the
 analyses. If applicable, describe which groupings were chosen and why
-
+-->
 
 Statistical methods
 -------------------
-The stastistical computing program R will be used to analyze the data.
+Rstudio. Bootstrapping.
 <!-- 
 
 (a) Describe all statistical methods, including those used to control
@@ -227,6 +235,122 @@ taking account of sampling strategy
 
 (e) Describe any sensitivity analyses
 -->
+
+Results
+
+Participants
+------------
+All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information was missing for age, gender, OFI, trauma mechanism, NISS, or AIS code the patient was excluded.
+
+
+After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients. After applying the inclusion criteria the number of patients was reduced to `r total.cohort`
+`r freq.ofi.women`
+<!--
+(a) Report numbers of individuals at each stage of study—eg numbers
+potentially eligible, examined for eligibility, confirmed eligible,
+included in the study, completing follow-up, and analysed
+
+(b) Give reasons for non-participation at each stage
+
+(c) Consider use of a flow diagram -->
+
+Descriptive data
+----------------
+
+
+
+
+<!-- (a) Give characteristics of study participants (eg demographic,
+clinical, social) and information on exposures and potential
+confounders
+
+(b) Indicate number of participants with missing data for each
+variable of interest
+
+(c) Cohort study — Summarise follow-up time (eg, average and total
+amount)
+
+Outcome data
+------------
+
+Cohort study — Report numbers of outcome events or summary measures
+over time
+
+Case-control study — Report numbers in each exposure category, or
+summary measures of exposure
+
+Cross-sectional study — Report numbers of outcome events or summary
+measures
+
+Main results
+------------
+
+(a) Give unadjusted estimates and, if applicable, confounder-adjusted
+estimates and their precision (eg, 95% confidence interval). Make
+clear which confounders were adjusted for and why they were included
+
+(b) Report category boundaries when continuous variables were
+categorized
+
+(c) If relevant, consider translating estimates of relative risk into
+absolute risk for a meaningful time period
+
+Other analyses 
+--------------
+
+Report other analyses done—eg analyses of subgroups and interactions,
+and sensitivity analyses 
+-->
+
+<!--You can include code in this document like this:
+
+#```{r main, echo=FALSE}
+#source("main.R") ## This "imports" the main script file of your project and run any code in it
+#```
+
+You can also embed plots:
+
+```{r plot, echo=FALSE}
+plot(pressure)
+```
+
+You can also mix text and code, so called inline code, like this: `r 2+5`.-->
+
+Discussion
+
+
+<!--
+
+Key results
+-----------
+Summarise key results with reference to study objectives
+
+Limitations
+-----------
+
+Discuss limitations of the study, taking into account sources of
+potential bias or imprecision.  Discuss both direction and magnitude
+of any potential bias
+
+Interpretation
+--------------
+
+Give a cautious overall interpretation of results considering
+objectives, limitations, multiplicity of analyses, results from
+similar studies, and other relevant evidence
+
+Generalisability
+----------------
+
+Discuss the generalisability (external validity) of the study results
+
+-->
+
+Conclusion
+
+
+<!-- Give a short conclusion, corresponding to the aim -->
+
 Ethical considerations
 =====
 
