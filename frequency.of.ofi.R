@@ -2,16 +2,16 @@
 
 # antal undersökta patienter
  
-total.cohort <- nrow(test2)
+total.cohort <- nrow(cleaned.data)
 
 #antal män
 
-total.men <- test2[test2$pt_Gender == 1,1:2]
+total.men <- cleaned.data[cleaned.data$pt_Gender == 1,1:2]
 nrow(total.men)
 
 #antal män med ofi
 
-ofi.men <- test2[test2$pt_Gender == 1,1:2]
+ofi.men <- cleaned.data[cleaned.data$pt_Gender == 1,1:2]
 
 total.ofi.men <- ofi.men[ofi.men$ofi =="Yes",]
 
@@ -23,12 +23,12 @@ freq.ofi.men <- nrow(total.ofi.men)/nrow(total.men)
 
 # Antal kvinnor
 
-women <- test2[test2$pt_Gender == 2,1:2]
+women <- cleaned.data[cleaned.data$pt_Gender == 2,1:2]
 total.women <- nrow(women)
 
 # antal kvinnor med ofi
 
-ofi.women <- test2[test2$pt_Gender == 2,1:2]
+ofi.women <- cleaned.data[cleaned.data$pt_Gender == 2,1:2]
 
 total.ofi.women <- ofi.women[ofi.women$ofi =="Yes",]
 nrow(total.ofi.women)
@@ -45,12 +45,12 @@ delta.gender <- abs((freq.ofi.men)-(freq.ofi.women))
 
 #Antal patienter med blunt trauma
 
-total.blunt <- test2[test2$inj_dominant == 1,4]
+total.blunt <- cleaned.data[cleaned.data$inj_dominant == 1,4]
 sum(total.blunt)
 
 #Antal blunt trauma med ofi
 
-ofi.blunt <- test2[test2$inj_dominant == 1,c(2,4)]
+ofi.blunt <- cleaned.data[cleaned.data$inj_dominant == 1,c(2,4)]
 
 total.ofi.blunt <- ofi.blunt[ofi.blunt$ofi =="Yes",]
 
@@ -61,12 +61,12 @@ nrow(total.ofi.blunt)
 freq.ofi.blunt <- nrow(total.ofi.blunt)/sum(total.blunt)
 
 # Antal patienter med penetrating trauma
-penetrating <- test2[test2$inj_dominant == 2,c(2,4)]
+penetrating <- cleaned.data[cleaned.data$inj_dominant == 2,c(2,4)]
 
 total.penetrating <- nrow(penetrating)
 
 # Antal penetrerande trauma med ofi
-penetrating <- test2[test2$inj_dominant == 2,c(2,4)]
+penetrating <- cleaned.data[cleaned.data$inj_dominant == 2,c(2,4)]
 total.ofi.penetrating <- penetrating[penetrating$ofi =="Yes",]
 nrow(total.ofi.penetrating)
 
@@ -81,7 +81,7 @@ delta.inj.dominant <- abs((freq.ofi.blunt)-(freq.ofi.penetrating))
 #Traumamekanism - alla patienter och ofi-kolumn
 
 
-inj.mechanism <- test2[,c(2,5)]
+inj.mechanism <- cleaned.data[,c(2,5)]
 
 # Antal patienter från "Traffic - motor veichle accident, not motorcycle" kod 1
 
