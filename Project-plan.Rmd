@@ -2,7 +2,8 @@
 title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
 author: "George Sandelswärd"
 output:
-
+  html_document:
+    df_print: paged
   pdf_document: default
 bibliography: bibliography.bib
 csl: vancouver.csl
@@ -32,6 +33,7 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 `r all.patients`
 
 `r delta.gender`
+
 Background
 =====
 
@@ -243,8 +245,12 @@ Participants
 All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information was missing for age, gender, OFI, trauma mechanism, NISS, or AIS code the patient was excluded.
 
 
-After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients. After applying the inclusion criteria the number of patients was reduced to `r total.cohort`
-`r freq.ofi.women`
+After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients. After applying the inclusion criteria the number of patients was reduced to `r total.cohort`.
+
+```{r, echo = FALSE,} 
+  exclusion_chart()
+```
+
 <!--
 (a) Report numbers of individuals at each stage of study—eg numbers
 potentially eligible, examined for eligibility, confirmed eligible,
@@ -257,7 +263,9 @@ included in the study, completing follow-up, and analysed
 Descriptive data
 ----------------
 
-
+```{r, echo = FALSE} 
+  table.1 ## will be improved later
+```
 
 
 <!-- (a) Give characteristics of study participants (eg demographic,

@@ -26,6 +26,7 @@ library(tidyverse)
 library(testthat)
 library(knitr)
 library(rmarkdown)
+library(DiagrammeR)
 noacsr::source_all_functions()
 
 ## Import data
