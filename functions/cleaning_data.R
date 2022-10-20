@@ -5,7 +5,3 @@ clean_data <- function(prepared.data, numbers = FALSE) {
   return(cleaned.data)
 }
 
-
-
-
-

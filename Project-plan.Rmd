@@ -17,9 +17,13 @@ setwd("~/trauma-subgroups-ofi")
 
 
 
-```{r main, include = FALSE, echo=FALSE}
+```{r main, include = FALSE, echo = FALSE, cache = TRUE}
 #### Viktigt att ha med include = FALSE i chunks som inte ska skrivas ut i sin helhet.
 source("main.R") 
+```
+
+```{r frequency.of.ofi, include = FALSE, echo = FALSE}
+source("frequency.of.ofi.R")
 ```
 
 
