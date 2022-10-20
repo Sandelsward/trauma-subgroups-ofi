@@ -26,11 +26,8 @@ library(tidyverse)
 library(testthat)
 library(knitr)
 library(rmarkdown)
-<<<<<<< HEAD
 library(DiagrammeR)
-=======
 library(assertthat)
->>>>>>> a182d5c34b876eca400c7f3d8a46a9d5d0e2f658
 noacsr::source_all_functions()
 
 ## Import data
