@@ -26,7 +26,9 @@ source("main.R")
 source("frequency.of.ofi.R")
 ```
 
-
+```{r excluded.patients, include = FALSE, echo = FALSE}
+source("excluded.patients.R")
+```
 <!-- If you need more text you can always expand on trauma as a global health issue, 
 trauma in Sweden (see SweTraus annual report), trauma quality improvement programs 
 and so on. -->
@@ -37,7 +39,7 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 `r all.patients`
 
 `r delta.gender`
-
+`r total.underage.excluded`
 Background
 =====
 

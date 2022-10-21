@@ -2,7 +2,7 @@ exclusion_chart <- function() {
   
   exclusion_chart <- DiagrammeR::grViz("digraph flowchart {
   
-    label='Fig. 1. Exclusion chart';
+    label='Fig. 1. Exclusion chartttt';
     labelloc=bottom;
     labeljust=left;
     labelfontsize=18;
@@ -19,8 +19,8 @@ exclusion_chart <- function() {
     tab1 -> tab2 -> tab3 -> tab4 -> tab5
   }
   
-    [1]: 'All patients in the selected registries n=xxxx'
-    [2]: 'Patients under the age og 15 excluded'
+    [1]: 'All patients in the selected registries n `r unfiltred.patients`'
+    [2]: 'Patients under the age og 16 excluded'
     [3]: 'Patients with missing information in crucial columns excluded'
     [4]: 'Patients with no information in the OFI column excluded'
     [5]: 'Total cohort - n=xxx'

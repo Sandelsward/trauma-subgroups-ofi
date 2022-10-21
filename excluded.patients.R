@@ -1,3 +1,4 @@
+library (dplyr)
 #antal pat innan filter
 unfiltred.patients <- nrow(prepared.data)
 #antal bortfiltrerade patienter
