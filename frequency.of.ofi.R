@@ -7,7 +7,7 @@ total.cohort <- nrow(cleaned.data)
 #antal män
 
 total.men <- cleaned.data[cleaned.data$pt_Gender == 1,1:2]
-nrow(total.men)
+all.men <- nrow(total.men)
 
 #antal män med ofi
 

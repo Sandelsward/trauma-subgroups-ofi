@@ -4,6 +4,7 @@ author: "George Sandelswärd"
 output:
   html_document:
     df_print: paged
+  word_document: default
   pdf_document: default
 bibliography: bibliography.bib
 csl: vancouver.csl
@@ -29,6 +30,13 @@ source("frequency.of.ofi.R")
 ```{r excluded.patients, include = FALSE, echo = FALSE}
 source("excluded.patients.R")
 ```
+```{r exclusion, include = FALSE, echo = FALSE}
+source("exclusion.R")
+```
+```{r ofi.selection, include = FALSE, echo = FALSE}
+source("ofi.selection.R")
+```
+
 <!-- If you need more text you can always expand on trauma as a global health issue, 
 trauma in Sweden (see SweTraus annual report), trauma quality improvement programs 
 and so on. -->
@@ -150,6 +158,9 @@ Trauma patients are divided into priority one and two by the paramedics using ce
 A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
 At KUH all trauma patients are included in the KUH trauma registry. The KUH trauma registry is a part of the Swedish Trauma Registry, with the same eligibility criteria. Audit filters then identify certain trauma cases in which the care might have deviated from the golden standard treatment based on different criteria. Such criteria are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes, time to Surgery and so on. Then a manual selection is done by a nurse, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified"
+```{r, echo = FALSE} 
+  ofi_selection() ## will be improved later
+```
 
 
 
@@ -245,16 +256,15 @@ taking account of sampling strategy
 -->
 
 Results
-
+=====
 Participants
 ------------
-All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information was missing for age, gender, OFI, trauma mechanism, NISS, or AIS code the patient was excluded.
-
+All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information such as gender OFI, trauma mechanism, NISS, or AIS code were missing, the patient was excluded.
 
 After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients. After applying the inclusion criteria the number of patients was reduced to `r total.cohort`.
 
 ```{r, echo = FALSE,} 
-  exclusion_chart()
+exclusion()
 ```
 
 <!--
@@ -268,6 +278,12 @@ included in the study, completing follow-up, and analysed
 
 Descriptive data
 ----------------
+
+Out of the `r total.cohort` patients included in the cohort `r all.men` were men and `r total.women` were women. Among the men the frequency of OFI was `r freq.ofi.men` and among the women `r freq.ofi.women`.
+
+Lyfta fram de mest intressanta siffrorna här när riktiga datan används
+
+
 
 ```{r, echo = FALSE} 
   table.1 ## will be improved later
@@ -298,7 +314,7 @@ measures
 
 Main results
 ------------
-
+Behöver göra bootstrapping först?
 (a) Give unadjusted estimates and, if applicable, confounder-adjusted
 estimates and their precision (eg, 95% confidence interval). Make
 clear which confounders were adjusted for and why they were included

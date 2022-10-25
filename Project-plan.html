@@ -266,6 +266,8 @@ Tänkt att introduktionen ska vara som en stor tratt, börjar brett och så sakt
 <p>Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. <span class="citation">(22)</span></p>
 <p>A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.<span class="citation">(22)</span></p>
 <p>At KUH all trauma patients are included in the KUH trauma registry. The KUH trauma registry is a part of the Swedish Trauma Registry, with the same eligibility criteria. Audit filters then identify certain trauma cases in which the care might have deviated from the golden standard treatment based on different criteria. Such criteria are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes, time to Surgery and so on. Then a manual selection is done by a nurse, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation can be found. The patients who are then left are discussed at a M&amp;M where doctors and nurses from several specialties participate. At this conference every case is reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as “Yes, at least one OFI identified” or “No, no OFIs identified”</p>
+<div id="htmlwidget-9da6a00095dd621d01cd" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-9da6a00095dd621d01cd">{"x":{"diagram":"digraph flowchart {\n  \n\n label=\"Fig. 1. A scematic chart of selection for morbidity and mortality conferences\";\n    labelloc=bottom;\n    labeljust=left;\n    labelfontsize=18;\na [label = \"Trauma team activation\"]\nb [label = \"Inclusion in trauma registry\"]\nc [label = \"First review done by nurse.\"]\nd [label = \"Secondary review done by nurse\"]\ne [label = \"Mortality and morbidity conference\"]\nf [label = \"Atleast one OFI detected\"]\ng [label = \"Motivation wether OFI is found or not\"]\na -> b -> c \nc -> d [style=full label =\"Second opinion needed.\"]\nd -> e -> f \nc -> e [style = dotted label=\"Suspected OFI or audit filter trigger. \"]\nc -> g [style = dotted label=\"No potential OFI.\"]\nd -> g \n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 <!-- Describe the setting, locations, and relevant dates, including
 periods of recruitment, exposure, follow-up, and data collection -->
 </div>
@@ -338,14 +340,16 @@ taking account of sampling strategy
 
 (e) Describe any sensitivity analyses
 --></p>
-<p>Results</p>
 </div>
+</div>
+<div id="results" class="section level1">
+<h1>Results</h1>
 <div id="participants-1" class="section level2">
 <h2>Participants</h2>
-<p>All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information was missing for age, gender, OFI, trauma mechanism, NISS, or AIS code the patient was excluded.</p>
+<p>All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information such as gender OFI, trauma mechanism, NISS, or AIS code were missing, the patient was excluded.</p>
 <p>After merging the Karolinska trauma registry and the Trauma quality data base there was 11864 patients. After applying the inclusion criteria the number of patients was reduced to 2696.</p>
-<div id="htmlwidget-9da6a00095dd621d01cd" style="width:672px;height:480px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9da6a00095dd621d01cd">{"x":{"diagram":"digraph flowchart {\n  \n    label=\"Fig. 1. Exclusion chart\";\n    labelloc=bottom;\n    labeljust=left;\n    labelfontsize=18;\n    # node definitions with substituted label text\n    node [shape = rectangle, width = 8, fontsize = 16] \n    tab1 [label = \"All patients in the selected registries n=xxxx\"]\n    tab2 [label = \"Patients under the age og 15 excluded\"]\n    tab3 [label = \"Patients with missing information in crucial columns excluded\"]\n    tab4 [label = \"Patients with no information in the OFI column excluded\"]\n    tab5 [label = \"Total cohort - n=xxx\"]\n   \n    \n    # edge definitions with the node IDs\n    tab1 -> tab2 -> tab3 -> tab4 -> tab5\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-0654c5ab50b944d8e0d9" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0654c5ab50b944d8e0d9">{"x":{"diagram":"digraph flowchart {\n  \n    label=\"Fig. 2. Exclusion chart\";\n    labelloc=bottom;\n    labeljust=left;\n    labelfontsize=18;\n    # node definitions with substituted label text\n    node [shape = rectangle, width = 8, fontsize = 16] \n    tab1 [label = \"All patients in the selected registries (n: 11864)\"]\n    tab2 [label = \"Patients under the age of 15 excluded (n: `r total.underage.excluded`\"]\n    tab3 [label = \"Patients with missing information in inj_dominant (n: `r total.missing.inj.dominant`)\"]\n    tab4 [label = \"Patients with missing information in trauma mechanism (n: `r total.missing.inj.mechanism`)\"]\n    tab5 [label = \"Patients with missing information in NISS colum (n: `r total.missing.niss`)\"]\n    tab6 [label = \"Patients with missing information in the first AIS column (n: `total.missing.AIS01`)\"]\n    tab7 [label = \"Patients with missing information in the OFI column (n: `total.missing.ofi`)\"]\n    tab8 [label = \"Total number of excludet patients: `tot.excluded.patients`\"]\n   \n    \n    # edge definitions with the node IDs\n    tab1 -> tab2 -> tab3 -> tab4 -> tab5 -> tab6 -> tab7 -> tab8\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 <!--
 (a) Report numbers of individuals at each stage of study—eg numbers
 potentially eligible, examined for eligibility, confirmed eligible,
@@ -357,6 +361,8 @@ included in the study, completing follow-up, and analysed
 </div>
 <div id="descriptive-data" class="section level2">
 <h2>Descriptive data</h2>
+<p>Out of the 2696 patients included in the cohort 1358 were men and 1338 were women. Among the men the frequency of OFI was 0.7400589 and among the women 0.7698057.</p>
+<p>Lyfta fram de mest intressanta siffrorna här när riktiga datan används</p>
 <div class="Rtable1"><table class="Rtable1">
 <thead>
 <tr>
@@ -513,7 +519,7 @@ measures
 
 Main results
 ------------
-
+Behöver göra bootstrapping först?
 (a) Give unadjusted estimates and, if applicable, confounder-adjusted
 estimates and their precision (eg, 95% confidence interval). Make
 clear which confounders were adjusted for and why they were included

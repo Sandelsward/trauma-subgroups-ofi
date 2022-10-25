@@ -53,7 +53,9 @@ total.ais01.na <- only.ais01 %>% filter (AISCode_01 %in% c(NA))
 total.missing.AIS01 <- nrow(total.ais01.na)
 
 
-
-
+#Avsaknad av ofi
+only.ofi <- prepared.data[,c(1,2)]
+total.ofi.na <- only.ofi %>% filter (ofi %in% c(NA))
+total.missing.ofi <- nrow(total.ofi.na)
 
 
