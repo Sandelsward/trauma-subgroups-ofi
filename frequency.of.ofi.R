@@ -238,36 +238,111 @@ nrow(ofi.other)
 #frekvens av ofi hos "Other" kod 12
 freq.ofi.other <- nrow(ofi.other)/nrow(tot.other)
 
-#Mest skadade region
+#Mest skadade region enligt AIS-koder
 
-most.dammaged.region.all <- cleaned.data[,c(2,58)]
+most.severe.region.all <- cleaned.data[,c(2,58)]
 
-# Antal patienter med Most severe region (MSR) Head
+cleaned.most.severe.region <- most.severe.region.all %>% filter (most.severe.region%in% c("Head", "Face","Neck","Thorax","Abdomen","Spine","Upper Extremity","Lower Extremity","Unspecified", "Multiple"))
 
-df.head <- most.dammaged.region.all[most.dammaged.region.all$most.severe.region == "Head",]
+# Antal patienter med Most severe region (MSR) Head, Neck = ISS Head or neck
 
-tot.head <- nrow(df.head)
+df.head.neck <- cleaned.most.severe.region %>% filter (most.severe.region%in% c("Head", "Neck"))
 
-# Antal med huvudskada och ofi
+tot.head.neck <- nrow(df.head.neck)
 
-ofi.head.list <- df.head[df.head$ofi == "Yes",]
-ofi.head <- nrow(ofi.head.list)
+# Antal med Head or neck och ofi
 
-#frekvens av ofi hos MSR Head
-
-
-           #"Head",
-          # "Face",
-          # "Neck",
-          # "Thorax",
-          # "Abdomen",
-         #  "Spine",
-         #  "Upper Extremity",
-          # "Lower Extremity",
-         #  "Unspecified",
-         #  "Multiple"))
+ofi.head.neck.list <- df.head.neck[df.head.neck$ofi == "Yes",]
+ofi.head.neck <- nrow(ofi.head.neck.list)
 
 
+#frekvens av ofi hos MSR Head or neck. 
+freq.ofi.head.neck <- (ofi.head.neck)/(tot.head.neck)
+
+
+# Antal patienter med Most severe region (MSR) Face
+
+df.face <- cleaned.most.severe.region[cleaned.most.severe.region$most.severe.region == "Face",]
+
+tot.face <- nrow(df.face)
+
+# Antal med face och ofi
+
+ofi.face.list <- df.face[df.face$ofi == "Yes",]
+ofi.face <- nrow(ofi.face.list)
+
+#frekvens av ofi hos MSR Face
+freq.ofi.face <- (ofi.face)/(tot.face)
+
+# Antal patienter med Most severe region (MSR) Thorax or spine = ISS Chest, diaphragm or spine
+
+df.chest.spine <- cleaned.most.severe.region %>% filter (most.severe.region%in% c("Thorax", "Spine"))
+
+tot.chest.spine <- nrow(df.chest.spine)
+
+# Antal med chest or spine och ofi
+
+ofi.chest.spine.list <- df.chest.spine[df.chest.spine$ofi == "Yes",]
+ofi.chest.spine <- nrow(ofi.chest.spine.list)
+
+#frekvens av ofi hos MSR Chest or Spine
+freq.chest.spine <- (ofi.chest.spine)/(tot.chest.spine)
+
+# Antal patienter med Most severe region Abdomen  = ISS Abdomen
+
+df.abdomen <- cleaned.most.severe.region[cleaned.most.severe.region$most.severe.region == "Abdomen",]
+
+tot.abdomen <- nrow(df.abdomen)
+
+# Antal med abdomen och ofi
+
+ofi.abdomen.list <- df.abdomen[df.abdomen$ofi == "Yes",]
+ofi.abdomen <- nrow(ofi.abdomen.list)
+
+#frekvens av ofi hos MSR abdomen
+freq.ofi.abdomen <- (ofi.abdomen)/(tot.abdomen)
+
+# Antal patienter med Most severe region Lower or upper extremities = ISS Extremities
+
+df.extremities <- cleaned.most.severe.region %>% filter (most.severe.region%in% c("Lower Extremity", "Upper Extremity"))
+
+tot.extremities <- nrow(df.extremities)
+
+# Antal med Head or neck och ofi
+
+ofi.extremities.list <- df.extremities[df.extremities$ofi == "Yes",]
+ofi.extremities <- nrow(ofi.extremities.list)
+
+
+#frekvens av ofi hos MSR Head or neck. 
+freq.ofi.extremities <- (ofi.extremities)/(tot.extremities)
+
+# Antal patienter med Most severe region Unspecified
+
+df.unspecified <- cleaned.most.severe.region[cleaned.most.severe.region$most.severe.region == "Unspecified",]
+
+tot.unspecified <- nrow(df.unspecified)
+
+# Antal med unspecified och ofi
+
+ofi.unspecified.list <- df.unspecified[df.unspecified$ofi == "Yes",]
+ofi.unspecified <- nrow(ofi.unspecified.list)
+
+
+# Antal patienter med Most severe region multiple
+
+df.multiple <- cleaned.most.severe.region[cleaned.most.severe.region$most.severe.region == "Multiple",]
+
+tot.multiple <- nrow(df.multiple)
+
+# Antal med multiple och ofi
+
+ofi.multiple.list <- df.multiple[df.multiple$ofi == "Yes",]
+ofi.multiple <- nrow(ofi.multiple.list)
+
+#frekvens av ofi hos MSR multiple
+freq.ofi.multiple <- (ofi.multiple)/(tot.multiple)
+         
 #delta inom inj mechanism
 
 delta.mechanism1 <- abs((freq.ofi.traffic1)-(freq.ofi.traffic2))
