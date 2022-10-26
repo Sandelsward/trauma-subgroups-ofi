@@ -24,13 +24,14 @@ exclusion <- function() {
   }
   
     [1]: paste0('All patients in the selected registries (n: ', unfiltred.patients, ')')
-    [2]: 'Patients under the age of 15 excluded (n: `r total.underage.excluded`'
-    [3]: 'Patients with missing information in inj_dominant (n: `r total.missing.inj.dominant`)'
-    [4]: 'Patients with missing information in trauma mechanism (n: `r total.missing.inj.mechanism`)'
-    [5]: 'Patients with missing information in NISS colum (n: `r total.missing.niss`)'
-    [6]: 'Patients with missing information in the first AIS column (n: `total.missing.AIS01`)'
-    [7]: 'Patients with missing information in the OFI column (n: `total.missing.ofi`)'
-    [8]: 'Total number of excludet patients: `tot.excluded.patients`'
+    [2]: paste0('Patients under the age of 15 excluded (n: ', total.underage.excluded, ')')
+    [3]: paste0('Patients with missing information in inj_dominant (n: ', total.missing.inj.dominant, ')')
+    [4]: paste0('Patients with missing information in trauma mechanism (n: ', total.missing.inj.mechanism, ')')
+    [5]: paste0('Patients with missing information in NISS colum (n: ', total.missing.niss, ')')
+    [6]: paste0('Patients with missing information in the first AIS column (n: ', total.missing.AIS01, ')')
+    [7]: paste0('Patients with missing information in the OFI column (n: ', total.missing.ofi, ')')
+    [8]: paste0('Total number of excluded patients (n: ', tot.excluded.patients, ')')
+    
   ") 
   
   ## %>% DiagrammeRsvg::export_svg() %>% charToRaw() %>% rsvg::rsvg_pdf("swetrau_flowchart.pdf")
