@@ -310,11 +310,14 @@ Case-control study — Report numbers in each exposure category, or
 summary measures of exposure
 
 Cross-sectional study — Report numbers of outcome events or summary
-measures
+measures -->
 
 Main results
 ------------
-Behöver göra bootstrapping först?
+The frequency of OFI for the different subgroups were as following:
+Samma siffror som table 1. Hur ska jag göra med delta här? Kan jag göra något mer innan jag gjort bootstrapping?
+
+<!--
 (a) Give unadjusted estimates and, if applicable, confounder-adjusted
 estimates and their precision (eg, 95% confidence interval). Make
 clear which confounders were adjusted for and why they were included
@@ -347,7 +350,7 @@ plot(pressure)
 You can also mix text and code, so called inline code, like this: `r 2+5`.-->
 
 Discussion
-
+=====
 
 <!--
 
@@ -377,7 +380,7 @@ Discuss the generalisability (external validity) of the study results
 -->
 
 Conclusion
-
+=====
 
 <!-- Give a short conclusion, corresponding to the aim -->
 

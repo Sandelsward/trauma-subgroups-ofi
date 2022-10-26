@@ -238,6 +238,35 @@ nrow(ofi.other)
 #frekvens av ofi hos "Other" kod 12
 freq.ofi.other <- nrow(ofi.other)/nrow(tot.other)
 
+#Mest skadade region
+
+most.dammaged.region.all <- cleaned.data[,c(2,58)]
+
+# Antal patienter med Most severe region (MSR) Head
+
+df.head <- most.dammaged.region.all[most.dammaged.region.all$most.severe.region == "Head",]
+
+tot.head <- nrow(df.head)
+
+# Antal med huvudskada och ofi
+
+ofi.head.list <- df.head[df.head$ofi == "Yes",]
+ofi.head <- nrow(ofi.head.list)
+
+#frekvens av ofi hos MSR Head
+
+
+           #"Head",
+          # "Face",
+          # "Neck",
+          # "Thorax",
+          # "Abdomen",
+         #  "Spine",
+         #  "Upper Extremity",
+          # "Lower Extremity",
+         #  "Unspecified",
+         #  "Multiple"))
+
 
 #delta inom inj mechanism
 

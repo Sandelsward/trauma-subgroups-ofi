@@ -267,7 +267,7 @@ Tänkt att introduktionen ska vara som en stor tratt, börjar brett och så sakt
 <p>A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.<span class="citation">(22)</span></p>
 <p>At KUH all trauma patients are included in the KUH trauma registry. The KUH trauma registry is a part of the Swedish Trauma Registry, with the same eligibility criteria. Audit filters then identify certain trauma cases in which the care might have deviated from the golden standard treatment based on different criteria. Such criteria are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes, time to Surgery and so on. Then a manual selection is done by a nurse, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation can be found. The patients who are then left are discussed at a M&amp;M where doctors and nurses from several specialties participate. At this conference every case is reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as “Yes, at least one OFI identified” or “No, no OFIs identified”</p>
 <div id="htmlwidget-9da6a00095dd621d01cd" style="width:672px;height:480px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9da6a00095dd621d01cd">{"x":{"diagram":"digraph flowchart {\n  \n\n label=\"Fig. 1. A scematic chart of selection for morbidity and mortality conferences\";\n    labelloc=bottom;\n    labeljust=left;\n    labelfontsize=18;\na [label = \"Trauma team activation\"]\nb [label = \"Inclusion in trauma registry\"]\nc [label = \"First review done by nurse.\"]\nd [label = \"Secondary review done by nurse\"]\ne [label = \"Mortality and morbidity conference\"]\nf [label = \"Atleast one OFI detected\"]\ng [label = \"Motivation wether OFI is found or not\"]\na -> b -> c \nc -> d [style=full label =\"Second opinion needed.\"]\nd -> e -> f \nc -> e [style = dotted label=\"Suspected OFI or audit filter trigger. \"]\nc -> g [style = dotted label=\"No potential OFI.\"]\nd -> g \n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-9da6a00095dd621d01cd">{"x":{"diagram":"digraph flowchart {\n  \n\n label=\"Fig. 1. A schematic chart of selection for morbidity and mortality conferences\";\n    labelloc=bottom;\n    labeljust=left;\n    labelfontsize=18;\na [label = \"Trauma team activation\"]\nb [label = \"Inclusion in trauma registry\"]\nc [label = \"First review done by nurse.\"]\nd [label = \"Secondary review done by nurse\"]\ne [label = \"Mortality and morbidity conference\"]\nf [label = \"Motivation wether OFI is found or not\"]\ng [label = \"Excluded\"]\na -> b -> c \nc -> d [style=full label =\"Second opinion needed.\"]\nd -> e -> f \nc -> e [style =full label=\"Suspected OFI or audit filter trigger. \"]\nc -> g [style = full label=\"No potential OFI.\"]\nd -> g \n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 <!-- Describe the setting, locations, and relevant dates, including
 periods of recruitment, exposure, follow-up, and data collection -->
 </div>
@@ -515,11 +515,12 @@ Case-control study — Report numbers in each exposure category, or
 summary measures of exposure
 
 Cross-sectional study — Report numbers of outcome events or summary
-measures
-
-Main results
-------------
-Behöver göra bootstrapping först?
+measures -->
+</div>
+<div id="main-results" class="section level2">
+<h2>Main results</h2>
+<p>The frequency of OFI for the different subgroups were as following: Samma siffror som table 1. Hur ska jag göra med delta här? Kan jag göra något mer innan jag gjort bootstrapping?</p>
+<!--
 (a) Give unadjusted estimates and, if applicable, confounder-adjusted
 estimates and their precision (eg, 95% confidence interval). Make
 clear which confounders were adjusted for and why they were included
@@ -547,7 +548,10 @@ You can also embed plots:
 <img src="Project-plan_files/figure-html/plot-1.png" width="672" />
 
 You can also mix text and code, so called inline code, like this: 7.-->
-<p>Discussion</p>
+</div>
+</div>
+<div id="discussion" class="section level1">
+<h1>Discussion</h1>
 <!--
 
 Key results
@@ -574,9 +578,10 @@ Generalisability
 Discuss the generalisability (external validity) of the study results
 
 -->
-<p>Conclusion</p>
-<!-- Give a short conclusion, corresponding to the aim -->
 </div>
+<div id="conclusion" class="section level1">
+<h1>Conclusion</h1>
+<!-- Give a short conclusion, corresponding to the aim -->
 </div>
 <div id="ethical-considerations" class="section level1">
 <h1>Ethical considerations</h1>

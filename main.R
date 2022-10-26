@@ -55,7 +55,6 @@ all.patients <- nrow(merged.data)
 
 
 
-
 ## I suggest that you source this file separately in your markdown,
 ## for now, because that allows you to cache the "main" chunk and save
 ## some time knitting
