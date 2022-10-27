@@ -1,5 +1,5 @@
 # Ränka ut frekvensen av ofi för olika grupper
-
+library(DiagrammeR)
 # antal undersökta patienter
  
 total.cohort <- nrow(cleaned.data)
@@ -242,7 +242,8 @@ freq.ofi.other <- nrow(ofi.other)/nrow(tot.other)
 
 most.severe.region.all <- cleaned.data[,c(2,58)]
 
-cleaned.most.severe.region <- most.severe.region.all %>% filter (most.severe.region%in% c("Head", "Face","Neck","Thorax","Abdomen","Spine","Upper Extremity","Lower Extremity","Unspecified", "Multiple"))
+cleaned.most.severe.region <- most.severe.region.all %>% filter (most.severe.region %in% c("Head", "Face","Neck","Thorax","Abdomen","Spine","Upper Extremity","Lower Extremity","Unspecified", "Multiple"))
+
 
 # Antal patienter med Most severe region (MSR) Head, Neck = ISS Head or neck
 

@@ -24,17 +24,11 @@ source("main.R")
 ```
 
 ```{r frequency.of.ofi, include = FALSE, echo = FALSE}
-source("frequency.of.ofi.R")
-```
 
-```{r excluded.patients, include = FALSE, echo = FALSE}
 source("excluded.patients.R")
-```
-```{r exclusion, include = FALSE, echo = FALSE}
 source("exclusion.R")
-```
-```{r ofi.selection, include = FALSE, echo = FALSE}
 source("ofi.selection.R")
+source("frequency.of.ofi.R")
 ```
 
 <!-- If you need more text you can always expand on trauma as a global health issue, 
@@ -44,10 +38,6 @@ and so on. -->
 problem med få pat per sjukhus. viktigt med register. alla pat sen 2011 registreras. 
 dödsorsaksanalys och tid till reg i traumaregistret.-->
 
-`r all.patients`
-
-`r delta.gender`
-`r total.underage.excluded`
 Background
 =====
 
@@ -59,10 +49,10 @@ treated. It has for example been shown that trauma patients in Sweden who were
 treated at a trauma center rather than a non-trauma center have a 41 % lower 
 30-day adjusted mortality rate. [@Candefjord2022-pe] 
 
-Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats -->
+Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats. lägga till hur det ser ut på ks -->
 
 
-Advanced Trauma Life Support and Primary Trauma Care
+Advanced Trauma Life Support and Primary Trauma Care, INTE ETT EGET STYCKE. Byt ut till traumakvalitetsprogram osv.
 ------------
 Several different systems are being used in Trauma care. 
 Such as Advanced Trauma Life Support (ATLS) and Primary Trauma Care (PTC), 
@@ -77,9 +67,12 @@ PTC is also used in over 80 countries, however more
 frequently in low and middle-income countries. One reason for this could be that 
 the PTC program is free while ATLS is not.[@Kadhum2020-wa]
 
- New Injury Severity Score 
+ Trauma Svererity scores
 ------------
-<!-- See my comment above on the association between distance to the aim and relavance for the aim. This is not relevant to the aim and should therefore be farther away from it. I'm not sure it's relevant at all, at least not as a separate section. SVAR: TÄnkte att man kunde ha med det iom att vi ändå använder oss av oss av NISS och AIS i metoden? Men hade bara tänkt ha det i KI-uppsatsen.-->
+<!-- See my comment above on the association between distance to the aim and relavance for the aim. This is not relevant to the aim and should therefore be farther away from it. I'm not sure it's relevant at all, at least not as a separate section. SVAR: TÄnkte att man kunde ha med det iom att vi ändå använder oss av oss av NISS och AIS i metoden? Men hade bara tänkt ha det i KI-uppsatsen.--> 
+
+AIS först
+
 The NISS is an anatomic severity scale developed to assess multiple-injured patients. The NISS score a patient get is based on the Abbreviated Injury Scale (AIS) points from the injured body regions. The higher NISS score the more serious injury the patients suffers from.[@Li2021-ag]
 
 NISS takes injuries in 6 different body regions into account. Those are head/neck, face, chest, abdomen, extremiteis and external. The NISS is the sum of the squares of the highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. AIS can vary from 1-5, and the NISS from 1-75.[@Li2021-ag]
@@ -88,9 +81,9 @@ Trauma registry
 ------------
 In Sweden there is a national trauma registry (SweTrau) holding records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event leading to trauma team activation, or have a NISS over 15 without trauma team activation. Or patients moved to a hospital within 7 days of a traumatic event with NISS over 15. [@swetrau]
 
-Morbidity and Mortality Conferences
+Morbidity and Mortality Conferences BYT TILL HÖGT UPP I INTRO
 ------------
-An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidisciplinary conference with representatives from all medical specialties and professions in the trauma team. The purpose of M&M is to learn from the care provided, identify opportunities for improvements, and implement corrective actions.[@Aboumatar2007-ws] As it is not possible to analyze every trauma case in detail audit filters are often used to decide which cases that are to be reviewed at M&M. Such audit filter can be time frames in which a test should be taken or a specific treatment provided.[@Evans2009-oy]. <!-- Feel free to provide more specific examples of audit filters. Audit filters and their association to M&M could also be a separate section. SVAR: Uppfattade på Jonatan som att jag skulle hålla det så generellt som möjligt i intro. Jag ger exempel på audit filters och kopplingen till M&M i metoden. Men jag kan göraett stycke om det här om ni tycker det passar bättre. -->
+An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidisciplinary conference with representatives from all medical specialties and professions in the trauma team. The purpose of M&M is to learn from the care provided, identify opportunities for improvements, and implement corrective actions.[@Aboumatar2007-ws] As it is not possible to analyze every trauma case in detail audit filters are often used to decide which cases that are to be reviewed at M&M. Such audit filter can be time frames in which a test should be taken or a specific treatment provided.[@Evans2009-oy]. NÄMN GENERELLA FILTER <!-- Feel free to provide more specific examples of audit filters. Audit filters and their association to M&M could also be a separate section. SVAR: Uppfattade på Jonatan som att jag skulle hålla det så generellt som möjligt i intro. Jag ger exempel på audit filters och kopplingen till M&M i metoden. Men jag kan göraett stycke om det här om ni tycker det passar bättre. -->
 
 
 
@@ -101,7 +94,7 @@ An important part of trauma care evaluation and improvement is Mortality and Mor
 Oppotrunity for improvement
 ------------
 <!--Även detta hör hemma i metoden. Titta på Elias och Husseins arbeten. SVAR: Bättre såhär? -->
-Whether there is opportunity for improvement for a specific case or not is decided during M&M where selected trauma casees are reviewed. Opportunity for improvement (OFI) is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.[@Sanddal2011-cl]
+Whether there is opportunity for improvement for a specific case or not is decided during M&M where selected trauma casees are reviewed. Opportunity for improvement (OFI) is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.NÅGOT EXEMPEL PÅ OFI HÄR[@Sanddal2011-cl]
 
 OFI can be a more nuanced measure for trauma care improvement than the more established terms preventable deaths and non preventable deaths. This is because there can be OFI in a case where a patient has died, even if the death was not preventable.[@Traumaguidelines09] Furthermore there is no consensus for classification of preventable and non preventable death, leading authors to use different classifications.[@Montmany2016-hz]. The term OFI also has the advantage over the term preventable death by sounding more positive and encouraging, preventing review board members from having to classify colleagues patient care as inappropriate.[@Sanddal2011-cl]
 
@@ -116,7 +109,7 @@ Knowledge gap
 ------------
 
 Despite having all this data about the trauma patients it is poorly understood whether different subgroups have greater opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas were OFIs were found.[@OReilly2013] However we do not know whether the same OFI areas apply for the trauma subgroups, or in what frequency. 
-<!-- You haven't mentioned subgroups before, so you might want to introduce these in a separate section first. SVAR: Som stycket ovan?-->
+
 
 
 Aim
@@ -132,17 +125,15 @@ Tänkt att introduktionen ska vara som en stor tratt, börjar brett och så sakt
 Methods
 =====
 
-<!--Stora delar av det du skriver ovan hör fortfarande hemma i metoddelen. Se Elias och Husseins arbeten -->
-
 Study design
 ------------
 This is a registry based cohort study that uses data from two different Swedish
 trauma registries. 
 
 The first registry is the Trauma registry at the Karolinska University Hospital 
-in Solna, which includes about 21000 patients between the years 2012 and 2021. 
+in Solna, which includes about 11800 patients between the years 2012 and 2021. 
 
-The second registry is the the trauma Quality Database which is a subset of the trauma registry and includes about 2200 patients selected for review between 2014 and 2021. The trauma care quality database includes details and conclusions from the M&M.
+The second registry is the the trauma Quality Database which is a subset of the trauma registry and includes about 6300 patients selected for review between 2014 and 2021. The trauma care quality database includes details and conclusions from the M&M.
 
 By linking these databases together the opportunity for improvement in the trauma 
 subgroups mentioned in the introduction will be assessed.
@@ -151,7 +142,7 @@ subgroups mentioned in the introduction will be assessed.
 
 Setting
 -------
-The Karolinska University Hospital in Solna, Stockholm, is the leading trauma center in Sweden, and ranked as one of the best hospitals in the world<!-- Provide a source, if you want to include this: SVAR, första och andra meningen har samma källa, är det fel hänvisat då?-->. The hospital is also a level 1 trauma center.[@Karolinska] The Trauma department at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. KUH <!--Aldrig förkortningen KUH? Sett att de andra studenterna använt det. -->is the primary trauma center for a population of 2,8 million people.[@Traumanks] 
+The Karolinska University Hospital in Solna, Stockholm, one of the leading trauma centers in Sweden, and ranked as one of the best hospitals in the world MINDRE SKRYTIG MENING The hospital is also a level 1 trauma center.[@Karolinska] The Trauma department at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. KUH <!--Aldrig förkortningen KUH? Sett att de andra studenterna använt det. = NEJ -->is the primary trauma center for a population of 2,8 million people.[@Traumanks] 
 
 Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
 
@@ -192,12 +183,16 @@ sources and methods of selection of participants -->
 Variables and data sources/measurements
 ---------------------------------------
 The data from the trauma registries were analyzed for OFI in seperate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. The location of injuries will be analyzed based on AIS codes and AIS scores will be used to gruop patients into fitting cohorts. 
+
+DETALJERAT HUR FOLK DELAS IN I COHORTERNA
 <!-- Vet inte om jag fattat detta rätt, men jag ska alltså använda AIS-scores för att dela in patienter i de olika cohorterna, då för att avgöra om de uppnår tillräcklig allvarlighetsgrad för att räknas som major trauma? Sen Titta på specifika koder för vilka kroppsdelar som drabbats? Blir det då olika underkategorier som ex en kategori för trubbigt trauma mot buken och en med skarpt trauma mot buken. Eller blir det att jag tittar på OFI för truppigt och skarpt trauma som helhet och sen de olika kroppsdelarna oavsett om det är skarpt eller trubbigt? (Detta är bara lösa tankar som vi kan diskutera när vi ses, har lite svårt att visualisera detta, men det kommer nog klarna när jag väl börjar arbeta med datan. ) -->OFI  was treated as a binary variable, with "yes" and "no" as the only possible outcome. For the M&M conference to put a "yes" in the OFI section at at least one of the following areas needed to differ from the best practice  guidelines for trauma care: emergency department triage; tertiary survey; processing; communication; time to computed tomography; time to surgical intervention; level of physician and nursing competency; level of care; neurosurgical intervention; hospital staff routine; resource management; logistics and technology; overall management and documentation.<!-- This information should be included in the section above instead SVAR: såhär?
 
 
-Göra en tablell här för inklusion och exklusionskriterier för de olika cohorterna
 
-Se elias och hussein
+"OFI was defined as a binary variable representing a
+consensus decision from the Mortality and Morbidity Conference regarding the presence of at least one
+OFI."
+
 
 <!--Egentligen är det första gången du tydligt definerar vad OFI är. Du ska även definera de andra variablerna, kön/ålder/penetrerande osv osv. Lär på vad "major traum" är samt hur AIS scores fungerar för att extrahera kroppsdelar -->
 
@@ -212,19 +207,23 @@ of assessment methods if there is more than one group -->
 Bias 
 ----
 To prevent research bias all data will be scrambled while used to write the analysis model.
-
+Någon mer mening om vad det betyder. Hur det går till.
 
 
 <!-- Describe any efforts to address potential sources of bias -->
 
 Study size 
 ----------
-
+complete case analysis på min dependent variabel : OFI
+och predektiva variabler som NISS...
 
 <!-- Explain how the study size was arrived at -->
 
 Quantitative variables
 ----------------------
+
+BEskriva NISS, pentererande, trubbigt, kön,  
+googla vilka är kategoriska och kontinuerliga osv
 
 <!-- Explain how quantitative variables were handled in the
 analyses. If applicable, describe which groupings were chosen and why
@@ -233,6 +232,9 @@ analyses. If applicable, describe which groupings were chosen and why
 Statistical methods
 -------------------
 Rstudio. Bootstrapping.
+
+Beskriva i text vad som faktiskt görs. Tex hur frekvens räknas ut.
+OCh att jag bara jämför icke överlappande cohorter.
 <!-- 
 
 (a) Describe all statistical methods, including those used to control
@@ -259,7 +261,7 @@ Results
 =====
 Participants
 ------------
-All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information such as gender OFI, trauma mechanism, NISS, or AIS code were missing, the patient was excluded.
+All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information such as gender OFI, trauma mechanism, NISS, or AIS code were missing, the patient was excluded. TA BORT DETTA STYCKE
 
 After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients. After applying the inclusion criteria the number of patients was reduced to `r total.cohort`.
 
