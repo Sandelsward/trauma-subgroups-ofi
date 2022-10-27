@@ -286,7 +286,7 @@ ofi.chest.spine.list <- df.chest.spine[df.chest.spine$ofi == "Yes",]
 ofi.chest.spine <- nrow(ofi.chest.spine.list)
 
 #frekvens av ofi hos MSR Chest or Spine
-freq.chest.spine <- (ofi.chest.spine)/(tot.chest.spine)
+freq.ofi.chest.spine <- (ofi.chest.spine)/(tot.chest.spine)
 
 # Antal patienter med Most severe region Abdomen  = ISS Abdomen
 
@@ -308,13 +308,13 @@ df.extremities <- cleaned.most.severe.region %>% filter (most.severe.region%in% 
 
 tot.extremities <- nrow(df.extremities)
 
-# Antal med Head or neck och ofi
+# Antal med extremities och ofi
 
 ofi.extremities.list <- df.extremities[df.extremities$ofi == "Yes",]
 ofi.extremities <- nrow(ofi.extremities.list)
 
 
-#frekvens av ofi hos MSR Head or neck. 
+#frekvens av ofi hos MSR extremities. 
 freq.ofi.extremities <- (ofi.extremities)/(tot.extremities)
 
 # Antal patienter med Most severe region Unspecified
@@ -327,6 +327,9 @@ tot.unspecified <- nrow(df.unspecified)
 
 ofi.unspecified.list <- df.unspecified[df.unspecified$ofi == "Yes",]
 ofi.unspecified <- nrow(ofi.unspecified.list)
+
+#frekvens av ofi hos MSR unspecified
+freq.ofi.unspecified <- (ofi.unspecified)/(tot.unspecified)
 
 
 # Antal patienter med Most severe region multiple
@@ -411,9 +414,37 @@ delta.mechanism60 <- abs((freq.ofi.low.energy)-(freq.ofi.blast))
 delta.mechanism61 <- abs((freq.ofi.low.energy)-(freq.ofi.other))
 delta.mechanism62 <- abs((freq.ofi.high.energy)-(freq.ofi.blast))
 delta.mechanism63 <- abs((freq.ofi.high.energy)-(freq.ofi.other))
-delta.mechanism63 <- abs((freq.ofi.blast)-(freq.ofi.other))
+delta.mechanism64 <- abs((freq.ofi.blast)-(freq.ofi.other))
 
+# Delta inom most severe region
 
+# Head.neck
+# Face
+# Chest.spine
+# Abdomen
+# Extremities
+# Unspecifies
+# Multiple
 
-
+delta.severe.region1 <- abs((freq.ofi.head.neck)-(freq.ofi.face))
+delta.severe.region2 <- abs((freq.ofi.head.neck)-(freq.ofi.chest.spine))
+delta.severe.region3 <- abs((freq.ofi.head.neck)-(freq.ofi.abdomen))
+delta.severe.region4 <- abs((freq.ofi.head.neck)-(freq.ofi.extremities))
+delta.severe.region5 <- abs((freq.ofi.head.neck)-(freq.ofi.unspecified))
+delta.severe.region6 <- abs((freq.ofi.head.neck)-(freq.ofi.multiple))
+delta.severe.region7 <- abs((freq.ofi.face)-(freq.ofi.chest.spine))
+delta.severe.region8 <- abs((freq.ofi.face)-(freq.ofi.abdomen))
+delta.severe.region9 <- abs((freq.ofi.face)-(freq.ofi.extremities))
+delta.severe.region10 <- abs((freq.ofi.face)-(freq.ofi.unspecified))
+delta.severe.region11 <- abs((freq.ofi.face)-(freq.ofi.multiple))
+delta.severe.region12 <- abs((freq.ofi.chest.spine)-(freq.ofi.abdomen))
+delta.severe.region13 <- abs((freq.ofi.chest.spine)-(freq.ofi.extremities))                                                        
+delta.severe.region14 <- abs((freq.ofi.chest.spine)-(freq.ofi.unspecified))                                                        
+delta.severe.region15 <- abs((freq.ofi.chest.spine)-(freq.ofi.multiple))
+delta.severe.region16 <- abs((freq.ofi.abdomen)-(freq.ofi.extremities))                            
+delta.severe.region17 <- abs((freq.ofi.abdomen)-(freq.ofi.unspecified)) 
+delta.severe.region18 <- abs((freq.ofi.abdomen)-(freq.ofi.multiple)) 
+delta.severe.region19 <- abs((freq.ofi.extremities)-(freq.ofi.unspecified))     
+delta.severe.region20 <- abs((freq.ofi.extremities)-(freq.ofi.multiple)) 
+delta.severe.region21 <- abs((freq.ofi.unspecified)-(freq.ofi.multiple)) 
 
