@@ -18,6 +18,11 @@ exclusion <- function() {
     7 [label = '@@7']
     8 [label = '@@8']
     m1 [label ='@@9']
+    m2 [label ='@@10']
+    m3 [label ='@@11']
+    m4 [label ='@@12']
+    m5 [label ='@@13']
+    m6 [label ='@@14']
    
     node [shape=none, width=0, height=0, label='']
     p1 -> 2; p2 -> 3; p3 -> 4; p4 -> 5; p5 -> 6; p6 -> 7; p7 -> 8;
@@ -38,13 +43,18 @@ exclusion <- function() {
   
     [1]: paste0('All patients in the selected registries (n: ', unfiltred.patients, ')')
     [2]: paste0('Patients who meet the age critera (n: ', total.included.minus.underage, ')')
-    [3]: paste0('Patients with missing information in inj_dominant (n: ', total.missing.inj.dominant, ')')
-    [4]: paste0('Patients with missing information in trauma mechanism (n: ', total.missing.inj.mechanism, ')')
-    [5]: paste0('Patients with missing information in NISS colum (n: ', total.missing.niss, ')')
-    [6]: paste0('Patients with missing information in the first AIS column (n: ', total.missing.AIS01, ')')
-    [7]: paste0('Patients with missing information in the OFI column (n: ', total.missing.ofi, ')')
-    [8]: paste0('Total number of excluded patients (n: ', tot.excluded.patients, ')')
+    [3]: paste0('Patients with no missing information in inj_dominant (n: ', all.right.age.and.inj.dominant, ')')
+    [4]: paste0('Patients with no missing information in trauma mechanism (n: ', age.dominant.mechanism, ')')
+    [5]: paste0('Patients with no missing information in NISS colum (n: ', age.dominant.mechanism.niss, ')')
+    [6]: paste0('Patients with no missing information in the first AIS column (n: ', age.dominant.mechanism.niss.ais01, ')')
+    [7]: paste0('Patients with no missing information in the OFI column (n: ', age.dominant.mechanism.niss.ais01.ofi, ')')
+    [8]: paste0('Total number patients (n: ', age.dominant.mechanism.niss.ais01.ofi, ')')
     [9]: paste0('Patients under the age of 15 excluded (n: ', total.underage.excluded, ')')
+    [10]: paste0('Patients with missing information in inj_dominant (n: ', total.missing.inj.dominant, ')')
+    [11]: paste0('Patients with missing information in trauma mechanism (n: ', total.missing.inj.mechanism, ')')
+    [12]: paste0('Patients with missing information in NISS colum (n: ', total.missing.niss, ')')
+    [13]: paste0('Patients with missing information in the first AIS column (n: ', total.missing.AIS01, ')')
+    [14]: paste0('Patients with missing information in the OFI column (n: ', total.missing.ofi, ')')
   ") 
   
   ## %>% DiagrammeRsvg::export_svg() %>% charToRaw() %>% rsvg::rsvg_pdf("swetrau_flowchart.pdf")

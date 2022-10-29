@@ -32,6 +32,8 @@ total.inj.dominant.999 <- only.inj.dominant %>% filter (inj_dominant%in% c(999))
 total.inj.dominant.na <- only.inj.dominant %>% filter (inj_dominant%in% c(NA))
   
 total.missing.inj.dominant <- (nrow(total.inj.dominant.999))+(nrow(total.inj.dominant.na))
+# alla patienter som uppfyller ålder och har inj_dominant
+all.right.age.and.inj.dominant <- ((unfiltred.patients)-(total.missing.inj.dominant))
 
 # Avsaknad av inj_mechanism
 
@@ -42,6 +44,9 @@ total.inj.mechanism.999 <- only.inj.mechanism %>% filter (inj_mechanism%in% c(99
 total.inj.mechanism.na <- only.inj.mechanism %>% filter (inj_mechanism%in% c(NA))
 
 total.missing.inj.mechanism <- (nrow(total.inj.mechanism.999))+(nrow(total.inj.mechanism.na))
+#alla patienter som uppfyller ålder och har inj_dominant och inj_mechanism
+
+age.dominant.mechanism <- (all.right.age.and.inj.dominant)-(total.missing.inj.mechanism)
 
 # Avsaknad av NISS (finns ej 999)
 
@@ -49,16 +54,24 @@ only.niss <- prepared.data[,c(1,6)]
 total.niss.na <- only.niss %>% filter (NISS%in% c(NA))
 total.missing.niss <- nrow(total.niss.na)
 
+# alla patienter som uppfyller ålder och har inj_dominant och inj_mechanism och har NISS
+age.dominant.mechanism.niss <- (age.dominant.mechanism)-(total.missing.niss)
 
 # Avsaknad av kod i AISCode_01
 only.ais01 <- prepared.data[,c(1,7)]
 total.ais01.na <- only.ais01 %>% filter (AISCode_01 %in% c(NA))
 total.missing.AIS01 <- nrow(total.ais01.na)
 
+# alla patienter som uppfyller ålder och har inj_dominant och inj_mechanism och har NISS och AIScode01
+age.dominant.mechanism.niss.ais01 <- (age.dominant.mechanism.niss)-(total.missing.AIS01)
 
 #Avsaknad av ofi
 only.ofi <- prepared.data[,c(1,2)]
 total.ofi.na <- only.ofi %>% filter (ofi %in% c(NA))
 total.missing.ofi <- nrow(total.ofi.na)
+
+# alla patienter som uppfyller ålder och har inj_dominant och inj_mechanism och har NISS och AIScode01
+
+age.dominant.mechanism.niss.ais01.ofi <- (age.dominant.mechanism.niss.ais01)-(total.missing.ofi)
 
 
