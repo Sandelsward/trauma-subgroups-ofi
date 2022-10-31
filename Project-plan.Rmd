@@ -49,10 +49,15 @@ treated. For example the rate of preventable deaths at the Karolinska University
 
 Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh]  Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx].   <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats. -->
 
+
+
 Trauma quality programs
 ------------
 To reduce the variability of morbidity and mortality from trauma the Trauma Quality Improvement Program (TQIP) was launched in 2008 by the American College of Surgeons [@Hemmila2010-sr]. The TQIP provides site-specific data of how well each hospital is preforming in terms of trauma care. This makes it possible to compare data with same level hospitals as well as evaluating how well each hospital is preforming, leading to changes in routines and practice guidelines.[@Blackmore2019-bj]
 
+Morbidity and Mortality Conferences
+------------
+An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidisciplinary conference with representatives from all medical specialties and professions in the trauma team. The purpose of M&M is to learn from the care provided, identify opportunities for improvements, and implement corrective actions.[@Aboumatar2007-ws] As it is not possible to analyze every trauma case in detail audit filters are often used to decide which cases that are to be reviewed at M&M. Such audit filter can be time frames in which a test should be taken or a Glascow Coma Scale score under 8 without the patient being indubated.[@Evans2009-oy]. 
 
  Trauma Svererity scores and systems
 ------------
@@ -66,7 +71,7 @@ ATLS is practiced in over 80 countries and 1 million doctors have gone thru
 this training.[@FACS] PTC is also used in over 80 countries, however more 
 frequently in low and middle-income countries. One reason for this could be that 
 the PTC program is free while ATLS is not.[@Kadhum2020-wa]
-
+ <!-- Överväger ta bort de två översta styckena helt. Vad tycker ni?-->
 The Abbreviated Injury Scale (AIS) defines traumatic injuries across different body regions.The scale ranges from 1-5, where 1 is the least serious and 5 the most serious. [@Kuo2017-dj]
 
 The Injury Severity Score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score a patient get is based on the AIS points from the injured body regions. The higher ISS score the more serious injury the patients suffers from. The ISS does however only take into account the most severe injury in each region, meaning that you could have two different injuries in the abdomen without it affecting the ISS score.[@Javali2019-wn]
@@ -74,25 +79,14 @@ The Injury Severity Score (ISS) is an anatomic severity scale developed to asses
 The New Injury Severity Score (NISS) is developed from ISS. NISS also takes injuries from the same body regions as NISS into account. The NISS is however the sum of the squares of the three highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. As the AIS can vary from 1-5, the NISS ranges between 1-75.[@Li2021-ag]
 
 
-
 Trauma registry
 ------------
 In Sweden there is a national trauma registry (SweTrau) holding records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event leading to trauma team activation, or have a NISS over 15 without trauma team activation. Or patients moved to a hospital within 7 days of a traumatic event with NISS over 15. [@swetrau]
 
-Morbidity and Mortality Conferences BYT TILL HÖGT UPP I INTRO
-------------
-An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidisciplinary conference with representatives from all medical specialties and professions in the trauma team. The purpose of M&M is to learn from the care provided, identify opportunities for improvements, and implement corrective actions.[@Aboumatar2007-ws] As it is not possible to analyze every trauma case in detail audit filters are often used to decide which cases that are to be reviewed at M&M. Such audit filter can be time frames in which a test should be taken or a specific treatment provided.[@Evans2009-oy]. NÄMN GENERELLA FILTER <!-- Feel free to provide more specific examples of audit filters. Audit filters and their association to M&M could also be a separate section. SVAR: Uppfattade på Jonatan som att jag skulle hålla det så generellt som möjligt i intro. Jag ger exempel på audit filters och kopplingen till M&M i metoden. Men jag kan göraett stycke om det här om ni tycker det passar bättre. -->
-
-
-
-<!--När du pratar specifikt om dessa trauma registry som vi faktist använder så hör det hemma i metoden. Så stycken nedan kan flyttas/slås ihop. SVAR: ELIAS SKRIVER OM SVENSKA TRAUMAREGISTRET OCH TCQD UNDER INTRO, MEN ÄNDRADE OM NU. TYCKER DU ATT DETTA FUNKAR BÄTTRE? TYCKER ATT INTRO BLIR GANSAKA KORT MEN KAN FÖRSÖKA SKRIVA OM ANNAT FÖR UTFYLLNAD. -->
-
-
-
 Oppotrunity for improvement
 ------------
-<!--Även detta hör hemma i metoden. Titta på Elias och Husseins arbeten. SVAR: Bättre såhär? -->
-Whether there is opportunity for improvement for a specific case or not is decided during M&M where selected trauma casees are reviewed. Opportunity for improvement (OFI) is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect.NÅGOT EXEMPEL PÅ OFI HÄR[@Sanddal2011-cl]
+
+Whether there is opportunity for improvement for a specific case or not is decided during M&M where selected trauma casees are reviewed. Opportunity for improvement (OFI) is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect. Examples of OFI could be too long transportation time to the hospital from the site of injury, insufficient vital signs documentation at the emergency department or missing trauma surgeon/consultant. [@Sanddal2011-cl]
 
 OFI can be a more nuanced measure for trauma care improvement than the more established terms preventable deaths and non preventable deaths. This is because there can be OFI in a case where a patient has died, even if the death was not preventable.[@Traumaguidelines09] Furthermore there is no consensus for classification of preventable and non preventable death, leading authors to use different classifications.[@Montmany2016-hz]. The term OFI also has the advantage over the term preventable death by sounding more positive and encouraging, preventing review board members from having to classify colleagues patient care as inappropriate.[@Sanddal2011-cl]
 
@@ -108,15 +102,9 @@ Knowledge gap
 
 Despite having all this data about the trauma patients it is poorly understood whether different subgroups have greater opportunities for improvement (OFI) than others. The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas were OFIs were found.[@OReilly2013] However we do not know whether the same OFI areas apply for the trauma subgroups, or in what frequency. 
 
-
-
 Aim
 ------------
 In this study we aim to assess the frequency of opportunity for improvement in the following important clinical subgroups: men and women, blunt and penetrating injuries, minor and major trauma, and across body regions injured. 
-
-
-<!-- Aim bör vara i slutet på introduktionen. 
-Tänkt att introduktionen ska vara som en stor tratt, börjar brett och så sakta smalnas det av så att du förklarat varför just ditt aim är av värde. Från Varför trauma är dåligt -> Massa mellansteg -> varför vi behöver titta på ofi i olika grupper -->
 
 
 
@@ -129,54 +117,31 @@ This is a registry based cohort study that uses data from two different Swedish
 trauma registries. 
 
 The first registry is the Trauma registry at the Karolinska University Hospital 
-in Solna, which includes about 11800 patients between the years 2012 and 2021. 
+in Solna. It is a part of SweTrau and contains 11800 patients between the years 2012 and 2021. 
 
-The second registry is the the trauma Quality Database which is a subset of the trauma registry and includes about 6300 patients selected for review between 2014 and 2021. The trauma care quality database includes details and conclusions from the M&M.
+The second registry is the the trauma Quality Database which is a subset of the Karolinska University Hospital Trauma Registry. It includes about 6300 patients selected for review between 2014 and 2021. The trauma care quality database includes details and conclusions from the M&M.
 
 By linking these databases together the opportunity for improvement in the trauma 
 subgroups mentioned in the introduction will be assessed.
 
-<!-- Present key elements of study design -->
-
 Setting
 -------
-The Karolinska University Hospital in Solna, Stockholm, one of the leading trauma centers in Sweden, and ranked as one of the best hospitals in the world MINDRE SKRYTIG MENING The hospital is also a level 1 trauma center.[@Karolinska] The Trauma department at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. KUH <!--Aldrig förkortningen KUH? Sett att de andra studenterna använt det. = NEJ -->is the primary trauma center for a population of 2,8 million people.[@Traumanks] 
+The Karolinska University Hospital in Solna, Stockholm is the largest Trauma Center in Sweden. The hospital is also classified as a level 1 trauma center.[@Karolinska] The Trauma department at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. Karolinska University Hospital is the primary trauma center for a population of 2,8 million people.[@Traumanks] 
 
 Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
 
 A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
-At KUH all trauma patients are included in the KUH trauma registry. The KUH trauma registry is a part of the Swedish Trauma Registry, with the same eligibility criteria. Audit filters then identify certain trauma cases in which the care might have deviated from the golden standard treatment based on different criteria. Such criteria are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes, time to Surgery and so on. Then a manual selection is done by a nurse, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified"
+At Karolinska University Hospital all trauma patients are included in the Karolinska University Hospital trauma registry. The Karolinska University Hospital trauma registry is a part of the Swedish Trauma Registry, with the same eligibility criteria. Audit filters then identify certain trauma cases in which the care might have deviated from the golden standard treatment based on different criteria. Such criteria are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes, time to Surgery and so on. Then a manual selection is done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified"
 ```{r, echo = FALSE} 
-  ofi_selection() ## will be improved later
+  ofi_selection() 
 ```
 
-
-
-
-
-<!-- Describe the setting, locations, and relevant dates, including
-periods of recruitment, exposure, follow-up, and data collection -->
 
 Participants
 ------------
 
-All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information was missing for age, gender, trauma mechanism, NISS, or AIS code the patient was excluded.
-
-
-<!-- Cohort study: Give the eligibility criteria, and the sources and
-methods of selection of participants. Describe methods of
-follow-up. For matched studies, give matching criteria and number of
-exposed and unexposed -->
-
-<!-- Case-control study: Give the eligibility criteria, and the
-sources and + methods of case ascertainment and control
-selection. Give the rationale for the choice of cases and
-controls. For matched studies, give matching criteria and the number
-of controls per case -->
-
-<!-- Cross-sectional study: Give the eligibility criteria, and the
-sources and methods of selection of participants -->
+All patients from Karolinska University Hospital trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information was missing for age, gender, trauma mechanism, NISS, or AIS code the patient was excluded.
 
 Variables and data sources/measurements
 ---------------------------------------
@@ -259,7 +224,7 @@ Results
 =====
 Participants
 ------------
-All patients from KUH trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information such as gender OFI, trauma mechanism, NISS, or AIS code were missing, the patient was excluded. TA BORT DETTA STYCKE
+All patients from Karolinska University Hospital trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information such as gender OFI, trauma mechanism, NISS, or AIS code were missing, the patient was excluded. TA BORT DETTA STYCKE
 
 After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients. After applying the inclusion criteria the number of patients was reduced to `r total.cohort`.
 
