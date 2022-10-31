@@ -45,11 +45,13 @@ Trauma, defined as the clinical entity composed of physical injury and the body'
 
 Not only does trauma represent a large share of the global mortality rate, but studies 
 have also shown a significant difference in outcome depending on where patients are
-treated. It has for example been shown that trauma patients in Sweden who were 
-treated at a trauma center rather than a non-trauma center have a 41 % lower 
-30-day adjusted mortality rate. [@Candefjord2022-pe] 
+treated. For example the rate of preventable deaths at the Karolinska University hospital trauma center was shown in a study to be 4.0 % [@Ghorbani2018-dh].  It has also been shown that trauma patients in Sweden who were treated at a trauma center rather than a non-trauma center had a 41 % lower 30-day adjusted mortality rate. [@Candefjord2022-pe] <!-- Lagt till hur set ser ut på KS här -->
 
-Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh] Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx]  <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats. lägga till hur det ser ut på ks -->
+Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh]  Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx].   <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats. -->
+
+Trauma quality programs
+------------
+To reduce the variability of morbidity and mortality from trauma the Trauma Quality Improvement Program (TQIP) was launched in 2008 by the American College of Surgeons [@Hemmila2010-sr]. The TQIP provides site-specific data of how well each hospital is preforming in terms of trauma care. This makes it possible to compare data with same level hospitals as well as evaluating how well each hospital is preforming, leading to changes in routines and practice guidelines.[@Blackmore2019-bj]
 
 
 Advanced Trauma Life Support and Primary Trauma Care, INTE ETT EGET STYCKE. Byt ut till traumakvalitetsprogram osv.
