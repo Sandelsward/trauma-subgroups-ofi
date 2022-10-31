@@ -269,17 +269,13 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 </div>
 <div id="variables-and-data-sourcesmeasurements" class="section level2">
 <h2>Variables and data sources/measurements</h2>
-<p>The data from the trauma registries were analyzed for OFI in seperate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. The location of injuries will be analyzed based on AIS codes and AIS scores will be used to gruop patients into fitting cohorts.</p>
-<p>DETALJERAT HUR FOLK DELAS IN I COHORTERNA <!-- Vet inte om jag fattat detta rätt, men jag ska alltså använda AIS-scores för att dela in patienter i de olika cohorterna, då för att avgöra om de uppnår tillräcklig allvarlighetsgrad för att räknas som major trauma? Sen Titta på specifika koder för vilka kroppsdelar som drabbats? Blir det då olika underkategorier som ex en kategori för trubbigt trauma mot buken och en med skarpt trauma mot buken. Eller blir det att jag tittar på OFI för truppigt och skarpt trauma som helhet och sen de olika kroppsdelarna oavsett om det är skarpt eller trubbigt? (Detta är bara lösa tankar som vi kan diskutera när vi ses, har lite svårt att visualisera detta, men det kommer nog klarna när jag väl börjar arbeta med datan. ) -->OFI was treated as a binary variable, with “yes” and “no” as the only possible outcome. For the M&amp;M conference to put a “yes” in the OFI section at at least one of the following areas needed to differ from the best practice guidelines for trauma care: emergency department triage; tertiary survey; processing; communication; time to computed tomography; time to surgical intervention; level of physician and nursing competency; level of care; neurosurgical intervention; hospital staff routine; resource management; logistics and technology; overall management and documentation.<!-- This information should be included in the section above instead SVAR: såhär?
-
-
-
-"OFI was defined as a binary variable representing a
-consensus decision from the Mortality and Morbidity Conference regarding the presence of at least one
-OFI."
-
-
-<!--Egentligen är det första gången du tydligt definerar vad OFI är. Du ska även definera de andra variablerna, kön/ålder/penetrerande osv osv. Lär på vad "major traum" är samt hur AIS scores fungerar för att extrahera kroppsdelar --></p>
+<p>The data from the trauma registries were analyzed for OFI in seperate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. The location of injuries will be analyzed based on AIS codes and AIS scores will be used to group patients into fitting cohorts.</p>
+<p>The patients were sorted into the the subgroups both by creating suitable columns and by using existing columns in the merged patient file. Gender, trauma mechanism, age, and blunt/ penetrating trauma all had existing column. New columns were created for OFI, minor/major trauma and for the most severe injured body region.</p>
+<p>The column for most severely injured region was made by creating a funtion that selects the the most severely injured body region among the AIS codes belonging to a specific patient.The first digit of the AIS code represents the body region for the trauma. For patient who had two or more different injuries and thereby multple AIS codes, this funtion chose the most severe injury out of them, or more precisely the AIS code with the highest first digit.</p>
+<p>The column for Minor and Major trauma was creating using the NISS column. Patients with a NISS &gt; 15 were defined as major trauma and those with NISS &lt; 15 were defined as minor trauma.</p>
+<p>The OFI column was created using a pre existing function…?</p>
+<p>OFI was treated as a binary variable, with “yes” and “no” as the only possible outcome. For the M&amp;M conference to put a “yes” in the OFI section a consensus decision is required regarding the presence of at least one OFI.</p>
+<!--Egentligen är det första gången du tydligt definerar vad OFI är. Du ska även definera de andra variablerna, kön/ålder/penetrerande osv osv. Lär på vad "major traum" är samt hur AIS scores fungerar för att extrahera kroppsdelar -->
 <!-- Clearly define all outcomes, exposures, predictors, potential
 confounders, and effect modifiers. Give diagnostic criteria, if
 applicable. For each variable of interest, give sources of data and
