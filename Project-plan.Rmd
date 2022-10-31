@@ -54,7 +54,7 @@ Trauma quality programs
 To reduce the variability of morbidity and mortality from trauma the Trauma Quality Improvement Program (TQIP) was launched in 2008 by the American College of Surgeons [@Hemmila2010-sr]. The TQIP provides site-specific data of how well each hospital is preforming in terms of trauma care. This makes it possible to compare data with same level hospitals as well as evaluating how well each hospital is preforming, leading to changes in routines and practice guidelines.[@Blackmore2019-bj]
 
 
-Advanced Trauma Life Support and Primary Trauma Care, INTE ETT EGET STYCKE. Byt ut till traumakvalitetsprogram osv.
+ Trauma Svererity scores and systems
 ------------
 Several different systems are being used in Trauma care. 
 Such as Advanced Trauma Life Support (ATLS) and Primary Trauma Care (PTC), 
@@ -63,21 +63,17 @@ secure a time-efficient, standardized and structured way of treating trauma
 patients.[@FACS; @Kadhum2020-wa]
 
 ATLS is practiced in over 80 countries and 1 million doctors have gone thru 
-this training.[@FACS] 
-
-PTC is also used in over 80 countries, however more 
+this training.[@FACS] PTC is also used in over 80 countries, however more 
 frequently in low and middle-income countries. One reason for this could be that 
 the PTC program is free while ATLS is not.[@Kadhum2020-wa]
 
- Trauma Svererity scores
-------------
-<!-- See my comment above on the association between distance to the aim and relavance for the aim. This is not relevant to the aim and should therefore be farther away from it. I'm not sure it's relevant at all, at least not as a separate section. SVAR: TÄnkte att man kunde ha med det iom att vi ändå använder oss av oss av NISS och AIS i metoden? Men hade bara tänkt ha det i KI-uppsatsen.--> 
+The Abbreviated Injury Scale (AIS) defines traumatic injuries across different body regions.The scale ranges from 1-5, where 1 is the least serious and 5 the most serious. [@Kuo2017-dj]
 
-AIS först
+The Injury Severity Score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score a patient get is based on the AIS points from the injured body regions. The higher ISS score the more serious injury the patients suffers from. The ISS does however only take into account the most severe injury in each region, meaning that you could have two different injuries in the abdomen without it affecting the ISS score.[@Javali2019-wn]
 
-The NISS is an anatomic severity scale developed to assess multiple-injured patients. The NISS score a patient get is based on the Abbreviated Injury Scale (AIS) points from the injured body regions. The higher NISS score the more serious injury the patients suffers from.[@Li2021-ag]
+The New Injury Severity Score (NISS) is developed from ISS. NISS also takes injuries from the same body regions as NISS into account. The NISS is however the sum of the squares of the three highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. As the AIS can vary from 1-5, the NISS ranges between 1-75.[@Li2021-ag]
 
-NISS takes injuries in 6 different body regions into account. Those are head/neck, face, chest, abdomen, extremiteis and external. The NISS is the sum of the squares of the highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. AIS can vary from 1-5, and the NISS from 1-75.[@Li2021-ag]
+
 
 Trauma registry
 ------------
