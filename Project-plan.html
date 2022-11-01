@@ -271,21 +271,16 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 <h2>Variables and data sources/measurements</h2>
 <p>The data from the trauma registries were analyzed for OFI in seperate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. The location of injuries will be analyzed based on AIS codes and AIS scores will be used to group patients into fitting cohorts.</p>
 <p>The patients were sorted into the the subgroups both by creating suitable columns and by using existing columns in the merged patient file. Gender, trauma mechanism, age, and blunt/ penetrating trauma all had existing column. New columns were created for OFI, minor/major trauma and for the most severe injured body region.</p>
-<p>The column for most severely injured region was made by creating a funtion that selects the the most severely injured body region among the AIS codes belonging to a specific patient.The first digit of the AIS code represents the body region for the trauma. For patient who had two or more different injuries and thereby multple AIS codes, this funtion chose the most severe injury out of them, or more precisely the AIS code with the highest first digit.</p>
+<p>The column for most severely injured region was made by creating a function that selects the the most severely injured body region among the AIS codes belonging to a specific patient.The first digit of the AIS code represents the body region for the trauma. For patient who had two or more different injuries and thereby multple AIS codes, this function chose the most severe injury out of them, or more precisely the AIS code with the highest first digit.</p>
 <p>The column for Minor and Major trauma was creating using the NISS column. Patients with a NISS &gt; 15 were defined as major trauma and those with NISS &lt; 15 were defined as minor trauma.</p>
 <p>The OFI column was created using a pre existing function…?</p>
 <p>OFI was treated as a binary variable, with “yes” and “no” as the only possible outcome. For the M&amp;M conference to put a “yes” in the OFI section a consensus decision is required regarding the presence of at least one OFI.</p>
 <!--Egentligen är det första gången du tydligt definerar vad OFI är. Du ska även definera de andra variablerna, kön/ålder/penetrerande osv osv. Lär på vad "major traum" är samt hur AIS scores fungerar för att extrahera kroppsdelar -->
-<!-- Clearly define all outcomes, exposures, predictors, potential
-confounders, and effect modifiers. Give diagnostic criteria, if
-applicable. For each variable of interest, give sources of data and
-details of methods of assessment (measurement). Describe comparability
-of assessment methods if there is more than one group -->
 </div>
 <div id="bias" class="section level2">
 <h2>Bias</h2>
-<p>To prevent research bias all data will be scrambled while used to write the analysis model. Någon mer mening om vad det betyder. Hur det går till.</p>
-<!-- Describe any efforts to address potential sources of bias -->
+<p>To prevent research bias all data will be scrambled while used to write the analysis model. Meaning that the real data was not available throughout the process of writing the introduction or method. The scrambled data was also used for creating functions that then could be used on the real data in the final step to get the true results.</p>
+<p>Kanske kan lägga till något om hur jag fick tillgång till den riktiga datan när jag fått det?</p>
 </div>
 <div id="study-size" class="section level2">
 <h2>Study size</h2>
