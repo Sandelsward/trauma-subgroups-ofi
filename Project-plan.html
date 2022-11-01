@@ -284,7 +284,7 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 </div>
 <div id="study-size" class="section level2">
 <h2>Study size</h2>
-<p>complete case analysis på min dependent variabel : OFI och predektiva variabler som NISS…</p>
+<p>The study size was arrived at in the first step by being limited by the number of patients in the selected registries. Then a complete case analysis was done on all patients in the registers.<!--Är det antal patienter som jag ska beskriva hur vi kom fram till?--></p>
 <!-- Explain how the study size was arrived at -->
 </div>
 <div id="quantitative-variables" class="section level2">
@@ -297,35 +297,15 @@ analyses. If applicable, describe which groupings were chosen and why
 </div>
 <div id="statistical-methods" class="section level2">
 <h2>Statistical methods</h2>
-<p>Rstudio. Bootstrapping.</p>
-<p>Beskriva i text vad som faktiskt görs. Tex hur frekvens räknas ut. OCh att jag bara jämför icke överlappande cohorter. <!-- 
-
-(a) Describe all statistical methods, including those used to control
-for confounding
-
-(b) Describe any methods used to examine subgroups and interactions
-
-(c) Explain how missing data were addressed 
-
-(d) 
-
-Cohort study: If applicable, explain how loss to follow-up was addressed 
-
-Case-control study:If applicable, explain how matching of cases and
-controls was addressed
-
-Cross-sectional study: If applicable, describe analytical methods
-taking account of sampling strategy
-
-(e) Describe any sensitivity analyses
---></p>
+<p>For handling the data and making the statistical analysis the program R was used. R is a programming language udes for statistical computing. The unfiltered data sets were uploaded to Rstudio which is an integrated development environment for R. Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet up with the inclusion criteria. New columns were also added as listed above.</p>
+<p>The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup.</p>
+<p>For estimating the confidence interval Bootstrapping was used on the data. To be able to do the Bootstrapping the absolute difference in OFI frequency within the subgropus was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma.</p>
 </div>
 </div>
 <div id="results" class="section level1">
 <h1>Results</h1>
 <div id="participants-1" class="section level2">
 <h2>Participants</h2>
-<p>All patients from Karolinska University Hospital trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information such as gender OFI, trauma mechanism, NISS, or AIS code were missing, the patient was excluded. TA BORT DETTA STYCKE</p>
 <p>After merging the Karolinska trauma registry and the Trauma quality data base there was 11864 patients. After applying the inclusion criteria the number of patients was reduced to 2696.</p>
 <div id="htmlwidget-0654c5ab50b944d8e0d9" style="width:672px;height:480px;" class="grViz html-widget"></div>
 <script type="application/json" data-for="htmlwidget-0654c5ab50b944d8e0d9">{"x":{"diagram":"digraph flowchart {\n  \n    label=\"Fig. 2. Exclusion chart\";\n    labelloc=bottom;\n    labeljust=left;\n    labelfontsize=18;\n    # node definitions with substituted label text\n    node [shape = rectangle, width = 8, fontsize = 16] \n    1 [label = \"All patients in the selected registries (n: 11864)\"]\n    2 [label = \"Patients who meet the age critera (n: 11471)\"]\n    3 [label = \"Patients with no missing information in inj_dominant (n: 5932)\"]\n    4 [label = \"Patients with no missing information in trauma mechanism (n: 4238)\"]\n    5 [label = \"Patients with no missing information in NISS colum (n: 3989)\"]\n    6 [label = \"Patients with no missing information in the first AIS column (n: 3972)\"]\n    7 [label = \"Patients with no missing information in the OFI column (n: -1310)\"]\n    8 [label = \"Total number patients (n: -1310)\"]\n    m1 [label =\"Patients under the age of 15 excluded (n: 393)\"]\n    m2 [label =\"Patients with missing information in inj_dominant (n: 5932)\"]\n    m3 [label =\"Patients with missing information in trauma mechanism (n: 1694)\"]\n    m4 [label =\"Patients with missing information in NISS colum (n: 249)\"]\n    m5 [label =\"Patients with missing information in the first AIS column (n: 17)\"]\n    m6 [label =\"Patients with missing information in the OFI column (n: 5282)\"]\n   \n    node [shape=none, width=0, height=0, label=\"\"]\n    p1 -> 2; p2 -> 3; p3 -> 4; p4 -> 5; p5 -> 6; p6 -> 7; p7 -> 8;\n      {rank=same; p1 -> m1}\n      {rank=same; p2 -> m2}\n      {rank=same; p3 -> m3} \n      {rank=same; p4 -> m4}\n      {rank=same; p5 -> m5}\n      {rank=same; p6 -> m6}\n      {rank=same; p7 -> m7}\n    \n    edge [dir=none]\n    1 -> p1; 2 -> p2; 3 -> p3; 4 -> p4; 5 -> p5; 6 -> p6; 7 -> p7;\n    \n    # edge definitions with the node IDs\n    \n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
@@ -341,7 +321,7 @@ included in the study, completing follow-up, and analysed
 <div id="descriptive-data" class="section level2">
 <h2>Descriptive data</h2>
 <p>Out of the 2696 patients included in the cohort 1358 were men and 1338 were women. Among the men the frequency of OFI was 0.7400589 and among the women 0.7698057.</p>
-<p>Lyfta fram de mest intressanta siffrorna här när riktiga datan används</p>
+<p>Skriva ett objekt för den som hade högst frekvens av ofi</p>
 <div class="Rtable1"><table class="Rtable1">
 <thead>
 <tr>
@@ -569,14 +549,6 @@ Discuss the generalisability (external validity) of the study results
 <p>As this is a registry based study no interventions were made that could effect the patients.</p>
 <p>Possible benefits from these type of studies are the possibility that the result can improve the trauma care and by that decrease morbidity and hopefully save lives. Therefore the possible benefits exceeds the risks.</p>
 <p>Ethical permission has been granted for this project. Dnr number for this permission is 2021-02541 and 2021-0253.</p>
-<!--Jag skulle bara undvika att nämna det exakt. Vi kan prata om det med Martin senare men det är 100% ok att använda datan -->
-</div>
-<div id="en-skriftlig-redogörelse-av-projektets-utveckling" class="section level1">
-<h1>En skriftlig redogörelse av projektets utveckling</h1>
-<p>All data är redan insamlad från start och finns tillgängliga i de register som beskrivs i projektredogörelsen. Datan kommer delas in efter olika trauma-subgrupper. De variabler som kommer användas är “Ja” där det finns “Opportunity for improvement” samt “nej” där det inte finns “opportunity for improvement.</p>
-<p>Hittills har jag - Läst in mig på ämnet - Skrivit Introduktion - Påbörjat materiela och metod - Börjat sätta mig in i R som är det program som kommer användas för att sammanställa data. - Genomfört en online-utbildning inom R. - Laddat ner all data till Rstudio - Börjat programmera filter som tar ut den data som jag kommer behöva använda.</p>
-<p>Datan kommer presenteras i en tabell med de aktuella subgrupperna. Där kommer det beräknas i vilken usträkning det finns OFI hos varje individuell subgrupp. Det kommer även redovisas hur skillnaderna mellan de olika subgrupperna ser ut.</p>
-<p>Ingen reservplan behövs enligt handledare då all data finns insamlad. Handledaren har haft sudenter som gjort liknande projekt tidigare och han bedömer risken för att projektet inte går att genomföra som planerat som minimal.</p>
 </div>
 <div id="references" class="section level1 unnumbered">
 <h1 class="unnumbered">References</h1>

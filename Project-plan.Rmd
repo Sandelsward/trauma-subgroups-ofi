@@ -169,8 +169,7 @@ Kanske kan lägga till något om hur jag fick tillgång till den riktiga datan n
 
 Study size 
 ----------
-complete case analysis på min dependent variabel : OFI
-och predektiva variabler som NISS...
+The study size was arrived at in the first step by being limited by the number of patients in the selected registries. Then a complete case analysis was done on all patients in the registers.<!--Är det antal patienter som jag ska beskriva hur vi kom fram till?-->
 
 <!-- Explain how the study size was arrived at -->
 
@@ -186,37 +185,17 @@ analyses. If applicable, describe which groupings were chosen and why
 
 Statistical methods
 -------------------
-Rstudio. Bootstrapping.
+For handling the data and making the statistical analysis the program R was used. R is a programming language udes for statistical computing. The unfiltered data sets were uploaded to Rstudio which is an integrated development environment for R. Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet up with the inclusion criteria. New columns were also added as listed above. 
 
-Beskriva i text vad som faktiskt görs. Tex hur frekvens räknas ut.
-OCh att jag bara jämför icke överlappande cohorter.
-<!-- 
+The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup. 
 
-(a) Describe all statistical methods, including those used to control
-for confounding
+For estimating the confidence interval Bootstrapping was used on the data. To be able to do the Bootstrapping the absolute difference in OFI frequency within the subgropus was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. 
 
-(b) Describe any methods used to examine subgroups and interactions
-
-(c) Explain how missing data were addressed 
-
-(d) 
-
-Cohort study: If applicable, explain how loss to follow-up was addressed 
-
-Case-control study:If applicable, explain how matching of cases and
-controls was addressed
-
-Cross-sectional study: If applicable, describe analytical methods
-taking account of sampling strategy
-
-(e) Describe any sensitivity analyses
--->
 
 Results
 =====
 Participants
 ------------
-All patients from Karolinska University Hospital trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information such as gender OFI, trauma mechanism, NISS, or AIS code were missing, the patient was excluded. TA BORT DETTA STYCKE
 
 After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients. After applying the inclusion criteria the number of patients was reduced to `r total.cohort`.
 
@@ -238,7 +217,7 @@ Descriptive data
 
 Out of the `r total.cohort` patients included in the cohort `r all.men` were men and `r total.women` were women. Among the men the frequency of OFI was `r freq.ofi.men` and among the women `r freq.ofi.women`.
 
-Lyfta fram de mest intressanta siffrorna här när riktiga datan används
+Skriva ett objekt för den som hade högst frekvens av ofi
 
 
 
@@ -354,25 +333,8 @@ Possible benefits from these type of studies are the possibility that the result
 
 Ethical permission has been granted for this project. Dnr number for this permission is 2021-02541 and 2021-0253.
 
-<!--Jag skulle bara undvika att nämna det exakt. Vi kan prata om det med Martin senare men det är 100% ok att använda datan -->
 
-En skriftlig redogörelse av projektets utveckling
-=====
 
-All data är redan insamlad från start och finns tillgängliga i de register som beskrivs i projektredogörelsen. Datan kommer delas in efter olika trauma-subgrupper. De variabler som kommer användas är "Ja" där det finns "Opportunity for improvement" samt "nej" där det inte finns "opportunity for improvement.
-
-Hittills har jag
-- Läst in mig på ämnet
-- Skrivit Introduktion
-- Påbörjat materiela och metod
-- Börjat sätta mig in i R som är det program som kommer användas för att sammanställa data.
-- Genomfört en online-utbildning inom R.
-- Laddat ner all data till Rstudio
-- Börjat programmera filter som tar ut den data som jag kommer behöva använda.
-
-Datan kommer presenteras i en tabell med de aktuella subgrupperna. Där kommer det beräknas i vilken usträkning det finns OFI hos varje individuell subgrupp. Det kommer även redovisas hur skillnaderna mellan de olika subgrupperna ser ut.
-
-Ingen reservplan behövs enligt handledare då all data finns insamlad. Handledaren har haft sudenter som gjort liknande projekt tidigare och han bedömer risken för att projektet inte går att genomföra som planerat som  minimal.
 
 References
 =====
