@@ -419,14 +419,6 @@ delta.mechanism64 <- abs((freq.ofi.blast)-(freq.ofi.other))
 
 # Delta inom most severe region
 
-# Head.neck
-# Face
-# Chest.spine
-# Abdomen
-# Extremities
-# Unspecifies
-# Multiple
-
 delta.severe.region1 <- abs((freq.ofi.head.neck)-(freq.ofi.face))
 delta.severe.region2 <- abs((freq.ofi.head.neck)-(freq.ofi.chest.spine))
 delta.severe.region3 <- abs((freq.ofi.head.neck)-(freq.ofi.abdomen))
@@ -448,4 +440,9 @@ delta.severe.region18 <- abs((freq.ofi.abdomen)-(freq.ofi.multiple))
 delta.severe.region19 <- abs((freq.ofi.extremities)-(freq.ofi.unspecified))     
 delta.severe.region20 <- abs((freq.ofi.extremities)-(freq.ofi.multiple)) 
 delta.severe.region21 <- abs((freq.ofi.unspecified)-(freq.ofi.multiple)) 
+
+# Den subgrupp med högst ofi frekvens
+
+max.freq <- max(freq.ofi.men, freq.ofi.women, freq.ofi.blunt, freq.ofi.penetrating, freq.ofi.traffic1, freq.ofi.traffic2, freq.ofi.traffic3, freq.ofi.traffic4, freq.ofi.traffic5, freq.ofi.shot, freq.ofi.stabbed, freq.ofi.struck, freq.ofi.low.energy, freq.ofi.high.energy, freq.ofi.blast, freq.ofi.other, freq.ofi.head.neck, freq.ofi.face, freq.ofi.chest.spine, freq.ofi.extremities, freq.ofi.abdomen, freq.ofi.multiple)
+
 
