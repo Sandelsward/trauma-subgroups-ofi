@@ -16,6 +16,8 @@ only.gender <- prepared.data[,c(1,3)]
 
 total.underage <- only.gender %>% filter (pt_age_yrs%in% c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14)) 
 
+df.total.right.age <- prepared.data %>% filter (pt_age_yrs%in% c(15:120))
+                                            
 total.underage.excluded <- nrow(total.underage)
 
 # Alla patienter i registret utom de som är för unga
@@ -25,7 +27,7 @@ total.included.minus.underage <- (unfiltred.patients)-(total.underage.excluded)
 total.age.excluded <- nrow(total.gender)
 
 # Avsaknad av inj_dominant
-only.inj.dominant <- prepared.data[,c(1,4)]
+only.inj.dominant <- df.total.right.age[,c(1,4)]
 
 total.inj.dominant.999 <- only.inj.dominant %>% filter (inj_dominant%in% c(999))
 
@@ -33,11 +35,14 @@ total.inj.dominant.na <- only.inj.dominant %>% filter (inj_dominant%in% c(NA))
   
 total.missing.inj.dominant <- (nrow(total.inj.dominant.999))+(nrow(total.inj.dominant.na))
 # alla patienter som uppfyller ålder och har inj_dominant
-all.right.age.and.inj.dominant <- ((unfiltred.patients)-(total.missing.inj.dominant))
+
+df.all.right.age.and.inj.dominant <- df.total.right.age %>% filter (inj_dominant %in% c(1,2))
+all.right.age.and.inj.dominant <- nrow(df.all.right.age.and.inj.dominant)
+
 
 # Avsaknad av inj_mechanism
 
-only.inj.mechanism <- prepared.data[,c(1,5)]
+only.inj.mechanism <- df.all.right.age.and.inj.dominant[,c(1,5)]
 
 total.inj.mechanism.999 <- only.inj.mechanism %>% filter (inj_mechanism%in% c(999))
 
@@ -46,32 +51,35 @@ total.inj.mechanism.na <- only.inj.mechanism %>% filter (inj_mechanism%in% c(NA)
 total.missing.inj.mechanism <- (nrow(total.inj.mechanism.999))+(nrow(total.inj.mechanism.na))
 #alla patienter som uppfyller ålder och har inj_dominant och inj_mechanism
 
-age.dominant.mechanism <- (all.right.age.and.inj.dominant)-(total.missing.inj.mechanism)
-
+df.age.dominant.mechanism <- df.all.right.age.and.inj.dominant %>% filter (inj_mechanism %in% c(1,2,3,4,5,6,7,8,9,10,11,12))
+age.dominant.mechanism <- nrow(df.age.dominant.mechanism)
 # Avsaknad av NISS (finns ej 999)
 
-only.niss <- prepared.data[,c(1,6)]
+only.niss <- df.age.dominant.mechanism[,c(1,6)]
 total.niss.na <- only.niss %>% filter (NISS%in% c(NA))
 total.missing.niss <- nrow(total.niss.na)
 
+
 # alla patienter som uppfyller ålder och har inj_dominant och inj_mechanism och har NISS
+df.age.dominant.mechanism.niss <- df.age.dominant.mechanism %>% filter (NISS %in% c(1:75))
 age.dominant.mechanism.niss <- (age.dominant.mechanism)-(total.missing.niss)
 
 # Avsaknad av kod i AISCode_01
-only.ais01 <- prepared.data[,c(1,7)]
+only.ais01 <- df.age.dominant.mechanism.niss[,c(1,7)]
 total.ais01.na <- only.ais01 %>% filter (AISCode_01 %in% c(NA))
 total.missing.AIS01 <- nrow(total.ais01.na)
 
 # alla patienter som uppfyller ålder och har inj_dominant och inj_mechanism och har NISS och AIScode01
-age.dominant.mechanism.niss.ais01 <- (age.dominant.mechanism.niss)-(total.missing.AIS01)
+df.age.dominant.mechanism.niss.ais01 <- df.age.dominant.mechanism.niss %>% filter (AISCode_01 != "NA")
+age.dominant.mechanism.niss.ais01 <- nrow(df.age.dominant.mechanism.niss.ais01)
 
 #Avsaknad av ofi
-only.ofi <- prepared.data[,c(1,2)]
+only.ofi <- df.age.dominant.mechanism.niss.ais01[,c(1,2)]
 total.ofi.na <- only.ofi %>% filter (ofi %in% c(NA))
 total.missing.ofi <- nrow(total.ofi.na)
 
 # alla patienter som uppfyller ålder och har inj_dominant och inj_mechanism och har NISS och AIScode01
-
-age.dominant.mechanism.niss.ais01.ofi <- (age.dominant.mechanism.niss.ais01)-(total.missing.ofi)
+df.age.dominant.mechanism.niss.ais01.ofi <- df.age.dominant.mechanism.niss.ais01 %>% filter (ofi != "NA")
+age.dominant.mechanism.niss.ais01.ofi <- nrow(df.age.dominant.mechanism.niss.ais01.ofi)
 
 

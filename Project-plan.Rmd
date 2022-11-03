@@ -45,9 +45,9 @@ Trauma, defined as the clinical entity composed of physical injury and the body'
 
 Not only does trauma represent a large share of the global mortality rate, but studies 
 have also shown a significant difference in outcome depending on where patients are
-treated. For example the rate of preventable deaths at the Karolinska University hospital trauma center was shown in a study to be 4.0 % [@Ghorbani2018-dh].  It has also been shown that trauma patients in Sweden who were treated at a trauma center rather than a non-trauma center had a 41 % lower 30-day adjusted mortality rate. [@Candefjord2022-pe] <!-- Lagt till hur set ser ut på KS här -->
+treated. It has for example been shown that trauma patients in Sweden who were treated at a trauma center rather than a non-trauma center had a 41 % lower 30-day adjusted mortality rate. [@Candefjord2022-pe] 
 
-Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %. [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh]  Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx].   <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats. -->
+Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %, while for example the rate of preventable deaths at the Karolinska University hospital trauma center was shown in a study to be 4.0 %.[@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh]  Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx].   <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats. -->
 
 
 
@@ -76,7 +76,7 @@ The Abbreviated Injury Scale (AIS) defines traumatic injuries across different b
 
 The Injury Severity Score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score a patient get is based on the AIS points from the injured body regions. The higher ISS score the more serious injury the patients suffers from. The ISS does however only take into account the most severe injury in each region, meaning that you could have two different injuries in the abdomen without it affecting the ISS score.[@Javali2019-wn]
 
-The New Injury Severity Score (NISS) is developed from ISS. NISS also takes injuries from the same body regions as NISS into account. The NISS is however the sum of the squares of the three highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. As the AIS can vary from 1-5, the NISS ranges between 1-75.[@Li2021-ag]
+The New Injury Severity Score (NISS) is developed from the ISS. NISS also takes injuries from the same body regions as NISS into account. The NISS is the sum of the squares of the three highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. As the AIS can vary from 1-5, the NISS ranges between 1-75.[@Li2021-ag]
 
 
 Trauma registry
@@ -126,13 +126,13 @@ subgroups mentioned in the introduction will be assessed.
 
 Setting
 -------
-The Karolinska University Hospital in Solna, Stockholm is the largest Trauma Center in Sweden. The hospital is also classified as a level 1 trauma center.[@Karolinska] The Trauma department at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. Karolinska University Hospital is the primary trauma center for a population of 2,8 million people.[@Traumanks] 
+The Karolinska University Hospital in Solna, Stockholm is the largest Trauma Center in Sweden. The hospital is also classified as a level 1 trauma center.[@Karolinska] The Trauma department at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. The Karolinska University Hospital is the primary trauma center for a population of 2,8 million people.[@Traumanks] 
 
 Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
 
 A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
-At Karolinska University Hospital all trauma patients are included in the Karolinska University Hospital trauma registry. The Karolinska University Hospital trauma registry is a part of the Swedish Trauma Registry, with the same eligibility criteria. Audit filters then identify certain trauma cases in which the care might have deviated from the golden standard treatment based on different criteria. Such criteria are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes, time to Surgery and so on. Then a manual selection is done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified"
+At the Karolinska University Hospital all trauma patients are included in the Karolinska University Hospital trauma registry. The Karolinska University Hospital trauma registry is a part of the Swedish Trauma Registry, with the same eligibility criteria. Audit filters then identify certain trauma cases in which the care might have deviated from the golden standard treatment based on different criteria. Such criteria are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes, time to Surgery and so on. Then a manual selection is done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified"
 ```{r, echo = FALSE} 
   ofi_selection() 
 ```
@@ -141,13 +141,13 @@ At Karolinska University Hospital all trauma patients are included in the Karoli
 Participants
 ------------
 
-All patients from Karolinska University Hospital trauma registry and from the Trauma Quality Database. To be eligiabel for the study all patients had to meet the inclusion criteria. The criteria were as following: Patients over 15 year old. No missing information in crutial colums in the registries. If information was missing for age, gender, trauma mechanism, NISS, or AIS code the patient was excluded.
+All patients from Karolinska University Hospital trauma registry and from the Trauma Quality Database. To be eligible for the study all patients had to meet the following inclusion criteria: Patients over 15 year old. No missing information in crutial colums in the registries. If information was missing for age, gender, OFI,  trauma mechanism, NISS, or AIS code the patient was excluded.
 
 Variables and data sources/measurements
 ---------------------------------------
-The data from the trauma registries were analyzed for OFI in seperate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured. The location of injuries will be analyzed based on AIS codes and AIS scores will be used to group patients into fitting cohorts. 
+The data from the trauma registries were analyzed for OFI in separate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma ,and across body regions injured, and trauma mechanism. The location of injuries will be analyzed based on AIS codes and AIS scores will be used to group patients into fitting cohorts. 
 
-The patients were sorted into the the subgroups both by creating suitable columns and by using existing columns in the merged patient file. Gender, trauma mechanism, age, and blunt/ penetrating trauma all had existing column. New columns were created for OFI, minor/major trauma and for the most severe injured body region.
+The patients were sorted into the the subgroups both by creating suitable columns and by using existing columns in the register file. Gender, trauma mechanism, age, and blunt/ penetrating trauma all had an existing column. New columns were created for OFI, minor/major trauma and for the most severe injured body region.
 
 The column for most severely injured region was made by creating a function that selects the the most severely injured body region among the AIS codes belonging to a specific patient.The first digit of the AIS code represents the body region for the trauma. For patient who had two or more different injuries and thereby multple AIS codes, this function chose the most severe injury out of them, or more precisely the AIS code with the highest first digit. 
 
@@ -162,19 +162,21 @@ OFI  was treated as a binary variable, with "yes" and "no" as the only possible 
 
 Bias 
 ----
-To prevent research bias all data will be scrambled while used to write the analysis model. Meaning that the real data was not available throughout the process of writing the introduction or method. The scrambled data was also used for creating functions that then could be used on the real data in the final step to get the true results.
+To prevent research bias all data will be scrambled while used to write the analysis model. Meaning that the real data was not available throughout the process of writing the introduction or method. The scrambled data was also used for creating functions that later could be used on the real data in the final step to get the true results.
 
 Kanske kan lägga till något om hur jag fick tillgång till den riktiga datan när jag fått det?
 
 
 Study size 
 ----------
-The study size was arrived at in the first step by being limited by the number of patients in the selected registries. Then a complete case analysis was done on all patients in the registers.<!--Är det antal patienter som jag ska beskriva hur vi kom fram till?-->
+The study size was limited by the number of patients in the selected registries. Then a complete case analysis was done on all patients in the registers.<!--Är det antal patienter som jag ska beskriva hur vi kom fram till?-->
 
 <!-- Explain how the study size was arrived at -->
 
 Quantitative variables
 ----------------------
+
+Ser ingen annan som har denna rubrik. Behöver diskutera ytterligare för att förstå vad jag ska skriva här
 
 BEskriva NISS, pentererande, trubbigt, kön,  
 googla vilka är kategoriska och kontinuerliga osv
@@ -185,11 +187,11 @@ analyses. If applicable, describe which groupings were chosen and why
 
 Statistical methods
 -------------------
-For handling the data and making the statistical analysis the program R was used. R is a programming language udes for statistical computing. The unfiltered data sets were uploaded to Rstudio which is an integrated development environment for R. Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet up with the inclusion criteria. New columns were also added as listed above. 
+For handling the data and making the statistical analysis the program R was used. R is a programming language used for statistical computing. The unfiltered data sets were uploaded to Rstudio which is an integrated development environment for R. Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet up with the inclusion criteria. New columns were also added as listed above. 
 
 The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup. 
 
-For estimating the confidence interval Bootstrapping was used on the data. To be able to do the Bootstrapping the absolute difference in OFI frequency within the subgropus was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. 
+For estimating the confidence interval Bootstrapping was used on the data. To be able to do the Bootstrapping the absolute difference in OFI frequency within each subgropu was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. 
 
 
 Results
@@ -215,7 +217,7 @@ included in the study, completing follow-up, and analysed
 Descriptive data
 ----------------
 
-Out of the `r total.cohort` patients included in the cohort `r all.men` were men and `r total.women` were women. Among the men the frequency of OFI was `r freq.ofi.men` and among the women `r freq.ofi.women`.
+Out of the `r total.cohort` patients included in the cohort `r all.men` were men and `r total.women` were women. Among the men the frequency of OFI was `r freq.ofi.men` and among the women `r freq.ofi.women`. 
 
 Skriva ett objekt för den som hade högst frekvens av ofi
 
@@ -251,7 +253,7 @@ measures -->
 Main results
 ------------
 The frequency of OFI for the different subgroups were as following:
-Samma siffror som table 1. Hur ska jag göra med delta här? Kan jag göra något mer innan jag gjort bootstrapping?
+
 
 <!--
 (a) Give unadjusted estimates and, if applicable, confounder-adjusted

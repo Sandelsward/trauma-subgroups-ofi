@@ -32,7 +32,7 @@ exclusion <- function() {
       {rank=same; p4 -> m4}
       {rank=same; p5 -> m5}
       {rank=same; p6 -> m6}
-      {rank=same; p7 -> m7}
+      
     
     edge [dir=none]
     1 -> p1; 2 -> p2; 3 -> p3; 4 -> p4; 5 -> p5; 6 -> p6; 7 -> p7;
