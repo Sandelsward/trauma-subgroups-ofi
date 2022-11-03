@@ -153,12 +153,7 @@ The column for most severely injured region was made by creating a function that
 
 The column for Minor and Major trauma was creating using the NISS column. Patients with a NISS > 15 were defined as major trauma and those with NISS < 15 were defined as minor trauma.
 
-The OFI column was created using a pre existing function...?
-
 OFI  was treated as a binary variable, with "yes" and "no" as the only possible outcome. For the M&M conference to put a "yes" in the OFI section a consensus decision is required regarding the presence of at least one OFI.
-
-
-<!--Egentligen är det första gången du tydligt definerar vad OFI är. Du ska även definera de andra variablerna, kön/ålder/penetrerande osv osv. Lär på vad "major traum" är samt hur AIS scores fungerar för att extrahera kroppsdelar -->
 
 Bias 
 ----
@@ -169,21 +164,41 @@ Kanske kan lägga till något om hur jag fick tillgång till den riktiga datan n
 
 Study size 
 ----------
-The study size was limited by the number of patients in the selected registries. Then a complete case analysis was done on all patients in the registers.<!--Är det antal patienter som jag ska beskriva hur vi kom fram till?-->
-
-<!-- Explain how the study size was arrived at -->
+A complete case analysis was done on all patients in the registers that met the inclusion criteria. This resulted in a cohort of 2696 patients.
 
 Quantitative variables
 ----------------------
 
-Ser ingen annan som har denna rubrik. Behöver diskutera ytterligare för att förstå vad jag ska skriva här
+The registers hold both categorical and contunious variables. NISS, age and AIS codes were treated as continious variables. Penetraiting/ Blunt Trauma, Minor/ Major Trauma and OFI was treated as binary categorical variables. Trauma mechanism and Most severe region of injury was treated as categorical variabels.
 
-BEskriva NISS, pentererande, trubbigt, kön,  
-googla vilka är kategoriska och kontinuerliga osv
+The range of NISS was 1-75, representing the number of AIS points for each patient. Age varied from 15 to 102. Penetraiting/ Blunt Trauma had the values of 1 and 2. 1 represented Blunt trauma and 2 penetraiting trauma. Minor/Major was derived from the NISS value. NISS>15 was considered a Major Trauma and <15 a Minor Trauma. OFI had the values of either YES or NO.
 
-<!-- Explain how quantitative variables were handled in the
-analyses. If applicable, describe which groupings were chosen and why
--->
+
+Trauma Mechanism hade a value that ranged from 1-13. Each number was represented by the following trauma mechanism:
+1: Trauma mechanism Traffic - motor veichle accident, not motorcycle
+2: Traffic - motorcycle accident	
+3: Traffic - bicycle accident	
+4: Traffic - pedastrian	
+5: Traffic - other	
+6: Shot by handgun, shotgun, rifle, other firearm of any calibre	
+7: Stabbed by knife, sword, dagger other pointed or sharp object
+8: Struck or hit by blunt object	
+9: Low energy fall - fall in the same level	
+10: High energy fall - fall from a higher level
+11: Blast injury	
+12: Other	
+13: Unknown
+
+The most severe region had 10 different values: head, neck, face, thorax, upper extremity, lower extremity, abdomen, spine, multiple and unspecified. These 10 values were regrouped according to the ISS system as following.
+
+1: Head and neck
+2: Face
+3: Chest, diaphragm or spine
+4: Abdomen
+5: Extremities
+6: Unspecified
+7: Multiple
+
 
 Statistical methods
 -------------------
@@ -191,7 +206,7 @@ For handling the data and making the statistical analysis the program R was used
 
 The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup. 
 
-For estimating the confidence interval Bootstrapping was used on the data. To be able to do the Bootstrapping the absolute difference in OFI frequency within each subgropu was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. 
+For estimating the confidence interval Bootstrapping was used on the data. To be able to do the Bootstrapping the absolute difference in OFI frequency within each subgropu was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. 1000 boots will be done, creating 1000 fiqtive ??? on which the code will be tested.
 
 
 Results
