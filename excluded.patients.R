@@ -61,8 +61,8 @@ total.missing.niss <- nrow(total.niss.na)
 
 
 # alla patienter som uppfyller ålder och har inj_dominant och inj_mechanism och har NISS
-df.age.dominant.mechanism.niss <- df.age.dominant.mechanism %>% filter (NISS %in% c(1:75))
-age.dominant.mechanism.niss <- (age.dominant.mechanism)-(total.missing.niss)
+df.age.dominant.mechanism.niss <- df.age.dominant.mechanism %>% filter (NISS != "NA" )
+age.dominant.mechanism.niss <- nrow(df.age.dominant.mechanism.niss)
 
 # Avsaknad av kod i AISCode_01
 only.ais01 <- df.age.dominant.mechanism.niss[,c(1,7)]
