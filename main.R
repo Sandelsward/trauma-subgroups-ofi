@@ -24,6 +24,10 @@ library(table1)
 library(dplyr)
 library(tidyverse)
 library(testthat)
+library(knitr)
+library(rmarkdown)
+library(DiagrammeR)
+library(assertthat)
 noacsr::source_all_functions()
 
 ## Import data
@@ -41,28 +45,26 @@ merged.data <- merge_data(data)
 ########
 ## NYTT
 
-
+merged.data$OFI <- create_ofi(merged.data)
 prepared.data <- prepare_data(merged.data)
 cleaned.data <- clean_data(prepared.data)
-
-data<-cleaned.data[complete.cases(cleaned.data[,c("AISCode_01")]),]
-test2 <- data
-test2$area <- NA
-for (i in 1:nrow(data)) {
-  print(i)
-  test2[i,"area"] <- areas_severe_damage(data[i,])
-}
-
+cleaned.data$most.severe.region <- create_most_severe_region(cleaned.data)
 table.1 <- create_table_one(cleaned.data)
 
-cleaned.data <- ais_last(cleaned.data)
-cleaned.data <- ais_first(cleaned.data)
-#cleaned.data <- ais_to_iss(cleaned.data)
-#cleaned.data <- most.damaged.region(cleaned.data)
-cleaned.data[, 108:157] <- convert_ais_data_to_iss_regions(cleaned.data[, 108:157])
+all.patients <- nrow(merged.data)
 
 
-#test.data <- cleaned.data %>% mutate(across(7:56, ~substr(.x, 8, 8), .names = "{col}.last"))
+
+## I suggest that you source this file separately in your markdown,
+## for now, because that allows you to cache the "main" chunk and save
+## some time knitting
+
+## source("frequency.of.ofi.R")
+## #### Inladdad istället för att ha den i functions. Du skulle också
+## kunnat skriva koden direkt här.
+
+
+
 
 #cleaned.data$ais.last.1 <- apply(cleaned.data, 1, ais_last)
 
@@ -73,7 +75,7 @@ cleaned.data[, 108:157] <- convert_ais_data_to_iss_regions(cleaned.data[, 108:15
 
 
 
-  
+
 
 
 

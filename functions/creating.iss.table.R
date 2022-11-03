@@ -16,11 +16,15 @@
 
 #prepared.data <- prepare_data(merged.data)
 #cleaned.data <- clean_data(prepared.data)
+#cleaned.data <- ais_last(cleaned.data)
+#cleaned.data <- ais_first(cleaned.data)
+#cleaned.data[, 108:157] <- convert_ais_data_to_iss_regions(cleaned.data[, 108:157])
 
 #data<-cleaned.data[complete.cases(cleaned.data[,c("AISCode_01")]),]
 #test2 <- data
 #test2$area <- NA
 #for (i in 1:nrow(data)) {
- # print(i)
-  #test2[i,"area"] <- areas_severe_damage(data[i,])
+  #print(i)
+ # test2[i,"area"] <- areas_severe_damage(data[i,])
 #}
+#table(test2$area)

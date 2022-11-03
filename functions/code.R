@@ -1,3 +1,5 @@
+#Functions for r.markdown
+
 ## Import data
 #data <- import_data(test = TRUE)
 
@@ -14,13 +16,6 @@
 ## NYTT
 
 
-#prepared.data <- prepare_data(merged.data)
-#cleaned.data <- clean_data(prepared.data)
 
-#data<-cleaned.data[complete.cases(cleaned.data[,c("AISCode_01")]),]
-#test2 <- data
-#test2$area <- NA
-#for (i in 1:nrow(data)) {
- # print(i)
-  #test2[i,"area"] <- areas_severe_damage(data[i,])
-#}
+#all.patients <- nrow(merged.data)
+

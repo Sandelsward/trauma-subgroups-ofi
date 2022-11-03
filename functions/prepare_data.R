@@ -5,3 +5,6 @@ prepare_data <- function(data) {
   all.subgroups <- cbind(small.data, all.ais)
   return(all.subgroups)
 }
+
+
+

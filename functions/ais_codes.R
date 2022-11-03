@@ -1,6 +1,6 @@
 ##1. Identifiera den eller de AIS koder med högst skadegrad, alltså sista siffran.(1-6, 9 är ospec).
 ##Om det är en skada välj den regionen. 
-##Ta bort alla pat utan AIS-koder, dvs första kolumnen med AIS.# Sortera bort alla som är under 3 (Severe). Förstår inte hur man väljer ut en specifik siffra i AIS-koden.
+##Ta bort alla pat utan AIS-koder, dvs första kolumnen med AIS.
 #is_serious <- function(code) {
  # severity <- substr(as.character(test.vec), 8, 8)
 
