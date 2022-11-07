@@ -362,8 +362,6 @@ ofi.minor.trauma <- nrow(df.ofi.minor.trauma)
 
 freq.ofi.minor.trauma <- (ofi.minor.trauma)/(tot.minor.trauma)
 
-
---
   # Antal patienter med major trauma
   df.major.trauma <- cleaned.data %>% filter (`Trauma Severity`%in% c(15:75)) 
 
@@ -378,7 +376,9 @@ ofi.major.trauma <- nrow(df.ofi.major.trauma)
 
 freq.ofi.major.trauma <- (ofi.major.trauma)/(tot.major.trauma)
 
+#delta inom minor/major trauma
 
+delta.minor.major.trauma <- abs((freq.ofi.minor.trauma)-(freq.ofi.major.trauma))
 
 #delta inom inj mechanism
 
