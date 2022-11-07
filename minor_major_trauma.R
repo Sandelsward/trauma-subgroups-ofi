@@ -11,5 +11,3 @@ major.trauma <- cleaned.data %>% filter (`Trauma Severity` %in% c(15:75))
 
 
 #Lyckas inte göra en funktion så att kolumnen sparas i cleaned.data
-
-

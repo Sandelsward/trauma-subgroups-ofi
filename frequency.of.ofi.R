@@ -1,7 +1,7 @@
 # Ränka ut frekvensen av ofi för olika grupper
 library(DiagrammeR)
 # antal undersökta patienter
- 
+
 total.cohort <- nrow(cleaned.data)
 
 #antal män
@@ -346,7 +346,7 @@ ofi.multiple <- nrow(ofi.multiple.list)
 
 #frekvens av ofi hos MSR multiple
 freq.ofi.multiple <- (ofi.multiple)/(tot.multiple)
-         
+
 
 # Antal patienter med minor trauma
 df.minor.trauma <- cleaned.data %>% filter (`Trauma Severity`%in% c(0:14)) 
@@ -362,8 +362,8 @@ ofi.minor.trauma <- nrow(df.ofi.minor.trauma)
 
 freq.ofi.minor.trauma <- (ofi.minor.trauma)/(tot.minor.trauma)
 
-  # Antal patienter med major trauma
-  df.major.trauma <- cleaned.data %>% filter (`Trauma Severity`%in% c(15:75)) 
+# Antal patienter med major trauma
+df.major.trauma <- cleaned.data %>% filter (`Trauma Severity`%in% c(15:75)) 
 
 df.tot.major.trauma <- df.major.trauma[,c(2,59)]
 tot.major.trauma <- nrow(df.tot.major.trauma)
