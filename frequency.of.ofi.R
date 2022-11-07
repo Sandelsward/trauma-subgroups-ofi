@@ -347,6 +347,14 @@ ofi.multiple <- nrow(ofi.multiple.list)
 #frekvens av ofi hos MSR multiple
 freq.ofi.multiple <- (ofi.multiple)/(tot.multiple)
          
+
+# Antal patienter med minor trauma
+
+#minor.trauma <- cleaned.data %>% filter (NISS%in% c(0:14)) 
+#nrow(minor.trauma)
+
+
+
 #delta inom inj mechanism
 
 delta.mechanism1 <- abs((freq.ofi.traffic1)-(freq.ofi.traffic2))
