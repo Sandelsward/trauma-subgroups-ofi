@@ -46,13 +46,18 @@ Not only does trauma represent a large share of the global mortality rate, but s
 have also shown a significant difference in outcome depending on where patients are
 treated. It has for example been shown that trauma patients in Sweden who were treated at a trauma center rather than a non-trauma center had a 41 % lower 30-day adjusted mortality rate. [@Candefjord2022-pe] 
 
-Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %, while for example the rate of preventable deaths at the Karolinska University hospital trauma center was shown in a study to be 4.0 %.[@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh]  Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx].   <!-- Korrekt, det om LMICs är bra och kan vara med ffa i KI:s uppsats. Om du vill publicera får det inte plats. -->
+Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %, while for example the rate of preventable deaths at the Karolinska University hospital trauma center was shown in a study to be 4.0 %.[@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh]  Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries.[@Mock2012-lx].   
 
 
-
-Trauma quality programs
+Trauma quality improvement
 ------------
-To reduce the variability of morbidity and mortality from trauma the Trauma Quality Improvement Program (TQIP) was launched in 2008 by the American College of Surgeons [@Hemmila2010-sr].<!--Trauma kvalitetsprogram har funnits längre än 2008. Är detta något spec program? --> The TQIP provides site-specific data of how well each hospital is preforming in terms of trauma care. This makes it possible to compare data with same level hospitals as well as evaluating how well each hospital is preforming, leading to changes in routines and practice guidelines.[@Blackmore2019-bj]
+Health care quality has been a topic for research for over 100 years. However, in the earlier research the focus were mainly standards of performance connected to the skill levels of individual physicians. Meaning that when faults were made, answers were sought for in individuals rather than in the system.[@Mock2009] 
+
+In the 1980s focus shifted and terms like Trauma Quality Management and Continuous Quality Improvement were introduced. These programs lead to a more management focused approach and was involving all individuals in the work for improved health care quality. This shift also meant a more continuous evaluation of the health care, leading to the possibility for quality defects to be addressed more rapidly.[@Mock2009]
+
+Since the early 2000s a term called Quality Improvement is used. Quality Improvement has a more multidisciplinary focused approach with Morbidity and Mortality conferences as an essential part. Quality improvement also has a...
+
+To reduce the variability of morbidity and mortality from trauma the Trauma Quality Improvement Program (TQIP) was launched in 2008 by the American College of Surgeons [@Hemmila2010-sr]. The TQIP provides site-specific data of how well each hospital is preforming in terms of trauma care. This makes it possible to compare data with same level hospitals as well as evaluating how well each hospital is preforming, leading to changes in routines and practice guidelines.[@Blackmore2019-bj]
 
 Morbidity and Mortality Conferences
 ------------
