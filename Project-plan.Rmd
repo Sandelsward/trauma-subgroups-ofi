@@ -53,15 +53,17 @@ Trauma quality improvement
 ------------
 Health care quality has been a topic for research for over 100 years. However, in the earlier research the focus were mainly standards of performance connected to the skill levels of individual physicians. Meaning that when faults were made, answers were sought for in individuals rather than in the system.[@Mock2009] 
 
-In the 1980s focus shifted and terms like Trauma Quality Management and Continuous Quality Improvement were introduced. These programs lead to a more management focused approach and was involving all individuals in the work for improved health care quality. This shift also meant a more continuous evaluation of the health care, leading to the possibility for quality defects to be addressed more rapidly.[@Mock2009]
+In the 1980s focus shifted and terms like Trauma Quality Management and Continuous Quality Improvement were introduced. These programs lead to a more management focused approach and was involving all individuals in the work for improved health care quality. This shift also meant a more continuous evaluation of the health care, leading to the possibility for quality defects to be addressed more efficiently.[@Mock2009]
 
-Since the early 2000s a term called Quality Improvement is used. Quality Improvement has a more multidisciplinary focused approach with Morbidity and Mortality conferences as an essential part. Quality improvement also has a...
+Since the early 2000s a term called Quality Improvement is used. Quality Improvement has a more multidisciplinary focused approach with Morbidity and Mortality conferences as an essential part. Quality improvement also further emphasizes systems role rather than clinical performances, as systems are more comparable to outcomes.[@Mock2009]
 
-To reduce the variability of morbidity and mortality from trauma the Trauma Quality Improvement Program (TQIP) was launched in 2008 by the American College of Surgeons [@Hemmila2010-sr]. The TQIP provides site-specific data of how well each hospital is preforming in terms of trauma care. This makes it possible to compare data with same level hospitals as well as evaluating how well each hospital is preforming, leading to changes in routines and practice guidelines.[@Blackmore2019-bj]
+In the past decades several trauma quality improvement programs have been created. One of the more established ones is the Trauma Quality Improvement Program (TQIP) by the American College of Surgeons that was launched in 2008[@Hemmila2010-sr]. The TQIP provides site-specific data of how well each hospital is preforming in terms of trauma care. This makes it possible to compare data with same level hospitals as well as evaluating how well each hospital is preforming, leading to changes in routines and practice guidelines.[@Blackmore2019-bj]
 
 Morbidity and Mortality Conferences
 ------------
-An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidisciplinary conference with representatives from all medical specialties and professions in the trauma team. The purpose of M&M is to learn from the care provided, identify opportunities for improvements, and implement corrective actions[@Aboumatar2007-ws]. As it is not possible to analyze every trauma case in detail audit filters are often used to decide which cases that are to be reviewed at M&M. <!--Definera audit filter --> Such audit filter can be time frames in which a test should be taken or a Glascow Coma Scale score under 8 without the patient being indubated[@Evans2009-oy]. 
+An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidisciplinary conference with representatives from all medical specialties and professions in the trauma team. The purpose of M&M is to learn from the care provided, identify opportunities for improvements, and implement corrective actions[@Aboumatar2007-ws]. As it is not possible to analyze every trauma case in detail audit filters are often used to decide which cases that are to be reviewed at M&M.[@Evans2009-oy]
+
+Audit filters can be described as predefined statements that decides whether or not a certain event differ from the guidelines.[@Berg2022] Such audit filter can be time frames in which a test should be taken or a Glascow Coma Scale score under 8 without the patient being indubated[@Evans2009-oy]. 
 
  Trauma Svererity scores and systems
 ------------
@@ -77,11 +79,12 @@ frequently in low and middle-income countries. One reason for this could be that
 the PTC program is free while ATLS is not.[@Kadhum2020-wa]
  <!-- Överväger ta bort de två översta styckena helt. Vad tycker ni? 
  JA: Då de inte representerar trauma system så har jag svårt att hitta 100% plats för dem. Dessutom är iaf ATLS väldigt basic och exv KS utgår inte från det. -->
-The Abbreviated Injury Scale (AIS) defines traumatic injuries across different body regions.<!--Specificera även antalet regioner, så att du kan knyta an hit i metoden -->The scale ranges from 1-5, where 1 is the least serious and 5 the most serious. [@Kuo2017-dj]
+ 
+The Abbreviated Injury Scale (AIS) defines traumatic injuries across 9 different body regions. The scale ranges from 1-5, where 1 is the least serious and 5 the most serious. [@Kuo2017-dj]
 
 The Injury Severity Score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score a patient get is based on the AIS points from the injured body regions. The higher ISS score the more serious injury the patients suffers from. The ISS does however only take into account the most severe injury in each region, meaning that you could have two different injuries in the abdomen without it affecting the ISS score.[@Javali2019-wn]
 
-The New Injury Severity Score (NISS) is developed from the ISS. NISS also takes injuries from the same body regions as NISS into account. The NISS is the sum of the squares of the three highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. As the AIS can vary from 1-5, the NISS ranges between 1-75.[@Li2021-ag]
+The New Injury Severity Score (NISS) is developed from the ISS. NISS also takes injuries from the same body regions as NISS into account. The NISS is the sum of the squares of the three highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. As the AIS can vary from 1-5, the NISS ranges between 1-75.[@Li2021-ag]. The NISS score is also used internationally to define trauma severity. A NISS Score >15 is considered a major trauma and <15 a minor trauma.[@Bagher2017]
 <!-- Definera major trauma i detta -->
 
 Trauma registry
