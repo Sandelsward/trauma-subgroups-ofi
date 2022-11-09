@@ -1,47 +1,48 @@
-## This file shows how to write a function in R
 
-#example_function <- function() {
-    ## This is a comment and will not be interpreted by R
-   # x <- 1 + 2
-  #  return (x)
-
-create_table_one <- function(all.subgroups) {
+create_table_one <- function(cleaned.data) {
   
   ## Renaming data labels
   
-  all.subgroups$pt_Gender <- factor(
-    all.subgroups$pt_Gender,
+  cleaned.data$pt_Gender <- factor(
+    cleaned.data$pt_Gender,
     levels = c(1, 2),
     labels = c("Male", "Female")
   )
   
-  all.subgroups$inj_mechanism <- factor(
-    all.subgroups$inj_mechanism,
+  cleaned.data$inj_mechanism <- factor(
+    cleaned.data$inj_mechanism,
     levels = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 999),
     labels = c("Traffic - motor veichle accident, not motorcycle", "Traffic - motorcycle accident", "Traffic - bicycle accident", "Traffic - pedastrian", "Traffic - other", "Shot by handgun, shotgun, rifle, other firearm of any calibre ", "Stabbed by knife, sword, dagger other pointed or sharp object", "Struck or hit by blunt object", "Low energy fall - fall in the same level", "High energy fall - fall from a higher level","Blast injury", "Other", "Unknown")
   )
   
-  all.subgroups$inj_dominant <- factor(
-  all.subgroups$inj_dominant,
+  cleaned.data$trauma.severity <- factor(
+    cleaned.data$trauma.severity,
+    levels = c(0-14, 15-75),
+    labels = c("Minor Trauma", "Major Trauma"),
+  )
+  
+  cleaned.data$inj_dominant <- factor(
+  cleaned.data$inj_dominant,
   levels = c(1, 2),
   labels = c("Blunt", "Penetrating"),
 )
 
-all.subgroups$ofi <- factor(
-  all.subgroups$ofi,
+cleaned.data$ofi <- factor(
+  cleaned.data$ofi,
   levels = c("Yes", "No"),
   labels = c("Yes, atleast one opportunity for improvement", "No opportunities for improvement"),
 )
 
 
 ## Renaming column labels
-var_label(all.subgroups) <- list (
+var_label(cleaned.data) <- list (
   pt_age_yrs = "Age (years)",
   pt_Gender = "Gender",
   inj_dominant = "Dominating Type of Injury",
   ofi = "Opportunity for improvement",
   inj_mechanism = "Mechanism of injury",
-  NISS = "NISS"
+  NISS = "NISS",
+  trauma.severity = "Minor or Major Trauma"
 )
 
 
@@ -60,8 +61,8 @@ my.render.cont <- function(x) {
 
 ## Making table one
 vars2 <- c("pt_age_yrs", "pt_Gender", "inj_mechanism", "inj_dominant", "ofi", "NISS")
-table.1 <- table1(~ pt_age_yrs + pt_Gender + NISS + inj_mechanism + inj_dominant | ofi, 
-             data=all.subgroups[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
+table.1 <- table1(~ pt_age_yrs + pt_Gender + NISS + inj_mechanism + trauma.severity + inj_dominant | ofi, 
+             data=cleaned.data[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
 
 return(table.1)
 }

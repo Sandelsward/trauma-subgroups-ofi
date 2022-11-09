@@ -189,7 +189,7 @@ Results
 Participants
 ------------
 
-After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients. After applying the inclusion criteria the number of patients was reduced to `r total.cohort`. <!--Bra att du använder objekt -->
+After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients. After applying the inclusion criteria the number of patients was reduced to `r total.cohort` patients. Each step in the exclusion process is shown in the chart below.
 
 ```{r, echo = FALSE,} 
 exclusion()
@@ -205,10 +205,10 @@ included in the study, completing follow-up, and analysed
 Descriptive data
 ----------------
 
-Out of the `r total.cohort` patients included in the cohort `r all.men` were men and `r total.women` were women. <!--Du behöver inte säga vad den "andra" gruppen är. Exv om 60% är män fattar man att 40% är kvinnor. --> Among the men the frequency of OFI was `r freq.ofi.men` and among the women `r freq.ofi.women`. 
+Out of the `r total.cohort` patients included in the cohort `r all.men` were men.  Among the men the frequency of OFI was `r freq.ofi.men` and among the women `r freq.ofi.women`. The mean age for all the patients were `r mean.age` years and the avarege NISS score was `r mean.niss`. In the entire cohort there was a `r mean.ofi`% frequency of OFI. 
 <!--Förslag vad som ska stå här: Vanligaste kön, genomsnittlig ålder, genomsnitts ISS eller niss. Du bör också presentera hur vanligt OFI var osv. -->
 
-Skriva ett objekt för den som hade högst frekvens av ofi
+
 
 
 
@@ -236,7 +236,7 @@ measures -->
 Main results
 ------------
 The frequency of OFI for the different subgroups were as following:
-
+Skriva ett objekt för den som hade högst frekvens av ofi
 
 <!--
 (a) Give unadjusted estimates and, if applicable, confounder-adjusted

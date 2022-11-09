@@ -9,6 +9,8 @@ total.cohort <- nrow(cleaned.data)
 total.men <- cleaned.data[cleaned.data$pt_Gender == 1,1:2]
 all.men <- nrow(total.men)
 
+
+
 #antal män med ofi
 
 ofi.men <- cleaned.data[cleaned.data$pt_Gender == 1,1:2]
@@ -349,7 +351,8 @@ freq.ofi.multiple <- (ofi.multiple)/(tot.multiple)
          
 
 # Antal patienter med minor trauma
-df.minor.trauma <- cleaned.data %>% filter (`Trauma Severity`%in% c(0:14)) 
+df.minor.trauma <- cleaned.data %>% filter (trauma.severity %in% c(0:14)) 
+
 
 df.tot.minor.trauma <- df.minor.trauma[,c(2,59)]
 tot.minor.trauma <- nrow(df.tot.minor.trauma)
@@ -363,7 +366,7 @@ ofi.minor.trauma <- nrow(df.ofi.minor.trauma)
 freq.ofi.minor.trauma <- (ofi.minor.trauma)/(tot.minor.trauma)
 
   # Antal patienter med major trauma
-  df.major.trauma <- cleaned.data %>% filter (`Trauma Severity`%in% c(15:75)) 
+  df.major.trauma <- cleaned.data %>% filter (trauma.severity %in% c(15:75)) 
 
 df.tot.major.trauma <- df.major.trauma[,c(2,59)]
 tot.major.trauma <- nrow(df.tot.major.trauma)
@@ -477,5 +480,21 @@ delta.severe.region21 <- abs((freq.ofi.unspecified)-(freq.ofi.multiple))
 # Den subgrupp med högst ofi frekvens
 
 max.freq <- max(freq.ofi.men, freq.ofi.women, freq.ofi.blunt, freq.ofi.penetrating, freq.ofi.traffic1, freq.ofi.traffic2, freq.ofi.traffic3, freq.ofi.traffic4, freq.ofi.traffic5, freq.ofi.shot, freq.ofi.stabbed, freq.ofi.struck, freq.ofi.low.energy, freq.ofi.high.energy, freq.ofi.blast, freq.ofi.other, freq.ofi.head.neck, freq.ofi.face, freq.ofi.chest.spine, freq.ofi.extremities, freq.ofi.abdomen, freq.ofi.multiple)
+
+# Genomsnittlig ålder hos alla pat
+
+mean.age <- round(mean(cleaned.data$pt_age_yrs))
+
+# Genomsnittlig NISS
+
+mean.niss <- round(mean(cleaned.data$NISS))
+
+# Hur många i hela cohorten som hade OFI
+
+df.ofi.cleaned.data <- cleaned.data[cleaned.data$ofi =="Yes",]
+ofi.cleaned.data <- nrow(df.ofi.cleaned.data)
+
+mean.ofi <- round((((ofi.cleaned.data)/(total.cohort)) * 100))
+
 
 
