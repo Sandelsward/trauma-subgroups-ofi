@@ -51,7 +51,7 @@ cleaned.data <- clean_data(prepared.data)
 cleaned.data$most.severe.region <- create_most_severe_region(cleaned.data)
 cleaned.data <- create_minor_major_trauma(cleaned.data)
 
-table.1 <- create_table_one(cleaned.data)
+#table.1 <- create_table_one(cleaned.data)
 
 all.patients <- nrow(merged.data)
 
