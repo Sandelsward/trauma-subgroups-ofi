@@ -176,11 +176,12 @@ The most severe region had 10 different values: head, neck, face, thorax, upper 
 
 Statistical methods
 -------------------
-For handling the data and making the statistical analysis the program R was used<!--Källa -->. R is a programming language used for statistical computing. The unfiltered data sets were uploaded to Rstudio which is an integrated development environment for R.<!--Behöver inte nämna --> Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet up with the inclusion criteria. New columns were also added as listed above. 
+For handling the data and making the statistical analysis the program R was used<!--Källa -->. R is a programming language used for statistical computing. Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet up with the inclusion criteria. New columns were also added as listed above. 
 
 The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup. 
 
-For estimating the confidence interval Bootstrapping was used on the data. To be able to do the Bootstrapping <!--Vi behöver inte beräkna deltavärden för att kunna göra bootstrap. Du behöver göra en bootstrap för att för CI på dina resultat, inkl deltavärdena --> the absolute difference in OFI frequency within each subgropu was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. 1000 boots will be done, creating 1000 fiqtive ??? on which the code will be tested. <!--Läs på vad bootstrap är. Du simulerar fram nya dataset och gör om dina beräkningar -> går att räkna CI -->
+The absolute difference (delta value) in OFI frequency within each subgroup was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. For estimating the confidence interval Bootstrapping was used on the data. 1000 boots was be done, creating 1000 simulated datasets on which the code was repeatedly tested both for the frequency of ofi and for the delta values. 
+
 
 
 Results
