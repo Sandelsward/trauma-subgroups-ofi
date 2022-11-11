@@ -65,7 +65,7 @@ An important part of trauma care evaluation and improvement is Mortality and Mor
 
 Audit filters can be described as predefined statements that decides whether or not a certain event differ from the guidelines.[@Berg2022] Such audit filter can be time frames in which a test should be taken or a Glascow Coma Scale score under 8 without the patient being indubated[@Evans2009-oy]. 
 
- Trauma Svererity scores and systems
+ Trauma Svererity scores and systems (utbildningsprogram)
 ------------
 Several different systems are being used in Trauma care. 
 Such as Advanced Trauma Life Support (ATLS) and Primary Trauma Care (PTC), 
@@ -123,14 +123,14 @@ Study design
 This is a registry based cohort study that uses data from two different Swedish
 trauma registries. The first registry is the Trauma registry at the Karolinska University Hospital
 in Solna. It is a part of SweTrau and contains patients from the years 2012 to 2021. 
-The second registry is the the trauma Quality Database which is a subset of the Karolinska University Hospital Trauma Registry. It includes patients selected for review between 2014 and 2021. These registreis were merged together and a complete case analysis was done. Scrambled data was used to decrease the risk for bias. The results were presented in tables showing the frecquency of OFI for the different subgroups. Bootstrapping was preformed to estimate the confidence interval.  <!-- Funkar detta? -->
+The second registry is the the trauma Quality Database which is a subset of the Karolinska University Hospital Trauma Registry. It includes patients selected for review between 2014 and 2021. These registreis were merged together and a complete case analysis was done. Scrambled data was used to decrease the risk for bias. The results were presented in tables showing the frecquency of OFI for the different subgroups. Bootstrapping was preformed to estimate the confidence interval.
 
 Setting
 -------
 The Karolinska University Hospital in Solna, Stockholm is the largest Trauma Center in Sweden. The hospital is also classified as a level 1 trauma center.[@Karolinska] The Trauma department at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. The Karolinska University Hospital is the primary trauma center for a population of 2,8 million people.[@Traumanks, @Almskog2020] 
 
 Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To the Trauma Center at Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
-<!--men bara trauma 1 till traumaenheten? trauma 2 till IA? -->
+<!--men bara trauma 1 till traumaenheten? trauma 2 till IA? något lite vagare -->
 A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
 Audit filters and for some cases, maual selection was used to determine which cases that should be reviewed at M&M. Some examples of audit filters that were used are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes and time to Surgery. A manual selection was done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation from best practice guidelines can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified"
@@ -150,7 +150,7 @@ The data from the trauma registries were analyzed for OFI in separate cohorts. T
 
 The column for most severely injured region was made by selecting the the most severely injured body region among the AIS codes belonging to a specific patient. The first digit of the AIS code represents the body region for the trauma. For patient who had two or more different injuries and thereby multple AIS codes, the most severe injury was selected, or more precisely the AIS code with the highest last digit. If more than one region had injuries of the same severity, the second most severe injury in those regions were compared, and then the third and so on. If two or more regions had exactly the same pattern of injuries, the region was classified as "Multiple".
 
-The column for Minor and Major trauma was creating using the NISS column. Patients with a NISS > 15 were defined as major trauma and those with NISS < 15 were defined as minor trauma. <!-- inte ha med detta trots att det är en ny kolumn? -->
+The column for Minor and Major trauma was creating using the NISS column. Patients with a NISS > 15 were defined as major trauma and those with NISS < 15 were defined as minor trauma. <!-- inte ha med detta trots att det är en ny kolumn? räcker att skriva att vi kategoriserade utifrån NISS-->
 
 OFI  was treated as a binary variable, with "yes" and "no" as the only possible outcome. For the M&M conference to put a "yes" in the OFI section a consensus decision is required regarding the presence of at least one OFI.
 
@@ -160,7 +160,7 @@ To prevent research bias all data will be scrambled while used to write the anal
 
 Study size 
 ----------
-A complete case analysis was done on all patients in the registers that met the inclusion criteria for this study. <!--Helt rätt. Tillse att du verkligen tydlig skrivit "the inclusion criteria for ..." ovan. Så? -->
+A complete case analysis was done on all patients in the registers that met the inclusion criteria for this study.
 
 Quantitative variables
 ----------------------
@@ -180,7 +180,9 @@ For handling the data and making the statistical analysis the program R was used
 
 The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup. 
 
-The absolute difference (delta value) in OFI frequency within each subgroup was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. For estimating the confidence interval Bootstrapping was used on the data. 1000 boots was be done, creating 1000 simulated datasets on which the code was repeatedly tested both for the frequency of ofi and for the delta values. 
+The absolute difference (delta value) in OFI frequency within each subgroup was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. For estimating the confidence interval Bootstrapping was used on the data. 1000 boots was be done, creating 1000 simulated datasets. CI was calculaded for both freq and delta values.
+
+
 
 
 

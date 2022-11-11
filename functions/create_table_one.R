@@ -17,7 +17,7 @@ create_table_one <- function(cleaned.data) {
   
   cleaned.data$trauma.severity <- factor(
     cleaned.data$trauma.severity,
-    levels = c(0-14, 15-75),
+    levels = c("minor", "major"),
     labels = c("Minor Trauma", "Major Trauma"),
   )
   
@@ -60,7 +60,7 @@ my.render.cont <- function(x) {
 }
 
 ## Making table one
-vars2 <- c("pt_age_yrs", "pt_Gender", "inj_mechanism", "inj_dominant", "ofi", "NISS")
+vars2 <- c("pt_age_yrs", "pt_Gender", "inj_mechanism","trauma.severity", "inj_dominant", "ofi", "NISS")
 table.1 <- table1(~ pt_age_yrs + pt_Gender + NISS + inj_mechanism + trauma.severity + inj_dominant | ofi, 
              data=cleaned.data[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
 

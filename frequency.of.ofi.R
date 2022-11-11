@@ -351,14 +351,17 @@ freq.ofi.multiple <- (ofi.multiple)/(tot.multiple)
          
 
 # Antal patienter med minor trauma
-df.minor.trauma <- cleaned.data %>% filter (trauma.severity %in% c(0:14)) 
 
 
-df.tot.minor.trauma <- df.minor.trauma[,c(2,59)]
-tot.minor.trauma <- nrow(df.tot.minor.trauma)
+##df.minor.trauma <- cleaned.data %>% filter (trauma.severity %in% c("minor")) 
+df.minor.trauma <- cleaned.data[cleaned.data$trauma.severity == "minor",]
+
+#df.tot.minor.trauma <- df.minor.trauma[,c(2,59)]
+
+tot.minor.trauma <- nrow(df.minor.trauma)
 
 #ofi hos minor trauma
-df.ofi.minor.trauma <- df.tot.minor.trauma[df.tot.minor.trauma$ofi == "Yes",]
+df.ofi.minor.trauma <- df.minor.trauma[df.minor.trauma$ofi == "Yes",]
 ofi.minor.trauma <- nrow(df.ofi.minor.trauma)
 
 # frekvens av ofi hos minor trauma
@@ -366,13 +369,13 @@ ofi.minor.trauma <- nrow(df.ofi.minor.trauma)
 freq.ofi.minor.trauma <- (ofi.minor.trauma)/(tot.minor.trauma)
 
   # Antal patienter med major trauma
-  df.major.trauma <- cleaned.data %>% filter (trauma.severity %in% c(15:75)) 
+  df.major.trauma <- cleaned.data[cleaned.data$trauma.severity == "major",]
 
-df.tot.major.trauma <- df.major.trauma[,c(2,59)]
-tot.major.trauma <- nrow(df.tot.major.trauma)
+#df.tot.major.trauma <- df.major.trauma[,c(2,59)]
+tot.major.trauma <- nrow(df.major.trauma)
 
 #ofi hos major trauma
-df.ofi.major.trauma <- df.tot.major.trauma[df.tot.major.trauma$ofi == "Yes",]
+df.ofi.major.trauma <- df.major.trauma[df.major.trauma$ofi == "Yes",]
 ofi.major.trauma <- nrow(df.ofi.major.trauma)
 
 # frekvens av ofi hos major trauma

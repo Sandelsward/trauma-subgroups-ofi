@@ -4,11 +4,10 @@
 
 create_minor_major_trauma <- function(cleaned.data) {
 
-cleaned.data["trauma.severity"] <- cleaned.data$NISS
+cleaned.data$trauma.severity <- NA
+cleaned.data[cleaned.data$NISS <15, "trauma.severity"] <- "minor"
+cleaned.data[cleaned.data$NISS >=15, "trauma.severity"] <- "major"
 
-minor.trauma <- cleaned.data %>% filter (`trauma.severity` %in% c(0:14))
-
-major.trauma <- cleaned.data %>% filter (`trauma.severity` %in% c(15:75))
 
 return(cleaned.data)
 
