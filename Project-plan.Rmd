@@ -18,7 +18,7 @@ setwd("~/trauma-subgroups-ofi")
 
 
 
-```{r main, include = FALSE, echo = FALSE, cache = TRUE}
+```{r main, include = FALSE, echo = FALSE, cache = FALSE}
 #### Viktigt att ha med include = FALSE i chunks som inte ska skrivas ut i sin helhet.
 source("main.R") 
 ```
