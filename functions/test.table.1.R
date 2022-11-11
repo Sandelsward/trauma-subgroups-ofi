@@ -1,8 +1,8 @@
+#Diskreptiv data figur.
 
-create_table_two <- function(cleaned.data) {
+Test_table <- function(cleaned.data) {
   
-  ## Renaming data labels
-  
+  Cohort <- c("pt_age_yrs", "NISS")
   cleaned.data$pt_Gender <- factor(
     cleaned.data$pt_Gender,
     levels = c(1, 2),
@@ -40,11 +40,6 @@ create_table_two <- function(cleaned.data) {
     labels = c("Blunt", "Penetrating"),
   )
   
-  cleaned.data$ofi <- factor(
-    cleaned.data$ofi,
-    levels = c("Yes", "No"),
-    labels = c("Yes, atleast one opportunity for improvement", "No opportunities for improvement"),
-  )
   
   
   ## Renaming column labels
@@ -52,7 +47,6 @@ create_table_two <- function(cleaned.data) {
     pt_age_yrs = "Age (years)",
     pt_Gender = "Gender",
     inj_dominant = "Dominating Type of Injury",
-    ofi = "Opportunity for improvement",
     inj_mechanism = "Mechanism of injury",
     NISS = "NISS",
     trauma.severity = "Minor or Major Trauma",
@@ -72,12 +66,9 @@ create_table_two <- function(cleaned.data) {
                                          round_pad(MAX, 0)))
     )
   }
-  
-  ## Making table one
-  vars2 <- c("pt_age_yrs", "pt_Gender", "inj_mechanism","trauma.severity", "inj_dominant", "ofi", "NISS", "most.severe.region")
-  table.2 <- table1(~ pt_age_yrs + pt_Gender + NISS + inj_mechanism + trauma.severity + inj_dominant + most.severe.region | ofi, 
-                    data=cleaned.data[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
-  
-  return(table.2)
-}
+  vars2 <- c("pt_Gender", "inj_mechanism","trauma.severity", "inj_dominant", "ofi", "most.severe.region")
+pt_demographics <- table1(~ pt_Gender + inj_mechanism + trauma.severity + inj_dominant + most.severe.region | Cohort, data=cleaned.data[,vars2], caption="\\textbf{Demographics}", overall = FALSE)
 
+
+return(pt_demographics)
+}

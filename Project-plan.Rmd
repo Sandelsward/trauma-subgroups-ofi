@@ -211,12 +211,11 @@ Out of the `r total.cohort` patients included in the cohort `r all.men` were men
 <!--Förslag vad som ska stå här: Vanligaste kön, genomsnittlig ålder, genomsnitts ISS eller niss. Du bör också presentera hur vanligt OFI var osv. -->
 
 
-
-
-
 ```{r, echo = FALSE} 
   table.1 ## will be improved later
 ```
+
+
 
 
 <!-- (a) Give characteristics of study participants (eg demographic,
@@ -239,6 +238,9 @@ Main results
 ------------
 The frequency of OFI for the different subgroups were as following:
 Skriva ett objekt för den som hade högst frekvens av ofi
+```{r, echo = FALSE} 
+  table.2 ## will be improved later
+```
 
 <!--
 (a) Give unadjusted estimates and, if applicable, confounder-adjusted
