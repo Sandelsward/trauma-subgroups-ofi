@@ -9,6 +9,7 @@ output:
 bibliography: bibliography.bib
 csl: vancouver.csl
 fontsize: 11pt
+always_allow_html: true
 ---
 
 
@@ -66,20 +67,8 @@ An important part of trauma care evaluation and improvement is Mortality and Mor
 
 Audit filters can be described as predefined statements that decides whether or not a certain event differ from the guidelines.[@Berg2022] Such audit filter can be time frames in which a test should be taken or a Glascow Coma Scale score under 8 without the patient being indubated[@Evans2009-oy]. 
 
- Trauma Svererity scores and systems (utbildningsprogram)
+ Trauma Severity Scores
 ------------
-Several different systems are being used in Trauma care. 
-Such as Advanced Trauma Life Support (ATLS) and Primary Trauma Care (PTC), 
-where ATLS is the more established system. The purpose of these systems is to 
-secure a time-efficient, standardized and structured way of treating trauma 
-patients.[@FACS; @Kadhum2020-wa] <!--Trauma system, i den generell meningen omfattar ofta inte bara koncept runt initiala omhändertagander (vilket ATLS gör). Trauma system används ofta som sam ett samlingsnamn för typ prehospital -> initial omhändertagande -> eftervårs -> +TQIP inkl trauma register osv osv. -->
-
-ATLS is practiced in over 80 countries and 1 million doctors have gone thru 
-this training.[@FACS] PTC is also used in over 80 countries, however more 
-frequently in low and middle-income countries. One reason for this could be that 
-the PTC program is free while ATLS is not.[@Kadhum2020-wa]
- <!-- Överväger ta bort de två översta styckena helt. Vad tycker ni? 
- JA: Då de inte representerar trauma system så har jag svårt att hitta 100% plats för dem. Dessutom är iaf ATLS väldigt basic och exv KS utgår inte från det. -->
  
 The Abbreviated Injury Scale (AIS) defines traumatic injuries across 9 different body regions. The scale ranges from 1-5, where 1 is the least serious and 5 the most serious. [@Kuo2017-dj]
 
@@ -151,7 +140,7 @@ The data from the trauma registries were analyzed for OFI in separate cohorts. T
 
 The column for most severely injured region was made by selecting the the most severely injured body region among the AIS codes belonging to a specific patient. The first digit of the AIS code represents the body region for the trauma. For patient who had two or more different injuries and thereby multple AIS codes, the most severe injury was selected, or more precisely the AIS code with the highest last digit. If more than one region had injuries of the same severity, the second most severe injury in those regions were compared, and then the third and so on. If two or more regions had exactly the same pattern of injuries, the region was classified as "Multiple".
 
-The column for Minor and Major trauma was creating using the NISS column. Patients with a NISS > 15 were defined as major trauma and those with NISS < 15 were defined as minor trauma. <!-- inte ha med detta trots att det är en ny kolumn? räcker att skriva att vi kategoriserade utifrån NISS-->
+To gruop patients with Minor versus Major Trauma the NISS score was used. Patients with a NISS > 15 were defined as major trauma and those with NISS < 15 were defined as minor trauma. 
 
 OFI  was treated as a binary variable, with "yes" and "no" as the only possible outcome. For the M&M conference to put a "yes" in the OFI section a consensus decision is required regarding the presence of at least one OFI.
 
@@ -177,15 +166,11 @@ The most severe region had 10 different values: head, neck, face, thorax, upper 
 
 Statistical methods
 -------------------
-For handling the data and making the statistical analysis the program R was used<!--Källa -->. R is a programming language used for statistical computing. Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet up with the inclusion criteria. New columns were also added as listed above. 
+For handling the data and making the statistical analysis the program R was used. R is a programming language used for statistical computing @R. Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet up with the inclusion criteria. New columns were also added as listed above. 
 
 The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup. 
 
-The absolute difference (delta value) in OFI frequency within each subgroup was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. For estimating the confidence interval Bootstrapping was used on the data. 1000 boots was be done, creating 1000 simulated datasets. CI was calculaded for both freq and delta values.
-
-
-
-
+The absolute difference (delta value) in OFI frequency within each subgroup was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. For estimating the confidence interval Bootstrapping was used on the data. 1000 boots were done, creating 1000 simulated datasets. The confidence interval was estimated both for the OFI frequencies and for the delta values.
 
 Results
 =====
@@ -238,6 +223,7 @@ measures -->
 Main results
 ------------
 The subgroup with the highest OFI frequency was xxxx with a frequency at `r max.freq`%. The lowest OFI frequency was measured in the xxx cohort with a frquency at `r min.freq`%. In the entire cohort there was a `r mean.ofi`% frequency of OFI. 
+
 ```{r, echo = FALSE} 
   main.results ## will be improved later
 ```
