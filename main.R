@@ -28,6 +28,7 @@ library(knitr)
 library(rmarkdown)
 library(DiagrammeR)
 library(assertthat)
+library(formattable)
 noacsr::source_all_functions()
 
 ## Import data
@@ -51,7 +52,7 @@ cleaned.data <- clean_data(prepared.data)
 cleaned.data$most.severe.region <- create_most_severe_region(cleaned.data)
 cleaned.data <- create_minor_major_trauma(cleaned.data)
 table.1 <- create_table_one(cleaned.data)
-table.2 <- create_table_two(df.ofi.frequency)
+#table.2 <- create_table_two(df.ofi.frequency)
 all.patients <- nrow(merged.data)
 pt_demographics <- Test_table(cleaned.data)
 

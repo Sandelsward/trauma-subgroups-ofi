@@ -28,6 +28,7 @@ source("excluded.patients.R")
 source("exclusion.R")
 source("ofi.selection.R")
 source("frequency.of.ofi.R")
+source("df.freq.R")
 ```
 
 <!-- If you need more text you can always expand on trauma as a global health issue, 
@@ -207,7 +208,7 @@ included in the study, completing follow-up, and analysed
 Descriptive data
 ----------------
 
-Out of the `r total.cohort` patients included in the cohort `r all.men` were men.  Among the men the frequency of OFI was `r freq.ofi.men` and among the women `r freq.ofi.women`. The mean age for all the patients were `r mean.age` years and the avarege NISS score was `r mean.niss`. In the entire cohort there was a `r mean.ofi`% frequency of OFI. 
+Out of the `r total.cohort` patients included in the cohort `r all.men` were men.  Among the men the frequency of OFI was `r freq.ofi.men` and among the women `r freq.ofi.women`. The mean age for all the patients were `r mean.age` years and the avarege NISS score was `r mean.niss`. 
 <!--Förslag vad som ska stå här: Vanligaste kön, genomsnittlig ålder, genomsnitts ISS eller niss. Du bör också presentera hur vanligt OFI var osv. -->
 
 
@@ -236,10 +237,9 @@ measures -->
 
 Main results
 ------------
-The frequency of OFI for the different subgroups were as following:
-Skriva ett objekt för den som hade högst frekvens av ofi
+The subgroup with the highest OFI frequency was xxxx with a frequency at `r max.freq`%. The lowest OFI frequency was measured in the xxx cohort with a frquency at `r min.freq`%. In the entire cohort there was a `r mean.ofi`% frequency of OFI. 
 ```{r, echo = FALSE} 
-  table.2 ## will be improved later
+  main.results ## will be improved later
 ```
 
 <!--

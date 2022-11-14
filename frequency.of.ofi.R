@@ -482,7 +482,11 @@ delta.severe.region21 <- abs((freq.ofi.unspecified)-(freq.ofi.multiple))
 
 # Den subgrupp med högst ofi frekvens
 
-max.freq <- max(freq.ofi.men, freq.ofi.women, freq.ofi.blunt, freq.ofi.penetrating, freq.ofi.traffic1, freq.ofi.traffic2, freq.ofi.traffic3, freq.ofi.traffic4, freq.ofi.traffic5, freq.ofi.shot, freq.ofi.stabbed, freq.ofi.struck, freq.ofi.low.energy, freq.ofi.high.energy, freq.ofi.blast, freq.ofi.other, freq.ofi.head.neck, freq.ofi.face, freq.ofi.chest.spine, freq.ofi.extremities, freq.ofi.abdomen, freq.ofi.multiple)
+max.freq <- (max(freq.ofi.men, freq.ofi.women, freq.ofi.blunt, freq.ofi.penetrating, freq.ofi.traffic1, freq.ofi.traffic2, freq.ofi.traffic3, freq.ofi.traffic4, freq.ofi.traffic5, freq.ofi.shot, freq.ofi.stabbed, freq.ofi.struck, freq.ofi.low.energy, freq.ofi.high.energy, freq.ofi.blast, freq.ofi.other, freq.ofi.head.neck, freq.ofi.face, freq.ofi.chest.spine, freq.ofi.extremities, freq.ofi.abdomen, freq.ofi.multiple)*100)
+
+# Den subgrupp med lägst ofi frekvens
+
+min.freq <- (min(freq.ofi.men, freq.ofi.women, freq.ofi.blunt, freq.ofi.penetrating, freq.ofi.traffic1, freq.ofi.traffic2, freq.ofi.traffic3, freq.ofi.traffic4, freq.ofi.traffic5, freq.ofi.shot, freq.ofi.stabbed, freq.ofi.struck, freq.ofi.low.energy, freq.ofi.high.energy, freq.ofi.blast, freq.ofi.other, freq.ofi.head.neck, freq.ofi.face, freq.ofi.chest.spine, freq.ofi.extremities, freq.ofi.abdomen, freq.ofi.multiple)*100)
 
 # Genomsnittlig ålder hos alla pat
 
