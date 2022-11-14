@@ -1,62 +1,29 @@
+# Fil för deskrivptiva resultat
 
-create_table_two <- function(cleaned.data) {
+
+
+create_table_two <- function(df.ofi.frequency) {
   
   ## Renaming data labels
   
-  cleaned.data$pt_Gender <- factor(
-    cleaned.data$pt_Gender,
-    levels = c(1, 2),
-    labels = c("Male", "Female")
+  df.ofi.frequency$subgruops <- factor(
+    df.ofi.frequency$subgruops,
+    levels = c("Men", "Women", "Blunt Trauma", "Penetraiting Trauma", "Traffic - motor veichle accident, not motorcycle", "Traffic - motorcycle accident", "Traffic - bicycle accident", "Traffic - pedastrian", "Traffic - other", "Shot by handgun, shotgun, rifle, other firearm of any calibre ", "Stabbed by knife, sword, dagger other pointed or sharp object", "Struck or hit by blunt object", "Low energy fall - fall in the same level", "High energy fall - fall from a higher level","Blast injury", "Other", "Minor Trauma", "Major Trauma", "Head or Neck", "Face", "Chest, Diaphragm or Spine", "Abdomen", "Extremities", "Unspecified", "Multiple"),
+    labels = c("Men", "Women", "Blunt Trauma", "Penetraiting Trauma", "Traffic - motor veichle accident, not motorcycle", "Traffic - motorcycle accident", "Traffic - bicycle accident", "Traffic - pedastrian", "Traffic - other", "Shot by handgun, shotgun, rifle, other firearm of any calibre ", "Stabbed by knife, sword, dagger other pointed or sharp object", "Struck or hit by blunt object", "Low energy fall - fall in the same level", "High energy fall - fall from a higher level","Blast injury", "Other", "Minor Trauma", "Major Trauma", "Head or Neck", "Face", "Chest, Diaphragm or Spine", "Abdomen", "Extremities", "Unspecified", "Multiple")
   )
   
-  cleaned.data$inj_mechanism <- factor(
-    cleaned.data$inj_mechanism,
-    levels = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 999),
-    labels = c("Traffic - motor veichle accident, not motorcycle", "Traffic - motorcycle accident", "Traffic - bicycle accident", "Traffic - pedastrian", "Traffic - other", "Shot by handgun, shotgun, rifle, other firearm of any calibre ", "Stabbed by knife, sword, dagger other pointed or sharp object", "Struck or hit by blunt object", "Low energy fall - fall in the same level", "High energy fall - fall from a higher level","Blast injury", "Other", "Unknown")
-  )
+  df.ofi.frequency$frequency.of.ofi <- factor(
+    df.ofi.frequency$frequency.of.ofi,
+    levels = c(freq.ofi.men, freq.ofi.women, freq.ofi.blunt, freq.ofi.penetrating, freq.ofi.traffic1, freq.ofi.traffic2, freq.ofi.traffic3, freq.ofi.traffic4, freq.ofi.traffic5, freq.ofi.shot, freq.ofi.stabbed, freq.ofi.struck, freq.ofi.low.energy, freq.ofi.high.energy, freq.ofi.blast, freq.ofi.other, freq.ofi.minor.trauma, freq.ofi.major.trauma, freq.ofi.head.neck, freq.ofi.face, freq.ofi.chest.spine, freq.ofi.abdomen, freq.ofi.extremities, freq.ofi.unspecified, freq.ofi.multiple),
+    labels = c("Men", "Women", "Blunt Trauma", "Penetraiting Trauma", "Traffic - motor veichle accident, not motorcycle", "Traffic - motorcycle accident", "Traffic - bicycle accident", "Traffic - pedastrian", "Traffic - other", "Shot by handgun, shotgun, rifle, other firearm of any calibre ", "Stabbed by knife, sword, dagger other pointed or sharp object", "Struck or hit by blunt object", "Low energy fall - fall in the same level", "High energy fall - fall from a higher level","Blast injury", "Other", "Minor Trauma", "Major Trauma", "Head or Neck", "Face", "Chest, Diaphragm or Spine", "Abdomen", "Extremities", "Unspecified", "Multiple")
   
-  cleaned.data$most.severe.region <- factor(
-    cleaned.data$most.severe.region,
-    levels = c("Head", "Neck", "Face", "Thorax", "Spine", "Abdomen", "Lower Extremity", "Upper Extremity", "Unspeciefied", "Multiple"),
-    labels = c("Head", "Neck", "Face", "Thorax", "Spine", "Abdomen", "Lower Extremity", "Upper Extremity", "Unspeciefied", "Multiple")
-    
-    
-    
-    #cleaned.data$most.severe.region <- factor(
-    #  cleaned.data$most.severe.region,
-    # levels = c("Head"&"Neck", "Face", "Thorax"&"Spine", "Abdomen", "Lower Extremity"&"Upper Extremity", "Unspeciefied", "Multiple"),
-    #  labels = c("Head or Neck", "Face", "Chest, Diaphragm or Spine", "Abdomen", "Extremities", "Unspecified", "Multiple")
-  )
-  
-  cleaned.data$trauma.severity <- factor(
-    cleaned.data$trauma.severity,
-    levels = c("minor", "major"),
-    labels = c("Minor Trauma", "Major Trauma"),
-  )
-  
-  cleaned.data$inj_dominant <- factor(
-    cleaned.data$inj_dominant,
-    levels = c(1, 2),
-    labels = c("Blunt", "Penetrating"),
-  )
-  
-  cleaned.data$ofi <- factor(
-    cleaned.data$ofi,
-    levels = c("Yes", "No"),
-    labels = c("Yes, atleast one opportunity for improvement", "No opportunities for improvement"),
   )
   
   
   ## Renaming column labels
-  var_label(cleaned.data) <- list (
-    pt_age_yrs = "Age (years)",
-    pt_Gender = "Gender",
-    inj_dominant = "Dominating Type of Injury",
-    ofi = "Opportunity for improvement",
-    inj_mechanism = "Mechanism of injury",
-    NISS = "NISS",
-    trauma.severity = "Minor or Major Trauma",
-    most.severe.region = "Most severe region"
+  var_label(df.ofi.frequency) <- list (
+    frequency.of.ofi = "OFI frekvens",
+    subgroups = "Subgrupper"
   )
   
   
@@ -74,10 +41,11 @@ create_table_two <- function(cleaned.data) {
   }
   
   ## Making table one
-  vars2 <- c("pt_age_yrs", "pt_Gender", "inj_mechanism","trauma.severity", "inj_dominant", "ofi", "NISS", "most.severe.region")
-  table.2 <- table1(~ pt_age_yrs + pt_Gender + NISS + inj_mechanism + trauma.severity + inj_dominant + most.severe.region | ofi, 
-                    data=cleaned.data[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
+  vars2 <- c("frequency.of.ofi", "subgroups")
+  df.ofi.frequency <- table1(~ subgruops  | frequency.of.ofi, 
+                    data=df.ofi.frequency[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
   
   return(table.2)
+  
 }
-
+  

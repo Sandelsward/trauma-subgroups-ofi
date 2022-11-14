@@ -1,6 +1,3 @@
-# Fil för deskrivptiva resultat
-
-
 
 create_table_one <- function(cleaned.data) {
   
@@ -17,11 +14,20 @@ create_table_one <- function(cleaned.data) {
     levels = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 999),
     labels = c("Traffic - motor veichle accident, not motorcycle", "Traffic - motorcycle accident", "Traffic - bicycle accident", "Traffic - pedastrian", "Traffic - other", "Shot by handgun, shotgun, rifle, other firearm of any calibre ", "Stabbed by knife, sword, dagger other pointed or sharp object", "Struck or hit by blunt object", "Low energy fall - fall in the same level", "High energy fall - fall from a higher level","Blast injury", "Other", "Unknown")
   )
+  
   cleaned.data$most.severe.region <- factor(
     cleaned.data$most.severe.region,
     levels = c("Head", "Neck", "Face", "Thorax", "Spine", "Abdomen", "Lower Extremity", "Upper Extremity", "Unspeciefied", "Multiple"),
     labels = c("Head", "Neck", "Face", "Thorax", "Spine", "Abdomen", "Lower Extremity", "Upper Extremity", "Unspeciefied", "Multiple")
+    
+    
+    
+    #cleaned.data$most.severe.region <- factor(
+    #  cleaned.data$most.severe.region,
+    # levels = c("Head"&"Neck", "Face", "Thorax"&"Spine", "Abdomen", "Lower Extremity"&"Upper Extremity", "Unspeciefied", "Multiple"),
+    #  labels = c("Head or Neck", "Face", "Chest, Diaphragm or Spine", "Abdomen", "Extremities", "Unspecified", "Multiple")
   )
+  
   cleaned.data$trauma.severity <- factor(
     cleaned.data$trauma.severity,
     levels = c("minor", "major"),
@@ -69,10 +75,9 @@ create_table_one <- function(cleaned.data) {
   
   ## Making table one
   vars2 <- c("pt_age_yrs", "pt_Gender", "inj_mechanism","trauma.severity", "inj_dominant", "ofi", "NISS", "most.severe.region")
-  table.1 <- table1(~ pt_age_yrs + pt_Gender + inj_mechanism + NISS + ofi + inj_dominant + most.severe.region | trauma.severity, 
+  table.1 <- table1(~ pt_age_yrs + pt_Gender + NISS + inj_mechanism + trauma.severity + inj_dominant + most.severe.region | ofi, 
                     data=cleaned.data[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
   
   return(table.1)
-  
 }
-  
+
