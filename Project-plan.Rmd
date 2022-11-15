@@ -48,7 +48,7 @@ Not only does trauma represent a large share of the global mortality rate, but s
 have also shown a significant difference in outcome depending on where patients are
 treated. It has for example been shown that trauma patients in Sweden who were treated at a trauma center rather than a non-trauma center had a 41 % lower 30-day adjusted mortality rate [@Candefjord2022-pe]. 
 
-Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %, while for example the rate of preventable deaths at the Karolinska University hospital trauma center was shown in a study to be 4.0 %.[@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh]  Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries [@Mock2012-lx].   
+Some studies indicate that the number of trauma-related deaths that potentially could have been prevented are as high as 20 to over 50 %, while for example the rate of preventable deaths at the Karolinska University hospital trauma center was shown in a study to be 4.0 % [@Drake2020-kx; @Ray2016-jo; @Ghorbani2018-dh].  Preventable deaths varies not only between trauma centers and non-trauma centers. There is a significant difference between high income counties and low and middle income countries (LMICs). It is estimated that 2 million lives could be saved annually if LMICs and high income countries had equal fatality numbers for severe injuries [@Mock2012-lx].   
 
 
 Trauma quality improvement
@@ -59,22 +59,22 @@ In the 1980s focus shifted and terms like Trauma Quality Management and Continuo
 
 Since the early 2000s a term called Quality Improvement is used. Quality Improvement has a more multidisciplinary focused approach with Morbidity and Mortality conferences as an essential part. Quality improvement also further emphasizes systems role rather than clinical performances, as systems are more comparable to outcomes.[@Mock2009]
 
-In the past decades several trauma quality improvement programs have been created. One of the more established ones is the Trauma Quality Improvement Program (TQIP) by the American College of Surgeons that was launched in 2008[@Hemmila2010-sr]. The TQIP provides site-specific data of how well each hospital is preforming in terms of trauma care. This makes it possible to compare data with same level hospitals as well as evaluating how well each hospital is preforming, leading to changes in routines and practice guidelines.[@Blackmore2019-bj]
+In the past decades several trauma quality improvement programs have been created. One of the more established ones is the Trauma Quality Improvement Program (TQIP) by the American College of Surgeons that was launched in 2008 [@Hemmila2010-sr]. The TQIP provides site-specific data of how well each hospital is preforming in terms of trauma care. This makes it possible to compare data with same level hospitals as well as evaluating how well each hospital is preforming, leading to changes in routines and practice guidelines [@Blackmore2019-bj].
 
 Morbidity and Mortality Conferences
 ------------
-An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidisciplinary conference with representatives from all medical specialties and professions in the trauma team. The purpose of M&M is to learn from the care provided, identify opportunities for improvements, and implement corrective actions[@Aboumatar2007-ws]. As it is not possible to analyze every trauma case in detail audit filters are often used to decide which cases that are to be reviewed at M&M.[@Evans2009-oy]
+An important part of trauma care evaluation and improvement is Mortality and Morbidity Conferences (M&M). This is a multidisciplinary conference with representatives from all medical specialties and professions in the trauma team. The purpose of M&M is to learn from the care provided, identify opportunities for improvements, and implement corrective actions[@Aboumatar2007-ws]. As it is not possible to analyze every trauma case in detail audit filters are often used to decide which cases that are to be reviewed at M&M [@Evans2009-oy].
 
-Audit filters can be described as predefined statements that decides whether or not a certain event differ from the guidelines.[@Berg2022] Such audit filter can be time frames in which a test should be taken or a Glascow Coma Scale score under 8 without the patient being indubated[@Evans2009-oy]. 
+Audit filters can be described as predefined statements that decides whether or not a certain event differ from the guidelines [@Berg2022]. Such audit filter can be time frames in which a test should be taken or a Glascow Coma Scale score under 8 without the patient being indubated[@Evans2009-oy]. 
 
  Trauma Severity Scores
 ------------
  
-The Abbreviated Injury Scale (AIS) defines traumatic injuries across 9 different body regions. The scale ranges from 1-5, where 1 is the least serious and 5 the most serious. [@Kuo2017-dj]
+The Abbreviated Injury Scale (AIS) defines traumatic injuries across 9 different body regions. The scale ranges from 1-5, where 1 is the least serious and 5 the most serious [@Kuo2017-dj].
 
 The Injury Severity Score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score a patient get is based on the AIS points from the injured body regions. The higher ISS score the more serious injury the patients suffers from. The ISS does however only take into account the most severe injury in each region, meaning that you could have two different injuries in the abdomen without it affecting the ISS score.[@Javali2019-wn]
 
-The New Injury Severity Score (NISS) is developed from the ISS. NISS also takes injuries from the same body regions as NISS into account. The NISS is the sum of the squares of the three highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. As the AIS can vary from 1-5, the NISS ranges between 1-75.[@Li2021-ag]. The NISS score is also used internationally to define trauma severity. A NISS Score >15 is considered a major trauma and <15 a minor trauma.[@Bagher2017]
+The New Injury Severity Score (NISS) is developed from the ISS. NISS also takes injuries from the same body regions as NISS into account. The NISS is the sum of the squares of the three highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. As the AIS can vary from 1-5, the NISS ranges between 1-75 [@Li2021-ag]. The NISS score is also used internationally to define trauma severity. A NISS Score >15 is considered a major trauma and <15 a minor trauma [@Bagher2017].
 
 
 Trauma registry
@@ -84,16 +84,16 @@ In Sweden there is a national trauma registry (SweTrau) holding records of traum
 Oppotrunity for improvement
 ------------
 
-Whether there is opportunity for improvement for a specific case or not is decided during M&M where selected trauma casees are reviewed. Opportunity for improvement (OFI) is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect. Examples of OFI could be too long transportation time to the hospital from the site of injury, insufficient vital signs documentation at the emergency department or missing trauma surgeon/consultant. [@Sanddal2011-cl] 
+Whether there is opportunity for improvement for a specific case or not is decided during M&M where selected trauma casees are reviewed. Opportunity for improvement (OFI) is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect. Examples of OFI could be too long transportation time to the hospital from the site of injury, insufficient vital signs documentation at the emergency department or missing trauma surgeon/consultant.[@Sanddal2011-cl] 
 
 The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas were OFIs were found.[@OReilly2013].
 
-OFI can be a more nuanced measure for trauma care improvement than the more established terms preventable deaths and non preventable deaths. This is because there can be OFI in a case where a patient has died, even if the death was not preventable.[@Traumaguidelines09] Furthermore there is no consensus for classification of preventable and non preventable death, leading authors to use different classifications.[@Montmany2016-hz]. The term OFI also has the advantage over the term preventable death by sounding more positive and encouraging, preventing review board members from having to classify colleagues patient care as inappropriate.[@Sanddal2011-cl]
+OFI can be a more nuanced measure for trauma care improvement than the more established terms preventable deaths and non preventable deaths. This is because there can be OFI in a case where a patient has died, even if the death was not preventable [@Traumaguidelines09]. Furthermore there is no consensus for classification of preventable and non preventable death, leading authors to use different classifications [@Montmany2016-hz]. The term OFI also has the advantage over the term preventable death by sounding more positive and encouraging, preventing review board members from having to classify colleagues patient care as inappropriate [@Sanddal2011-cl].
 
 Trauma subgroups
 ------------
 Since trauma patients is a heterogeneous group, it is important to have a 
-sufficient understanding of OFIs for different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury.[@arsrapportswetrau]
+sufficient understanding of OFIs for different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury [@arsrapportswetrau].
 
 In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example, traumatic injuries from stabbing and from shooting violence are more common in men while women are over represented in fall traumas.[@arsrapportswetrau] 
 
@@ -119,8 +119,8 @@ Setting
 -------
 The Karolinska University Hospital in Solna, Stockholm is the largest Trauma Center in Sweden. The hospital is also classified as a level 1 trauma center.[@Karolinska] The Trauma department at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. The Karolinska University Hospital is the primary trauma center for a population of 2,8 million people.[@Traumanks, @Almskog2020] 
 
-Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To the Trauma Center at Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
-<!--men bara trauma 1 till traumaenheten? trauma 2 till IA? något lite vagare -->
+Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To the Trauma team at Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
+
 A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
 Audit filters and for some cases, maual selection was used to determine which cases that should be reviewed at M&M. Some examples of audit filters that were used are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes and time to Surgery. A manual selection was done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation from best practice guidelines can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified"
@@ -183,22 +183,16 @@ After merging the Karolinska trauma registry and the Trauma quality data base th
 exclusion()
 ```
 
-<!--
-(a) Report numbers of individuals at each stage of study—eg numbers
-potentially eligible, examined for eligibility, confirmed eligible,
-included in the study, completing follow-up, and analysed
-(b) Give reasons for non-participation at each stage
-(c) Consider use of a flow diagram -->
 
 Descriptive data
 ----------------
 
-Out of the `r total.cohort` patients included in the cohort `r all.men` were men.  Among the men the frequency of OFI was `r freq.ofi.men` and among the women `r freq.ofi.women`. The mean age for all the patients were `r mean.age` years and the avarege NISS score was `r mean.niss`. 
+Out of the `r total.cohort` patients included in the cohort `r all.men` were men.  Among the men the frequency of OFI was `r freq.ofi.men`% and among the women `r freq.ofi.women`%. The mean age for all the patients were `r mean.age` years and the avarege NISS score was `r mean.niss`. 
 <!--Förslag vad som ska stå här: Vanligaste kön, genomsnittlig ålder, genomsnitts ISS eller niss. Du bör också presentera hur vanligt OFI var osv. -->
 
 
 ```{r, echo = FALSE} 
-  table.1 ## will be improved later
+  table.1 
 ```
 
 
@@ -222,10 +216,10 @@ measures -->
 
 Main results
 ------------
-The subgroup with the highest OFI frequency was xxxx with a frequency at `r max.freq`%. The lowest OFI frequency was measured in the xxx cohort with a frquency at `r min.freq`%. In the entire cohort there was a `r mean.ofi`% frequency of OFI. 
+The subgroup with the highest OFI frequency was xxxx with a frequency at `r max.freq`%. The lowest OFI frequency was measured in the xxx cohort with a frquency at `r min.freq`%. In the entire cohort the mean frequency of OFI was `r mean.ofi`%. 
 
 ```{r, echo = FALSE} 
-  main.results ## will be improved later
+  main.results 
 ```
 
 <!--
