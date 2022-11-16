@@ -30,6 +30,7 @@ source("exclusion.R")
 source("ofi.selection.R")
 source("frequency.of.ofi.R")
 source("df.freq.R")
+source("bootcalculations.R")
 ```
 
 <!-- If you need more text you can always expand on trauma as a global health issue, 
@@ -220,31 +221,19 @@ The subgroup with the highest OFI frequency was xxxx with a frequency at `r max.
 
 | Cohort       | Frequency of OFI (%)          | Confidence interval  |
 |:------------- |:-------------:| -----:|
-| Men      | `r freq.ofi.men` | () |
-| Women      | `r freq.ofi.women`     |   () |
-| Blunt Trauma | `r freq.ofi.blunt`      |    () |
-| Pentetraiting Trauma | `r freq.ofi.penetrating` | () |  
-| Traffic - motor veichle accident, not motorcycle | `r freq.ofi.traffic1`| () |
-| Traffic - motorcycle accident | `r freq.ofi.traffic2` | () |
-| Traffic - bicycle accident | `r freq.ofi.traffic3` | () |
-| Traffic - pedastrian | `r freq.ofi.traffic4` | () |
-| Traffic - other | `r freq.ofi.traffic5` | () |
-| Shot by handgun, shotgun, rifle, other firearm of any calibre | `r freq.ofi.shot` | () |
-| Stabbed by knife, sword, dagger other pointed or sharp object | `r freq.ofi.stabbed` | () |
-| Struck or hit by blunt object | `r freq.ofi.struck` | () |
-| Low energy fall - fall in the same level | `r freq.ofi.low.energy` | () |
-| High energy fall - fall from a higher level | `r freq.ofi.high.energy` | () |
-| Blast injury | `r freq.ofi.blast` | () |
-| Other Trauma Mechanism | `r freq.ofi.other` | () |
-| Minor Trauma | `r freq.ofi.minor.trauma` | () |
+| Men      | `r freq.ofi.men` | `r ci.men` |
+| Women      | `r freq.ofi.women`     |   `r ci.women` |
+| Blunt Trauma | `r freq.ofi.blunt`      | `r ci.blunt` |
+| Pentetraiting Trauma | `r freq.ofi.penetrating` | `r ci.penetrating` |  
+| Minor Trauma | `r freq.ofi.minor.trauma` | `r ci.minor.trauma` |
 | Major Trauma | `r freq.ofi.major.trauma` | () |
-| MSR - Head or Neck | `r freq.ofi.head.neck` | () |
+| MSR - Head or Neck | `r freq.ofi.head.neck` | `r ci.head.neck` |
 | MSR - Face | `r freq.ofi.face` | () |
-| MSR - Chest, Diaphragm or Spine | `r freq.ofi.chest.spine` | () |
-| MSR - Abdomen | `r freq.ofi.abdomen` | () |
-| MSR - Extremities | `r freq.ofi.extremities` | () |
+| MSR - Chest, Diaphragm or Spine | `r freq.ofi.chest.spine` | `r ci.chest.spine` |
+| MSR - Abdomen | `r freq.ofi.abdomen` | `r ci.abdomen` |
+| MSR - Extremities | `r freq.ofi.extremities` | `r ci.extremities` |
 | MSR - Unspecified | `r freq.ofi.unspecified` | () |
-| MSR - Multiple | `r freq.ofi.multiple` | () |
+| MSR - Multiple | `r freq.ofi.multiple` | `r ci.multiple` |
 <!--
 (a) Give unadjusted estimates and, if applicable, confounder-adjusted
 estimates and their precision (eg, 95% confidence interval). Make
