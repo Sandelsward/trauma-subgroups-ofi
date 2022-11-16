@@ -9,6 +9,8 @@ total.cohort <- nrow(cleaned.data)
 total.men <- cleaned.data[cleaned.data$pt_Gender == 1,1:2]
 all.men <- nrow(total.men)
 
+
+
 #antal män med ofi
 
 ofi.men <- cleaned.data[cleaned.data$pt_Gender == 1,1:2]
@@ -19,8 +21,7 @@ nrow(total.ofi.men)
 
 # Frekvens av ofi hos män
 
-freq.ofi.men <- nrow(total.ofi.men)/nrow(total.men)
-
+freq.ofi.men = round((nrow(total.ofi.men)/nrow(total.men)*100), digits = 2)
 # Antal kvinnor
 
 women <- cleaned.data[cleaned.data$pt_Gender == 2,1:2]
@@ -30,12 +31,12 @@ total.women <- nrow(women)
 
 ofi.women <- cleaned.data[cleaned.data$pt_Gender == 2,1:2]
 
-total.ofi.women <- ofi.women[ofi.women$ofi =="Yes",]
-nrow(total.ofi.women)
+df.total.ofi.women <- ofi.women[ofi.women$ofi =="Yes",]
+total.ofi.women <- nrow(df.total.ofi.women)
 
 # frekvens av ofi hos kvinnor
 
-freq.ofi.women = nrow(total.ofi.women)/sum(total.women)
+freq.ofi.women <- round(((total.ofi.women)/(total.women)*100), digits = 2)
 
 # Delta frekvens kön
 
@@ -58,7 +59,8 @@ nrow(total.ofi.blunt)
 
 #frekvens av ofi hos blunt trauma
 
-freq.ofi.blunt <- nrow(total.ofi.blunt)/sum(total.blunt)
+freq.ofi.blunt <- round((nrow(total.ofi.blunt)/sum(total.blunt)*100), digits = 2)
+
 
 # Antal patienter med penetrating trauma
 penetrating <- cleaned.data[cleaned.data$inj_dominant == 2,c(2,4)]
@@ -72,7 +74,8 @@ nrow(total.ofi.penetrating)
 
 # frekvens av ofi hos penetrerande trauma
 
-freq.ofi.penetrating <- nrow(total.ofi.penetrating)/(total.penetrating)
+freq.ofi.penetrating <- round((nrow(total.ofi.penetrating)/(total.penetrating)*100), digits = 2)
+
 
 # delta inj.dominant
 
@@ -95,7 +98,9 @@ nrow(ofi.traffic1)
 
 # frekvens av ofi hos Traffic - motor veichle accident, not motorcycle" kod 1
 
-freq.ofi.traffic1 <- nrow(ofi.traffic1)/nrow(tot.traffic1)
+#freq.ofi.traffic1 <- nrow(ofi.traffic1)/nrow(tot.traffic1)
+
+freq.ofi.traffic1 = round((nrow(ofi.traffic1)/nrow(tot.traffic1)*100), digits = 2)
 
 #Antal pateinter från "Traffic - motorcycle accident" kod 2
 tot.traffic2 <- inj.mechanism[inj.mechanism$inj_mechanism == 2,c(1,2)]
@@ -107,7 +112,8 @@ nrow(ofi.traffic2)
 
 # frekvens av ofi hos "Traffic - motorcycle accident" kod 2
 
-freq.ofi.traffic2 <- nrow(ofi.traffic2)/nrow(tot.traffic2)
+#freq.ofi.traffic2 <- nrow(ofi.traffic2)/nrow(tot.traffic2)
+freq.ofi.traffic2 = round((nrow(ofi.traffic2)/nrow(tot.traffic2)*100), digits = 2)
 
 
 #Antal patienter från "Traffic - bicycle accident" kod 3
@@ -121,7 +127,10 @@ ofi.traffic3 <- tot.traffic3[tot.traffic3$ofi == "Yes",]
 nrow(ofi.traffic3)
 
 # frekvens av ofi hos "Traffic - bicycle accident" kod 3
-freq.ofi.traffic3 <- nrow(ofi.traffic3)/nrow(tot.traffic3)
+#freq.ofi.traffic3 <- nrow(ofi.traffic3)/nrow(tot.traffic3)
+
+freq.ofi.traffic3 = round((nrow(ofi.traffic3)/nrow(tot.traffic3)*100), digits = 2)
+
 
 #Antal patienter från "Traffic - pedastrian" kod 4
 tot.traffic4 <- inj.mechanism[inj.mechanism$inj_mechanism == 4,c(1,2)]
@@ -132,7 +141,8 @@ ofi.traffic4 <- tot.traffic4[tot.traffic4$ofi == "Yes",]
 nrow(ofi.traffic4)
 
 # frekvens av ofi hos "Traffic - pedastrian" kod 4
-freq.ofi.traffic4 <- nrow(ofi.traffic4)/nrow(tot.traffic4)
+#freq.ofi.traffic4 <- nrow(ofi.traffic4)/nrow(tot.traffic4)
+freq.ofi.traffic4 = round((nrow(ofi.traffic4)/nrow(tot.traffic4)*100), digits = 2)
 
 # Antal patienter från "Traffic - other" kod 5
 tot.traffic5 <- inj.mechanism[inj.mechanism$inj_mechanism == 5,c(1,2)]
@@ -143,7 +153,8 @@ ofi.traffic5 <- tot.traffic5[tot.traffic4$ofi == "Yes",]
 nrow(ofi.traffic5)
 
 #frekvens av ofi "Traffic - other" kod 5
-freq.ofi.traffic5 <- nrow(ofi.traffic5)/nrow(tot.traffic5)
+#freq.ofi.traffic5 <- nrow(ofi.traffic5)/nrow(tot.traffic5)
+freq.ofi.traffic5 = round((nrow(ofi.traffic5)/nrow(tot.traffic5)*100), digits = 2)
 
 # Antal patienter från "Shot by handgun, shotgun, rifle, other firearm of any calibre " kod 6
 
@@ -156,7 +167,8 @@ nrow(ofi.shot)
 
 #frekvens av ofi hos  "Shot by handgun, shotgun, rifle, other firearm of any calibre " kod 6
 
-freq.ofi.shot <- nrow(ofi.shot)/nrow(tot.shot)
+freq.ofi.shot <- round((nrow(ofi.shot)/nrow(tot.shot)*100), digits = 2)
+
 
 #Antal patienter från "Stabbed by knife, sword, dagger other pointed or sharp object" kod 7
 
@@ -171,7 +183,8 @@ nrow(ofi.stabbed)
 
 #frekvens av ofi hos "Stabbed by knife, sword, dagger other pointed or sharp object" kod 7
 
-freq.ofi.stabbed <- nrow(ofi.stabbed)/nrow(tot.stabbed)
+#freq.ofi.stabbed <- nrow(ofi.stabbed)/nrow(tot.stabbed)
+freq.ofi.stabbed <- round((nrow(ofi.stabbed)/nrow(tot.stabbed)*100), digits = 2)
 
 #Antal patienter från "Struck or hit by blunt object" kod 8
 
@@ -184,7 +197,9 @@ nrow(ofi.struck)
 
 #frekvens av ofi hos Struck or hit by blunt object" kod 8
 
-freq.ofi.struck <- nrow(ofi.struck)/nrow(tot.struck)
+#freq.ofi.struck <- nrow(ofi.struck)/nrow(tot.struck)
+freq.ofi.struck <- round((nrow(ofi.struck)/nrow(tot.struck)*100), digits = 2)
+
 
 #Antal patienter från "Low energy fall - fall in the same level" kod 9
 
@@ -197,7 +212,8 @@ nrow(ofi.low.energy)
 
 #frekvens av ofi hos "Low energy fall - fall in the same level" kod 9
 
-freq.ofi.low.energy <- nrow(ofi.low.energy)/nrow(tot.low.energy)
+#freq.ofi.low.energy <- nrow(ofi.low.energy)/nrow(tot.low.energy)
+freq.ofi.low.energy <- round((nrow(ofi.low.energy)/nrow(tot.low.energy)*100), digits = 2)
 
 #Antal patienter från "High energy fall - fall from a higher level" kod 10
 
@@ -211,7 +227,8 @@ nrow(ofi.high.energy)
 
 #frekvens av ofi hos "High energy fall - fall from a higher level" kod 10
 
-freq.ofi.high.energy <- nrow(ofi.high.energy)/nrow(tot.high.energy)
+#freq.ofi.high.energy <- nrow(ofi.high.energy)/nrow(tot.high.energy)
+freq.ofi.high.energy <- round((nrow(ofi.high.energy)/nrow(tot.high.energy)*100), digits = 2)
 
 #Antal patienter från "Blast injury" kod 11
 tot.blast <- inj.mechanism[inj.mechanism$inj_mechanism == 11,c(1,2)]
@@ -223,8 +240,8 @@ ofi.blast <- tot.blast[tot.blast$ofi == "Yes",]
 nrow(ofi.blast)
 
 #frekvens av ofi hos "Blast injury" kod 11
-freq.ofi.blast <- nrow(ofi.blast)/nrow(tot.blast)
-
+#freq.ofi.blast <- nrow(ofi.blast)/nrow(tot.blast)
+freq.ofi.blast <- round((nrow(ofi.blast)/nrow(tot.blast)*100), digits = 2)
 #Antal patienter från "Other" kod 12
 
 tot.other <- inj.mechanism[inj.mechanism$inj_mechanism == 12,c(1,2)]
@@ -236,7 +253,9 @@ ofi.other <- tot.other[tot.other$ofi == "Yes",]
 nrow(ofi.other)
 
 #frekvens av ofi hos "Other" kod 12
-freq.ofi.other <- nrow(ofi.other)/nrow(tot.other)
+#freq.ofi.other <- nrow(ofi.other)/nrow(tot.other)
+freq.ofi.other <- round((nrow(ofi.other)/nrow(tot.other)*100), digits = 2)
+
 
 #Mest skadade region enligt AIS-koder
 
@@ -258,7 +277,7 @@ ofi.head.neck <- nrow(ofi.head.neck.list)
 
 
 #frekvens av ofi hos MSR Head or neck. 
-freq.ofi.head.neck <- (ofi.head.neck)/(tot.head.neck)
+freq.ofi.head.neck <- round(((ofi.head.neck)/(tot.head.neck)*100), digits = 2)
 
 
 # Antal patienter med Most severe region (MSR) Face
@@ -273,7 +292,8 @@ ofi.face.list <- df.face[df.face$ofi == "Yes",]
 ofi.face <- nrow(ofi.face.list)
 
 #frekvens av ofi hos MSR Face
-freq.ofi.face <- (ofi.face)/(tot.face)
+#freq.ofi.face <- (ofi.face)/(tot.face)
+freq.ofi.face <- round(((ofi.face)/(tot.face)*100), digits = 2)
 
 # Antal patienter med Most severe region (MSR) Thorax or spine = ISS Chest, diaphragm or spine
 
@@ -287,7 +307,8 @@ ofi.chest.spine.list <- df.chest.spine[df.chest.spine$ofi == "Yes",]
 ofi.chest.spine <- nrow(ofi.chest.spine.list)
 
 #frekvens av ofi hos MSR Chest or Spine
-freq.ofi.chest.spine <- (ofi.chest.spine)/(tot.chest.spine)
+#freq.ofi.chest.spine <- (ofi.chest.spine)/(tot.chest.spine)
+freq.ofi.chest.spine <- round(((ofi.chest.spine)/(tot.chest.spine)*100), digits = 2)
 
 # Antal patienter med Most severe region Abdomen  = ISS Abdomen
 
@@ -301,7 +322,8 @@ ofi.abdomen.list <- df.abdomen[df.abdomen$ofi == "Yes",]
 ofi.abdomen <- nrow(ofi.abdomen.list)
 
 #frekvens av ofi hos MSR abdomen
-freq.ofi.abdomen <- (ofi.abdomen)/(tot.abdomen)
+#freq.ofi.abdomen <- (ofi.abdomen)/(tot.abdomen)
+freq.ofi.abdomen <- round(((ofi.abdomen)/(tot.abdomen)*100), digits = 2)
 
 # Antal patienter med Most severe region Lower or upper extremities = ISS Extremities
 
@@ -316,7 +338,9 @@ ofi.extremities <- nrow(ofi.extremities.list)
 
 
 #frekvens av ofi hos MSR extremities. 
-freq.ofi.extremities <- (ofi.extremities)/(tot.extremities)
+#freq.ofi.extremities <- (ofi.extremities)/(tot.extremities)
+freq.ofi.extremities <- round(((ofi.extremities)/(tot.extremities)*100), digits = 2)
+
 
 # Antal patienter med Most severe region Unspecified
 
@@ -330,7 +354,8 @@ ofi.unspecified.list <- df.unspecified[df.unspecified$ofi == "Yes",]
 ofi.unspecified <- nrow(ofi.unspecified.list)
 
 #frekvens av ofi hos MSR unspecified
-freq.ofi.unspecified <- (ofi.unspecified)/(tot.unspecified)
+#freq.ofi.unspecified <- (ofi.unspecified)/(tot.unspecified)
+freq.ofi.unspecified <- round(((ofi.unspecified)/(tot.unspecified)*100), digits = 2)
 
 
 # Antal patienter med Most severe region multiple
@@ -345,36 +370,42 @@ ofi.multiple.list <- df.multiple[df.multiple$ofi == "Yes",]
 ofi.multiple <- nrow(ofi.multiple.list)
 
 #frekvens av ofi hos MSR multiple
-freq.ofi.multiple <- (ofi.multiple)/(tot.multiple)
+#freq.ofi.multiple <- (ofi.multiple)/(tot.multiple)
 
-
+freq.ofi.multiple<- round(((ofi.multiple)/(tot.multiple)*100), digits = 2)
 # Antal patienter med minor trauma
-df.minor.trauma <- cleaned.data %>% filter (`Trauma Severity`%in% c(0:14)) 
 
-df.tot.minor.trauma <- df.minor.trauma[,c(2,59)]
-tot.minor.trauma <- nrow(df.tot.minor.trauma)
+
+##df.minor.trauma <- cleaned.data %>% filter (trauma.severity %in% c("minor")) 
+df.minor.trauma <- cleaned.data[cleaned.data$trauma.severity == "minor",]
+
+#df.tot.minor.trauma <- df.minor.trauma[,c(2,59)]
+
+tot.minor.trauma <- nrow(df.minor.trauma)
 
 #ofi hos minor trauma
-df.ofi.minor.trauma <- df.tot.minor.trauma[df.tot.minor.trauma$ofi == "Yes",]
+df.ofi.minor.trauma <- df.minor.trauma[df.minor.trauma$ofi == "Yes",]
 ofi.minor.trauma <- nrow(df.ofi.minor.trauma)
 
 # frekvens av ofi hos minor trauma
 
-freq.ofi.minor.trauma <- (ofi.minor.trauma)/(tot.minor.trauma)
+#freq.ofi.minor.trauma <- (ofi.minor.trauma)/(tot.minor.trauma)
+freq.ofi.minor.trauma<- round(((ofi.minor.trauma)/(tot.minor.trauma)*100), digits = 2)
 
 # Antal patienter med major trauma
-df.major.trauma <- cleaned.data %>% filter (`Trauma Severity`%in% c(15:75)) 
+df.major.trauma <- cleaned.data[cleaned.data$trauma.severity == "major",]
 
-df.tot.major.trauma <- df.major.trauma[,c(2,59)]
-tot.major.trauma <- nrow(df.tot.major.trauma)
+#df.tot.major.trauma <- df.major.trauma[,c(2,59)]
+tot.major.trauma <- nrow(df.major.trauma)
 
 #ofi hos major trauma
-df.ofi.major.trauma <- df.tot.major.trauma[df.tot.major.trauma$ofi == "Yes",]
+df.ofi.major.trauma <- df.major.trauma[df.major.trauma$ofi == "Yes",]
 ofi.major.trauma <- nrow(df.ofi.major.trauma)
 
 # frekvens av ofi hos major trauma
 
-freq.ofi.major.trauma <- (ofi.major.trauma)/(tot.major.trauma)
+#freq.ofi.major.trauma <- (ofi.major.trauma)/(tot.major.trauma)
+freq.ofi.major.trauma<- round(((ofi.major.trauma)/(tot.major.trauma)*100), digits = 2)
 
 #delta inom minor/major trauma
 
@@ -476,6 +507,24 @@ delta.severe.region21 <- abs((freq.ofi.unspecified)-(freq.ofi.multiple))
 
 # Den subgrupp med högst ofi frekvens
 
-max.freq <- max(freq.ofi.men, freq.ofi.women, freq.ofi.blunt, freq.ofi.penetrating, freq.ofi.traffic1, freq.ofi.traffic2, freq.ofi.traffic3, freq.ofi.traffic4, freq.ofi.traffic5, freq.ofi.shot, freq.ofi.stabbed, freq.ofi.struck, freq.ofi.low.energy, freq.ofi.high.energy, freq.ofi.blast, freq.ofi.other, freq.ofi.head.neck, freq.ofi.face, freq.ofi.chest.spine, freq.ofi.extremities, freq.ofi.abdomen, freq.ofi.multiple)
+max.freq <- (max(freq.ofi.men, freq.ofi.women, freq.ofi.blunt, freq.ofi.penetrating, freq.ofi.traffic1, freq.ofi.traffic2, freq.ofi.traffic3, freq.ofi.traffic4, freq.ofi.traffic5, freq.ofi.shot, freq.ofi.stabbed, freq.ofi.struck, freq.ofi.low.energy, freq.ofi.high.energy, freq.ofi.blast, freq.ofi.other, freq.ofi.head.neck, freq.ofi.face, freq.ofi.chest.spine, freq.ofi.extremities, freq.ofi.abdomen, freq.ofi.multiple))
 
+# Den subgrupp med lägst ofi frekvens
+
+min.freq <- (min(freq.ofi.men, freq.ofi.women, freq.ofi.blunt, freq.ofi.penetrating, freq.ofi.traffic1, freq.ofi.traffic2, freq.ofi.traffic3, freq.ofi.traffic4, freq.ofi.traffic5, freq.ofi.shot, freq.ofi.stabbed, freq.ofi.struck, freq.ofi.low.energy, freq.ofi.high.energy, freq.ofi.blast, freq.ofi.other, freq.ofi.head.neck, freq.ofi.face, freq.ofi.chest.spine, freq.ofi.extremities, freq.ofi.abdomen, freq.ofi.multiple))
+
+# Genomsnittlig ålder hos alla pat
+
+mean.age <- round(mean(cleaned.data$pt_age_yrs))
+
+# Genomsnittlig NISS
+
+mean.niss <- round(mean(cleaned.data$NISS))
+
+# Hur många i hela cohorten som hade OFI
+
+df.ofi.cleaned.data <- cleaned.data[cleaned.data$ofi =="Yes",]
+ofi.cleaned.data <- nrow(df.ofi.cleaned.data)
+
+mean.ofi <- round((((ofi.cleaned.data)/(total.cohort)) * 100))
 
