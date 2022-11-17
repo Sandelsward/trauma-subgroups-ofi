@@ -234,6 +234,10 @@ The subgroup with the highest OFI frequency was xxxx with a frequency at `r max.
 | MSR - Extremities | `r freq.ofi.extremities` | `r ci.extremities` |
 | MSR - Unspecified | `r freq.ofi.unspecified` | () |
 | MSR - Multiple | `r freq.ofi.multiple` | `r ci.multiple` |
+
+Delta values
+
+
 <!--
 (a) Give unadjusted estimates and, if applicable, confounder-adjusted
 estimates and their precision (eg, 95% confidence interval). Make

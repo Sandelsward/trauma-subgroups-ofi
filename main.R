@@ -29,6 +29,7 @@ library(rmarkdown)
 library(DiagrammeR)
 library(assertthat)
 library(formattable)
+library(kableExtra)
 noacsr::source_all_functions()
 
 ## Import data

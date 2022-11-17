@@ -64,3 +64,11 @@ ci.extremities <- paste("(",round(ci.inj.msr.ofi.extremities[["normal"]][2], dig
 #ci.unspecified <- paste("(",round(ci.inj.msr.ofi.unspecified[["normal"]][2], digits = 2),"-",round(ci.inj.msr.ofi.unspecified[["normal"]][3], digits = 2),")")
 ci.multiple <- paste("(",round(ci.inj.msr.ofi.multiple[["normal"]][2], digits = 2),"-",round(ci.inj.msr.ofi.multiple[["normal"]][3], digits = 2),")")
 
+
+#HÄR UNDER DELTA + DERAS CI
+
+
+delta.freq.vomen <- paste(round(ci.gender.woman[["t0"]], digits = 2),"(",round(ci.gender.woman[["normal"]][2], digits = 2),"-",round(ci.gender.woman[["normal"]][3], digits = 2),")")
+
+
+
