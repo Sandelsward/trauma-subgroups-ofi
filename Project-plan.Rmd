@@ -30,6 +30,7 @@ source("exclusion.R")
 source("ofi.selection.R")
 source("frequency.of.ofi.R")
 source("df.freq.R")
+source("bootcalculations.R")
 ```
 
 <!-- If you need more text you can always expand on trauma as a global health issue, 
@@ -187,7 +188,7 @@ exclusion()
 Descriptive data
 ----------------
 
-Out of the `r total.cohort` patients included in the cohort `r all.men` were men.  Among the men the frequency of OFI was `r freq.ofi.men`% and among the women `r freq.ofi.women`%. The mean age for all the patients were `r mean.age` years and the avarege NISS score was `r mean.niss`. 
+Out of the `r total.cohort` patients included in the cohort `r all.men` were men. The mean age for all the patients were `r mean.age` years and the avarege NISS score was `r mean.niss`. 
 <!--Förslag vad som ska stå här: Vanligaste kön, genomsnittlig ålder, genomsnitts ISS eller niss. Du bör också presentera hur vanligt OFI var osv. -->
 
 
@@ -216,11 +217,26 @@ measures -->
 
 Main results
 ------------
-The subgroup with the highest OFI frequency was xxxx with a frequency at `r max.freq`%. The lowest OFI frequency was measured in the xxx cohort with a frquency at `r min.freq`%. In the entire cohort the mean frequency of OFI was `r mean.ofi`%. 
+The subgroup with the highest OFI frequency was xxxx with a frequency at `r max.freq`%. The lowest OFI frequency was measured in the xxx cohort with a frquency at `r min.freq`%. Among the men the frequency of OFI was `r freq.ofi.men`% and among the women `r freq.ofi.women`%. In the entire cohort the mean frequency of OFI was `r mean.ofi`%. 
 
-```{r, echo = FALSE} 
-  main.results 
-```
+| Cohort       | Frequency of OFI (%)          | Confidence interval  |
+|:------------- |:-------------:| -----:|
+| Men      | `r freq.ofi.men` | `r ci.men` |
+| Women      | `r freq.ofi.women`     |   `r ci.women` |
+| Blunt Trauma | `r freq.ofi.blunt`      | `r ci.blunt` |
+| Pentetraiting Trauma | `r freq.ofi.penetrating` | `r ci.penetrating` |  
+| Minor Trauma | `r freq.ofi.minor.trauma` | `r ci.minor.trauma` |
+| Major Trauma | `r freq.ofi.major.trauma` | () |
+| MSR - Head or Neck | `r freq.ofi.head.neck` | `r ci.head.neck` |
+| MSR - Face | `r freq.ofi.face` | () |
+| MSR - Chest, Diaphragm or Spine | `r freq.ofi.chest.spine` | `r ci.chest.spine` |
+| MSR - Abdomen | `r freq.ofi.abdomen` | `r ci.abdomen` |
+| MSR - Extremities | `r freq.ofi.extremities` | `r ci.extremities` |
+| MSR - Unspecified | `r freq.ofi.unspecified` | () |
+| MSR - Multiple | `r freq.ofi.multiple` | `r ci.multiple` |
+
+Delta values
+
 
 <!--
 (a) Give unadjusted estimates and, if applicable, confounder-adjusted
