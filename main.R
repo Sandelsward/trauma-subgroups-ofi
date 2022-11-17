@@ -78,7 +78,6 @@ pt_demographics <- Test_table(cleaned.data)
 
 
 
-  
 
 
 

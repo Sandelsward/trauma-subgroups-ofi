@@ -3,14 +3,14 @@
 
 
 create_minor_major_trauma <- function(cleaned.data) {
-
-cleaned.data$trauma.severity <- NA
-cleaned.data[cleaned.data$NISS <15, "trauma.severity"] <- "minor"
-cleaned.data[cleaned.data$NISS >=15, "trauma.severity"] <- "major"
-
-
-return(cleaned.data)
-
+  
+  cleaned.data$trauma.severity <- NA
+  cleaned.data[cleaned.data$NISS <15, "trauma.severity"] <- "minor"
+  cleaned.data[cleaned.data$NISS >=15, "trauma.severity"] <- "major"
+  
+  
+  return(cleaned.data)
+  
 }
 
 #Lyckas inte göra en funktion så att kolumnen sparas i cleaned.data

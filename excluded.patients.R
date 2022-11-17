@@ -17,7 +17,7 @@ only.gender <- prepared.data[,c(1,3)]
 total.underage <- only.gender %>% filter (pt_age_yrs%in% c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14)) 
 
 df.total.right.age <- prepared.data %>% filter (pt_age_yrs%in% c(15:120))
-                                            
+
 total.underage.excluded <- nrow(total.underage)
 
 # Alla patienter i registret utom de som är för unga
@@ -32,7 +32,7 @@ only.inj.dominant <- df.total.right.age[,c(1,4)]
 total.inj.dominant.999 <- only.inj.dominant %>% filter (inj_dominant%in% c(999))
 
 total.inj.dominant.na <- only.inj.dominant %>% filter (inj_dominant%in% c(NA))
-  
+
 total.missing.inj.dominant <- (nrow(total.inj.dominant.999))+(nrow(total.inj.dominant.na))
 # alla patienter som uppfyller ålder och har inj_dominant
 
@@ -81,5 +81,3 @@ total.missing.ofi <- nrow(total.ofi.na)
 # alla patienter som uppfyller ålder och har inj_dominant och inj_mechanism och har NISS och AIScode01
 df.age.dominant.mechanism.niss.ais01.ofi <- df.age.dominant.mechanism.niss.ais01 %>% filter (ofi != "NA")
 age.dominant.mechanism.niss.ais01.ofi <- nrow(df.age.dominant.mechanism.niss.ais01.ofi)
-
-

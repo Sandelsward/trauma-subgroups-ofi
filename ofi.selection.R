@@ -5,7 +5,6 @@ library(DiagrammeR)
 ofi_selection <- function() {
   ofi_selection <- DiagrammeR::grViz("digraph flowchart {
   
-
  label='Fig. 1. A schematic chart of selection for morbidity and mortality conferences';
     labelloc=bottom;
     labeljust=left;
