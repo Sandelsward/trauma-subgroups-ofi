@@ -34,8 +34,9 @@ boot_function_gender <- function(data, index){
   
   # Delta frekvens kön
   delta.gender <- (freq.ofi.men)-(freq.ofi.women)
+  delta.gender2 <- (freq.ofi.women)-(freq.ofi.men)
   
-  return(c(delta.gender,freq.ofi.women,freq.ofi.men))
+  return(c(delta.gender,freq.ofi.women,freq.ofi.men,delta.gender2))
 }
 
 #####################
@@ -71,8 +72,9 @@ boot_function_inj_type <- function(data, index){
   
   # delta inj.dominant
   delta.inj.dominant <- freq.ofi.blunt-freq.ofi.penetrating
+  delta.inj.dominant2 <- freq.ofi.penetrating-freq.ofi.blunt
   
-  return(c(freq.ofi.blunt,freq.ofi.penetrating,delta.inj.dominant))
+  return(c(freq.ofi.blunt,freq.ofi.penetrating,delta.inj.dominant,delta.inj.dominant2))
 }
 
 #######
@@ -415,11 +417,34 @@ boot_function_msr <- function(data, index){
   delta.severe.region20 <- (freq.ofi.extremities)-(freq.ofi.multiple) 
   delta.severe.region21 <- (freq.ofi.unspecified)-(freq.ofi.multiple) 
   
+  delta.severe.region22 <- (freq.ofi.face)-(freq.ofi.head.neck) 
+  delta.severe.region23 <- (freq.ofi.chest.spine)-(freq.ofi.head.neck) 
+  delta.severe.region24 <- (freq.ofi.chest.spine)-(freq.ofi.face) 
+  delta.severe.region25 <- (freq.ofi.abdomen)-(freq.ofi.head.neck)
+  delta.severe.region26 <- (freq.ofi.abdomen)-(freq.ofi.face)
+  delta.severe.region27 <- (freq.ofi.abdomen)-(freq.ofi.chest.spine)
+  delta.severe.region28 <- (freq.ofi.extremities)-(freq.ofi.head.neck)
+  delta.severe.region29 <- (freq.ofi.extremities)-(freq.ofi.face)
+  delta.severe.region30 <- (freq.ofi.extremities)-(freq.ofi.chest.spine)
+  delta.severe.region31 <- (freq.ofi.extremities)-(freq.ofi.abdomen)
+  delta.severe.region32 <- (freq.ofi.unspecified)-(freq.ofi.head.neck)
+  delta.severe.region33 <- (freq.ofi.unspecified)-(freq.ofi.face)
+  delta.severe.region34 <- (freq.ofi.unspecified)-(freq.ofi.chest.spine)
+  delta.severe.region35 <- (freq.ofi.unspecified)-(freq.ofi.abdomen)
+  delta.severe.region36 <- (freq.ofi.unspecified)-(freq.ofi.extremities)
+  delta.severe.region37 <- (freq.ofi.multiple)-(freq.ofi.head.neck)
+  delta.severe.region38 <- (freq.ofi.multiple)-(freq.ofi.face)
+  delta.severe.region39 <- (freq.ofi.multiple)-(freq.ofi.chest.spine)
+  delta.severe.region40 <- (freq.ofi.multiple)-(freq.ofi.abdomen)
+  delta.severe.region41 <- (freq.ofi.multiple)-(freq.ofi.extremities)
+  delta.severe.region42 <- (freq.ofi.multiple)-(freq.ofi.unspecified)
+  
+  
   return(c(freq.ofi.head.neck,freq.ofi.face,freq.ofi.chest.spine,freq.ofi.abdomen,freq.ofi.extremities,
            freq.ofi.unspecified,freq.ofi.multiple,delta.severe.region1,delta.severe.region2,delta.severe.region3,delta.severe.region4,delta.severe.region5
            ,delta.severe.region6,delta.severe.region7,delta.severe.region8,delta.severe.region9,delta.severe.region10,
            delta.severe.region11,delta.severe.region12,delta.severe.region13,delta.severe.region14,delta.severe.region15,
-           delta.severe.region16,delta.severe.region17,delta.severe.region18,delta.severe.region19,delta.severe.region20,delta.severe.region21))
+           delta.severe.region16,delta.severe.region17,delta.severe.region18,delta.severe.region19,delta.severe.region20,delta.severe.region21,delta.severe.region22,delta.severe.region23,delta.severe.region24,delta.severe.region25,delta.severe.region26,delta.severe.region27,delta.severe.region28,delta.severe.region29,delta.severe.region30,delta.severe.region31,delta.severe.region32,delta.severe.region33,delta.severe.region34,delta.severe.region35,delta.severe.region36,delta.severe.region37,delta.severe.region38,delta.severe.region39,delta.severe.region40,delta.severe.region41,delta.severe.region42))
 }
 
 ###############
@@ -465,6 +490,6 @@ boot_function_min_maj <- function(data, index){
   #delta inom minor/major trauma
   
   delta.minor.major.trauma <- (freq.ofi.minor.trauma)-(freq.ofi.major.trauma)
-  
-  return(c(freq.ofi.minor.trauma,freq.ofi.major.trauma,delta.minor.major.trauma))
+  delta.minor.major.trauma2 <- (freq.ofi.major.trauma)-(freq.ofi.minor.trauma)
+  return(c(freq.ofi.minor.trauma,freq.ofi.major.trauma,delta.minor.major.trauma,delta.minor.major.trauma2))
 }

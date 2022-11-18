@@ -16,11 +16,15 @@ boot_out_min_maj <- boot(data=cleaned.data, statistic = boot_function_min_maj,R 
 ci.gender.woman <- boot.ci(boot.out = boot_out_gender, conf = 0.95, type=c("norm"),index=2)
 ci.gender.man<- boot.ci(boot.out = boot_out_gender, conf = 0.95, type=c("norm"),index=3)
 ci.delta.gender <- boot.ci(boot.out = boot_out_gender, conf = 0.95, type=c("norm"),index=1)
+ci.delta.gender2 <- boot.ci(boot.out = boot_out_gender, conf = 0.95, type=c("norm"),index=4)
+
 # You get the real value (not CI) via ci.gender.vomen[["t0"]]
 
 ci.inj.penetrating <- boot.ci(boot.out = boot_out_inj_type, conf = 0.95, type=c("norm"),index=2) # CI for freq.ofi.penetrating
 ci.inj.blunt <- boot.ci(boot.out = boot_out_inj_type, conf = 0.95, type=c("norm"),index=1)
 ci.inj.dominant.delta <- boot.ci(boot.out = boot_out_inj_type, conf = 0.95, type=c("norm"),index=3)
+ci.inj.dominant.delta2 <- boot.ci(boot.out = boot_out_inj_type, conf = 0.95, type=c("norm"),index=4)
+
 #harder example, lets get delta value for (freq.ofi.traffic5)-(freq.ofi.struck) = delta.mechanism39.
 #then you need to have index 39 + 12 (number of MOI) = 51
 ci.inj.moi <- boot.ci(boot.out = boot_out_moi, conf = 0.95, type=c("norm"),index=51)
@@ -29,6 +33,9 @@ ci.inj.moi <- boot.ci(boot.out = boot_out_moi, conf = 0.95, type=c("norm"),index
 ci.min <- boot.ci(boot.out = boot_out_min_maj, conf = 0.95, type=c("norm"),index=1)
 #ci.maj <- boot.ci(boot.out = boot_out_min_maj, conf = 0.95, type=c("norm"),index=2)
 ci.delta.min.maj <- boot.ci(boot.out = boot_out_min_maj, conf = 0.95, type=c("norm"),index=3)
+ci.delta.min.maj2 <- boot.ci(boot.out = boot_out_min_maj, conf = 0.95, type=c("norm"),index=4)
+
+
 
 # Example for MSR: delta.severe.region7 <- (freq.ofi.face)-(freq.ofi.chest.spine) need index 14: 7(number of regions) + 7(sorted as delta value 7) = 14
 ci.inj.msr.ofi.head.neck <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=1)
@@ -60,6 +67,27 @@ ci.delta.severe.region.18 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=
 ci.delta.severe.region.19 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=26)
 ci.delta.severe.region.20 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=27)
 ci.delta.severe.region.21 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=28)
+ci.delta.severe.region.22 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=29)
+ci.delta.severe.region.23 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=30)
+ci.delta.severe.region.24 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=31)
+ci.delta.severe.region.25 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=32)
+ci.delta.severe.region.26 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=33)
+ci.delta.severe.region.27 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=34)
+ci.delta.severe.region.28 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=35)
+ci.delta.severe.region.29 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=36)
+ci.delta.severe.region.30 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=37)
+ci.delta.severe.region.31 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=38)
+ci.delta.severe.region.32 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=39)
+ci.delta.severe.region.33 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=40)
+ci.delta.severe.region.34 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=41)
+ci.delta.severe.region.35 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=42)
+ci.delta.severe.region.36 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=43)
+ci.delta.severe.region.37 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=44)
+ci.delta.severe.region.38 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=45)
+ci.delta.severe.region.39 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=46)
+ci.delta.severe.region.40 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=47)
+ci.delta.severe.region.41 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=48)
+ci.delta.severe.region.42 <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=49)
 
 # you then get the exact CI via: ci.gender.vomen[["normal"]] where ci.gender.vomen[["normal"]][1] is 95%, ci.gender.vomen[["normal"]][2] lower CI, ci.gender.vomen[["normal"]][3] higher CI
 # you can paste them togeter:
@@ -93,12 +121,17 @@ ci.multiple <- paste("(",round(ci.inj.msr.ofi.multiple[["normal"]][2], digits = 
 
 #Delta kön
 paste.delta.gender <- paste(round(ci.delta.gender[["t0"]], digits = 2),"(",round(ci.delta.gender[["normal"]][2], digits = 2),"-",round(ci.delta.gender[["normal"]][3], digits = 2),")")
+pate.delta.gender2 <- paste(round(ci.delta.gender2[["t0"]], digits = 2),"(",round(ci.delta.gender2[["normal"]][2], digits = 2),"-",round(ci.delta.gender2[["normal"]][3], digits = 2),")")
 
 #Delta inj dominant (inj type)
 paste.delta.inj.dominant <- paste(round(ci.inj.dominant.delta[["t0"]], digits = 2),"(",round(ci.inj.dominant.delta[["normal"]][2], digits = 2),"-",round(ci.inj.dominant.delta[["normal"]][3], digits = 2),")")
+paste.delta.inj.dominant2 <- paste(round(ci.inj.dominant.delta2[["t0"]], digits = 2),"(",round(ci.inj.dominant.delta2[["normal"]][2], digits = 2),"-",round(ci.inj.dominant.delta2[["normal"]][3], digits = 2),")")
+
+
 
 # Delta minor major
 paste.delta.min.maj <- paste(round(ci.delta.min.maj[["t0"]], digits = 2),"(",round(ci.delta.min.maj[["normal"]][2], digits = 2),"-",round(ci.delta.min.maj[["normal"]][3], digits = 2),")")
+paste.delta.min.maj2 <- paste(round(ci.delta.min.maj2[["t0"]], digits = 2),"(",round(ci.delta.min.maj2[["normal"]][2], digits = 2),"-",round(ci.delta.min.maj2[["normal"]][3], digits = 2),")")
 
 
 # Delta MSR
@@ -123,6 +156,31 @@ paste.delta.severe.region.18 <- paste(round(ci.delta.severe.region.18[["t0"]], d
 paste.delta.severe.region.19 <- paste(round(ci.delta.severe.region.19[["t0"]], digits = 2),"(",round(ci.delta.severe.region.19[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.19[["normal"]][3], digits = 2),")")
 paste.delta.severe.region.20 <- paste(round(ci.delta.severe.region.20[["t0"]], digits = 2),"(",round(ci.delta.severe.region.20[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.20[["normal"]][3], digits = 2),")")
 paste.delta.severe.region.21 <- paste(round(ci.delta.severe.region.21[["t0"]], digits = 2),"(",round(ci.delta.severe.region.21[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.21[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.22 <- paste(round(ci.delta.severe.region.22[["t0"]], digits = 2),"(",round(ci.delta.severe.region.22[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.22[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.23 <- paste(round(ci.delta.severe.region.23[["t0"]], digits = 2),"(",round(ci.delta.severe.region.23[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.23[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.24 <- paste(round(ci.delta.severe.region.24[["t0"]], digits = 2),"(",round(ci.delta.severe.region.24[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.24[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.25 <- paste(round(ci.delta.severe.region.25[["t0"]], digits = 2),"(",round(ci.delta.severe.region.25[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.25[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.26 <- paste(round(ci.delta.severe.region.26[["t0"]], digits = 2),"(",round(ci.delta.severe.region.26[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.26[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.27 <- paste(round(ci.delta.severe.region.27[["t0"]], digits = 2),"(",round(ci.delta.severe.region.27[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.27[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.28 <- paste(round(ci.delta.severe.region.28[["t0"]], digits = 2),"(",round(ci.delta.severe.region.28[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.28[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.29 <- paste(round(ci.delta.severe.region.29[["t0"]], digits = 2),"(",round(ci.delta.severe.region.29[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.29[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.30 <- paste(round(ci.delta.severe.region.30[["t0"]], digits = 2),"(",round(ci.delta.severe.region.30[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.30[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.31 <- paste(round(ci.delta.severe.region.31[["t0"]], digits = 2),"(",round(ci.delta.severe.region.31[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.31[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.32 <- paste(round(ci.delta.severe.region.32[["t0"]], digits = 2),"(",round(ci.delta.severe.region.32[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.32[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.33 <- paste(round(ci.delta.severe.region.33[["t0"]], digits = 2),"(",round(ci.delta.severe.region.33[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.33[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.34 <- paste(round(ci.delta.severe.region.34[["t0"]], digits = 2),"(",round(ci.delta.severe.region.34[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.34[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.35 <- paste(round(ci.delta.severe.region.35[["t0"]], digits = 2),"(",round(ci.delta.severe.region.35[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.35[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.36 <- paste(round(ci.delta.severe.region.36[["t0"]], digits = 2),"(",round(ci.delta.severe.region.36[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.36[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.37 <- paste(round(ci.delta.severe.region.37[["t0"]], digits = 2),"(",round(ci.delta.severe.region.37[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.37[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.38 <- paste(round(ci.delta.severe.region.38[["t0"]], digits = 2),"(",round(ci.delta.severe.region.38[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.38[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.39 <- paste(round(ci.delta.severe.region.39[["t0"]], digits = 2),"(",round(ci.delta.severe.region.39[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.39[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.40 <- paste(round(ci.delta.severe.region.40[["t0"]], digits = 2),"(",round(ci.delta.severe.region.40[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.40[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.41 <- paste(round(ci.delta.severe.region.41[["t0"]], digits = 2),"(",round(ci.delta.severe.region.41[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.41[["normal"]][3], digits = 2),")")
+paste.delta.severe.region.42 <- paste(round(ci.delta.severe.region.42[["t0"]], digits = 2),"(",round(ci.delta.severe.region.42[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.42[["normal"]][3], digits = 2),")")
+
+
+
+
 
 
 
