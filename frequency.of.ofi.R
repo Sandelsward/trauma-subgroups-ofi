@@ -9,6 +9,8 @@ total.cohort <- nrow(cleaned.data)
 total.men <- cleaned.data[cleaned.data$pt_Gender == 1,1:2]
 all.men <- nrow(total.men)
 
+share.men <- round(((all.men)/(total.cohort)*100), digits = 2)
+
 
 
 #antal män med ofi
@@ -46,9 +48,10 @@ delta.gender <- abs((freq.ofi.men)-(freq.ofi.women))
 
 #Antal patienter med blunt trauma
 
-total.blunt <- cleaned.data[cleaned.data$inj_dominant == 1,4]
-sum(total.blunt)
+total.blunt <- cleaned.data[cleaned.data$inj_dominant == 1, c(1,4)]
+total.blunt.trauma <- nrow(total.blunt)
 
+share.blunt <- round(((total.blunt.trauma)/(total.cohort)*100), digits = 2)
 #Antal blunt trauma med ofi
 
 ofi.blunt <- cleaned.data[cleaned.data$inj_dominant == 1,c(2,4)]
@@ -259,9 +262,9 @@ freq.ofi.other <- round((nrow(ofi.other)/nrow(tot.other)*100), digits = 2)
 
 #Mest skadade region enligt AIS-koder
 
-most.severe.region.all <- cleaned.data[,c(2,58)]
+cleaned.most.severe.region <- cleaned.data[,c(2,58)]
 
-cleaned.most.severe.region <- most.severe.region.all %>% filter (most.severe.region %in% c("Head", "Face","Neck","Thorax","Abdomen","Spine","Upper Extremity","Lower Extremity","Unspecified", "Multiple"))
+nrow(cleaned.most.severe.region)
 
 
 # Antal patienter med Most severe region (MSR) Head, Neck = ISS Head or neck
@@ -269,6 +272,8 @@ cleaned.most.severe.region <- most.severe.region.all %>% filter (most.severe.reg
 df.head.neck <- cleaned.most.severe.region %>% filter (most.severe.region%in% c("Head", "Neck"))
 
 tot.head.neck <- nrow(df.head.neck)
+
+share.head.neck <- round(((tot.head.neck)/(total.cohort)*100), digits = 2)
 
 # Antal med Head or neck och ofi
 
@@ -398,6 +403,8 @@ df.major.trauma <- cleaned.data[cleaned.data$trauma.severity == "major",]
 #df.tot.major.trauma <- df.major.trauma[,c(2,59)]
 tot.major.trauma <- nrow(df.major.trauma)
 
+share.major.trauma <- round(((tot.major.trauma)/(total.cohort)*100), digits = 2)
+
 #ofi hos major trauma
 df.ofi.major.trauma <- df.major.trauma[df.major.trauma$ofi == "Yes",]
 ofi.major.trauma <- nrow(df.ofi.major.trauma)
@@ -520,6 +527,7 @@ mean.age <- round(mean(cleaned.data$pt_age_yrs))
 # Genomsnittlig NISS
 
 mean.niss <- round(mean(cleaned.data$NISS))
+sd.niss <- round(sd(cleaned.data$NISS), digits = 2)
 
 # Hur många i hela cohorten som hade OFI
 

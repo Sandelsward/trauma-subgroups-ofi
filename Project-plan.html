@@ -261,8 +261,8 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 <p>Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To the Trauma team at Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. <span class="citation">(28)</span></p>
 <p>A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.<span class="citation">(28)</span></p>
 <p>Audit filters and for some cases, maual selection was used to determine which cases that should be reviewed at M&amp;M. Some examples of audit filters that were used are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes and time to Surgery. A manual selection was done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation from best practice guidelines can be found. The patients who are then left are discussed at a M&amp;M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as “Yes, at least one OFI identified” or “No, no OFIs identified”</p>
-<div id="htmlwidget-2f6a1ca528ae6465a6f3" style="width:672px;height:480px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2f6a1ca528ae6465a6f3">{"x":{"diagram":"digraph flowchart {\n  \n label=\"Fig. 1. A schematic chart of selection for morbidity and mortality conferences\";\n    labelloc=bottom;\n    labeljust=left;\n    labelfontsize=18;\na [label = \"Trauma team activation\"]\nb [label = \"Inclusion in trauma registry\"]\nc [label = \"First review done by nurse.\"]\nd [label = \"Secondary review done by nurse\"]\ne [label = \"Mortality and morbidity conference\"]\nf [label = \"Motivation wether OFI is found or not\"]\ng [label = \"Excluded\"]\na -> b -> c \nc -> d [style=full label =\"Second opinion needed.\"]\nd -> e -> f \nc -> e [style =full label=\"Suspected OFI or audit filter trigger. \"]\nc -> g [style = full label=\"No potential OFI.\"]\nd -> g \n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-689b6d4b61c62be85ef3" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-689b6d4b61c62be85ef3">{"x":{"diagram":"digraph flowchart {\n  \n label=\"Fig. 1. A schematic chart of selection for morbidity and mortality conferences\";\n    labelloc=bottom;\n    labeljust=left;\n    labelfontsize=18;\na [label = \"Trauma team activation\"]\nb [label = \"Inclusion in trauma registry\"]\nc [label = \"First review done by nurse.\"]\nd [label = \"Secondary review done by nurse\"]\ne [label = \"Mortality and morbidity conference\"]\nf [label = \"Motivation wether OFI is found or not\"]\ng [label = \"Excluded\"]\na -> b -> c \nc -> d [style=full label =\"Second opinion needed.\"]\nd -> e -> f \nc -> e [style =full label=\"Suspected OFI or audit filter trigger. \"]\nc -> g [style = full label=\"No potential OFI.\"]\nd -> g \n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="participants" class="section level2">
 <h2>Participants</h2>
@@ -294,26 +294,27 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 <h2>Statistical methods</h2>
 <p>For handling the data and making the statistical analysis the program R was used. R is a programming language used for statistical computing <span class="citation">(29)</span>. Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet up with the inclusion criteria. New columns were also added as listed above.</p>
 <p>The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup.</p>
-<p>The absolute difference (delta value) in OFI frequency within each subgroup was calculated. Meaning that the absolute difference between men and women was calculated but not for example between women and blunt trauma. For estimating the confidence interval Bootstrapping was used on the data. 1000 boots were done, creating 1000 simulated datasets. The confidence interval was estimated both for the OFI frequencies and for the delta values.</p>
+<p>The difference (delta value) in OFI frequency within each subgroup was calculated. Meaning that the difference between men and women was calculated but not for example between women and blunt trauma. For estimating the confidence interval Bootstrapping was used on the data. 1000 boots were done, creating 1000 simulated datasets. The confidence interval was estimated both for the OFI frequencies and for the delta values.</p>
 </div>
 </div>
 <div id="results" class="section level1">
 <h1>Results</h1>
 <div id="participants-1" class="section level2">
 <h2>Participants</h2>
-<p>After merging the Karolinska trauma registry and the Trauma quality data base there was 11864 patients. After applying the inclusion criteria the number of patients was reduced to 2696 patients. Each step in the exclusion process is shown in the chart below.</p>
-<div id="htmlwidget-0bc88207898f36651ccd" style="width:672px;height:480px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-0bc88207898f36651ccd">{"x":{"diagram":"digraph flowchart {\n  \n    label=\"Fig. 2. Exclusion chart\";\n    labelloc=bottom;\n    labeljust=left;\n    labelfontsize=18;\n    # node definitions with substituted label text\n    node [shape = rectangle, width = 8, fontsize = 16] \n    1 [label = \"All patients in the selected registries (n: 11864)\"]\n    2 [label = \"Patients who meet the age critera (n: 11471)\"]\n    3 [label = \"Patients with no missing information in dominating type of injury (n: 5740)\"]\n    4 [label = \"Patients with no missing information in trauma mechanism (n: 4933)\"]\n    5 [label = \"Patients with no missing information in NISS colum (n: 4839)\"]\n    6 [label = \"Patients with no missing information in the first AIS column (n: 4829)\"]\n    7 [label = \"Patients with no missing information in the OFI column (n: 2696)\"]\n    8 [label = \"Total number patients (n: 2696)\"]\n    m1 [label =\"Patients under the age of 15 excluded (n: 393)\"]\n    m2 [label =\"Patients with missing information in dominating type of injury (n: 5731)\"]\n    m3 [label =\"Patients with missing information in trauma mechanism (n: 807)\"]\n    m4 [label =\"Patients with missing information in NISS colum (n: 94)\"]\n    m5 [label =\"Patients with missing information in the first AIS column (n: 10)\"]\n    m6 [label =\"Patients with missing information in the OFI column (n: 2133)\"]\n   \n    node [shape=none, width=0, height=0, label=\"\"]\n    p1 -> 2; p2 -> 3; p3 -> 4; p4 -> 5; p5 -> 6; p6 -> 7; p7 -> 8;\n      {rank=same; p1 -> m1}\n      {rank=same; p2 -> m2}\n      {rank=same; p3 -> m3} \n      {rank=same; p4 -> m4}\n      {rank=same; p5 -> m5}\n      {rank=same; p6 -> m6}\n      \n    \n    edge [dir=none]\n    1 -> p1; 2 -> p2; 3 -> p3; 4 -> p4; 5 -> p5; 6 -> p6; 7 -> p7;\n    \n    # edge definitions with the node IDs\n    \n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p>After merging the Karolinska trauma registry and the Trauma quality data base there was 11864 patients. After applying the inclusion criteria the number of patients was reduced to 3125 patients. Each step in the exclusion process is shown in the chart below.</p>
+<div id="htmlwidget-3d33bc0ca25a0c970f74" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3d33bc0ca25a0c970f74">{"x":{"diagram":"digraph flowchart {\n  \n    label=\"Fig. 2. Exclusion chart\";\n    labelloc=bottom;\n    labeljust=left;\n    labelfontsize=18;\n    # node definitions with substituted label text\n    node [shape = rectangle, width = 8, fontsize = 16] \n    1 [label = \"All patients in the selected registries (n: 11864)\"]\n    2 [label = \"Patients who meet the age critera (n: 11471)\"]\n    3 [label = \"Patients with no missing information in dominating type of injury (n: 5740)\"]\n    4 [label = \"Patients with no missing information in NISS colum (n: 5622)\"]\n    5 [label = \"Patients with no missing information in the first AIS column (n: 5612)\"]\n    6 [label = \"Patients with no missing information in the OFI column (n: 3146)\"]\n    7 [label = \"Patients with no missing information in Most severe region (n: 3125)\"]\n    8 [label = \"Total number of included patients (n: 3125)\"]\n    m1 [label =\"Patients under the age of 15 excluded (n: 393)\"]\n    m2 [label =\"Patients with missing information in dominating type of injury (n: 5731)\"]\n    m3 [label =\"Patients with missing information in NISS colum (n: 118)\"]\n    m4 [label =\"Patients with missing information in the first AIS column (n: 10)\"]\n    m5 [label =\"Patients with missing information in the OFI column (n: 2466)\"]\n    m6 [label =\"Patients with missing information in Most severe region (n: 21)\"]\n   \n    node [shape=none, width=0, height=0, label=\"\"]\n    p1 -> 2; p2 -> 3; p3 -> 4; p4 -> 5; p5 -> 6; p6 -> 7; p7 -> 8;\n      {rank=same; p1 -> m1}\n      {rank=same; p2 -> m2}\n      {rank=same; p3 -> m3} \n      {rank=same; p4 -> m4}\n      {rank=same; p5 -> m5}\n      {rank=same; p6 -> m6}\n      \n      \n    \n    edge [dir=none]\n    1 -> p1; 2 -> p2; 3 -> p3; 4 -> p4; 5 -> p5; 6 -> p6; 7 -> p7; \n    \n    # edge definitions with the node IDs\n    \n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="descriptive-data" class="section level2">
 <h2>Descriptive data</h2>
-<p>Out of the 2696 patients included in the cohort 1358 were men. The mean age for all the patients were 58 years and the avarege NISS score was 27. <!--Förslag vad som ska stå här: Vanligaste kön, genomsnittlig ålder, genomsnitts ISS eller niss. Du bör också presentera hur vanligt OFI var osv. --></p>
+<p>Out of the 3125 patients included in the cohort 1581 (50.59%) were men. The mean age for all the patients were 58 years and the mean NISS score was 27 (SD 18.64). There was 2149 (68.77%) cases of major trauma and the most frequent dominating type of injury was Blunt trauma with 1571 (50.27%) cases. Among the cohort of Most severe region Head trauma was most frequent with a number of 1132 (36.22%) cases. The largest diffrence in number of OFI patients and no OFI patients was found in the xxx cohort.</p>
+<p>Kanske även lägga till andra intressanta skillnader mellan non ofi och ofi när jag fått riktig a datan. Tex om snittåldern för de som har ofi är högre än för de som inte har ofi?</p>
 <div class="Rtable1"><table class="Rtable1">
 <thead>
 <tr>
 <th class="rowlabel firstrow lastrow"></th>
-<th class="firstrow lastrow"><span class="stratlabel">Yes, atleast one opportunity for improvement<br><span class="stratn">(N=2035)</span></span></th>
-<th class="firstrow lastrow"><span class="stratlabel">No opportunities for improvement<br><span class="stratn">(N=661)</span></span></th>
+<th class="firstrow lastrow"><span class="stratlabel">Yes, atleast one opportunity for improvement<br><span class="stratn">(N=2370)</span></span></th>
+<th class="firstrow lastrow"><span class="stratlabel">No opportunities for improvement<br><span class="stratn">(N=755)</span></span></th>
 </tr>
 </thead>
 <tbody>
@@ -334,13 +335,13 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 </tr>
 <tr>
 <td class="rowlabel">Male</td>
-<td>1005 (49.4%)</td>
-<td>353 (53.4%)</td>
+<td>1180 (49.8%)</td>
+<td>401 (53.1%)</td>
 </tr>
 <tr>
 <td class="rowlabel lastrow">Female</td>
-<td class="lastrow">1030 (50.6%)</td>
-<td class="lastrow">308 (46.6%)</td>
+<td class="lastrow">1190 (50.2%)</td>
+<td class="lastrow">354 (46.9%)</td>
 </tr>
 <tr>
 <td class="rowlabel firstrow">NISS</td>
@@ -350,77 +351,7 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 <tr>
 <td class="rowlabel lastrow">Median (Min, Max)</td>
 <td class="lastrow">25 (0, 75)</td>
-<td class="lastrow">26 (0, 75)</td>
-</tr>
-<tr>
-<td class="rowlabel firstrow">Mechanism of injury</td>
-<td class="firstrow"></td>
-<td class="firstrow"></td>
-</tr>
-<tr>
-<td class="rowlabel">Traffic - motor veichle accident, not motorcycle</td>
-<td>160 (7.86%)</td>
-<td>46 (6.96%)</td>
-</tr>
-<tr>
-<td class="rowlabel">Traffic - motorcycle accident</td>
-<td>193 (9.48%)</td>
-<td>54 (8.17%)</td>
-</tr>
-<tr>
-<td class="rowlabel">Traffic - bicycle accident</td>
-<td>135 (6.63%)</td>
-<td>58 (8.77%)</td>
-</tr>
-<tr>
-<td class="rowlabel">Traffic - pedastrian</td>
-<td>168 (8.26%)</td>
-<td>60 (9.08%)</td>
-</tr>
-<tr>
-<td class="rowlabel">Traffic - other</td>
-<td>177 (8.70%)</td>
-<td>39 (5.90%)</td>
-</tr>
-<tr>
-<td class="rowlabel">Shot by handgun, shotgun, rifle, other firearm of any calibre </td>
-<td>173 (8.50%)</td>
-<td>63 (9.53%)</td>
-</tr>
-<tr>
-<td class="rowlabel">Stabbed by knife, sword, dagger other pointed or sharp object</td>
-<td>173 (8.50%)</td>
-<td>47 (7.11%)</td>
-</tr>
-<tr>
-<td class="rowlabel">Struck or hit by blunt object</td>
-<td>163 (8.01%)</td>
-<td>56 (8.47%)</td>
-</tr>
-<tr>
-<td class="rowlabel">Low energy fall - fall in the same level</td>
-<td>176 (8.65%)</td>
-<td>52 (7.87%)</td>
-</tr>
-<tr>
-<td class="rowlabel">High energy fall - fall from a higher level</td>
-<td>176 (8.65%)</td>
-<td>75 (11.3%)</td>
-</tr>
-<tr>
-<td class="rowlabel">Blast injury</td>
-<td>187 (9.19%)</td>
-<td>50 (7.56%)</td>
-</tr>
-<tr>
-<td class="rowlabel">Other</td>
-<td>154 (7.57%)</td>
-<td>61 (9.23%)</td>
-</tr>
-<tr>
-<td class="rowlabel lastrow">Unknown</td>
-<td class="lastrow">0 (0%)</td>
-<td class="lastrow">0 (0%)</td>
+<td class="lastrow">25 (0, 75)</td>
 </tr>
 <tr>
 <td class="rowlabel firstrow">Minor or Major Trauma</td>
@@ -429,13 +360,13 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 </tr>
 <tr>
 <td class="rowlabel">Minor Trauma</td>
-<td>633 (31.1%)</td>
-<td>209 (31.6%)</td>
+<td>736 (31.1%)</td>
+<td>240 (31.8%)</td>
 </tr>
 <tr>
 <td class="rowlabel lastrow">Major Trauma</td>
-<td class="lastrow">1402 (68.9%)</td>
-<td class="lastrow">452 (68.4%)</td>
+<td class="lastrow">1634 (68.9%)</td>
+<td class="lastrow">515 (68.2%)</td>
 </tr>
 <tr>
 <td class="rowlabel firstrow">Dominating Type of Injury</td>
@@ -444,13 +375,13 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 </tr>
 <tr>
 <td class="rowlabel">Blunt</td>
-<td>1020 (50.1%)</td>
-<td>345 (52.2%)</td>
+<td>1179 (49.7%)</td>
+<td>392 (51.9%)</td>
 </tr>
 <tr>
 <td class="rowlabel lastrow">Penetrating</td>
-<td class="lastrow">1015 (49.9%)</td>
-<td class="lastrow">316 (47.8%)</td>
+<td class="lastrow">1191 (50.3%)</td>
+<td class="lastrow">363 (48.1%)</td>
 </tr>
 <tr>
 <td class="rowlabel firstrow">Most severe region</td>
@@ -459,43 +390,43 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 </tr>
 <tr>
 <td class="rowlabel">Head</td>
-<td>723 (35.9%)</td>
-<td>245 (37.2%)</td>
+<td>850 (35.9%)</td>
+<td>279 (37.0%)</td>
 </tr>
 <tr>
 <td class="rowlabel">Neck</td>
-<td>1 (0.0497%)</td>
-<td>2 (0.303%)</td>
+<td>1 (0.0423%)</td>
+<td>2 (0.265%)</td>
 </tr>
 <tr>
 <td class="rowlabel">Face</td>
-<td>3 (0.149%)</td>
+<td>3 (0.127%)</td>
 <td>0 (0%)</td>
 </tr>
 <tr>
 <td class="rowlabel">Thorax</td>
-<td>651 (32.3%)</td>
-<td>210 (31.9%)</td>
+<td>756 (32.0%)</td>
+<td>239 (31.7%)</td>
 </tr>
 <tr>
 <td class="rowlabel">Spine</td>
-<td>287 (14.3%)</td>
-<td>100 (15.2%)</td>
+<td>337 (14.2%)</td>
+<td>113 (15.0%)</td>
 </tr>
 <tr>
 <td class="rowlabel">Abdomen</td>
-<td>88 (4.37%)</td>
-<td>23 (3.49%)</td>
+<td>102 (4.31%)</td>
+<td>28 (3.71%)</td>
 </tr>
 <tr>
 <td class="rowlabel">Lower Extremity</td>
-<td>251 (12.5%)</td>
-<td>77 (11.7%)</td>
+<td>302 (12.8%)</td>
+<td>90 (11.9%)</td>
 </tr>
 <tr>
 <td class="rowlabel">Upper Extremity</td>
-<td>1 (0.0497%)</td>
-<td>0 (0%)</td>
+<td>2 (0.0846%)</td>
+<td>1 (0.132%)</td>
 </tr>
 <tr>
 <td class="rowlabel">Unspeciefied</td>
@@ -504,13 +435,13 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 </tr>
 <tr>
 <td class="rowlabel">Multiple</td>
-<td>9 (0.447%)</td>
-<td>2 (0.303%)</td>
+<td>12 (0.507%)</td>
+<td>3 (0.397%)</td>
 </tr>
 <tr>
 <td class="rowlabel lastrow">Missing</td>
-<td class="lastrow">21 (1.0%)</td>
-<td class="lastrow">2 (0.3%)</td>
+<td class="lastrow">5 (0.2%)</td>
+<td class="lastrow">0 (0%)</td>
 </tr>
 </tbody>
 </table>
@@ -533,7 +464,7 @@ measures -->
 </div>
 <div id="main-results" class="section level2">
 <h2>Main results</h2>
-<p>The subgroup with the highest OFI frequency was xxxx with a frequency at 100%. The lowest OFI frequency was measured in the xxx cohort with a frquency at 69.95%. Among the men the frequency of OFI was 74.01% and among the women 76.98%. In the entire cohort the mean frequency of OFI was 75%.</p>
+<p>The subgroup with the highest OFI frequency was xxxx with a frequency at 100%. The lowest OFI frequency was measured in the xxx cohort with a frquency at 30.15%. Among the men the frequency of OFI was 74.64% ( 71.88 - 76.37 ) and among the women 77.07% ( 74.76 - 79.15 ). In the entire cohort the mean frequency of OFI was 76%. (minor vs major ) xxxx trauma had a higher OFI frequency then xxxx trauma. In the Most Severe Region subgroup, OFI was most frequent in the xxxx cohort with a frequency of <code>highest.mos.ofi</code>.</p>
 <table>
 <thead>
 <tr class="header">
@@ -545,38 +476,38 @@ measures -->
 <tbody>
 <tr class="odd">
 <td align="left">Men</td>
-<td align="center">74.01</td>
-<td align="right">( 71.22 - 77.15 )</td>
+<td align="center">74.64</td>
+<td align="right">( 71.88 - 76.37 )</td>
 </tr>
 <tr class="even">
 <td align="left">Women</td>
-<td align="center">76.98</td>
-<td align="right">( 74.92 - 79.68 )</td>
+<td align="center">77.07</td>
+<td align="right">( 74.76 - 79.15 )</td>
 </tr>
 <tr class="odd">
 <td align="left">Blunt Trauma</td>
-<td align="center">74.73</td>
-<td align="right">( -5.52 - 0.9 )</td>
+<td align="center">30.15</td>
+<td align="right">( -4.32 - 0.07 )</td>
 </tr>
 <tr class="even">
 <td align="left">Pentetraiting Trauma</td>
-<td align="center">76.26</td>
-<td align="right">( 74.74 - 77.96 )</td>
+<td align="center">76.64</td>
+<td align="right">( 75.26 - 78.88 )</td>
 </tr>
 <tr class="odd">
 <td align="left">Minor Trauma</td>
-<td align="center">75.18</td>
-<td align="right">( 72.5 - 76.82 )</td>
+<td align="center">75.41</td>
+<td align="right">( 71.72 - 77.68 )</td>
 </tr>
 <tr class="even">
 <td align="left">Major Trauma</td>
-<td align="center">75.62</td>
+<td align="center">76.04</td>
 <td align="right">()</td>
 </tr>
 <tr class="odd">
 <td align="left">MSR - Head or Neck</td>
-<td align="center">74.56</td>
-<td align="right">( 71.97 - 76.53 )</td>
+<td align="center">75.18</td>
+<td align="right">( 73.54 - 76.62 )</td>
 </tr>
 <tr class="even">
 <td align="left">MSR - Face</td>
@@ -585,18 +516,18 @@ measures -->
 </tr>
 <tr class="odd">
 <td align="left">MSR - Chest, Diaphragm or Spine</td>
-<td align="center">75.16</td>
-<td align="right">( 72.07 - 78.97 )</td>
+<td align="center">75.64</td>
+<td align="right">( 74.86 - 77.67 )</td>
 </tr>
 <tr class="even">
 <td align="left">MSR - Abdomen</td>
-<td align="center">79.28</td>
-<td align="right">( 72.61 - 84.53 )</td>
+<td align="center">78.46</td>
+<td align="right">( 70.27 - 86.84 )</td>
 </tr>
 <tr class="odd">
 <td align="left">MSR - Extremities</td>
-<td align="center">76.6</td>
-<td align="right">( 70.38 - 82.4 )</td>
+<td align="center">76.96</td>
+<td align="right">( 73.54 - 81.21 )</td>
 </tr>
 <tr class="even">
 <td align="left">MSR - Unspecified</td>
@@ -605,15 +536,15 @@ measures -->
 </tr>
 <tr class="odd">
 <td align="left">MSR - Multiple</td>
-<td align="center">81.82</td>
-<td align="right">( 58.85 - 107.18 )</td>
+<td align="center">80</td>
+<td align="right">( 56.87 - 105.75 )</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div id="delta-values" class="section level2">
 <h2>Delta values</h2>
-<p>objekt för största, minsta delta value skriva de deltavärden som inte har ett 95%igt CI.</p>
+<p>The largest delta value was found in the xxx subgroup with a delta value of <code>max.delta</code>. The smallest delta value was found in the xxx subgruop with a delta value of <code>min delata</code>. In the xxx subgroup the delta value with the widest range were found <code>wid.delta</code>. In the MSR subgroup The most statistical significant delta value was found in the xxxx cohort. In the binary subgroups the most significant delta value was found in the xxxx cohort.</p>
 <table>
 <caption>Delta MRS values</caption>
 <colgroup>
@@ -622,7 +553,7 @@ measures -->
 <col width="11%" />
 <col width="13%" />
 <col width="13%" />
-<col width="12%" />
+<col width="13%" />
 <col width="11%" />
 <col width="11%" />
 </colgroup>
@@ -641,73 +572,73 @@ measures -->
 <tbody>
 <tr class="odd">
 <td align="left">Multiple</td>
-<td align="left">-7.26 ( -33.64 - 16.11 )</td>
-<td align="left">18.18 ( -7.18 - 41.15 )</td>
-<td align="left">-6.66 ( -33.76 - 18.78 )</td>
-<td align="left">-2.54 ( -29.9 - 21.01 )</td>
-<td align="left">-5.22 ( -30.76 - 17.51 )</td>
-<td align="left">18.18 ( -7.18 - 41.15 )</td>
+<td align="left">-4.82 ( -31.08 - 18.62 )</td>
+<td align="left">20 ( -5.75 - 43.13 )</td>
+<td align="left">-4.36 ( -28.79 - 18.7 )</td>
+<td align="left">-1.54 ( -29.64 - 24.13 )</td>
+<td align="left">-3.04 ( -29.29 - 21.42 )</td>
+<td align="left">20 ( -5.75 - 43.13 )</td>
 <td align="left">-</td>
 </tr>
 <tr class="even">
 <td align="left">Unspecified</td>
-<td align="left">-25.44 ( -28.03 - -23.47 )</td>
+<td align="left">-24.82 ( -26.46 - -23.38 )</td>
 <td align="left">0 ( 0 - 0 )</td>
-<td align="left">-24.84 ( -27.93 - -21.03 )</td>
-<td align="left">-20.72 ( -27.39 - -15.47 )</td>
-<td align="left">-23.4 ( -29.62 - -17.6 )</td>
+<td align="left">-24.36 ( -25.14 - -22.33 )</td>
+<td align="left">-21.54 ( -29.73 - -13.16 )</td>
+<td align="left">-23.04 ( -26.46 - -18.79 )</td>
 <td align="left">-</td>
-<td align="left">-18.18 ( -2.81 - 7.18 )</td>
+<td align="left">-20 ( -1.15 - 5.75 )</td>
 </tr>
 <tr class="odd">
 <td align="left">Extremity</td>
-<td align="left">-2.03 ( -7.06 - 2.78 )</td>
-<td align="left">23.4 ( 17.6 - 29.62 )</td>
-<td align="left">-1.44 ( -9.06 - 7.33 )</td>
-<td align="left">2.68 ( -7.22 - 11.58 )</td>
+<td align="left">-1.79 ( -6.77 - 2.18 )</td>
+<td align="left">23.04 ( 18.79 - 26.46 )</td>
+<td align="left">-1.32 ( -4.77 - 2.54 )</td>
+<td align="left">1.5 ( -8.21 - 10.57 )</td>
 <td align="left">-</td>
-<td align="left">23.4 ( -2.81 - 29.62 )</td>
-<td align="left">5.22 ( -2.81 - 30.76 )</td>
+<td align="left">23.04 ( -1.15 - 26.46 )</td>
+<td align="left">3.04 ( -1.15 - 29.29 )</td>
 </tr>
 <tr class="even">
 <td align="left">Abdomen</td>
-<td align="left">-4.72 ( -10.39 - 1.75 )</td>
-<td align="left">20.72 ( 15.47 - 27.39 )</td>
-<td align="left">-4.12 ( -8.57 - 2.47 )</td>
+<td align="left">-3.28 ( -11.92 - 4.97 )</td>
+<td align="left">21.54 ( 13.16 - 29.73 )</td>
+<td align="left">-2.82 ( -10.69 - 6.11 )</td>
 <td align="left">-</td>
-<td align="left">-2.68 ( -2.81 - 7.22 )</td>
-<td align="left">20.72 ( -2.81 - 27.39 )</td>
-<td align="left">2.54 ( -2.81 - 29.9 )</td>
+<td align="left">-1.5 ( -1.15 - 8.21 )</td>
+<td align="left">21.54 ( -1.15 - 29.73 )</td>
+<td align="left">1.54 ( -1.15 - 29.64 )</td>
 </tr>
 <tr class="odd">
 <td align="left">Chest, diaphragm or spine</td>
-<td align="left">-0.6 ( -5.36 - 2.81 )</td>
-<td align="left">24.84 ( 21.03 - 27.93 )</td>
+<td align="left">-0.46 ( -3.51 - 1.15 )</td>
+<td align="left">24.36 ( 22.33 - 25.14 )</td>
 <td align="left">-</td>
-<td align="left">4.12 ( -2.81 - 8.57 )</td>
-<td align="left">1.44 ( -2.81 - 9.06 )</td>
-<td align="left">24.84 ( -2.81 - 27.93 )</td>
-<td align="left">6.66 ( -2.81 - 33.76 )</td>
+<td align="left">2.82 ( -1.15 - 10.69 )</td>
+<td align="left">1.32 ( -1.15 - 4.77 )</td>
+<td align="left">24.36 ( -1.15 - 25.14 )</td>
+<td align="left">4.36 ( -1.15 - 28.79 )</td>
 </tr>
 <tr class="even">
 <td align="left">Face</td>
-<td align="left">-25.44 ( -28.03 - -23.47 )</td>
+<td align="left">-24.82 ( -26.46 - -23.38 )</td>
 <td align="left">-</td>
-<td align="left">-24.84 ( -2.81 - -21.03 )</td>
-<td align="left">-20.72 ( -2.81 - -15.47 )</td>
-<td align="left">-23.4 ( -2.81 - -17.6 )</td>
-<td align="left">0 ( -2.81 - 0 )</td>
-<td align="left">-18.18 ( -2.81 - 7.18 )</td>
+<td align="left">-24.36 ( -1.15 - -22.33 )</td>
+<td align="left">-21.54 ( -1.15 - -13.16 )</td>
+<td align="left">-23.04 ( -1.15 - -18.79 )</td>
+<td align="left">0 ( -1.15 - 0 )</td>
+<td align="left">-20 ( -1.15 - 5.75 )</td>
 </tr>
 <tr class="odd">
 <td align="left">Head or neck</td>
 <td align="left">-</td>
-<td align="left">25.44 ( 23.47 - 28.03 )</td>
-<td align="left">0.6 ( -2.81 - 5.36 )</td>
-<td align="left">4.72 ( -2.81 - 10.39 )</td>
-<td align="left">2.03 ( -2.81 - 7.06 )</td>
-<td align="left">25.44 ( -2.81 - 28.03 )</td>
-<td align="left">7.26 ( -2.81 - 33.64 )</td>
+<td align="left">24.82 ( 23.38 - 26.46 )</td>
+<td align="left">0.46 ( -1.15 - 3.51 )</td>
+<td align="left">3.28 ( -1.15 - 11.92 )</td>
+<td align="left">1.79 ( -1.15 - 6.77 )</td>
+<td align="left">24.82 ( -1.15 - 26.46 )</td>
+<td align="left">4.82 ( -1.15 - 31.08 )</td>
 </tr>
 </tbody>
 </table>
@@ -723,13 +654,13 @@ measures -->
 <tbody>
 <tr class="odd">
 <td align="left">Women</td>
-<td align="left">-2.97 ( -6.61 - 0.38 )</td>
+<td align="left">-2.44 ( -6.02 - 0.36 )</td>
 <td align="left">-</td>
 </tr>
 <tr class="even">
 <td align="left">Men</td>
 <td align="left">-</td>
-<td align="left">2.97 ( -0.38 - 6.61 )</td>
+<td align="left">2.44 ( -0.36 - 6.02 )</td>
 </tr>
 </tbody>
 </table>
@@ -745,13 +676,13 @@ measures -->
 <tbody>
 <tr class="odd">
 <td align="left">Major Trauma</td>
-<td align="left">-0.44 ( -3.12 - 1.2 )</td>
+<td align="left">-0.63 ( -4.31 - 1.64 )</td>
 <td align="left">-</td>
 </tr>
 <tr class="even">
 <td align="left">Minor Trauma</td>
 <td align="left">-</td>
-<td align="left">0.44 ( -1.2 - 3.12 )</td>
+<td align="left">0.63 ( -1.64 - 4.31 )</td>
 </tr>
 </tbody>
 </table>
@@ -767,13 +698,13 @@ measures -->
 <tbody>
 <tr class="odd">
 <td align="left">Penetrating Trauma</td>
-<td align="left">74.01 ( 70.95 - 77.14 )</td>
+<td align="left">74.64 ( 73.75 - 76.15 )</td>
 <td align="left">-</td>
 </tr>
 <tr class="even">
 <td align="left">Blunt Trauma</td>
 <td align="left">-</td>
-<td align="left">2.97 ( -0.9 - 5.52 )</td>
+<td align="left">2.44 ( -0.07 - 4.32 )</td>
 </tr>
 </tbody>
 </table>
