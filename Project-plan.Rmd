@@ -47,7 +47,7 @@ dödsorsaksanalys och tid till reg i traumaregistret.-->
 Background
 =====
 
-Trauma, defined as the clinical entity composed of physical injury and the body's associated response[@Gerdin]. It is one of the leading causes of mortality and morbidity in the world, representing about 9 % of annual global deaths. Among people under the age of 45 trauma is the most common cause of death. Over the last decade almost 50 million people worldwide have died from trauma[@GBD_2017_Causes_of_Death_Collaborators2018-oe].
+Trauma, defined as the clinical entity composed of physical injury and the body's associated response[@Gerdin]<!-- This sentence is incomplete, try combining the first and second sentence. -->. It is one of the leading causes of mortality and morbidity in the world, representing about 9 % of annual global deaths. Among people under the age of 45 trauma is the most common cause of death. Over the last decade almost 50 million people worldwide have died from trauma[@GBD_2017_Causes_of_Death_Collaborators2018-oe].
 
 Not only does trauma represent a large share of the global mortality rate, but studies 
 have also shown a significant difference in outcome depending on where patients are
@@ -72,24 +72,25 @@ An important part of trauma care evaluation and improvement is Mortality and Mor
 
 Audit filters can be described as predefined statements that decides whether or not a certain event differ from the guidelines [@Berg2022]. Such audit filter can be time frames in which a test should be taken or a Glascow Coma Scale score under 8 without the patient being indubated[@Evans2009-oy]. 
 
- Trauma Severity Scores
+Trauma Severity Scores
 ------------
  
 The Abbreviated Injury Scale (AIS) defines traumatic injuries across 9 different body regions. The scale ranges from 1-5, where 1 is the least serious and 5 the most serious [@Kuo2017-dj].
 
-The Injury Severity Score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score a patient get is based on the AIS points from the injured body regions. The higher ISS score the more serious injury the patients suffers from. The ISS does however only take into account the most severe injury in each region, meaning that you could have two different injuries in the abdomen without it affecting the ISS score.[@Javali2019-wn]
+The Injury Severity Score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score a patient gets is based on the AIS points from the injured body regions. The higher ISS score the more serious injury the patients suffers from. The ISS does however only take into account the most severe injury in each region, meaning that you could have two different injuries in the abdomen without it affecting the ISS score.[@Javali2019-wn]
 
 The New Injury Severity Score (NISS) is developed from the ISS. NISS also takes injuries from the same body regions as NISS into account. The NISS is the sum of the squares of the three highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. As the AIS can vary from 1-5, the NISS ranges between 1-75 [@Li2021-ag]. The NISS score is also used internationally to define trauma severity. A NISS Score >15 is considered a major trauma and <15 a minor trauma [@Bagher2017].
 
 
 Trauma registry
 ------------
+<!-- The connection between this section and the rest is a bit unclear. I suggest that you either expand on this section and make the connection more explicit, or move this to the Methods section where you describe the data sources -->
 In Sweden there is a national trauma registry (SweTrau) holding records of trauma cases from 48 out of 49 hospitals who recieves major trauma. To meet the inclusions criterias for SweTrau you must be over 15 years of age, been exposed to a traumatic event leading to trauma team activation, or have a NISS over 15 without trauma team activation. Or patients moved to a hospital within 7 days of a traumatic event with NISS over 15. [@swetrau]
 
-Oppotrunity for improvement
+Opportunity for improvement
 ------------
 
-Whether there is opportunity for improvement for a specific case or not is decided during M&M where selected trauma casees are reviewed. Opportunity for improvement (OFI) is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect. Examples of OFI could be too long transportation time to the hospital from the site of injury, insufficient vital signs documentation at the emergency department or missing trauma surgeon/consultant.[@Sanddal2011-cl] 
+Whether there is opportunity for improvement for a specific case or not is decided during M&M where selected trauma cases are reviewed. Opportunity for improvement (OFI) is defined as when the trauma care for a patient does not match the best practice guidelines in at least one aspect<!-- I would start this section with this sentence -->. Examples of OFI could be too long transportation time to the hospital from the site of injury, insufficient vital signs documentation at the emergency department or missing trauma surgeon/consultant.[@Sanddal2011-cl] 
 
 The most common cause of death after injury is hemorrhage. Among these patients, problem in decision making, technical skills and making decisions between surgery and radiology were some of the areas were OFIs were found.[@OReilly2013].
 
@@ -97,14 +98,14 @@ OFI can be a more nuanced measure for trauma care improvement than the more esta
 
 Trauma subgroups
 ------------
-Since trauma patients is a heterogeneous group, it is important to have a 
-sufficient understanding of OFIs for different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury [@arsrapportswetrau].
+As trauma patients is a heterogeneous group, it is important to have a 
+sufficient understanding of OFIs for different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury [@arsrapportswetrau].<!-- I suggest that you try to expand on this, as it's the basis of your thesis--> 
 
-In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example, traumatic injuries from stabbing and from shooting violence are more common in men while women are over represented in fall traumas.[@arsrapportswetrau] 
+In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example, traumatic injuries from stabbing and from shooting violence are more common in men while women are over represented in fall traumas.[@arsrapportswetrau] <!-- Is this part of the rationale? It's not obvious why it's presented here and not somewhere else, under setting for example. Do you mean that because the trauma patterns differ between groups the risk of OFI may also differ? If so, that's logical, but you need to make the link more evident -->
 
 Knowledge gap 
 ------------
-There is a lot of existing data about subgroups regarding transportation time to hospital, NISS score at the Emergency department, rehabilitation, morbidity and mortality rate to state a few examples.[@arsrapportswetrau] But despite having all this data in the trauma registers, knowledge redarding OFI patterns among different traumating subgroups remains unknown. 
+There is a lot of existing data about subgroups regarding transportation time to hospital, NISS score at the emergency department, rehabilitation, morbidity and mortality rate to state a few examples.[@arsrapportswetrau] But despite having all this data in the trauma registers, knowledge regarding OFI patterns among different trauma subgroups remains unknown. 
 
 Aim
 ------------
@@ -116,18 +117,19 @@ Methods
 Study design
 ------------
 This is a registry based cohort study that uses data from two different Swedish
-trauma registries. The first registry is the Trauma registry at the Karolinska University Hospital
+trauma registries. The first registry is the trauma registry at the Karolinska University Hospital
 in Solna. It is a part of SweTrau and contains patients from the years 2012 to 2021. 
-The second registry is the the trauma Quality Database which is a subset of the Karolinska University Hospital Trauma Registry. It includes patients selected for review between 2014 and 2021. These registreis were merged together and a complete case analysis was done. Scrambled data was used to decrease the risk for bias. The results were presented in tables showing the frecquency of OFI for the different subgroups. Bootstrapping was preformed to estimate the confidence interval.
+The second registry is the the trauma care quality database which is a subset of the Karolinska University Hospital Trauma Registry<!-- Be consistent in how you refer to these databases. I would suggest standard conventions, meaning that you only capitalise names and locations.-->. It<!-- When you write it here, do you refer to the trauma registry? I would replace "It" with "The trauma registry"--> includes patients selected for review between 2014 and 2021. These registries were merged and a complete case analysis was done. Scrambled data was used to decrease the risk for bias. The results were presented in tables showing the frecquency of OFI for the different subgroups. Bootstrapping was preformed to estimate the confidence interval<!-- Confidence interval of what?-->.
 
 Setting
 -------
-The Karolinska University Hospital in Solna, Stockholm is the largest Trauma Center in Sweden. The hospital is also classified as a level 1 trauma center.[@Karolinska] The Trauma department at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. The Karolinska University Hospital is the primary trauma center for a population of 2,8 million people.[@Traumanks, @Almskog2020] 
+The Karolinska University Hospital in Solna, Stockholm is the largest trauma centre in Sweden. The hospital is also classified as a level 1 trauma center.[@Karolinska] The trauma department<!-- Do you mean trauma centre?--> at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. The Karolinska University Hospital is the primary trauma center for a population of 2,8 million people.[@Traumanks, @Almskog2020] 
 
-Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To the Trauma team at Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
+Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To the trauma team at Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
 
 A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
+<!-- Consider moving the paragraph below to the section on Outcome, to explain were the OFI come from-->
 Audit filters and for some cases, maual selection was used to determine which cases that should be reviewed at M&M. Some examples of audit filters that were used are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes and time to Surgery. A manual selection was done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation from best practice guidelines can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified"
 ```{r, echo = FALSE} 
   ofi_selection() 
@@ -137,15 +139,15 @@ Audit filters and for some cases, maual selection was used to determine which ca
 Participants
 ------------
 
-All patients are from the Karolinska University Hospital trauma registry and from the Trauma Quality Database. To be eligible for the study all patients had to meet the following inclusion criteria: Patients over 15 year old. No missing information in crucial colums in the registries. If information was missing for age, gender, OFI,  trauma mechanism, NISS, or AIS code the patient was excluded.
+All patients are from the Karolinska University Hospital trauma registry and from the Trauma Quality Database. To be eligible for the study all patients had to meet the following inclusion criteria: Patients over 15 year old. If information was missing for age, gender, OFI,  trauma mechanism, NISS, or AIS code the patient was excluded.
 
 Variables and data sources/measurements
 ---------------------------------------
-The data from the trauma registries were analyzed for OFI in separate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma , across body regions injured, and trauma mechanism. The location of injuries will be analyzed based on AIS codes and AIS scores will be used to group patients into fitting cohorts. 
+The data from the trauma registries were analyzed for OFI in separate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma, across body regions injured<!-- Maybe you can call this "most severely injured body region" instead?-->, and trauma mechanism. The location of injuries<!-- Do you mean injured body region?--> will be analysed based on AIS codes and AIS scores will be used to group patients into fitting cohorts. 
 
-The column for most severely injured region was made by selecting the the most severely injured body region among the AIS codes belonging to a specific patient. The first digit of the AIS code represents the body region for the trauma. For patient who had two or more different injuries and thereby multple AIS codes, the most severe injury was selected, or more precisely the AIS code with the highest last digit. If more than one region had injuries of the same severity, the second most severe injury in those regions were compared, and then the third and so on. If two or more regions had exactly the same pattern of injuries, the region was classified as "Multiple".
+The column<!-- Although you "created a column" with the most severely injured body region, this explanation makes little sense for the reader. Instead, explain how you "assigned the most severely injured body region" or something like that-->   for most severely injured region was made by selecting the most severely injured body region among the AIS codes belonging to a specific patient. The first digit of the AIS code represents the body region for the trauma. For patient who had two or more different injuries and thereby multple AIS codes, the most severe injury was selected, or more precisely the AIS code with the highest last digit<!-- You don't have to explain what digit in the AIS code that details the severity, it's enough to explain that AIS includes information on injury severity and that you used that information-->. If more than one region had injuries of the same severity, the second most severe injury in those regions were compared, and then the third and so on. If two or more regions had exactly the same pattern of injuries, the region was classified as "Multiple".
 
-To gruop patients with Minor versus Major Trauma the NISS score was used. Patients with a NISS > 15 were defined as major trauma and those with NISS < 15 were defined as minor trauma. 
+To gruop patients with minor versus major trauma the NISS score was used. Patients with a NISS > 15 were defined as major trauma and those with NISS < 15 were defined as minor trauma<!-- You probably want to add a citation for this cutoff-->. 
 
 OFI  was treated as a binary variable, with "yes" and "no" as the only possible outcome. For the M&M conference to put a "yes" in the OFI section a consensus decision is required regarding the presence of at least one OFI.
 
@@ -155,15 +157,15 @@ To prevent research bias all data will be scrambled while used to write the anal
 
 Study size 
 ----------
-A complete case analysis was done on all patients in the registers that met the inclusion criteria for this study.
+A complete case analysis was done on all patients in the registries that met the inclusion criteria for this study.
 
 Quantitative variables
 ----------------------
 
-The registers hold both categorical and contunious variables. NISS, age and AIS codes were treated as continious variables. Penetraiting/ Blunt Trauma, Minor/ Major Trauma and OFI was treated as binary categorical variables. Trauma mechanism and Most severe region of injury was treated as categorical variabels.
+The registers hold both categorical and continuous variables. NISS, age and AIS codes were treated as continuous variables. Penetrating/blunt trauma, minor/major trauma and OFI was treated as binary categorical variables. Trauma mechanism and most severe region of injury<!-- Be consistent in how you refer to this subgroup-->  were treated as categorical variabels.
 
-The range of NISS was 1-75, representing the number of AIS points for each patient. Penetraiting/ Blunt Trauma had the values of 1 and 2. 1 represented Blunt trauma and 2 penetraiting trauma. Minor/Major was derived from the NISS value. NISS>15 was considered a Major Trauma and <15 a Minor Trauma. OFI had the values of either YES or NO.
-
+<!-- In the sections below you don't really need to say how they were coded in the original data, it's enough to say how you defined them, i.e. what groups you used -->
+The range of NISS was 1-75, representing the number of AIS points for each patient. Penetraiting/blunt Trauma had the values of 1 and 2. 1 represented Blunt trauma and 2 penetraiting trauma. Minor/Major was derived from the NISS value. NISS>15 was considered a Major Trauma and <15 a Minor Trauma. OFI had the values of either YES or NO.
 
 Trauma Mechanism had a value that ranged from 1-13. Each number was represented by the following trauma mechanism. 1 - "Trauma mechanism Traffic - motor veichle accident, not motorcycle". 2 - "Traffic - motorcycle accident". 3 - "Traffic - bicycle accident". 4 -"Traffic - pedastrian	". 5 - "Traffic - other". 6 -"Shot by handgun, shotgun, rifle, other firearm of any calibre". 7 - "Stabbed by knife, sword, dagger other pointed or sharp object". 8 - "Struck or hit by blunt object". 9 - "Low energy fall - fall in the same level". 10 - "High energy fall - fall from a higher level". 11 - "Blast injury". 12 - "Other". 13 - "Unknown".
 
@@ -171,11 +173,11 @@ The most severe region had 10 different values: head, neck, face, thorax, upper 
 
 Statistical methods
 -------------------
-For handling the data and making the statistical analysis the program R was used. R is a programming language used for statistical computing @R. Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet up with the inclusion criteria. New columns were also added as listed above. 
+For handling the data and conducting the statistical analysis the program R was used. R is a programming language used for statistical computing [@R]. Then all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet the inclusion criteria. New columns were also added as listed above. 
 
 The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup. 
 
-The difference (delta value) in OFI frequency within each subgroup was calculated. Meaning that the difference between men and women was calculated but not for example between women and blunt trauma. For estimating the confidence interval Bootstrapping was used on the data. 1000 boots were done, creating 1000 simulated datasets. The confidence interval was estimated both for the OFI frequencies and for the delta values.
+The difference (delta value) in OFI frequency between subgroups was calculated, meaning that the difference between men and women was calculated but not for example between women and blunt trauma. Bootstrapping was used to estimate the confidence intervals. 1000 bootstrap samples were drawn with replacement, creating 1000 simulated datasets. The analyses were then repeated in these bootstrap samples and the confidence intervals were estimated both for the OFI frequencies and for the delta values based on their distributions across bootstrap samples.
 
 Results
 =====
@@ -188,7 +190,6 @@ After merging the Karolinska trauma registry and the Trauma quality data base th
 exclusion()
 ```
 
-
 Descriptive data
 ----------------
 
@@ -198,11 +199,8 @@ Kanske även lägga till andra intressanta skillnader mellan non ofi och ofi nä
 
 
 ```{r, echo = FALSE} 
-  table.1 
+table.1 
 ```
-
-
-
 
 <!-- (a) Give characteristics of study participants (eg demographic,
 clinical, social) and information on exposures and potential
@@ -224,6 +222,7 @@ Main results
 ------------
 The subgroup with the highest OFI frequency was xxxx with a frequency at `r max.freq`%. The lowest OFI frequency was measured in the xxx cohort with a frquency at `r min.freq`%. Among the men the frequency of OFI was `r freq.ofi.men`% `r ci.men` and among the women `r freq.ofi.women`% `r ci.women`. In the entire cohort the mean frequency of OFI was `r mean.ofi`%. (minor vs major ) xxxx trauma had a higher OFI frequency then xxxx trauma. In the Most Severe Region subgroup, OFI was most frequent in the xxxx cohort with a frequency of `highest.mos.ofi`. 
 
+
 | Cohort       | Frequency of OFI (%)          | Confidence interval  |
 |:------------- |:-------------:| -----:|
 | Men      | `r freq.ofi.men` | `r ci.men` |
@@ -240,21 +239,22 @@ The subgroup with the highest OFI frequency was xxxx with a frequency at `r max.
 | MSR - Unspecified | `r freq.ofi.unspecified` | () |
 | MSR - Multiple | `r freq.ofi.multiple` | `r ci.multiple` |
 
+
 Delta values
 ------------
-The largest delta value was found in the xxx subgroup with a delta value of `max.delta`. The smallest delta value was found in the xxx subgruop with a delta value of `min delata`. In the xxx subgroup the delta value with the widest range were found ` wid.delta`. In the MSR subgroup The most statistical significant delta value was found in the xxxx cohort. In the binary subgroups the most significant delta value was found in the xxxx cohort. 
+The largest delta value was found in the xxx subgroup with a delta value of `r max.delta`. The smallest delta value was found in the xxx subgruop with a delta value of `r min delta`. In the xxx subgroup the delta value with the widest range were found `r wid.delta`. In the MSR subgroup The most statistical significant delta value was found in the xxxx cohort. In the binary subgroups the most significant delta value was found in the xxxx cohort. 
 
 ```{r, echo = FALSE} 
-  deltamsrtable
+deltamsrtable
 ```
 ```{r, echo = FALSE} 
-  deltagendertable
+deltagendertable
 ```
 ```{r, echo = FALSE} 
-  deltaminmajtable
+deltaminmajtable
 ```
 ```{r, echo = FALSE} 
-  deltainjtable
+deltainjtable
 ```
 
 
@@ -277,10 +277,7 @@ and sensitivity analyses
 #source("main.R") ## This "imports" the main script file of your project and run any code in it
 #```
 You can also embed plots:
-```{r plot, echo=FALSE}
-plot(pressure)
-```
-You can also mix text and code, so called inline code, like this: `r 2+5`.-->
+-->
 
 Discussion
 =====
