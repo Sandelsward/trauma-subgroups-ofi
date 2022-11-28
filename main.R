@@ -29,6 +29,9 @@ library(rmarkdown)
 library(DiagrammeR)
 library(assertthat)
 library(formattable)
+library(DiagrammeRsvg)
+library(rsvg)
+
 noacsr::source_all_functions()
 
 ## Import data

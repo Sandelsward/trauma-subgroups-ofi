@@ -32,6 +32,8 @@ d -> g
 [6]: paste0('Motivation wether OFI is found or not')
 [7]: paste0('Excluded')
 ")   
-  return(ofi_selection)
+
+ofi_selection %>% export_svg() %>% charToRaw() %>% rsvg::rsvg_png(paste0("images/ofi.png"))
+  
   
 }

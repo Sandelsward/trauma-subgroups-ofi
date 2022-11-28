@@ -58,9 +58,11 @@ exclusion <- function() {
     [14]: paste0('Patients with missing information in Most severe region (n: ', total.missing.mos, ')')
   ") 
   
-  ## %>% DiagrammeRsvg::export_svg() %>% charToRaw() %>% rsvg::rsvg_pdf("swetrau_flowchart.pdf")
-  ## Cannot to install DiagrammeRsvg b/c can't install v8 b/c "fatal error: v8.h: no such file or directory"
-  return(exclusion)
+    exclusion %>% export_svg() %>% charToRaw() %>% rsvg::rsvg_png(paste0("images/exclusion.png"))
+  
   
 }
+
+
+
 
