@@ -2,10 +2,10 @@
 title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
 author: "George Sandelswärd"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
   word_document: default
-  pdf_document: default
 bibliography: bibliography.bib
 csl: vancouver.csl
 fontsize: 11pt
@@ -167,7 +167,7 @@ A complete case analysis was done on all patients in the registries that met the
 Quantitative variables
 ----------------------
 
-The registers hold both categorical and continuous variables. NISS, age and AIS codes were treated as continuous variables. Penetrating/blunt trauma, minor/major trauma and OFI was treated as binary categorical variables. Most severely injured body region <!-- Be consistent in how you refer to this subgroup-->  were treated as categorical variabels.
+The registers hold both categorical and continuous variables. NISS, age and AIS codes were treated as continuous variables. Penetrating/blunt trauma, minor/major trauma and OFI was treated as binary categorical variables. Most severely injured body region was treated as categorical variabel.
 
 <!-- In the sections below you don't really need to say how they were coded in the original data, it's enough to say how you defined them, i.e. what groups you used -->
 The range of NISS was 1-75, representing the number of AIS points for each patient. Penetraiting/blunt Trauma had the values of 1 and 2. 1 represented Blunt trauma and 2 penetraiting trauma. Minor/Major was derived from the NISS value. NISS>15 was considered a Major Trauma and <15 a Minor Trauma. OFI had the values of either YES or NO.
@@ -203,10 +203,10 @@ Out of the `r total.cohort` patients included in the cohort `r all.men` (`r shar
  
 Kanske även lägga till andra intressanta skillnader mellan non ofi och ofi när jag fått riktig a datan. Tex om snittåldern för de som har ofi är högre än för de som inte har ofi?
 
-
-```{r, echo = FALSE} 
-table.1 
-```
+<!--
+#```{r, echo = FALSE} 
+#table.1 
+#```
 
 <!-- (a) Give characteristics of study participants (eg demographic,
 clinical, social) and information on exposures and potential
@@ -288,10 +288,40 @@ You can also embed plots:
 Discussion
 =====
 
-<!--
+
 Key results
 -----------
-Summarise key results with reference to study objectives
+The purpose of this study was to assess the frequency of OFI for different clinical subgroups and to investigate in what trauma subgroups OFI is most frequent. 
+
+It was found that the Abdomen cohort in the subgroup most severely injured body region had the  highest OFI frequency followed by the Major trauma subgroup. It was also found that Men had a higher OFI frequency then women and that penetrating trauma had a higher OFI frequency then blunt trauma. 
+
+Strengths and limitations
+-------
+
+There are several strengths in this study. For examlple, this study is to our knowledge the first study to look into OFI frequency and trauma subgroups. Another strength is that all programming and calculations was first done on scrambled data to minimize the risk for bias. 
+
+One of the limitations in the study is the time frame. Data has been used that was collected from 2011 to 2021. It is likely that some trauma cases that had OFI back in 2011 would not have had OFI today. This due to changes in treatment and guidelines over the years. It must also be considered a limitation that the selection for M&M conferences is partially done manually. This may lead to selection bias as well as bias due to the fact that it is not the same person that has been doing the selections since 2011.<!-- vet ej om det har varit samma personer --> 
+
+Furthermore this is a single-site study, making it harder to draw more general conclusions from the results. As the total number of patients is relatively small, the size of some of the more uncommon trauma cohorts are very small, which is something one must keep in mind when studying the results. As this is a single-site study at a highly specialized hospital with a level 1 trauma centerm, it mainly gets the more severe trauma cases. Therefore research on the Minor Trauma subgroup for example might benefit from taking place in less sub specialized hospital.
+
+As the outcome measure OFI is 
+
+
+Clinical/Practical applications
+-------------
+
+
+
+Future studies
+-----------
+By knowing which trauma subgroups that has the highest OFI it is possible to focus further reesearch on theese subgroups. The result of this study could lead to an overview of the audit filters of the highest OFI. 
+
+It would be interesting do do a multi-center study to see if there is differences between county and city or between trauma center and non trauma center. 
+
+Män har mer allvarliga trauman. Därför högre ofi?
+
+
+<!--Summarise key results with reference to study objectives
 Limitations
 -----------
 Discuss limitations of the study, taking into account sources of

@@ -3,11 +3,11 @@ library("boot") # load boot
 source("functions/bootfunctions.R")
 
 ### data = datan du stoppar in, statistic = funktionen som genererar resultat, R= antalet körningar. 
-boot_out_gender <- boot(data=cleaned.data, statistic = boot_function_gender,R = 10)
-boot_out_inj_type <- boot(data=cleaned.data, statistic = boot_function_gender,R = 10)
-boot_out_moi <- boot(data=cleaned.data, statistic = boot_function_moi,R = 10)
-boot_out_msr <- boot(data=cleaned.data, statistic = boot_function_msr,R = 10)
-boot_out_min_maj <- boot(data=cleaned.data, statistic = boot_function_min_maj,R = 10)
+boot_out_gender <- boot(data=cleaned.data, statistic = boot_function_gender,R = 100)
+boot_out_inj_type <- boot(data=cleaned.data, statistic = boot_function_gender,R = 100)
+boot_out_moi <- boot(data=cleaned.data, statistic = boot_function_moi,R = 100)
+boot_out_msr <- boot(data=cleaned.data, statistic = boot_function_msr,R = 100)
+boot_out_min_maj <- boot(data=cleaned.data, statistic = boot_function_min_maj,R = 100)
 
 #### The output from the function boot contains all vectors that you want CI from but its hard to find the one you want,
 # You need to specify index. For example above: index=1 (delta.gender), index=2(freq.ofi.vomen) and so on. 
@@ -31,7 +31,7 @@ ci.inj.moi <- boot.ci(boot.out = boot_out_moi, conf = 0.95, type=c("norm"),index
 
 # minor major trauma
 ci.min <- boot.ci(boot.out = boot_out_min_maj, conf = 0.95, type=c("norm"),index=1)
-#ci.maj <- boot.ci(boot.out = boot_out_min_maj, conf = 0.95, type=c("norm"),index=2)
+ci.maj <- boot.ci(boot.out = boot_out_min_maj, conf = 0.95, type=c("norm"),index=2)
 ci.delta.min.maj <- boot.ci(boot.out = boot_out_min_maj, conf = 0.95, type=c("norm"),index=3)
 ci.delta.min.maj2 <- boot.ci(boot.out = boot_out_min_maj, conf = 0.95, type=c("norm"),index=4)
 

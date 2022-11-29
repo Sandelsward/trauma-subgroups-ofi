@@ -71,8 +71,8 @@ boot_function_inj_type <- function(data, index){
   freq.ofi.penetrating <- nrow(total.ofi.penetrating)/(total.penetrating*100)
   
   # delta inj.dominant
-  delta.inj.dominant <- freq.ofi.blunt-freq.ofi.penetrating
-  delta.inj.dominant2 <- freq.ofi.penetrating-freq.ofi.blunt
+  delta.inj.dominant <- (freq.ofi.blunt-freq.ofi.penetrating)
+  delta.inj.dominant2 <- (freq.ofi.penetrating-freq.ofi.blunt)
   
   return(c(freq.ofi.blunt,freq.ofi.penetrating,delta.inj.dominant,delta.inj.dominant2))
 }
@@ -472,7 +472,7 @@ boot_function_min_maj <- function(data, index){
   ofi.minor.trauma <- nrow(df.ofi.minor.trauma)
   
   # frekvens av ofi hos minor trauma
-  freq.ofi.minor.trauma<- ((ofi.minor.trauma)/(tot.minor.trauma)*100)
+  freq.ofi.minor.trauma <- ((ofi.minor.trauma)/(tot.minor.trauma)*100)
   
   # Antal patienter med major trauma
   df.major.trauma <- cleaned.data[cleaned.data$trauma.severity == "major",]
@@ -485,7 +485,7 @@ boot_function_min_maj <- function(data, index){
   ofi.major.trauma <- nrow(df.ofi.major.trauma)
   
   # frekvens av ofi hos major trauma
-  freq.ofi.major.trauma<- ((ofi.major.trauma)/(tot.major.trauma)*100)
+  freq.ofi.major.trauma <- ((ofi.major.trauma)/(tot.major.trauma)*100)
   
   #delta inom minor/major trauma
   
