@@ -2,9 +2,9 @@
 title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
 author: "George Sandelswärd"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
   word_document: default
 bibliography: bibliography.bib
 csl: vancouver.csl
@@ -203,10 +203,10 @@ Out of the `r total.cohort` patients included in the cohort `r all.men` (`r shar
  
 Kanske även lägga till andra intressanta skillnader mellan non ofi och ofi när jag fått riktig a datan. Tex om snittåldern för de som har ofi är högre än för de som inte har ofi?
 
-<!--
-#```{r, echo = FALSE} 
-#table.1 
-#```
+
+```{r, echo = FALSE} 
+table.1 
+```
 
 <!-- (a) Give characteristics of study participants (eg demographic,
 clinical, social) and information on exposures and potential
@@ -288,12 +288,15 @@ You can also embed plots:
 Discussion
 =====
 
-
-Key results
------------
 The purpose of this study was to assess the frequency of OFI for different clinical subgroups and to investigate in what trauma subgroups OFI is most frequent. 
 
 It was found that the Abdomen cohort in the subgroup most severely injured body region had the  highest OFI frequency followed by the Major trauma subgroup. It was also found that Men had a higher OFI frequency then women and that penetrating trauma had a higher OFI frequency then blunt trauma. 
+
+A higer OFI frequency in major trauma compared with minor trauma is consistent with previous research. Studies show that preventable deaths increase with the sevreity of the trauma case. The mortality rate is also higher in Major trauma cohort than in Minor trauma. 
+
+Both data from SWETRAU and previous studies show that men are overrepresented in trauma patients. There is also research showing that male trauma patients have a higher frequency of preventable death. eller? 
+
+The study also shows a higher mean age in the OFI chort than in the non OFI cohort. Meaning that the older the patient is the higher is the risk for non optimal trauma care. Previous reesearch has shown an in increased mortality rate in older patients, wich potentially in part could be explained by sub optimal trauma care. Adams et al. found that an increasingly higher risk for mortality in trauma patients over 45 years old[1]. Ottochian et al found that the mortality risk from penetrating trauma increased significantly after the age of 65 [2].
 
 Strengths and limitations
 -------
@@ -304,8 +307,9 @@ One of the limitations in the study is the time frame. Data has been used that w
 
 Furthermore this is a single-site study, making it harder to draw more general conclusions from the results. As the total number of patients is relatively small, the size of some of the more uncommon trauma cohorts are very small, which is something one must keep in mind when studying the results. As this is a single-site study at a highly specialized hospital with a level 1 trauma centerm, it mainly gets the more severe trauma cases. Therefore research on the Minor Trauma subgroup for example might benefit from taking place in less sub specialized hospital.
 
-As the outcome measure OFI is 
+As the outcome measure OFI is not a 
 
+There was also a considrable cohort overlaps. 
 
 Clinical/Practical applications
 -------------
@@ -318,7 +322,12 @@ By knowing which trauma subgroups that has the highest OFI it is possible to foc
 
 It would be interesting do do a multi-center study to see if there is differences between county and city or between trauma center and non trauma center. 
 
-Män har mer allvarliga trauman. Därför högre ofi?
+It would be interesting to to investigate the face that the male cohort had more OFI. One possiblbity is that male might be overrepresenrted in major trauma and by that has more complex and severe injuries. But that not shown in this study.
+
+
+
+
+
 
 
 <!--Summarise key results with reference to study objectives
