@@ -298,14 +298,22 @@ Both data from SWETRAU and previous studies show that men are overrepresented in
 
 The study also shows a higher mean age in the OFI chort than in the non OFI cohort. Meaning that the older the patient is the higher is the risk for non optimal trauma care. Previous reesearch has shown an in increased mortality rate in older patients, wich potentially in part could be explained by sub optimal trauma care. Adams et al. found that an increasingly higher risk for mortality in trauma patients over 45 years old[1]. Ottochian et al found that the mortality risk from penetrating trauma increased significantly after the age of 65 [2].
 
+The median NISS was higher in the OFI cohort then in the non ofi cohort, meaining that major and complex trauma has ha greater risk for non optimal trauma care. This has also been found in prevvious studies.
+
 Strengths and limitations
 -------
 
 There are several strengths in this study. For examlple, this study is to our knowledge the first study to look into OFI frequency and trauma subgroups. Another strength is that all programming and calculations was first done on scrambled data to minimize the risk for bias. 
 
-One of the limitations in the study is the time frame. Data has been used that was collected from 2011 to 2021. It is likely that some trauma cases that had OFI back in 2011 would not have had OFI today. This due to changes in treatment and guidelines over the years. It must also be considered a limitation that the selection for M&M conferences is partially done manually. This may lead to selection bias as well as bias due to the fact that it is not the same person that has been doing the selections since 2011.<!-- vet ej om det har varit samma personer --> 
+One of the limitations in the study is the time frame. Data has been used that was collected from 2011 to 2021. It is likely that some trauma cases that had OFI back in 2011 would not have had OFI today. This due to changes in treatment and guidelines over the years. 
 
-Furthermore this is a single-site study, making it harder to draw more general conclusions from the results. As the total number of patients is relatively small, the size of some of the more uncommon trauma cohorts are very small, which is something one must keep in mind when studying the results. As this is a single-site study at a highly specialized hospital with a level 1 trauma centerm, it mainly gets the more severe trauma cases. Therefore research on the Minor Trauma subgroup for example might benefit from taking place in less sub specialized hospital.
+The audit filters that is a big part of the selection for M&M conferences is is not scientificly verified, but is instead based on experience from clinical experts and reseerchers. As there is no internationally och national concensus for what audtit filters to use, Each hospital rely on the exptertees of ther clinical proffessionals and scintists.  It must also be considered a limitation that the selection for M&M conferences is partially done manually. This may lead to selection bias as well as bias due to the fact that it is not the same person that has been doing the selections since 2011.<!-- vet ej om det har varit samma personer --> 
+
+Furthermore this is a single-site study, making it harder to draw more general conclusions from the results. As the total number of patients is relatively small, the size of some of the more uncommon trauma cohorts are very small, which is something one must keep in mind when studying the results. As this is a single-site study at a highly specialized hospital with a level 1 trauma centerm, it mainly gets the more severe trauma cases. Therefore research on the Minor Trauma subgroup for example might benefit from taking place in less sub specialized hospital that recieves more minor trauma cases.
+
+
+
+
 
 As the outcome measure OFI is not a 
 
@@ -314,6 +322,8 @@ There was also a considrable cohort overlaps.
 Clinical/Practical applications
 -------------
 
+evaluate audit filters.
+(focus future ofi reserarch on the subgroups with highest frequency.)
 
 
 Future studies
