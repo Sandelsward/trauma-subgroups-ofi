@@ -475,7 +475,7 @@ boot_function_min_maj <- function(data, index){
   freq.ofi.minor.trauma <- ((ofi.minor.trauma)/(tot.minor.trauma)*100)
   
   # Antal patienter med major trauma
-  df.major.trauma <- cleaned.data[cleaned.data$trauma.severity == "major",]
+  df.major.trauma <- boot.data[boot.data$trauma.severity == "major",]
   
   #df.tot.major.trauma <- df.major.trauma[,c(2,59)]
   tot.major.trauma <- nrow(df.major.trauma)

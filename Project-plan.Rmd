@@ -290,11 +290,13 @@ Discussion
 
 The purpose of this study was to assess the frequency of OFI for different clinical subgroups and to investigate in what trauma subgroups OFI is most frequent. 
 
-It was found that the Abdomen cohort in the subgroup most severely injured body region had the  highest OFI frequency followed by the Major trauma subgroup. It was also found that Men had a higher OFI frequency then women and that penetrating trauma had a higher OFI frequency then blunt trauma. 
+It was found that the Abdomen cohort in the subgroup most severely injured body region had the  highest OFI frequency followed by the Major trauma subgroup. It was also found that penetrating trauma had a higher OFI frequency then blunt trauma and that men had a higher OFI frequency then women. The difference between men and women was not statistically significant. 
 
-A higer OFI frequency in major trauma compared with minor trauma is consistent with previous research. Studies show that preventable deaths increase with the sevreity of the trauma case. The mortality rate is also higher in Major trauma cohort than in Minor trauma. 
+When comparing the results of this study with previous research one must keep in mind the fact that the OFI term is not a unanimously defined term between hospitals and that little research exist that uses OFI as the primary outcome measure. It can however still be relevant to compare the result of this study with research looking into outcome measures like preventable death, morbidity and mortality for the same trauma subgroups as this study.  
 
-Both data from SWETRAU and previous studies show that men are overrepresented in trauma patients. There is also research showing that male trauma patients have a higher frequency of preventable death. eller? 
+A higher OFI frequency in major trauma compared with minor trauma is consistent with previous research. Studies show that preventable deaths increase with the severity of the trauma case. The mortality rate is also higher in Major trauma cohort than in Minor trauma (källa). 
+
+Both data from SWETRAU and previous studies show that men are over represented in trauma patients.[[@arsrapportswetrau], [4]]  Even though men in this study had a higher OFI frequency then women, the difference was not statisticly significant. There is however previous research showing that men have a higher frequency of trauma mortality. Bolandparvaz et al fond that males had a higher risk for trauma mortality[5]. Pape et al showed that females were less likely to die after trauma [7]. Davoodabadi et al. found that there was no difference between the genders in preventable deaths after trauma [6]. 
 
 The study also shows a higher mean age in the OFI chort than in the non OFI cohort. Meaning that the older the patient is the higher is the risk for non optimal trauma care. Previous reesearch has shown an in increased mortality rate in older patients, wich potentially in part could be explained by sub optimal trauma care. Adams et al. found that an increasingly higher risk for mortality in trauma patients over 45 years old[1]. Ottochian et al found that the mortality risk from penetrating trauma increased significantly after the age of 65 [2].
 
@@ -311,16 +313,14 @@ The audit filters that is a big part of the selection for M&M conferences is is 
 
 Furthermore this is a single-site study, making it harder to draw more general conclusions from the results. As the total number of patients is relatively small, the size of some of the more uncommon trauma cohorts are very small, which is something one must keep in mind when studying the results. As this is a single-site study at a highly specialized hospital with a level 1 trauma centerm, it mainly gets the more severe trauma cases. Therefore research on the Minor Trauma subgroup for example might benefit from taking place in less sub specialized hospital that recieves more minor trauma cases.
 
-
-
-
-
 As the outcome measure OFI is not a 
 
 There was also a considrable cohort overlaps. 
 
 Clinical/Practical applications
 -------------
+
+Awereeness aout which subgroup has high ofi. More carefull in the care of abdominal trauma for example.
 
 evaluate audit filters.
 (focus future ofi reserarch on the subgroups with highest frequency.)
