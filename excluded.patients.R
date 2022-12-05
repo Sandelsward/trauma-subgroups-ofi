@@ -96,3 +96,17 @@ total.missing.mos <- nrow(total.mos.na)
 
 df.age.dominant.niss.ais01.ofi.mos <- df.age.dominant.niss.ais01.ofi %>% filter (most.severe.region != "NA")
 age.dominant.niss.ais01.ofi.mos <- nrow(df.age.dominant.niss.ais01.ofi.mos)
+
+
+
+# Avsaknad av 30 dagars mortalitet
+#only.survival30d <- df.age.dominant.niss.ais01.ofi.mos[,c(1,7)]
+#total.survival30d.na <- only.survival30d %>% filter (res_survival %in% c(NA))
+#total.survival30d.999 <- only.survival30d %>% filter (res_survival %in% c(999))
+#total.missing.survival30d <- (nrow(total.survival30d.na))+(nrow(total.survival30d.999))
+total.missing.survival30d <-12
+
+#totalt anatal patienter
+
+final.number <- age.dominant.niss.ais01.ofi.mos - 12
+

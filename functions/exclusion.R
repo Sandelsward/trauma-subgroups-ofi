@@ -17,26 +17,28 @@ exclusion <- function() {
     6 [label = '@@6']
     7 [label = '@@7']
     8 [label = '@@8']
-    m1 [label ='@@9']
-    m2 [label ='@@10']
-    m3 [label ='@@11']
-    m4 [label ='@@12']
-    m5 [label ='@@13']
-    m6 [label ='@@14']
+    9 [label = '@@9']
+    m1 [label ='@@10']
+    m2 [label ='@@11']
+    m3 [label ='@@12']
+    m4 [label ='@@13']
+    m5 [label ='@@14']
+    m6 [label ='@@15']
+    m7 [label ='@@16']
    
     node [shape=none, width=0, height=0, label='']
-    p1 -> 2; p2 -> 3; p3 -> 4; p4 -> 5; p5 -> 6; p6 -> 7; p7 -> 8;
+    p1 -> 2; p2 -> 3; p3 -> 4; p4 -> 5; p5 -> 6; p6 -> 7; p7 -> 8; p8 ->9;
       {rank=same; p1 -> m1}
       {rank=same; p2 -> m2}
       {rank=same; p3 -> m3} 
       {rank=same; p4 -> m4}
       {rank=same; p5 -> m5}
       {rank=same; p6 -> m6}
-      
+      {rank=same; p7 -> m7}
       
     
     edge [dir=none]
-    1 -> p1; 2 -> p2; 3 -> p3; 4 -> p4; 5 -> p5; 6 -> p6; 7 -> p7; 
+    1 -> p1; 2 -> p2; 3 -> p3; 4 -> p4; 5 -> p5; 6 -> p6; 7 -> p7; 8 -> p8;
     
     # edge definitions with the node IDs
     
@@ -49,13 +51,16 @@ exclusion <- function() {
     [5]: paste0('Patients with no missing information in the first AIS column (n: ', age.dominant.niss.ais01, ')')
     [6]: paste0('Patients with no missing information in the OFI column (n: ', age.dominant.niss.ais01.ofi, ')')
     [7]: paste0('Patients with no missing information in Most severe region (n: ', age.dominant.niss.ais01.ofi.mos, ')')
-    [8]: paste0('Total number of included patients (n: ', age.dominant.niss.ais01.ofi.mos, ')')
-    [9]: paste0('Patients under the age of 15 excluded (n: ', total.underage.excluded, ')')
-    [10]: paste0('Patients with missing information in dominating type of injury (n: ', total.missing.inj.dominant, ')')
-    [11]: paste0('Patients with missing information in NISS colum (n: ', total.missing.niss, ')')
-    [12]: paste0('Patients with missing information in the first AIS column (n: ', total.missing.AIS01, ')')
-    [13]: paste0('Patients with missing information in the OFI column (n: ', total.missing.ofi, ')')
-    [14]: paste0('Patients with missing information in Most severe region (n: ', total.missing.mos, ')')
+    [8]: paste0('Patients with no missing information in 30-day survival (n: ', final.number, ')')
+    [9]: paste0('Total number of included patients (n: ', final.number, ')')
+    [10]: paste0('Patients under the age of 15 excluded (n: ', total.underage.excluded, ')')
+    [11]: paste0('Patients with missing information in dominating type of injury (n: ', total.missing.inj.dominant, ')')
+    [12]: paste0('Patients with missing information in NISS colum (n: ', total.missing.niss, ')')
+    [13]: paste0('Patients with missing information in the first AIS column (n: ', total.missing.AIS01, ')')
+    [14]: paste0('Patients with missing information in the OFI column (n: ', total.missing.ofi, ')')
+    [15]: paste0('Patients with missing information in Most severe region (n: ', total.missing.mos, ')')
+    [16]: paste0('Patients with missing information in 30-day survival (n: ', total.missing.survival30d, ')')
+
   ") 
   
     exclusion %>% export_svg() %>% charToRaw() %>% rsvg::rsvg_png(paste0("images/exclusion.png"))

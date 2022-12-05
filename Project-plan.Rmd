@@ -22,7 +22,6 @@ source("main.R")
 
 ```{r frequency.of.ofi, include = FALSE, echo = FALSE}
 source("excluded.patients.R")
-## source("exclusion.R")
 source("ofi.selection.R")
 source("frequency.of.ofi.R")
 source("df.freq.R")
@@ -36,7 +35,7 @@ source("deltainjdomtable.R")
 <!-- If you need more text you can always expand on trauma as a global health issue, 
 trauma in Sweden (see SweTraus annual report), trauma quality improvement programs 
 and so on. -->
-<!--Sånt jag ev kan lägga til
+<!--Sånt jag ev kan lägga til 
 problem med få pat per sjukhus. viktigt med register. alla pat sen 2011 registreras. 
 dödsorsaksanalys och tid till reg i traumaregistret.-->
 
