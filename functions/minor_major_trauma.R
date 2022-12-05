@@ -13,7 +13,7 @@ create_minor_major_trauma <- function(cleaned.data) {
   
 }
 
-#Lyckas inte göra en funktion så att kolumnen sparas i cleaned.data
+
 
 #cleaned.data["trauma.severity"] <- cleaned.data$NISS
 #minor.trauma <- cleaned.data %>% filter (`Trauma Severity` %in% c(0:14))

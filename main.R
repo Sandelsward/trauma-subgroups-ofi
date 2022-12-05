@@ -49,6 +49,8 @@ prepared.data <- prepare_data(merged.data)
 prepared.data$most.severe.region <- create_most_severe_region(prepared.data)
 cleaned.data <- clean_data(prepared.data)
 cleaned.data <- create_minor_major_trauma(cleaned.data)
+cleaned.data <- create_survuval30d(cleaned.data)
+cleaned.data <- cleaned.data[,-7]
 table.1 <- create_table_one(cleaned.data)
 #table.2 <- create_table_two(df.ofi.frequency)
 all.patients <- nrow(merged.data)
