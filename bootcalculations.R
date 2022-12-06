@@ -3,11 +3,11 @@ library("boot") # load boot
 source("functions/bootfunctions.R")
 
 ### data = datan du stoppar in, statistic = funktionen som genererar resultat, R= antalet körningar. 
-boot_out_gender <- boot(data=cleaned.data, statistic = boot_function_gender,R = 100)
-boot_out_inj_type <- boot(data=cleaned.data, statistic = boot_function_gender,R = 100)
-boot_out_moi <- boot(data=cleaned.data, statistic = boot_function_moi,R = 100)
-boot_out_msr <- boot(data=cleaned.data, statistic = boot_function_msr,R = 100)
-boot_out_min_maj <- boot(data=cleaned.data, statistic = boot_function_min_maj,R = 100)
+boot_out_gender <- boot(data=cleaned.data, statistic = boot_function_gender,R = 10)
+boot_out_inj_type <- boot(data=cleaned.data, statistic = boot_function_inj_type,R = 10)
+boot_out_moi <- boot(data=cleaned.data, statistic = boot_function_moi,R = 10)
+boot_out_msr <- boot(data=cleaned.data, statistic = boot_function_msr,R = 10)
+boot_out_min_maj <- boot(data=cleaned.data, statistic = boot_function_min_maj,R = 10)
 
 #### The output from the function boot contains all vectors that you want CI from but its hard to find the one you want,
 # You need to specify index. For example above: index=1 (delta.gender), index=2(freq.ofi.vomen) and so on. 
@@ -20,8 +20,8 @@ ci.delta.gender2 <- boot.ci(boot.out = boot_out_gender, conf = 0.95, type=c("nor
 
 # You get the real value (not CI) via ci.gender.vomen[["t0"]]
 
-ci.inj.penetrating <- boot.ci(boot.out = boot_out_inj_type, conf = 0.95, type=c("norm"),index=2) # CI for freq.ofi.penetrating
 ci.inj.blunt <- boot.ci(boot.out = boot_out_inj_type, conf = 0.95, type=c("norm"),index=1)
+ci.inj.penetrating <- boot.ci(boot.out = boot_out_inj_type, conf = 0.95, type=c("norm"),index=2) 
 ci.inj.dominant.delta <- boot.ci(boot.out = boot_out_inj_type, conf = 0.95, type=c("norm"),index=3)
 ci.inj.dominant.delta2 <- boot.ci(boot.out = boot_out_inj_type, conf = 0.95, type=c("norm"),index=4)
 
@@ -39,7 +39,7 @@ ci.delta.min.maj2 <- boot.ci(boot.out = boot_out_min_maj, conf = 0.95, type=c("n
 
 # Example for MSR: delta.severe.region7 <- (freq.ofi.face)-(freq.ofi.chest.spine) need index 14: 7(number of regions) + 7(sorted as delta value 7) = 14
 ci.inj.msr.ofi.head.neck <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=1)
-#ci.inj.msr.ofi.head.face <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=2)
+ci.inj.msr.ofi.head.face <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=2)
 ci.inj.msr.ofi.chest.spine <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=3)
 ci.inj.msr.ofi.abdomen <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=4)
 ci.inj.msr.ofi.extremities <- boot.ci(boot.out = boot_out_msr, conf = 0.95, type=c("norm"),index=5)
@@ -107,9 +107,9 @@ ci.women <- paste("(",round(ci.gender.woman [["normal"]][2], digits = 2),"-",rou
 ci.blunt <- paste("(",round(ci.inj.blunt[["normal"]][2], digits = 2),"-",round(ci.inj.blunt[["normal"]][3], digits = 2),")")
 ci.penetrating <- paste("(",round(ci.inj.penetrating[["normal"]][2], digits = 2),"-",round(ci.inj.penetrating[["normal"]][3], digits = 2),")")
 ci.minor.trauma <- paste("(",round(ci.min[["normal"]][2], digits = 2),"-",round(ci.min[["normal"]][3], digits = 2),")")
-#ci.major.trauma <- paste("(",round(ci.maj[["normal"]][2], digits = 2),"-",round(ci.maj[["normal"]][3], digits = 2),")")
+ci.major.trauma <- paste("(",round(ci.maj[["normal"]][2], digits = 2),"-",round(ci.maj[["normal"]][3], digits = 2),")")
 ci.head.neck <- paste("(",round(ci.inj.msr.ofi.head.neck[["normal"]][2], digits = 2),"-",round(ci.inj.msr.ofi.head.neck[["normal"]][3], digits = 2),")")
-#ci.face <- paste("(",round(ci.inj.msr.ofi.head.face[["normal"]][2], digits = 2),"-",round(ci.inj.msr.ofi.head.face[["normal"]][3], digits = 2),")")
+ci.face <- paste("(",round(ci.inj.msr.ofi.head.face[["normal"]][2], digits = 2),"-",round(ci.inj.msr.ofi.head.face[["normal"]][3], digits = 2),")")
 ci.chest.spine <- paste("(",round(ci.inj.msr.ofi.chest.spine[["normal"]][2], digits = 2),"-",round(ci.inj.msr.ofi.chest.spine[["normal"]][3], digits = 2),")")
 ci.abdomen <- paste("(",round(ci.inj.msr.ofi.abdomen[["normal"]][2], digits = 2),"-",round(ci.inj.msr.ofi.abdomen[["normal"]][3], digits = 2),")")
 ci.extremities <- paste("(",round(ci.inj.msr.ofi.extremities[["normal"]][2], digits = 2),"-",round(ci.inj.msr.ofi.extremities[["normal"]][3], digits = 2),")")

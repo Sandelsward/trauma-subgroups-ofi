@@ -62,7 +62,7 @@ nrow(total.ofi.blunt)
 
 #frekvens av ofi hos blunt trauma
 
-freq.ofi.blunt <- round((nrow(total.ofi.blunt)/sum(total.blunt)*100), digits = 2)
+freq.ofi.blunt <- round((nrow(total.ofi.blunt)/(total.blunt.trauma)*100), digits = 2)
 
 
 # Antal patienter med penetrating trauma
@@ -82,7 +82,7 @@ freq.ofi.penetrating <- round((nrow(total.ofi.penetrating)/(total.penetrating)*1
 
 # delta inj.dominant
 
-delta.inj.dominant <- abs((freq.ofi.blunt)-(freq.ofi.penetrating))
+#delta.inj.dominant <- (freq.ofi.blunt)-(freq.ofi.penetrating)
 
 #Traumamekanism - alla patienter och ofi-kolumn
 
