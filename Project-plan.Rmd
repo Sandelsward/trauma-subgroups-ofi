@@ -2,10 +2,10 @@
 title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
 author: "George Sandelswärd"
 output:
-  word_document: default
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
+  word_document: default
 bibliography: bibliography.bib
 csl: vancouver.csl
 fontsize: 11pt
@@ -287,7 +287,7 @@ Discussion
 
 The purpose of this study was to assess the frequency of OFI for different clinical subgroups and to investigate in what trauma subgroups OFI is most frequent. 
 
-It was found that the Abdomen cohort in the subgroup most severely injured body region had the  highest OFI frequency followed by the Major trauma subgroup. It was also found that penetrating trauma had a higher OFI frequency then blunt trauma and that men had a higher OFI frequency then women. The difference between men and women was not statistically significant. 
+It was found that the Abdomen cohort in the subgroup Most severely injured body region had the  highest OFI frequency followed by the Major trauma subgroup. It was also found that penetrating trauma had a higher OFI frequency then blunt trauma and that men had a higher OFI frequency then women. The difference between men and women was not statistically significant. 
 
 When comparing the results of this study with previous research one must keep in mind the fact that the OFI term is not a unanimously defined term between hospitals and that little trauma research exist that uses OFI as the primary outcome measure. It can however still be relevant to compare the result of this study with research looking into outcomes like preventable death, morbidity and mortality for the same trauma subgroups as this study.  
 
@@ -299,41 +299,63 @@ It is however not those with the highest NISS that has the highest frequency of 
 
 Both data from SWETRAU and previous studies show that men are over represented in trauma patients.[[@arsrapportswetrau], [4]]  Even though men in this study had a higher OFI frequency then women, the difference was not statisticly significant. There is however previous research showing that men have a higher frequency of trauma mortality. Bolandparvaz et al fond that males had a higher risk for trauma mortality[5]. Pape et al showed that females were less likely to die after trauma [7]. Davoodabadi et al. found that there was no difference between the genders in preventable deaths after trauma [6]. One explanation for these differences could be that men and women suffer from different kinds of trauma. For example the majority of penetraiting trauma patients are men [@arsrapportswetrau]. 
 
-The study also shows a higher mean age in the OFI chort than in the non OFI cohort. Meaning that the older the patient is the higher is the risk for non optimal trauma care. Darwin et al found that patients between 75-84 years old had a 33% higher odds for preventable death, and thos over 85 years had a 91% higher risk. Previous research has also shown an in increased mortality rate in older trauma patients, which potentially in part could be explained by sub optimal trauma care[1,2]. 
+The study also shows a higher mean age in the OFI chort than in the non OFI cohort. Meaning that the older the patient is the higher is the risk for non optimal trauma care. Ang et al found that patients between 75-84 years old had a 33% higher odds for preventable death, and thos over 85 years had a 91% higher risk[8]. Previous research has also shown an in increased mortality rate in older trauma patients, which in part potentially could be explained by sub optimal trauma care[1,2]. 
 
-penetrainting/blunt litteratur
+<!-- penetrainting/blunt Det är något fel i koden för penetraiting. CI blir 0. Så kan inte skriva om skillnaden är signifikant än. -->
 
 Strengths and limitations
 -------
 
-There are several strengths in this study. For examlple, this study is to our knowledge the first study to look into OFI frequency and trauma subgroups. Another strength is that all programming and calculations was first done on scrambled data to minimize the risk for bias. 
+There are several strengths in this study. For examlple, this study is to our knowledge the first study to look into OFI frequency and trauma subgroups. The quality database that was used is also one of the largest databases that exist with data on living trauma patients <!-- osäker på den här meningen -->. Another strength is that all programming and calculations was first done on scrambled data to minimize the risk for bias. 
 
-One of the limitations in the study is the time frame. Data has been used that was collected from 2011 to 2021. It is likely that some trauma cases that had OFI back in 2011 would not have had OFI today. This due to changes in treatment and guidelines over the years. This time span was despite this necessary to get a large enough number of patients.
+It can be considred both a strength and a limitation that all data com from the same contaxt, namely the Karolinska University hospital in Solna. This means that strong conclusions can be made concerning the same hospital, and also for other similar Scandinavian level 1 trauma centers. These results can most likely not on the other hand be used to the same extent in other Swedish hospitals and even less in LMIC hospitals, which must be seen as a limitation.
+
+Another limitations in the study is the time frame. Data has been used that was collected from 2011 to 2021. It is likely that some trauma cases that had OFI back in 2011 would not have had OFI today. This due to changes in treatment and guidelines over the years. This time span was despite this necessary to get a large enough number of patients.
 
 The audit filters that is a big part of the selection for M&M conferences is is not scientifically verified, but is instead based on experience from clinical experts and researchers. As there is no international or national consensus for what audit filters to use, each hospital rely on the expertise of their clinical professionals and scientists.  It must also be considered a limitation that the selection for M&M conferences is partially done manually. This may lead to selection bias as well as bias due to the fact that it is not the same person that has been doing the selections since 2011.<!-- vet ej om det har varit samma personer --> 
 
 Furthermore this is a single-site study, making it harder to draw general conclusions from the results. As the total number of patients is relatively small, the size of some of the more uncommon trauma cohorts are very small, which is something one must keep in mind when studying the results. Since this study is located at a highly specialized hospital with a level 1 trauma center, it mainly gets the more severe trauma cases. Therefore research on the Minor Trauma subgroup for example might benefit from taking place in less sub specialized hospital that receives more minor trauma cases.
 
-As the outcome measure OFI is not a 
-
-
-
 Clinical/Practical applications
 -------------
 
-Awereeness aout which subgroup has high ofi. More carefull in the care of abdominal trauma for example.
+This study may lead to increased awareness about which subgroups has highest OFI frequencies. That may in turn lead to a more careful assessment and treatment of these types of traumas. Hopefully it will also lead to further research. 
+
+As for health equity there are several different aspects in this study to discuss. The fact that elderly patients also in this study are indicated to receive non optimal trauma care is notable. As described earlier, old age has also been shown in multiple studies to be a disadvantage. Even if it to some extent is natural that older patient has a lower survival rate after trauma due to fragility and co morbidity. The fact that it was shown in a new and extensive american study that also the preventable death was significantly higher in elder is however problematic. Both in a moral aspect as well as in the eyes of the law,  since everyone is entitled to the best care available. 
+
+It has also been shown in previos research that socioeconomic status, low education and co-morbidity are all indepentant risk factors for trauma. 
+
+The fact that males are predominant as trauma patients is not a problem in the same way. pga inte överrepresenterade i preventable death.
+
+socioekonomiska faktorer som att män är mer involverade i gängvåld. -> penetrerande trauma. 
+
+psykisk ohälsa kvinnor falltrauma. 
+
+Diskrimineringslagen.
+
+
+Awareness about which subgroup has high ofi. More carefull in the care of abdominal trauma for example.
+
+minor major speciellt när man fått in mortalitetssiffra. Man måste tänka bredare än ren mortalitet för patientutfall. Även att identifiera grupper som har en ökad risk för fel över lag. 
 
 evaluate audit filters.
 (focus future ofi reserarch on the subgroups with highest frequency.)
 
+Health equity
+
+ålder
+ta upp gur det ser ut i inden tex
+kön
 
 Future studies
 -----------
 By knowing which trauma subgroups that has the highest OFI it is possible to focus further reesearch on theese subgroups. The result of this study could lead to an overview of the audit filters of the highest OFI. 
 
+titta om man kan hitta riskmarkörer hos de med högst ofi för att förutse OFI.
+
 It would be interesting do do a multi-center study to see if there is differences between county and city or between trauma center and non trauma center. 
 
-It would be interesting to to investigate the face that the male cohort had more OFI. One possiblbity is that male might be overrepresenrted in major trauma and by that has more complex and severe injuries. But that not shown in this study.
+It would be interesting to to investigate the fact that the male cohort had more OFI in absolute numbers.
 
 
 
@@ -357,10 +379,6 @@ Generalisability
 Discuss the generalisability (external validity) of the study results
 -->
 
-Equality
-=====
-
-ta upp gur det ser ut i inden tex
 Conclusion
 =====
 

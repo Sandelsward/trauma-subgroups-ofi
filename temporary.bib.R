@@ -273,3 +273,50 @@
   language  = "en"
 }
 
+[8]@ARTICLE{Ang2022-rn,
+  title     = "Understanding preventable deaths in the geriatric trauma
+               population: Analysis of 3,452,339 patients from the center of
+               medicare and medicaid services database",
+  author    = "Ang, Darwin and Nieto, Kenny and Sutherland, Mason and O'Brien,
+               Megan and Liu, Huazhi and Elkbuli, Adel",
+  abstract  = "BACKGROUND: Patient safety indicators (PSIs) are avoidable
+               complications that can impact outcomes. Geriatric patients have
+               a higher mortality than younger patients with similar injuries,
+               and understanding the etiology may help reduce mortality. We aim
+               to estimate preventable geriatric trauma mortality in the United
+               States and identify PSIs associated with increased preventable
+               mortality. METHODS: A retrospective cohort study of patients
+               aged $\geq$65 years, in the CMS database, 2017-second quarter of
+               2020. Risk-adjusted multivariable regression was performed to
+               calculate observed-to-expected (O/E) mortality ratios for
+               failure-to-prevent and failure-to-rescue PSIs with significance
+               defined as P 1 for all PSIs evaluated with central line-related
+               blood stream infection having a high O/E (747.93).
+               Failure-to-rescue O/E were >1 for 10/11 (91\%) PSIs with
+               physiologic and metabolic derangements having the highest O/E
+               (5.98). United States' states with higher quantities of
+               geriatric trauma patients experienced reduced preventable
+               mortality. CONCLUSION: Odds of preventable mortality increases
+               with age. Perioperative venous thrombotic events, hemorrhage or
+               hematoma, and postoperative physiologic/metabolic derangements
+               produce significant preventable mortalities. United States'
+               states differ in their failure-to-prevent and failure-to-rescue
+               PSIs. Utilization of national guidelines, minimization of
+               central venous catheter use, addressing polypharmacy especially
+               anticoagulation, ensuring operative and procedure-based
+               competencies, and greater incorporation of inpatient
+               geriatricians may serve to reduce preventable mortality in
+               elderly trauma patients.",
+  journal   = "Am. Surg.",
+  publisher = "SAGE Publications",
+  volume    =  88,
+  number    =  4,
+  pages     = "587--596",
+  month     =  apr,
+  year      =  2022,
+  keywords  = "Geriatric trauma; failure-to-prevent; failure-to-rescue;
+               geriatric population patient safety indicators; preventable
+               deaths",
+  language  = "en"
+}
+
