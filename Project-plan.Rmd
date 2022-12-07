@@ -2,10 +2,10 @@
 title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
 author: "George Sandelswärd"
 output:
+  word_document: default
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
-  word_document: default
 bibliography: bibliography.bib
 csl: vancouver.csl
 fontsize: 11pt
@@ -58,7 +58,7 @@ Health care quality has been a topic for research for over 100 years. However, i
 
 In the 1980s focus shifted and terms like Trauma Quality Management and Continuous Quality Improvement were introduced. These programs lead to a more management focused approach and was involving all individuals in the work for improved health care quality. This shift also meant a more continuous evaluation of the health care, leading to the possibility for quality defects to be addressed more efficiently.[@Mock2009]
 
-Since the early 2000s a term called Quality Improvement is used. Quality Improvement has a more multidisciplinary focused approach with Morbidity and Mortality conferences as an essential part. Quality improvement also further emphasizes systems role rather than clinical performances, as systems are more comparable to outcomes.[@Mock2009]
+Since the early 2000s a term called Quality Improvement is used. Quality Improvement has a more multidisciplinary focused approach with Morbidity and Mortality conferences as an essential part. Quality improvement also further emphasizes the role of systems rather than clinical performances, as systems are more comparable to outcomes.[@Mock2009]
 
 In the past decades several trauma quality improvement programs have been created. One of the more established ones is the Trauma Quality Improvement Program (TQIP) by the American College of Surgeons that was launched in 2008 [@Hemmila2010-sr]. The TQIP provides site-specific data of how well each hospital is preforming in terms of trauma care. This makes it possible to compare data with same level hospitals as well as evaluating how well each hospital is preforming, leading to changes in routines and practice guidelines [@Blackmore2019-bj].
 
@@ -291,15 +291,16 @@ It was found that the Abdomen cohort in the subgroup most severely injured body 
 
 When comparing the results of this study with previous research one must keep in mind the fact that the OFI term is not a unanimously defined term between hospitals and that little trauma research exist that uses OFI as the primary outcome measure. It can however still be relevant to compare the result of this study with research looking into outcomes like preventable death, morbidity and mortality for the same trauma subgroups as this study.  
 
-A higher OFI frequency in major trauma compared with minor trauma is consistent with previous research. Studies show that preventable deaths increase with the severity of the trauma case. The mortality rate is also higher in Major trauma cohort than in Minor trauma (källa). 
+As for the high frequency of OFI the Abdomen cohort, the results was rather surprising. To the best of our knowledge there is no existing research indicating that abdominal trauma has ha higher frequency of OFI, mortality or preventable death. 
 
-As for the high frequency of OFI the Abdomen chort, the results was rather surpricing. 
+A higher OFI frequency in major trauma compared with minor trauma is consistent with previous research. The mortality rate higher in Major trauma cohort than in Minor trauma. @Ghorbani2018-dh That major and complex trauma has ha greater risk for non optimal trauma care was also consistent with the median NISS score results, as the median NISS was higher in the OFI cohort then in the non ofi cohort.  What can be seen from previous studies is that there is a correlation between NISS and Preventable death(källa, Jonatan som sa detta men hittar ingen källa).
+
+But it is not those with the highest niss scores who has the highest frequency of preventable deaths. Instead it is the patients with a NISS between 30-50.(källa, Jonatan som sa detta men hittar ingen källa) One explanation for this could be that those patients are not injured enough for it to be obvious that all resources possible should be used to treat the patient. Those with the highest NISS scores are on the other hand so severely injured that everything possible is done to treat them. If those patients die, it is less likely that is was preventable, since everything that could be done in terms of treatment was done.
 
 Both data from SWETRAU and previous studies show that men are over represented in trauma patients.[[@arsrapportswetrau], [4]]  Even though men in this study had a higher OFI frequency then women, the difference was not statisticly significant. There is however previous research showing that men have a higher frequency of trauma mortality. Bolandparvaz et al fond that males had a higher risk for trauma mortality[5]. Pape et al showed that females were less likely to die after trauma [7]. Davoodabadi et al. found that there was no difference between the genders in preventable deaths after trauma [6]. One explanation for these differences could be that men and women suffer from different kinds of trauma. For example the majority of penetraiting trauma patients are men. 
 
 The study also shows a higher mean age in the OFI chort than in the non OFI cohort. Meaning that the older the patient is the higher is the risk for non optimal trauma care. Previous reesearch has shown an in increased mortality rate in older patients, wich potentially in part could be explained by sub optimal trauma care. Adams et al. found that an increasingly higher risk for mortality in trauma patients over 45 years old[1]. Ottochian et al found that the mortality risk from penetrating trauma increased significantly after the age of 65 [2].
 
-The median NISS was higher in the OFI cohort then in the non ofi cohort, meaining that major and complex trauma has ha greater risk for non optimal trauma care. What can be seen from previous studies is that there is a correlation between NISS and Preventable death. But it is not those with the highest niss scores who has the highest frequency of preventable deaths. Instead it is the patients with a niss between 30-50. One explanation for this could be that those patients are not injured enough for it to be obvious that all resources possible should be used to treat the patient. Those with the highest NISS scores are on the other hand so severely injured that everything possible is done to treat them. If those patients die, it is less likely that is was preventable, since everything that could be done in terms of treatment was done.
 
 
 
