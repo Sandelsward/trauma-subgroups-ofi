@@ -291,18 +291,17 @@ It was found that the Abdomen cohort in the subgroup most severely injured body 
 
 When comparing the results of this study with previous research one must keep in mind the fact that the OFI term is not a unanimously defined term between hospitals and that little trauma research exist that uses OFI as the primary outcome measure. It can however still be relevant to compare the result of this study with research looking into outcomes like preventable death, morbidity and mortality for the same trauma subgroups as this study.  
 
-As for the high frequency of OFI the Abdomen cohort, the results was rather surprising. To the best of our knowledge there is no existing research indicating that abdominal trauma has ha higher frequency of OFI, mortality or preventable death. 
+As for the high frequency of OFI the Abdomen cohort, the results was rather surprising. To the best of our knowledge there is no existing research indicating that abdominal trauma has ha higher frequency of OFI, mortality or preventable death. I can only speculate why this higher OFI frequency has been found.  For example, one reason could be that those admitted to a level one trauma center with the primary injury located in the abdomen has suffered from a more extensive trauma then the other subgroups. Or that an abdominal trauma is not always as obvious in the primary pree hospital examinations or in the trauma room as the average head or thorax trauma for example. It can however be established that there is a statistically significant higher OFI frequency in the abdomen subgroup compared with the other body regions.
 
-A higher OFI frequency in major trauma compared with minor trauma is consistent with previous research. The mortality rate higher in Major trauma cohort than in Minor trauma. @Ghorbani2018-dh That major and complex trauma has ha greater risk for non optimal trauma care was also consistent with the median NISS score results, as the median NISS was higher in the OFI cohort then in the non ofi cohort.  What can be seen from previous studies is that there is a correlation between NISS and Preventable death(källa, Jonatan som sa detta men hittar ingen källa).
+The find of a higher OFI frequency in major trauma compared with minor trauma is consistent with previous research. The mortality has been found to be higher in Major trauma cohort than in Minor trauma. @Ghorbani2018-dh (fler källor på detta). That major and complex trauma has ha greater risk for non optimal trauma care was also consistent with the median NISS score results, as the median NISS was higher in the OFI cohort then in the non ofi cohort. What can be seen from previous studies is that there is a correlation between NISS and Preventable death(källa, Jonatan som sa detta men hittar ingen källa).
 
-But it is not those with the highest niss scores who has the highest frequency of preventable deaths. Instead it is the patients with a NISS between 30-50.(källa, Jonatan som sa detta men hittar ingen källa) One explanation for this could be that those patients are not injured enough for it to be obvious that all resources possible should be used to treat the patient. Those with the highest NISS scores are on the other hand so severely injured that everything possible is done to treat them. If those patients die, it is less likely that is was preventable, since everything that could be done in terms of treatment was done.
+It is however not those with the highest NISS that has the highest frequency of preventable deaths. Instead it is the patients with a NISS between 30-50.(källa, Jonatan som sa detta men hittar ingen källa) One explanation for this could be that those patients are not injured enough for it to be obvious that all resources possible should be used to treat the patient. Those with the highest NISS scores are on the other hand so severely injured that everything possible is done to treat them. If those patients die, it is less likely that is was preventable, since everything that could be done in terms of treatment was done. In this this study though, a binary outcome measure was used by either classifying a trauma as minor or major. Because of that spread of NISS among OFI patients will not be as nuanced as it could have been.
 
-Both data from SWETRAU and previous studies show that men are over represented in trauma patients.[[@arsrapportswetrau], [4]]  Even though men in this study had a higher OFI frequency then women, the difference was not statisticly significant. There is however previous research showing that men have a higher frequency of trauma mortality. Bolandparvaz et al fond that males had a higher risk for trauma mortality[5]. Pape et al showed that females were less likely to die after trauma [7]. Davoodabadi et al. found that there was no difference between the genders in preventable deaths after trauma [6]. One explanation for these differences could be that men and women suffer from different kinds of trauma. For example the majority of penetraiting trauma patients are men. 
+Both data from SWETRAU and previous studies show that men are over represented in trauma patients.[[@arsrapportswetrau], [4]]  Even though men in this study had a higher OFI frequency then women, the difference was not statisticly significant. There is however previous research showing that men have a higher frequency of trauma mortality. Bolandparvaz et al fond that males had a higher risk for trauma mortality[5]. Pape et al showed that females were less likely to die after trauma [7]. Davoodabadi et al. found that there was no difference between the genders in preventable deaths after trauma [6]. One explanation for these differences could be that men and women suffer from different kinds of trauma. For example the majority of penetraiting trauma patients are men [@arsrapportswetrau]. 
 
-The study also shows a higher mean age in the OFI chort than in the non OFI cohort. Meaning that the older the patient is the higher is the risk for non optimal trauma care. Previous reesearch has shown an in increased mortality rate in older patients, wich potentially in part could be explained by sub optimal trauma care. Adams et al. found that an increasingly higher risk for mortality in trauma patients over 45 years old[1]. Ottochian et al found that the mortality risk from penetrating trauma increased significantly after the age of 65 [2].
+The study also shows a higher mean age in the OFI chort than in the non OFI cohort. Meaning that the older the patient is the higher is the risk for non optimal trauma care. Darwin et al found that patients between 75-84 years old had a 33% higher odds for preventable death, and thos over 85 years had a 91% higher risk. Previous research has also shown an in increased mortality rate in older trauma patients, which potentially in part could be explained by sub optimal trauma care[1,2]. 
 
-
-
+penetrainting/blunt litteratur
 
 Strengths and limitations
 -------
@@ -358,6 +357,10 @@ Generalisability
 Discuss the generalisability (external validity) of the study results
 -->
 
+Equality
+=====
+
+ta upp gur det ser ut i inden tex
 Conclusion
 =====
 
