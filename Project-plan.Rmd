@@ -319,33 +319,19 @@ Furthermore this is a single-site study, making it harder to draw general conclu
 Clinical/Practical applications
 -------------
 
-This study may lead to increased awareness about which subgroups has highest OFI frequencies. That may in turn lead to a more careful assessment and treatment of these types of traumas. Hopefully it will also lead to further research. 
+This study may lead to increased awareness about which subgroups has highest OFI frequencies. That may in turn lead to a more careful assessment and treatment of these types of traumas. Hopefully it will also lead to further research.(Svårt att komma på mer att skriva här, förslag på annan klinisk tillämpning?)
 
-As for health equity there are several different aspects in this study to discuss. The fact that elderly patients also in this study are indicated to receive non optimal trauma care is notable. As described earlier, old age has also been shown in multiple studies to be a disadvantage. Even if it to some extent is natural that older patient has a lower survival rate after trauma due to fragility and co morbidity. The fact that it was shown in a new and extensive american study that also the preventable death was significantly higher in elder is however problematic. Both in a moral aspect as well as in the eyes of the law,  since everyone is entitled to the best care available. 
+As for health equity there are several different aspects in this study to discuss. The fact that elderly patients also in this study are indicated to receive non optimal trauma care is notable. As described earlier, old age has been shown in multiple studies to be a disadvantage. Even if it to some extent is natural that older patient has a lower survival rate after trauma due to fragility and co morbidity. The fact that it was shown in a new and extensive american study that also the preventable death was significantly higher in elder is however problematic [8]. Both in a moral aspect as well as in the eyes of the law, since everyone is entitled to the best care available.
 
-It has also been shown in previos research that socioeconomic status, low education and co-morbidity are all indepentant risk factors for trauma. 
+It has also been shown in previous research that socioeconomic status like low income, low education and also co-morbidity are independent risk factors for trauma [9]. The fact that co-morbidity is an independent risk factor might affect the generalizability since the results of this study may not apply to the part of the population without co-morbidity. 
 
-The fact that males are predominant as trauma patients is not a problem in the same way. pga inte överrepresenterade i preventable death.
+The fact that males are predominant as trauma patients may also affect the generalizability. This because there is not close to the same amount of data about females in most of the trauma subgroups. On the other hand this is probably not a major problem since research show that there is no difference between the genders when it comes to preventable death [6]. 
 
-socioekonomiska faktorer som att män är mer involverade i gängvåld. -> penetrerande trauma. 
-
-psykisk ohälsa kvinnor falltrauma. 
-
-Diskrimineringslagen.
+Another important aspect to discuss is the geographical differences in trauma care quality. As mentioned eariler in this paper, in Sweden there is a significantly higher chance of surviving a major trauma if you are treated at a trauma center compared with a non trauma center[@Candefjord2022-pe]. By extension this means that people living in urban areas have a greater chance to survive then those who live in the more remote part of Sweden.
 
 
-Awareness about which subgroup has high ofi. More carefull in the care of abdominal trauma for example.
 
-minor major speciellt när man fått in mortalitetssiffra. Man måste tänka bredare än ren mortalitet för patientutfall. Även att identifiera grupper som har en ökad risk för fel över lag. 
 
-evaluate audit filters.
-(focus future ofi reserarch on the subgroups with highest frequency.)
-
-Health equity
-
-ålder
-ta upp gur det ser ut i inden tex
-kön
 
 Future studies
 -----------
@@ -358,7 +344,7 @@ It would be interesting do do a multi-center study to see if there is difference
 It would be interesting to to investigate the fact that the male cohort had more OFI in absolute numbers.
 
 
-
+(focus future ofi reserarch on the subgroups with highest frequency.)
 
 
 

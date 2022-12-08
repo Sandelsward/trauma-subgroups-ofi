@@ -319,4 +319,46 @@
                deaths",
   language  = "en"
 }
+[9]@ARTICLE{Brattstrom2015-mx,
+  title     = "Socio-economic status and co-morbidity as risk factors for
+               trauma",
+  author    = "Brattstr{\"o}m, Olof and Eriksson, Mikael and Larsson, Emma and
+               Oldner, Anders",
+  abstract  = "Clinical experience and previous studies indicate that low
+               socioeconomic positions are overrepresented in trauma
+               populations. The reason for this social variation in injury risk
+               is likely to be multifactorial. Both individual and
+               environmental sources of explanation are plausible to
+               contribute. We investigated the impact of the influence of
+               socioeconomic factors and co-morbidity on the risk of becoming a
+               trauma victim in a case-control study including 7,382 trauma
+               patients matched in a one to five ratio with controls matched by
+               age-, gender- and municipality from a level 1 trauma centre.
+               Data from the trauma cohort were linked to national registries.
+               Associations between socioeconomic factors and co-morbidity were
+               estimated by conditional logistic regression. The trauma
+               patients had been treated for psychiatric, substance abuse and
+               somatic diagnoses to a higher extent than the controls. In the
+               conditional logistic regression analysis a low level of
+               education and income as well as co-morbidity (divided into
+               psychiatric, substance abuse and somatic diagnoses) were all
+               independent risk factors for trauma. Analysing patients with an
+               injury severity score >15 separately did not alter the results,
+               except for somatic diagnoses not being a risk factor. Recent
+               treatment for substance abuse significantly increased the risk
+               for trauma. Low level of education and income as well as
+               psychiatric, substance abuse and somatic co-morbidity were all
+               independent risk factors for trauma. Active substance abuse
+               strongly influenced the risk for trauma and had a time dependent
+               pattern. These insights can facilitate future implementation of
+               injury prevention strategies tailored to specific risk groups.",
+  journal   = "Eur. J. Epidemiol.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  30,
+  number    =  2,
+  pages     = "151--157",
+  month     =  feb,
+  year      =  2015,
+  language  = "en"
+}
 
