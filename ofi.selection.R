@@ -5,7 +5,7 @@ library(DiagrammeR)
 ofi_selection <- function() {
   ofi_selection <- DiagrammeR::grViz("digraph flowchart {
   
- label='Fig. 1. A schematic chart of selection for morbidity and mortality conferences';
+ label='Fig. 1. A schematic chart of the selection for morbidity and mortality conferences';
     labelloc=bottom;
     labeljust=left;
     labelfontsize=18;
@@ -21,7 +21,7 @@ c -> d [style=full label ='Second opinion needed.']
 d -> e -> f 
 c -> e [style =full label='Suspected OFI or audit filter trigger. ']
 c -> g [style = full label='No potential OFI.']
-d -> g 
+d -> g [style = full label='No potential OFI.']
  
 }
 [1]:  paste0('Trauma team activation')

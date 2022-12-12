@@ -3,7 +3,7 @@ exclusion <- function() {
   
   exclusion <- DiagrammeR::grViz("digraph flowchart {
   
-    label='Fig. 2. Exclusion chart';
+    label='Fig. 2. Flowchart of all excluded patients and the reason for exclusion';
     labelloc=bottom;
     labeljust=left;
     labelfontsize=18;

@@ -1,5 +1,7 @@
 
-create_table_one <- function(cleaned.data) {
+create_table_one <- function(cleaned.data) 
+  
+{
   
   ## Renaming data labels
   
