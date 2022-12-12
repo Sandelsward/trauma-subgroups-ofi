@@ -2,10 +2,10 @@
 title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
 author: "George Sandelswärd"
 output:
-  word_document: default
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
+  word_document: default
 bibliography: bibliography.bib
 csl: vancouver.csl
 fontsize: 11pt
@@ -31,14 +31,19 @@ source("delta.gender.table.R")
 source("deltaminmajtable.R")
 source("deltainjdomtable.R")
 ```
+Abbreviations
+=====
+•	AIS - The Abbreviated Injury Scale
+•	ISS - The Injury Severity Score
+•	LMIC - Low and middle income countries
+•	M&M - Morbidity and Mortality Conferences
+•	NISS - The New Injury Severity Score
+•	OFI - Opportunity for improvement
+•	SweTrau - The Swedish trauma registry
 
-Introduction: Trauma represents 9% of the annual global deaths and is the most common cause of death in peoplae under the age of 45. This is a heterogeneous group of patients with a large variety of injuries. With this variety comes a complexity that demands specific guidelines for treating all kinds of different trauma subgroups. It is however poorly understood the potental for trauma care improvement varies between subgropus. One measure for this is Opportunity for improvement (OFI).
-Aims: In this study we assessed the OFI frequency for the clinically important trauma subgroups; men and women, blund and penetrating trauma, minor and major trauma, and most severely injured body region.
-Material and methods: This was a registry based cohort study in which the trauma registry and the trauma quality database at the Karolinska University hospital in Solna was used. A total of 6146 patients added to the registry between 20xx-2021 met the inclusion criteria. 
-Results: The men OFI in the total cohort was 7%. It was found that Abdominal trauma had the highest frequency ofi OFI of all subgroups at . In the binary subgroups penatrating trauma and major trauma had the highest OFI. 
-Conclusion: Our results suggest that OFI varies between different trauma subgroups and that some subgroups have significantly higer frequency of OFI compared with baseline.
+Introduction: Trauma represents 9% of the annual global deaths and is the most common cause of death in people <45 years. It is a heterogeneous group of patients with a large variety of injuries. With this variety comes a complexity that demands specific guidelines for treating all kinds of different trauma subgroups. It is however poorly understood how the potential for trauma care improvement varies between these subgroups. One measure for this is Opportunity for improvement (OFI). Aims: In this study we assessed the OFI frequency for the clinically important trauma subgroups; men and women, blunt and penetrating trauma, minor and major trauma, and most severely injured body region. Material and methods: This was a registry based cohort study using the trauma registry and the trauma quality database at the Karolinska University hospital in Solna. 6146 patients added to the registries between 20xx-2021 met the inclusion criteria. 5718 patients were excluded due to either age <15 years or because of missing necessary information. Results: The mean OFI in the total cohort was 7%. It was found that Abdominal trauma had the highest frequency ofi OFI of all subgroups at 12,73% (CI:`r ci.abdomen`). In the binary subgroups blunt trauma at 7,08% and major trauma at 12,2% (CI: `r ci.major.trauma`) had the highest OFI. Conclusion: Our results suggest that OFI varies between trauma subgroups and that some subgroups have significantly higher OFI than baseline. Further research is however needed to find what kind of OFIs that are more frequent in different cohorts as well as OFI risk factors besides the actual trauma.
 
-Keywords:
+Keywords: Trama subgroups, Opportunity for improvement, Abdominal trauma, OFI
 
 Background
 =====
@@ -296,7 +301,7 @@ It would also be interesting to investigate potential risk factors for OFI. This
 
 Conclusion
 -------
-Our results suggest that OFI varies between different trauma subgroups and that some subgroups have significantly higer frequency of OFI compared with baseline. Factors like old age and trauma severity was also shown to effect the OFI frequency negatively. 
+Our results suggest that OFI varies between different trauma subgroups and that some subgroups have significantly higher frequency of OFI compared with baseline. Our study also show that factors like old age and trauma severity affect the OFI frequency negatively. Based on our study results it can however not be said what kind of OFIs that are most common in the different cohorts or if there is any risk factors beside the trauma and old age that increases the risk for OFI. This is something that we believe should be investigated further. 
 
 
 
