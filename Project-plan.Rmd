@@ -32,6 +32,13 @@ source("deltaminmajtable.R")
 source("deltainjdomtable.R")
 ```
 
+Introduction: Trauma represents 9% of the annual global deaths and is the most common cause of death in peoplae under the age of 45. This is a heterogeneous group of patients with a large variety of injuries. With this variety comes a complexity that demands specific guidelines for treating all kinds of different trauma subgroups. It is however poorly understood the potental for trauma care improvement varies between subgropus. One measure for this is Opportunity for improvement (OFI).
+Aims: In this study we assessed the OFI frequency for the clinically important trauma subgroups; men and women, blund and penetrating trauma, minor and major trauma, and most severely injured body region.
+Material and methods: This was a registry based cohort study in which the trauma registry and the trauma quality database at the Karolinska University hospital in Solna was used. A total of 6146 patients added to the registry between 20xx-2021 met the inclusion criteria. 
+Results: The men OFI in the total cohort was 7%. It was found that Abdominal trauma had the highest frequency ofi OFI of all subgroups at . In the binary subgroups penatrating trauma and major trauma had the highest OFI. 
+Conclusion: Our results suggest that OFI varies between different trauma subgroups and that some subgroups have significantly higer frequency of OFI compared with baseline.
+
+Keywords:
 
 Background
 =====
@@ -48,7 +55,7 @@ Some studies indicate that the number of trauma-related deaths that potentially 
 
 Trauma quality improvement
 ------------
-Health care quality has been a topic for research for over 100 years. However, in the earlier research the focus were mainly standards of performance connected to the skill levels of individual physicians. Meaning that when faults were made, answers were sought for in individuals rather than in the system.[@Mock2009] 
+Health care quality has been a topic for research for over 100 years. However, in the early research the focus were mainly on standards of performance connected to the skill levels of individual physicians. Meaning that when faults were made, answers were sought for in individuals rather than in the systems.[@Mock2009] 
 
 In the 1980s focus shifted and terms like Trauma Quality Management and Continuous Quality Improvement were introduced. These programs lead to a more management focused approach and was involving all individuals in the work for improved health care quality. This shift also meant a more continuous evaluation of the health care, leading to the possibility for quality defects to be addressed more efficiently.[@Mock2009]
 
@@ -83,7 +90,7 @@ OFI can be a more nuanced measure for trauma care improvement than the more esta
 Trauma subgroups
 ------------
 As trauma patients is a heterogeneous group, it is important to have a 
-sufficient understanding of OFIs for the different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury [@arsrapportswetrau].<!-- I suggest that you try to expand on this, as it's the basis of your thesis--> 
+sufficient understanding of OFIs for the different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury [@arsrapportswetrau].<!-- I suggest that you try to expand on this, as it's the basis of your thesis. Ska jag lägga till exempel på skillnad i preventable death mellan subgrupperna här kanske?--> 
 
 In Sweden, 50% of trauma cases are traffic related and 33% are fall traumas. Blunt trauma, such as traffic accidents, fall trauma, and hit by blunt object, represents 90 % of all trauma cases [@arsrapportswetrau]. 
 
@@ -105,21 +112,18 @@ Study design
 In Sweden there is a national trauma registry (SweTrau) holding records of trauma cases from 48 out of 49 hospitals who receives major trauma. To meet the inclusions criteria for SweTrau you must be over 15 years of age, been exposed to a traumatic event leading to trauma team activation, or have a NISS over 15 without trauma team activation. Or patients moved to a hospital within 7 days of a traumatic event with NISS over 15. [@swetrau]
 
 This is a registry based cohort study that uses data from two different Swedish
-trauma registries. The first registry is the trauma registry at the Karolinska University Hospital in Solna. It is a part of SweTrau and contains patients from the years 2012 to 2021. 
-The second registry is the the trauma care quality database which is a subset of the Karolinska University Hospital Trauma Registry. 
+trauma registries. The first registry is the trauma registry at the Karolinska University Hospital in Solna. This registry is a part of SweTrau and contains patients from the years 2012 to 2021. The second registry is the the trauma care quality database which is a subset of the Karolinska University Hospital Trauma Registry. 
 
-The trauma quality database includes patients selected for review between 2014 and 2021. These registries were merged and a complete case analysis was done. The data in the registries was used to decrease the risk for bias. The results were presented in tables showing the frequency of OFI for the different subgroups. Delta values for OFI frequency between subgroups was calculated.    Bootstrapping was then preformed to estimate the confidence interval for the delta values as well as the confidence interval for each OFI frequency.
+The trauma quality database includes patients selected for review between 2014 and 2021. These registries were merged and a complete case analysis was done. The data in the registries was scrabled to decrease the risk for bias. The results were presented in tables showing the frequency of OFI for the different subgroups. Delta values for OFI frequency between subgroups was calculated. Bootstrapping was then preformed to estimate the confidence interval for the delta values between non overlapping subgroups as well as the confidence interval for each OFI frequency.
 
 Setting
 -------
 The Karolinska University Hospital in Solna, Stockholm is the largest trauma centre in Sweden. The hospital is also classified as a level 1 trauma center.[@Karolinska] The trauma center at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. The Karolinska University Hospital is the primary trauma center for a population of 2,8 million people.[@Traumanks, @Almskog2020] 
 
-Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. To the trauma team at Karolinska Solna only those who are classified as a priority one by the pre hospital professionals are admitted. [@Granstrom2012]
+Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. The trauma team at Karolinska Solna only handle those who are classified as a priority one by the pre hospital professionals. [@Granstrom2012]
 
 A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
-<!-- Consider moving the paragraph below to the section on Outcome, to explain were the OFI come from. Förstår inte exakt var. -->
-Audit filters and for some cases, maual selection was used to determine which cases that should be reviewed at M&M. Some examples of audit filters that were used are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes and time to Surgery. A manual selection was done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation from best practice guidelines can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified"
 ```{r, echo = FALSE, out.width="400px"} 
 ofi_selection()
 knitr::include_graphics("images/ofi.png")
@@ -129,10 +133,12 @@ knitr::include_graphics("images/ofi.png")
 Participants
 ------------
 
-All patients are from the Karolinska University Hospital trauma registry and from the Trauma Quality Database. To be eligible for the study all patients had to meet the following inclusion criteria: Patients over 15 year old. If information was missing for age, gender, OFI,  trauma mechanism, NISS, or AIS code the patient was excluded.
+All patients are from the Karolinska University Hospital trauma registry and from the Trauma Quality Database. To be eligible for the study all patients had to meet the following inclusion criteria: Patients over 15 year old. If information was missing for age, gender, OFI,  trauma mechanism, NISS, AIS code or 30-day survival the patient was excluded.
 
 Variables and data sources/measurements
 ---------------------------------------
+Audit filters and for some cases, manual selection was used to determine which cases that should be reviewed at M&M. Some examples of audit filters that were used are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes and time to Surgery. A manual selection was done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation from best practice guidelines can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified". <!-- Consider moving the paragraph below to the section on Outcome, to explain were the OFI come from. Här? -->
+
 The data from the trauma registries were analyzed for OFI in separate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma and most severely injured body region. The injured body regions was analysed based on AIS codes and these codes were used to group patients into appropriate cohorts. 
 
 The cohort for most severely injured region was created by assigning the most severely injured body region based on AIS codes to every different patient. For patients who had two or more different injuries and thereby multple AIS codes, the most severe injury was selected.
@@ -145,7 +151,7 @@ OFI  was treated as a binary variable, with "yes" and "no" as the only possible 
 
 Bias 
 ----
-To prevent research bias all data will be scrambled while used to write the analysis model. Meaning that the real data was not available throughout the process of writing the introduction or method. The scrambled data was also used for creating functions that later could be used on the real data in the final step to get the true results. However all results were first calculated using the scrambled data.
+To prevent research bias all data was scrambled while used to write the analysis model. Meaning that the real data was not available throughout the process of writing the introduction or method. The scrambled data was also used for creating functions that later could be used on the real data in the final step to get the true results. However all results were first calculated using the scrambled data.
 
 Study size 
 ----------
@@ -156,12 +162,11 @@ Quantitative variables
 
 The registers hold both categorical and continuous variables. NISS, age and AIS codes were treated as continuous variables. Penetrating/blunt trauma, minor/major trauma and OFI was treated as binary categorical variables. Most severely injured body region was treated as categorical variabel.
 
-<!-- In the sections below you don't really need to say how they were coded in the original data, it's enough to say how you defined them, i.e. what groups you used. Uppfattade på Jonatan att detta var viktigt att ha med? --> 
+<!-- In the sections below you don't really need to say how they were coded in the original data, it's enough to say how you defined them, i.e. what groups you used. Kanske funakr nu när traumamekanism togs bort?-->
+
 The range of NISS was 1-75, representing the number of AIS points for each patient. Penetraiting/blunt Trauma had the values of 1 and 2. 1 represented Blunt trauma and 2 penetraiting trauma. Minor/Major was derived from the NISS value. NISS>15 was considered a Major Trauma and <15 a Minor Trauma. OFI had the values of either YES or NO.
 
-Trauma Mechanism had a value that ranged from 1-13. Each number was represented by the following trauma mechanism. 1 - "Trauma mechanism Traffic - motor veichle accident, not motorcycle". 2 - "Traffic - motorcycle accident". 3 - "Traffic - bicycle accident". 4 -"Traffic - pedastrian	". 5 - "Traffic - other". 6 -"Shot by handgun, shotgun, rifle, other firearm of any calibre". 7 - "Stabbed by knife, sword, dagger other pointed or sharp object". 8 - "Struck or hit by blunt object". 9 - "Low energy fall - fall in the same level". 10 - "High energy fall - fall from a higher level". 11 - "Blast injury". 12 - "Other". 13 - "Unknown".
-
-The most severe region had 10 different values: head, neck, face, thorax, upper extremity, lower extremity, abdomen, spine, multiple and unspecified. These 10 values were regrouped according to the ISS system as following. 1 - "Head and neck". 2 - "Face". 3 - "Chest, diaphragm or spine". 4 - "Abdomen". 5 - "Extremities". 6 - "Unspecified". 7 - "Multiple".
+The most severe region injured had 10 different values: head, neck, face, thorax, upper extremity, lower extremity, abdomen, spine, multiple and unspecified. These 10 values were regrouped according to the ISS system as following. 1 - "Head and neck". 2 - "Face". 3 - "Chest, diaphragm or spine". 4 - "Abdomen". 5 - "Extremities". 6 - "Unspecified". 7 - "Multiple".
 
 Statistical methods
 -------------------
@@ -169,7 +174,9 @@ For handling the data and conducting the statistical analysis the program R was 
 
 The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup. 
 
-The difference (delta value) in OFI frequency between subgroups was calculated, meaning that the difference between men and women was calculated but not for example between women and blunt trauma. Bootstrapping was used to estimate the confidence intervals. 1000 bootstrap samples were drawn with replacement, creating 1000 simulated datasets. The analyses were then repeated in these bootstrap samples and the confidence intervals were estimated both for the OFI frequencies and for the delta values based on their distributions across bootstrap samples.
+The difference (delta value) in OFI frequency between subgroups was calculated, meaning that the difference between men and women was calculated but not for example between women and blunt trauma. Bootstrapping was used to estimate the confidence intervals. 1000 bootstrap samples were drawn with replacement, creating 1000 simulated data sets. The analyses were then repeated in these bootstrap samples and the confidence intervals were estimated both for the OFI frequencies and for the delta values based on their distributions across bootstrap samples.
+
+
 
 Results
 =====
@@ -288,9 +295,10 @@ In this study we assessed the frequency of OFI for different trauma subgroups. B
 It would also be interesting to investigate potential risk factors for OFI. This could be done by comparing factors like pre hospital vitals, time to arrival at the trauma center, co-morbidity to name a few. By knowing what kind of risk factors that increase the risk for OFI, OFI could in some cases potentially be prevented. This kind of study could also be done as a registry based cohort study using the same trauma registries as our study.
 
 Conclusion
-=====
+-------
+Our results suggest that OFI varies between different trauma subgroups and that some subgroups have significantly higer frequency of OFI compared with baseline. Factors like old age and trauma severity was also shown to effect the OFI frequency negatively. 
 
-<!-- Give a short conclusion, corresponding to the aim -->
+
 
 Ethical considerations
 =====
