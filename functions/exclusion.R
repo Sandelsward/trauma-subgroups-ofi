@@ -3,7 +3,7 @@ exclusion <- function() {
   
   exclusion <- DiagrammeR::grViz("digraph flowchart {
   
-    label='Fig. 2. Flowchart of all excluded patients and the reason for exclusion';
+    label='Fig. 2. Flowchart of all excluded patients and the reason for exclusion. The unfiltred patient cohort comes from the trauma registry and trauma quality database of the Karolinska University Hospital in Solna from the years 2012-2021. Abbreviations: AIS - The Abbreviated Injury Scale. NISS - NISS - The New Injury Severity Score. OFI - Opportunity for improvement.';
     labelloc=bottom;
     labeljust=left;
     labelfontsize=18;
@@ -50,7 +50,7 @@ exclusion <- function() {
     [4]: paste0('Patients with no missing information in NISS colum (n: ', age.dominant.niss, ')')
     [5]: paste0('Patients with no missing information in the first AIS column (n: ', age.dominant.niss.ais01, ')')
     [6]: paste0('Patients with no missing information in the OFI column (n: ', age.dominant.niss.ais01.ofi, ')')
-    [7]: paste0('Patients with no missing information in Most severe region (n: ', age.dominant.niss.ais01.ofi.mos, ')')
+    [7]: paste0('Patients with no missing information in The most severely injured body region (n: ', age.dominant.niss.ais01.ofi.mos, ')')
     [8]: paste0('Patients with no missing information in 30-day survival (n: ', final.number, ')')
     [9]: paste0('Total number of included patients (n: ', final.number, ')')
     [10]: paste0('Patients under the age of 15 excluded (n: ', total.underage.excluded, ')')
@@ -58,7 +58,7 @@ exclusion <- function() {
     [12]: paste0('Patients with missing information in NISS colum (n: ', total.missing.niss, ')')
     [13]: paste0('Patients with missing information in the first AIS column (n: ', total.missing.AIS01, ')')
     [14]: paste0('Patients with missing information in the OFI column (n: ', total.missing.ofi, ')')
-    [15]: paste0('Patients with missing information in Most severe region (n: ', total.missing.mos, ')')
+    [15]: paste0('Patients with missing information in The most severely injured body region (n: ', total.missing.mos, ')')
     [16]: paste0('Patients with missing information in 30-day survival (n: ', total.missing.survival30d, ')')
 
   ") 

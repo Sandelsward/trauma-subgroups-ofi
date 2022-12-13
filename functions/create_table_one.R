@@ -56,7 +56,7 @@ create_table_one <- function(cleaned.data)
     ofi = "Opportunity for improvement",
     NISS = "NISS",
     trauma.severity = "Minor or Major Trauma",
-    most.severe.region = "Most severe region",
+    most.severe.region = "The most severely injured body region",
     
     survival30d = "30-day survival rate"
   )
