@@ -45,7 +45,7 @@ Introduction: Trauma represents 9% of the annual global deaths and is the most c
 
 Keywords: Trama subgroups, Opportunity for improvement, Abdominal trauma, OFI
 
-Background
+Introduction
 =====
 
 Trauma is defined as the clinical entity composed of physical injury and the body's associated response, as trauma represents about 9 % of annual global death it is one of the leading causes of mortality and morbidity in the world.[@Gerdin,@GBD_2017_Causes_of_Death_Collaborators2018-oe] Among people under the age of 45 trauma is the most common cause of death. Over the last decade
@@ -129,10 +129,6 @@ Trauma patients are divided into priority one and two by the paramedics using ce
 
 A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
-```{r, echo = FALSE, out.width="400px"} 
-ofi_selection()
-knitr::include_graphics("images/ofi.png")
-```
 
 
 Participants
@@ -142,7 +138,7 @@ All patients are from the Karolinska University Hospital trauma registry and fro
 
 Variables and data sources/measurements
 ---------------------------------------
-Audit filters and for some cases, manual selection was used to determine which cases that should be reviewed at M&M. Some examples of audit filters that were used are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes and time to Surgery. A manual selection was done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation from best practice guidelines can be found. The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified". <!-- Consider moving the paragraph below to the section on Outcome, to explain were the OFI come from. Här? -->
+Audit filters and for some cases, manual selection was used to determine which cases that should be reviewed at M&M. Some examples of audit filters that were used are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes and time to Surgery. A manual selection was done by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation from best practice guidelines can be found (fig.1). The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified". <!-- Consider moving the paragraph below to the section on Outcome, to explain were the OFI come from. Här? -->
 
 The data from the trauma registries were analyzed for OFI in separate cohorts. The cohorts were: men and women, blunt and penetrating injuries, minor and major trauma and most severely injured body region. The injured body regions was analysed based on AIS codes and these codes were used to group patients into appropriate cohorts. 
 
@@ -153,6 +149,11 @@ If more than one region had injuries of the same severity, the second most sever
 To group patients with minor versus major trauma the NISS score was used. Patients with a NISS > 15 were defined as major trauma and those with NISS < 15 were defined as minor trauma [@Bagher2017].
 
 OFI  was treated as a binary variable, with "yes" and "no" as the only possible outcome. For the M&M conference to put a "yes" in the OFI section a consensus decision is required regarding the presence of at least one OFI.
+
+```{r, echo = FALSE, out.width="400px"} 
+ofi_selection()
+knitr::include_graphics("images/ofi.png")
+```
 
 Bias 
 ----
@@ -228,6 +229,7 @@ Table 2. A table showing the main results of this study. The OFI frequency is pr
 | MSR - Extremities | `r freq.ofi.extremities` | `r ci.extremities` |
 | MSR - Multiple | `r freq.ofi.multiple` | `r ci.multiple` |
 Abbreviations: MSR - Most severe region. OFI - Opportunity for improvement.
+<!-- penetrainting/blunt Det är något fel i koden för penetraiting. CI blir 0 (egentligen 0,00015-0,00017 men verkar ju inte rimligt) och förstår inte varför. --->
 
 Delta values
 ------------
@@ -254,7 +256,7 @@ deltainjtable
 
 Discussion
 =====
-
+<!-- biblioghraphy fungerar inte sedan jag bytte till den riktiga servern. Har därför sparat källor till diskussionen i temporary.bib.R -->
 Today it is poorly understood wether the frequency of OFI varies between different trauma subgroups. The purpose of this study was therefore to asses the OFI Frequencies for some of the clinically important trauma subgroups in a registry based cohort study.
 
 We found that the Abdomen cohort in the subgroup Most severely injured body region had the  highest OFI frequency followed by the Major trauma subgroup. It was also found that penetrating trauma had a higher OFI frequency then blunt trauma and that men had a higher OFI frequency then women. The difference between men and women was not statistically significant. 
@@ -301,7 +303,7 @@ Another important aspect to discuss is the geographical differences in trauma ca
 
 Future studies
 -----------
-In this study we assessed the frequency of OFI for different trauma subgroups. By knowing which trauma subgroups that has the highest OFI frequency it is possible to focus further research on these subgroups. That could for example be done by a registry based cohort study of what kind of OFIs that are the most frequent ones for the different subgroups. There could potentially be varying OFI patterns for different subgroups leading to diverse outcomes in terms of morbidity and mortality. 
+In this study we assessed the frequency of OFI for different trauma subgroups. By knowing which trauma subgroups that has the highest OFI frequency it is possible to focus further research on these subgroups. That could for example be done by a registry based cohort study of what kind of OFIs that are the most frequent ones for the different subgroups. There could potentially be varying OFI problem areas for different subgroups leading to diverse outcomes in terms of morbidity and mortality. 
 
 It would also be interesting to investigate potential risk factors for OFI. This could be done by comparing factors like pre hospital vitals, time to arrival at the trauma center and co-morbidity to name a few. By knowing what kind of risk factors that increase the risk for OFI, OFI could in some cases potentially be prevented. This kind of study could also be done as a registry based cohort study using the same trauma registries as our study.
 
@@ -314,13 +316,17 @@ Our results suggest that OFI varies between different trauma subgroups and that 
 Ethical considerations
 =====
 
-People who are included in the registers we use have not given their concent. However measures have been taken to prevent personal information to be leaked about the patients. For example all data was scrambled for as long as possible, and to get access to the unscrambled data a VPN had to be used. Even then, the social security number of all patients were scrabled. There is still a theoretical risk that a patient could be identified based on age, gender, trauma type and other information in the registries. This risk is however very small given the large number of patients.
+As this is a study based on data from severely injured and deceased people, it must be considered a vulnerable patient group. Because of this it is extra important to carefully weigh the potential risks and benefits against each other when deciding if the study can be granted ethical permission. 
 
-As this is a study based on data from severely injured and deceased people, it must be concidered a vulnerable patient group. But since trauma patients were the patient group that needed to be studied, no other patient group would have been sufficient. And as this was a registry based study, no interventions were made that could harm the patients. 
+In this case trauma patients were the patient group that needed to be studied, and therefor no other less vunurable patient group would have been sufficient. This is however a registry based study, meaning that no interventions were made that could harm the patients. Measures was also taken to prevent personal information to be leaked about the patients. For example all data was scrambled for as long as possible, and to get access to the unscrambled data a VPN had to be used. Even then, the social security number of all patients was scrabled. 
 
-Possible benefits from these type of studies are the possibility that the result can improve the trauma care and by that decrease morbidity and mortality for trauma patients. Therefore the conslusion is that the potiential risks of this study is overtuned by the possible bennefits.
+This study follows the principal of presumed consent, meaning that patients included in the study not actively have given their consent or actively have said no to being included in the registries. This is common for trauma research as the patients often is not capable to making such a decsicin due to their injuries. <!-- Finns det möjlighet att tas bort från registret om man önskar? Informeras patenterna att de lagts till? -->
 
-Ethical permission has been granted for this project. Dnr number for this permission is 2021-02541 and 2021-0253.
+Despite the measures taken there is still a theoretical risk that a patient could be identified based on age, gender, trauma type and other information in the registries. The risk for risk is however very small given the large number of patients and the limited number of people having access to the data.
+
+Possible benefits from these type of studies are the possibility that the result can improve the trauma care and by that decrease morbidity and mortality for trauma patients by leading to further research based in the study results. Therefore the conclusion is that the potential risks of this study is overturned by the possible benefits.
+
+Ethical permission has been granted for this project by xxxx. Dnr number for this permission is 2021-02541 and 2021-0253.
 
 
 
