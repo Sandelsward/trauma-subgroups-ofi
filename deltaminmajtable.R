@@ -21,4 +21,4 @@ delta.minmaj.table["Major Trauma", "Minor Trauma"] <- paste.delta.min.maj
 delta.minmaj.table["Minor Trauma", "Major Trauma"] <- paste.delta.min.maj2
 
 
-deltaminmajtable <- kable(delta.minmaj.table, caption = "Delta values for minor and major trauma") 
+deltaminmajtable <- kable(delta.minmaj.table) 

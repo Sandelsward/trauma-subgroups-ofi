@@ -19,4 +19,4 @@ delta.inj.table["Penetrating Trauma", "Blunt Trauma"] <- paste.delta.inj.dominan
 delta.inj.table["Blunt Trauma", "Penetrating Trauma"] <- paste.delta.inj.dominant2
 
 
-deltainjtable <- kable(delta.inj.table, caption = "Delta values for blunt and penetrating trauma") 
+deltainjtable <- kable(delta.inj.table) 

@@ -15,4 +15,4 @@ for (diag.name in table.names) {
 delta.gender.table["Women", "Men"] <- paste.delta.gender
 delta.gender.table["Men", "Women"] <- pate.delta.gender2
 
-deltagendertable <- kable(delta.gender.table, caption = "Delta Gender values") 
+deltagendertable <- kable(delta.gender.table) 

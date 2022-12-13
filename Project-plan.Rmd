@@ -233,15 +233,20 @@ Delta values
 ------------
 The largest delta value was found in the xxx subgroup with a delta value of ` max.delta`. The smallest delta value was found in the xxx subgruop with a delta value of ` min delta`. In the xxx subgroup the delta value with the widest range were found ` wid.delta`. In the MSR subgroup The most statistical significant delta value was found in the xxxx cohort. In the binary subgroups the most significant delta value was found in the xxxx cohort. <!-- fyller i detta när CI för penetraiting trauma fungerar som den ska -->
 
+Table 3. A table for the delta values for The Most Severly Injured Region subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
 ```{r, echo = FALSE} 
 deltamsrtable
 ```
+
+Table 4. A table for the delta values for the Gender subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
 ```{r, echo = FALSE} 
 deltagendertable
 ```
+Table 5.A table for the delta values for the Dominating Type of Injury subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
 ```{r, echo = FALSE} 
 deltaminmajtable
 ```
+Table 6. A table for the delta values for the Minor or Major Trauma subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
 ```{r, echo = FALSE} 
 deltainjtable
 ```

@@ -4,10 +4,10 @@
 
 
 #### Create empty data frame
-delta.msr.table <- data.frame(matrix(ncol = 7, nrow = 7)) #pga 7 regioner
+delta.msr.table <- data.frame(matrix(ncol = 6, nrow = 6)) #pga 6 regioner
 
 ## Name cols/rows
-table.names <- c("Head or neck", "Face","Chest, diaphragm or spine","Abdomen","Extremity","Unspecified", "Multiple")
+table.names <- c("Head or neck", "Face","Chest, diaphragm or spine","Abdomen","Extremity", "Multiple")
 colnames(delta.msr.table) <- table.names
 rownames(delta.msr.table) <- rev(table.names) # (to get the diagonal the other way)
 
@@ -38,7 +38,7 @@ paste.delta.severe.region.4 <- paste(round(ci.delta.severe.region.4[["t0"]], dig
 delta.msr.table["Extremity","Head or neck"] <- paste.delta.severe.region.4
 
 paste.delta.severe.region.5 <- paste(round(ci.delta.severe.region.5[["t0"]], digits = 2),"(",round(ci.delta.severe.region.5[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.5[["normal"]][3], digits = 2),")")
-delta.msr.table["Unspecified","Head or neck"] <- paste.delta.severe.region.5
+#delta.msr.table["Unspecified","Head or neck"] <- paste.delta.severe.region.5
 
 paste.delta.severe.region.6 <- paste(round(ci.delta.severe.region.6[["t0"]], digits = 2),"(",round(ci.delta.severe.region.6[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.6[["normal"]][3], digits = 2),")")
 delta.msr.table["Multiple","Head or neck"] <- paste.delta.severe.region.6
@@ -56,7 +56,7 @@ delta.msr.table["Extremity","Face"] <- paste.delta.severe.region.9
 
 paste.delta.severe.region.10 <- paste(round(ci.delta.severe.region.10[["t0"]], digits = 2),"(",round(ci.delta.severe.region.10[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.10[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Unspecified","Face"] <- paste.delta.severe.region.10
+#delta.msr.table["Unspecified","Face"] <- paste.delta.severe.region.10
 
 
 paste.delta.severe.region.11 <- paste(round(ci.delta.severe.region.11[["t0"]], digits = 2),"(",round(ci.delta.severe.region.11[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.11[["normal"]][3], digits = 2),")")
@@ -76,7 +76,7 @@ delta.msr.table["Extremity","Chest, diaphragm or spine"] <- paste.delta.severe.r
 
 paste.delta.severe.region.14 <- paste(round(ci.delta.severe.region.14[["t0"]], digits = 2),"(",round(ci.delta.severe.region.14[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.14[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Unspecified","Chest, diaphragm or spine"] <- paste.delta.severe.region.14
+#delta.msr.table["Unspecified","Chest, diaphragm or spine"] <- paste.delta.severe.region.14
 
 
 paste.delta.severe.region.15 <- paste(round(ci.delta.severe.region.15[["t0"]], digits = 2),"(",round(ci.delta.severe.region.15[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.15[["normal"]][3], digits = 2),")")
@@ -91,7 +91,7 @@ delta.msr.table["Extremity","Abdomen"] <- paste.delta.severe.region.16
 
 paste.delta.severe.region.17 <- paste(round(ci.delta.severe.region.17[["t0"]], digits = 2),"(",round(ci.delta.severe.region.17[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.17[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Unspecified","Abdomen"] <- paste.delta.severe.region.17
+#delta.msr.table["Unspecified","Abdomen"] <- paste.delta.severe.region.17
 
 paste.delta.severe.region.18 <- paste(round(ci.delta.severe.region.18[["t0"]], digits = 2),"(",round(ci.delta.severe.region.18[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.18[["normal"]][3], digits = 2),")")
 
@@ -100,7 +100,7 @@ delta.msr.table["Multiple","Abdomen"] <- paste.delta.severe.region.18
 
 paste.delta.severe.region.19 <- paste(round(ci.delta.severe.region.19[["t0"]], digits = 2),"(",round(ci.delta.severe.region.19[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.19[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Unspecified","Extremity"] <- paste.delta.severe.region.19
+#delta.msr.table["Unspecified","Extremity"] <- paste.delta.severe.region.19
 
 
 paste.delta.severe.region.20 <- paste(round(ci.delta.severe.region.20[["t0"]], digits = 2),"(",round(ci.delta.severe.region.20[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.20[["normal"]][3], digits = 2),")")
@@ -110,7 +110,7 @@ delta.msr.table["Multiple","Extremity"] <- paste.delta.severe.region.20
 
 paste.delta.severe.region.21 <- paste(round(ci.delta.severe.region.21[["t0"]], digits = 2),"(",round(ci.delta.severe.region.21[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.21[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Multiple","Unspecified"] <- paste.delta.severe.region.21
+#delta.msr.table["Multiple","Unspecified"] <- paste.delta.severe.region.21
 
 paste.delta.severe.region.22 <- paste(round(ci.delta.severe.region.22[["t0"]], digits = 2),"(",round(ci.delta.severe.region.22[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.22[["normal"]][3], digits = 2),")")
 delta.msr.table["Head or neck","Face"] <- paste.delta.severe.region.22
@@ -160,27 +160,27 @@ delta.msr.table["Abdomen","Extremity"] <- paste.delta.severe.region.31
 
 paste.delta.severe.region.32 <- paste(round(ci.delta.severe.region.32[["t0"]], digits = 2),"(",round(ci.delta.severe.region.23[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.32[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Head or neck","Unspecified"] <- paste.delta.severe.region.32
+#delta.msr.table["Head or neck","Unspecified"] <- paste.delta.severe.region.32
 
 
 paste.delta.severe.region.33 <- paste(round(ci.delta.severe.region.33[["t0"]], digits = 2),"(",round(ci.delta.severe.region.23[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.33[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Face","Unspecified"] <- paste.delta.severe.region.33
+#delta.msr.table["Face","Unspecified"] <- paste.delta.severe.region.33
 
 
 paste.delta.severe.region.34 <- paste(round(ci.delta.severe.region.34[["t0"]], digits = 2),"(",round(ci.delta.severe.region.23[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.34[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Chest, diaphragm or spine","Unspecified"] <- paste.delta.severe.region.34
+#delta.msr.table["Chest, diaphragm or spine","Unspecified"] <- paste.delta.severe.region.34
 
 
 paste.delta.severe.region.35 <- paste(round(ci.delta.severe.region.35[["t0"]], digits = 2),"(",round(ci.delta.severe.region.23[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.35[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Abdomen","Unspecified"] <- paste.delta.severe.region.35
+#delta.msr.table["Abdomen","Unspecified"] <- paste.delta.severe.region.35
 
 
 paste.delta.severe.region.36 <- paste(round(ci.delta.severe.region.36[["t0"]], digits = 2),"(",round(ci.delta.severe.region.23[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.36[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Extremity","Unspecified"] <- paste.delta.severe.region.36
+#delta.msr.table["Extremity","Unspecified"] <- paste.delta.severe.region.36
 
 paste.delta.severe.region.37 <- paste(round(ci.delta.severe.region.37[["t0"]], digits = 2),"(",round(ci.delta.severe.region.23[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.37[["normal"]][3], digits = 2),")")
 
@@ -209,12 +209,12 @@ delta.msr.table["Extremity","Multiple"] <- paste.delta.severe.region.41
 
 paste.delta.severe.region.42 <- paste(round(ci.delta.severe.region.42[["t0"]], digits = 2),"(",round(ci.delta.severe.region.23[["normal"]][2], digits = 2),"-",round(ci.delta.severe.region.42[["normal"]][3], digits = 2),")")
 
-delta.msr.table["Unspecified","Multiple"] <- paste.delta.severe.region.42
+#delta.msr.table["Unspecified","Multiple"] <- paste.delta.severe.region.42
 
 
 
 ### When the table is full you can then put this objekt in a chunk in markdown.
-deltamsrtable <- kable(delta.msr.table, caption = "Delta MRS values") #%>%
+deltamsrtable <- kable(delta.msr.table) #%>%
  #kable_styling(latex_options="scale_down")
 
 
