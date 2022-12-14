@@ -13,7 +13,7 @@ create_table_one <- function(cleaned.data)
   cleaned.data$survival30d <- factor(
      cleaned.data$survival30d,
      levels = c("Yes", "No"),
-     labels = c("Yes", "No")
+     labels = c("Deceased", "Alive")
   )   
   
   cleaned.data$most.severe.region <- factor(
@@ -58,7 +58,7 @@ create_table_one <- function(cleaned.data)
     trauma.severity = "Minor or Major Trauma",
     most.severe.region = "The most severely injured body region",
     
-    survival30d = "30-day survival rate"
+    survival30d = "30-day mortality rate"
   )
   
   

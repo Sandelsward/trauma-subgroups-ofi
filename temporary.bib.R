@@ -362,3 +362,85 @@
   language  = "en"
 }
 
+[10]@ARTICLE{Schoeneberg2017-oc,
+  title    = "Preventable and potentially preventable deaths in severely
+              injured patients: a retrospective analysis including patterns of
+              errors",
+  author   = "Schoeneberg, C and Schilling, M and Hussmann, B and Schmitz, D
+              and Lendemans, S and Ruchholtz, S",
+  abstract = "PURPOSE: Analyzing preventable and potentially preventable deaths
+              is a well-known procedure for improving trauma care. This study
+              analyzes preventable and potentially preventable deaths in German
+              trauma patients. METHODS: Patients aged between 16 and 75 years
+              with an Injury Severity Score >15 who were primary admitted from
+              July 2002 to December 2011 were analyzed in this study. Data from
+              the patients' hospital records were retrospectively analyzed, and
+              cases were categorized as preventable, potentially preventable,
+              and non-preventable deaths. In addition, trauma management was
+              screened for errors. RESULTS: 2304 patients were admitted from
+              July 2002 to December 2011. 763 of which fulfilled the defined
+              criteria. The mortality rate was 25.3 \%. Eight cases (4.2 \%)
+              were declared as preventable deaths and 31 cases (16.1 \%) as
+              potentially preventable deaths. The most common errors in
+              preclinical trauma care related to airway management. The main
+              clinical error was insufficient hemorrhage control. Fluid
+              overload from infusion was the second most common fault in both.
+              CONCLUSIONS: Preventable and potentially preventable errors still
+              occur in the treatment of severely injured patients. Errors in
+              hemorrhage control and airway management are the most common
+              human treatment errors. The knowledge of these errors could help
+              to improve trauma care in the future.",
+  journal  = "Eur. J. Trauma Emerg. Surg.",
+  volume   =  43,
+  number   =  4,
+  pages    = "481--489",
+  month    =  aug,
+  year     =  2017,
+  keywords = "Adults; Errors; Mortality; Severely injured; Trauma",
+  language = "en"
+}
+[11]@ARTICLE{Kleber2013-bm,
+  title     = "Trauma-related preventable deaths in Berlin 2010: need to change
+               prehospital management strategies and trauma management
+               education",
+  author    = "Kleber, C and Giesecke, M T and Tsokos, M and Haas, N P and
+               Buschmann, C T",
+  abstract  = "BACKGROUND: Fatal trauma is one of the leading causes of death
+               in Western industrialized countries. The aim of the present
+               study was to determine the preventability of traumatic deaths,
+               analyze the medical measures related to preventable deaths,
+               detect management failures, and reveal specific injury patterns
+               in order to avoid traumatic deaths in Berlin. MATERIALS AND
+               METHODS: In this prospective observational study all autopsied,
+               direct trauma fatalities in Berlin in 2010 were included with
+               systematic data acquisition, including police files, medical
+               records, death certificates, and autopsy records. An
+               interdisciplinary expert board judged the preventability of
+               traumatic death according to the classification of
+               non-preventable (NP), potentially preventable (PP), and
+               definitively preventable (DP) fatalities. RESULTS: Of the
+               fatalities recorded, 84.9 \% (n = 224) were classified as NP,
+               9.8 \% (n = 26) as PP, and 5.3 \% (n = 14) as DP. The incidence
+               of severe traumatic brain injury (sTBI) was significantly lower
+               in PP/DP than in NP, and the incidence of fatal exsanguinations
+               was significantly higher. Most PP and NP deaths occurred in the
+               prehospital setting. Notably, no PP or DP was recorded for
+               fatalities treated by a HEMS crew. Causes of DP deaths consisted
+               of tension pneumothorax, unrecognized trauma, exsanguinations,
+               asphyxia, and occult bleeding with a false negative computed
+               tomography scan. CONCLUSIONS: The trauma mortality in Berlin,
+               compared to worldwide published data, is low. Nevertheless, 15.2
+               \% (n = 40) of traumatic deaths were classified as preventable.
+               Compulsory training in trauma management might further reduce
+               trauma-related mortality. The main focus should remain on
+               prevention programs, as the majority of the fatalities occurred
+               as a result of non-survivable injuries.",
+  journal   = "World J. Surg.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  37,
+  number    =  5,
+  pages     = "1154--1161",
+  month     =  may,
+  year      =  2013,
+  language  = "en"
+}
