@@ -43,7 +43,7 @@ Abbreviations
 
 Introduction: Trauma represents 9% of the annual global deaths and is the most common cause of death in people <45 years. It is a heterogeneous group of patients with a large variety of injuries. With this variety comes a complexity that demands specific guidelines for treating all kinds of different trauma subgroups. It is however poorly understood how the potential for trauma care improvement varies between these subgroups. One measure for this is Opportunity for improvement (OFI). Aims: In this study we assessed the OFI frequency for the clinically important trauma subgroups; men and women, blunt and penetrating trauma, minor and major trauma, and most severely injured body region. Material and methods: This was a registry based cohort study using the trauma registry and the trauma quality database at the Karolinska University hospital in Solna. 6146 patients added to the registries between 20xx-2021 met the inclusion criteria. 5718 patients were excluded due to either age <15 years or because of missing necessary information. Results: The mean OFI in the total cohort was 7%. It was found that Abdominal trauma had the highest frequency ofi OFI of all subgroups at 12,73% (CI:`r ci.abdomen`). In the binary subgroups blunt trauma at 7,08% and major trauma at 12,2% (CI: `r ci.major.trauma`) had the highest OFI. Conclusion: Our results suggest that OFI varies between trauma subgroups and that some subgroups have significantly higher OFI than baseline. Further research is however needed to find what kind of OFIs that are more frequent in different cohorts as well as OFI risk factors besides the actual trauma.
 
-Keywords: Trama subgroups, Opportunity for improvement, Abdominal trauma, OFI
+Keywords: Trauma subgroups, Opportunity for improvement, Abdominal trauma, OFI
 
 Introduction
 =====
@@ -95,7 +95,7 @@ OFI can be a more nuanced measure for trauma care improvement than the more esta
 Trauma subgroups
 ------------
 As trauma patients is a heterogeneous group, it is important to have a 
-sufficient understanding of OFIs for the different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury [@arsrapportswetrau].<!-- I suggest that you try to expand on this, as it's the basis of your thesis. Ska jag lägga till exempel på skillnad i preventable death mellan subgrupperna här kanske?--> 
+sufficient understanding of OFIs for the different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury [@arsrapportswetrau].<!-- I suggest that you try to expand on this, as it's the basis of your thesis. Ska jag lägga till exempel på skillnad i preventable death mellan subgrupperna här kanske? Flyttar up lite från diskussionen--> 
 
 In Sweden, 50% of trauma cases are traffic related and 33% are fall traumas. Blunt trauma, such as traffic accidents, fall trauma, and hit by blunt object, represents 90 % of all trauma cases [@arsrapportswetrau]. 
 
@@ -168,7 +168,7 @@ Quantitative variables
 
 The registers hold both categorical and continuous variables. NISS, age and AIS codes were treated as continuous variables. Penetrating/blunt trauma, minor/major trauma and OFI was treated as binary categorical variables. Most severely injured body region was treated as categorical variabel.
 
-<!-- In the sections below you don't really need to say how they were coded in the original data, it's enough to say how you defined them, i.e. what groups you used. Kanske funakr nu när traumamekanism togs bort?-->
+<!-- In the sections below you don't really need to say how they were coded in the original data, it's enough to say how you defined them, i.e. what groups you used. Kanske funakr nu när traumamekanism togs bort?--> ta bort siffrorna
 
 The range of NISS was 1-75, representing the number of AIS points for each patient. Penetraiting/blunt Trauma had the values of 1 and 2. 1 represented Blunt trauma and 2 penetraiting trauma. Minor/Major was derived from the NISS value. NISS>15 was considered a Major Trauma and <15 a Minor Trauma. OFI had the values of either YES or NO.
 
@@ -229,7 +229,7 @@ Table 2. A table showing the main results of this study. The OFI frequency is pr
 | MSR - Extremities | `r freq.ofi.extremities` | `r ci.extremities` |
 | MSR - Multiple | `r freq.ofi.multiple` | `r ci.multiple` |
 Abbreviations: MSR - Most severe region. OFI - Opportunity for improvement.
-<!-- penetrainting/blunt Det är något fel i koden för penetraiting. CI blir 0 (egentligen 0,00015-0,00017 men verkar ju inte rimligt) och förstår inte varför. --->
+
 
 Delta values
 ------------
@@ -309,7 +309,7 @@ It would also be interesting to investigate potential risk factors for OFI. This
 
 Conclusion
 -------
-Our results suggest that OFI varies between different trauma subgroups and that some subgroups have significantly higher frequency of OFI compared with baseline. Our study also show that factors like old age and trauma severity affect the OFI frequency negatively. Based on our study results it can however not be said what kind of OFIs that are most common in the different cohorts or if there is any risk factors beside the trauma and old age that increases the risk for OFI. This is something that we believe should be investigated further. 
+Our results suggest that OFI varies between different trauma subgroups and that some subgroups have significantly higher frequency of OFI compared with baseline. The study also show that factors like old age and trauma severity affect the OFI frequency negatively. Based on our study results it can however not be said what kind of OFIs that are most common in the different cohorts or if there is any risk factors beside the trauma and old age that increases the risk for OFI. This is something that we believe should be investigated further. 
 
 
 

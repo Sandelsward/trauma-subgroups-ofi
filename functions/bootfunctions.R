@@ -68,11 +68,12 @@ boot_function_inj_type <- function(data, index){
   total.ofi.penetrating <- penetrating[penetrating$ofi =="Yes",]
   
   # frekvens av ofi hos penetrerande trauma
-  freq.ofi.penetrating <- nrow(total.ofi.penetrating)/(total.penetrating*100)
+  freq.ofi.penetrating <- nrow(total.ofi.penetrating)/(total.penetrating)*100
+  
   
   # delta inj.dominant
-  delta.inj.dominant <- (freq.ofi.blunt-freq.ofi.penetrating)
-  delta.inj.dominant2 <- (freq.ofi.penetrating-freq.ofi.blunt)
+  delta.inj.dominant <- (freq.ofi.blunt)-(freq.ofi.penetrating)
+  delta.inj.dominant2 <- (freq.ofi.penetrating)-(freq.ofi.blunt)
   
   return(c(freq.ofi.blunt,freq.ofi.penetrating,delta.inj.dominant,delta.inj.dominant2))
 }
