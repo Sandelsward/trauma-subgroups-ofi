@@ -28,17 +28,21 @@ create_table_one <- function(cleaned.data)
     # levels = c("Head"&"Neck", "Face", "Thorax"&"Spine", "Abdomen", "Lower Extremity"&"Upper Extremity", "Unspeciefied", "Multiple"),
     #  labels = c("Head or Neck", "Face", "Chest, Diaphragm or Spine", "Abdomen", "Extremities", "Unspecified", "Multiple")
   )
+ 
+   cleaned.data$inj_dominant <- factor(
+    cleaned.data$inj_dominant,
+    levels = c(1, 2),
+    labels = c("Blunt", "Penetrating"),
+  
+  )
+  
   
   cleaned.data$trauma.severity <- factor(
     cleaned.data$trauma.severity,
     levels = c("minor", "major"),
     labels = c("Minor Trauma", "Major Trauma"),
-  )
   
-  cleaned.data$inj_dominant <- factor(
-    cleaned.data$inj_dominant,
-    levels = c(1, 2),
-    labels = c("Blunt", "Penetrating"),
+
   )
   
   cleaned.data$ofi <- factor(
@@ -77,7 +81,7 @@ create_table_one <- function(cleaned.data)
   
   ## Making table one
   vars2 <- c("pt_age_yrs", "pt_Gender", "survival30d", "trauma.severity", "inj_dominant", "ofi", "NISS", "most.severe.region")
-  table.1 <- table1(~ pt_age_yrs + pt_Gender + NISS + survival30d + trauma.severity + inj_dominant + most.severe.region | ofi, 
+  table.1 <- table1(~ pt_age_yrs + pt_Gender + NISS + survival30d + inj_dominant + trauma.severity + most.severe.region | ofi, 
                     data=cleaned.data[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
   
   return(table.1)
