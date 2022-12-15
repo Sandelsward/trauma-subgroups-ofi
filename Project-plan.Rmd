@@ -265,7 +265,7 @@ Abbreviations: MSR - Most severe region. OFI - Opportunity for improvement.
 
 Delta values<!-- Consider calling these differences instead, so that the reader doesn't have to understand that delta values and diffferences are really the same thing--> 
 ------------
-The largest delta value was found when comparing the face and abdomen <!-- I don't think that you need to capitalise the first letter in the differet subgroups-->subgroups with a delta value of 10,48 ( -1.04 - 12.88 ). The smallest delta value was found in the xxx subgruop with a delta value of ` min delta`. In the xxx subgroup the delta value with the widest range were found ` wid.delta`.<!-- Note that you need to refer to all tables in the text, you can't have tables that are not mentioned anywhere in the text. You can always write for example: "Table 4-6 shows bla bla"-->
+The largest delta value was found when comparing the face and abdomen cohorts with a delta value of 10,48 ( -1.04 - 12.88 ). The smallest delta value was found in the xxx subgruop with a delta value of ` min delta`. In the xxx subgroup the delta value with the widest range were found ` wid.delta`.<!-- Note that you need to refer to all tables in the text, you can't have tables that are not mentioned anywhere in the text. You can always write for example: "Table 4-6 shows bla bla"-->
 
 Table 3. A table for the delta values for The Most Severly Injured Region subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
 ```{r, echo = FALSE} 
