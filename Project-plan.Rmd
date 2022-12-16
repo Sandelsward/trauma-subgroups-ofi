@@ -10,6 +10,7 @@ bibliography: bibliography.bib
 csl: vancouver.csl
 fontsize: 11pt
 always_allow_html: true
+
 ---
 
 
@@ -189,7 +190,7 @@ Study size
 ----------
 A complete case analysis was done on all patients in the registries that met the inclusion criteria for this study.
 
-Quantitative variables <!-- kanske passar bättre att han denna rubrik direkt efter "Variables and data sources/measurements"? -->
+Quantitative variables <!-- kanske passar bättre att han denna rubrik direkt efter "Variables and data sources/measurements, vad tycker ni"? -->
 ----------------------
 NISS, age and AIS codes were treated as continuous variables. The range of NISS was 1-75. Minor/Major was derived from the NISS value. NISS>15 was considered a Major Trauma and <15 a Minor Trauma. OFI had the values of either YES or NO.
 
@@ -223,15 +224,14 @@ Participants
 
 After merging the Karolinska trauma registry and the Trauma quality data base there was `r all.patients` patients in the sample. After applying the inclusion criteria the number of patients was reduced to `r total.cohort` patients. Each step in the exclusion process is shown in the exclusion chart (fig. 2).
 
-```{r, echo = FALSE, out.width="400px"} 
+```{r, echo = FALSE, out.width="1000px"} 
 exclusion()
 knitr::include_graphics("images/exclusion.png")
 ```
 
 Descriptive data
 ----------------
-
-As shown in table 1, out of the `r total.cohort` patients included in the cohort `r all.men` (`r share.men`%) were men. The mean age for all patients were `r mean.age` years and the mean NISS score was `r mean.niss` (SD `r sd.niss`). There was `r tot.major.trauma` (`r share.major.trauma`%) cases of major trauma and the most frequent dominating type of trauma was blunt trauma with `r total.blunt.trauma` (`r share.blunt`%) cases. Among the cohort of most severely injured region head trauma was most frequent with a number of `r tot.head.neck` (`r share.head.neck`%) cases. The median age was higher in the OFI cohort at 47 years, compared with the non OFI cohort which had a median age of 42 years. Those who did not have OFI were more likely to be alive after 30 days (92,1%) compared to those in which OFI were identified (90,1%).
+The mean age for all patients were `r mean.age` years and the mean NISS score was `r mean.niss` (SD `r sd.niss`). As shown in table 1 the median age was higher in the OFI cohort at 47 years, compared with the non OFI cohort which had a median age of 42 years. Those who did have OFI were more likely to be alive after 30 days (92,1%) compared to those in which OFI were not identified (90,1%). Out of the `r total.cohort` patients included in the cohort `r all.men` (`r share.men`%) were men. . The most frequent dominating type of trauma was blunt trauma with `r total.blunt.trauma` (`r share.blunt`%). There was `r tot.major.trauma` (`r share.major.trauma`%) cases of major trauma. Among the cohort most severely injured body region, head trauma was most frequent with a number of `r tot.head.neck` (`r share.head.neck`%) cases. 
 
 
 Table 1. A descriptive table of OFI percentage across all subgroups as well as the variables age, NISS and 30-day survival rate.
@@ -242,7 +242,7 @@ Abbreviations: NISS - The New Injury Severity Score. OFI - Opportunity for impro
 
 Main results
 ------------
-In the entire cohort of 6146 patients the mean frequency of OFI was `r mean.ofi`%. Among the men the frequency of OFI was `r freq.ofi.men`% (95% CI:`r ci.men`) and among the women `r freq.ofi.women`% `r ci.women`. Blunt trauma han an OFI frequency at `r freq.ofi.blunt`% (95% CI:`r ci.blunt`) and penetrating trauma had an OFI frequency at `r freq.ofi.penetrating` % (95% CI:`r ci.penetrating`). Patients with minor trauma had an OFI frequency of `r freq.ofi.minor.trauma`% (95% CI:`r ci.minor.trauma`) compared with the major trauma cohort which had an OFI frequency of `r freq.ofi.major.trauma`% (95% CI:`r ci.major.trauma`). Across the most severely injured body region subgroup, OFI was most frequent in the abdomen cohort with a frequency of OFI at `r freq.ofi.abdomen`% (95% CI:`r ci.abdomen`).The lowest OFI frequency was measured in the face cohort with a frequency of `r min.freq`% (95% CI:`r ci.face`).<!-- Make sure that you present these results in the same order as you list the subgroups elsewhere-->
+In the entire cohort of 6146 patients the mean frequency of OFI was `r mean.ofi`%. Among the men the frequency of OFI was `r freq.ofi.men`% (95% CI:`r ci.men`) and among the women `r freq.ofi.women`% `r ci.women`. Blunt trauma han an OFI frequency at `r freq.ofi.blunt`% (95% CI:`r ci.blunt`) and penetrating trauma had an OFI frequency at `r freq.ofi.penetrating` % (95% CI:`r ci.penetrating`). Patients with minor trauma had an OFI frequency of `r freq.ofi.minor.trauma`% (95% CI:`r ci.minor.trauma`) compared with the major trauma cohort which had an OFI frequency of `r freq.ofi.major.trauma`% (95% CI:`r ci.major.trauma`). Across the most severely injured body region subgroup, OFI was most frequent in the abdomen cohort with a frequency of OFI at `r freq.ofi.abdomen`% (95% CI:`r ci.abdomen`).The lowest OFI frequency was measured in the face cohort with a frequency of `r min.freq`% (95% CI:`r ci.face`).
 
 Table 2. A table showing the main results of this study. The OFI frequency is presented for each trauma subgroup as well as the 95% Confidence interval for each OFI frequency. 
 
@@ -263,33 +263,34 @@ Table 2. A table showing the main results of this study. The OFI frequency is pr
 Abbreviations: MSR - Most severe region. OFI - Opportunity for improvement.
 
 
-Delta values<!-- Consider calling these differences instead, so that the reader doesn't have to understand that delta values and diffferences are really the same thing--> 
+Differences
 ------------
-The largest delta value was found when comparing the face and abdomen cohorts with a delta value of 10,48 ( -1.04 - 12.88 ). The smallest delta value was found in the xxx subgruop with a delta value of ` min delta`. In the xxx subgroup the delta value with the widest range were found ` wid.delta`.<!-- Note that you need to refer to all tables in the text, you can't have tables that are not mentioned anywhere in the text. You can always write for example: "Table 4-6 shows bla bla"-->
+The difference in OFI frequency is presented in table 3-6 for each subgroup. The over all largest difference was found when comparing the face and abdomen cohorts with a difference of 10,48 ( -1.04 - 12.88 ). The smallest difference was found in the xxx subgroup with a difference of ` min delta`.
 
-Table 3. A table for the delta values for The Most Severly Injured Region subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
-```{r, echo = FALSE} 
-deltamsrtable
-```
 
-Table 4. A table for the delta values for the Gender subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
+Table 3. A table for the delta values for the Gender subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
 ```{r, echo = FALSE} 
 deltagendertable
 ```
-Table 5.A table for the delta values for the Dominating Type of Injury subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
+Table 4. A table for the delta values for the Minor or Major Trauma subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
+```{r, echo = FALSE} 
+deltainjtable
+```
+Table 5. A table for the delta values for the Dominating Type of Injury subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
 ```{r, echo = FALSE} 
 deltaminmajtable
 ```
-Table 6. A table for the delta values for the Minor or Major Trauma subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
+
+Table 6. A table for the delta values for The Most Severly Injured Region subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
 ```{r, echo = FALSE} 
-deltainjtable
+deltamsrtable
 ```
 
 
 Discussion
 =====
 <!-- biblioghraphy fungerar inte sedan jag bytte till den riktiga servern. Har därför sparat källor till diskussionen i temporary.bib.R -->
-Today it is poorly understood wether the frequency of OFI varies between different trauma subgroups. The purpose of this study was therefore to asses the OFI Frequencies for some of the clinically important trauma subgroups in a registry based cohort study.<!-- I would remove this first paragraph and directly state the key findings-->
+Today it is poorly understood wether the frequency of OFI varies between different trauma subgroups. The purpose of this study was therefore to asses the OFI Frequencies for some of the clinically important trauma subgroups in a registry based cohort study.<!-- I would remove this first paragraph and directly state the key findings. Det är KI som vill att man ska ha en kort repetition här -->
 
 We found that the Abdomen cohort in the subgroup Most severely injured body region had the  highest OFI frequency followed by the Major trauma subgroup. It was also found that penetrating trauma had a higher OFI frequency then blunt trauma and that men had a higher OFI frequency then women. The difference between blunt and penetrating trauma and the difference between the genders was not statistically significant. 
 
@@ -297,15 +298,15 @@ When comparing the results of this study with previous research one must keep in
 
 As for the high frequency of OFI the Abdomen cohort, the results was rather unexpected. To the best of our knowledge there is no existing research indicating that abdominal trauma has ha higher frequency of OFI, mortality or preventable death. We can only speculate why this higher OFI frequency has been found. For example, one reason could be that those admitted to a level one trauma center with the  abdomen as the most severely injured body region has suffered from a more extensive trauma then the other subgroups. It could also be that an abdominal trauma is not always as visually obvious in the pre hospital examinations or in the trauma room as the average head or thorax trauma for example. It can however be established that there is a statistically significant higher OFI frequency in the abdomen subgroup compared with the other body regions.<!-- I guess it could also be that these are the patients who might require an emergency laparotomy and that there are several instances where things can go wrong there. Do you have a table comparing characteristics of the different body region subgroups? A table like that would be interesting because then you could discuss whether these patients were generally more severely injured or more unstable etc--> 
 
-The find of a higher OFI frequency in major trauma compared with minor trauma is consistent with previous research. The mortality has been found to be higher in Major trauma cohort than in Minor trauma. @Ghorbani2018-dh. What also can be seen from previous studies is a correlation between major trauma and high preventable death(10,11). That major and complex trauma has ha greater risk for non optimal trauma care was also consistent with the our results, as the median NISS was higher in the OFI cohort then in the non OFI cohort.
+The find of a higher OFI frequency in major trauma compared with minor trauma is consistent with previous research. The mortality has been found to be higher in Major trauma cohort than in Minor trauma. @Ghorbani2018-dh. What also can be seen from previous studies is a correlation between major trauma and high preventable death(@Schoeneberg2017; @Kleber2013). That major and complex trauma has ha greater risk for non optimal trauma care was also consistent with the our results, as the median NISS was higher in the OFI cohort then in the non OFI cohort.
 
 It might however not be those with the highest NISS that has the very highest frequency of preventable deaths. Having the higest NISS, over 50 for example means that the patient suffers from extensive injuries and it is probably more obvious that everything than can be done should be done. If that is true, the OFI will be lower even if the mortality is high. Patients with major trauma but not as high NISS might on the other hand not be injured enough for it to be obvious that all resources available should be used to treat the patient. That will increase the OFI frequency.
 
 In this this study though, a binary outcome measure was used by either classifying a trauma as minor or major with a cut off at NISS 15. Because of that, the spread of NISS among OFI patients will not be as nuanced as it potentially could have been. 
 
-Both data from SWETRAU and previous studies show that men are over represented as trauma patients.[@arsrapportswetrau], [4]  Even though men in this study had a higher OFI frequency then women, the difference was not statistically significant. There is however previous research showing that men have a higher frequency of trauma mortality. Bolandparvaz et al fond that males had a higher risk for trauma mortality[5]. Pape et al showed that females were less likely to die after trauma [7]. Davoodabadi et al. found that there was no difference between the genders in preventable deaths after trauma [6]. One explanation for these differences could be that men and women suffer from different kinds of trauma. For example the majority of penetraiting trauma patients are men [@arsrapportswetrau]. 
+Both data from SWETRAU and previous studies show that men are over represented as trauma patients.[@arsrapportswetrau; @Bolandparvaz2017]  Even though men in this study had a higher OFI frequency then women, the difference was not statistically significant. There is however previous research showing that men have a higher frequency of trauma mortality. Bolandparvaz et al fond that males had a higher risk for trauma mortality[@Bolandparvaz2017]. Pape et al showed that females were less likely to die after trauma [@Pape2019]. Davoodabadi et al. found that there was no difference between the genders in preventable deaths after trauma [@Davoodabadi2021]. One explanation for these differences could be that men and women suffer from different kinds of trauma. For example the majority of penetraiting trauma patients are men [@arsrapportswetrau]. 
 
-The study also shows a higher mean age in the OFI cohrt than in the non OFI cohort. Meaning that the older the patient is the higher is the risk for non optimal trauma care. Ang et al found that patients between 75-84 years old had a 33% higher odds for preventable death, and those over 85 years had a 91% higher risk[8]. Previous research has also shown an in increased mortality rate in older trauma patients, which in part potentially could be explained by sub optimal trauma care[1,2]. 
+The study also shows a higher mean age in the OFI cohrt than in the non OFI cohort. Meaning that the older the patient is the higher is the risk for non optimal trauma care. Ang et al found that patients between 75-84 years old had a 33% higher odds for preventable death, and those over 85 years had a 91% higher risk[@Ang2022]. Previous research has also shown an in increased mortality rate in older trauma patients, which in part potentially could be explained by sub optimal trauma care[@Adams2012; @S_Punla2022]. 
 
 
 Strengths and limitations
@@ -331,11 +332,11 @@ Clinical/Practical applications
 
 This study may lead to increased awareness about which subgroups that has highest OFI frequencies. In turn that may lead to a more careful assessment and treatment of those types of traumas. Hopefully it will also lead to further research.
 
-As for health equity there are several different aspects in this study to discuss. The fact that elderly patients also in this study are indicated to receive non optimal trauma care is notable. As described earlier, old age has been shown in multiple studies to be a disadvantage. Even if it to some extent is natural that older patient has a lower survival rate after trauma due to fragility and co morbidity. The fact that it was shown in a new and extensive american study that also the preventable death was significantly higher in elder is however problematic [8]. Both in a moral aspect as well as in the eyes of the law, since everyone is entitled to the best care available.
+As for health equity there are several different aspects in this study to discuss. The fact that elderly patients also in this study are indicated to receive non optimal trauma care is notable. As described earlier, old age has been shown in multiple studies to be a disadvantage. Even if it to some extent is natural that older patient has a lower survival rate after trauma due to fragility and co morbidity. The fact that it was shown in a new and extensive american study that also the preventable death was significantly higher in elder is however problematic [@Ang2022]. Both in a moral aspect as well as in the eyes of the law, since everyone is entitled to the best care available.
 
-It has also been shown in previous research that socioeconomic status like low income, low education and also co-morbidity are independent risk factors for trauma [9]. The fact that co-morbidity is an independent risk factor might affect the generalizability since the results of this study may not apply to the part of the population without co-morbidity. 
+It has also been shown in previous research that socioeconomic status like low income, low education and also co-morbidity are independent risk factors for trauma [@Brattstrom2015]. The fact that co-morbidity is an independent risk factor might affect the generalizability since the results of this study may not apply to the part of the population without co-morbidity. 
 
-The fact that males are predominant as trauma patients may also affect the generalizability. This because there is not close to the same amount of data about females in most of the trauma subgroups. On the other hand this is probably not a major problem since research show that there is no difference between the genders when it comes to preventable death [6]. 
+The fact that males are predominant as trauma patients may also affect the generalizability. This because there is not close to the same amount of data about females in most of the trauma subgroups. On the other hand this is probably not a major problem since research show that there is no difference between the genders when it comes to preventable death [@Davoodabadi2021]. 
 
 Another important aspect to discuss is the geographical differences in trauma care quality. As mentioned earlier in this paper, in Sweden there is a significantly higher chance of surviving a major trauma if you are treated at a trauma center compared with a non trauma center[@Candefjord2022-pe]. By extension this means that people living in urban areas have a greater chance to survive then those who live in the more remote part of Sweden. Those differences are only the national ones. WHO said in 2012 that millions of lives could be saved annualy if the LMICs had the same level of trauma care as the high income countries [@Mock2012-lx]. 
 

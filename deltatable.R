@@ -1,7 +1,7 @@
 #######################
 # Delta table for MSR #
 #######################
-
+library(kableExtra)
 
 #### Create empty data frame
 delta.msr.table <- data.frame(matrix(ncol = 6, nrow = 6)) #pga 6 regioner
@@ -214,8 +214,10 @@ paste.delta.severe.region.42 <- paste(round(ci.delta.severe.region.42[["t0"]], d
 
 
 ### When the table is full you can then put this objekt in a chunk in markdown.
-deltamsrtable <- kable(delta.msr.table) #%>%
- #kable_styling(latex_options="scale_down")
+
+deltamsrtable <- kable(delta.msr.table) %>%
+ kable_styling(latex_options="scale_down")
+
 
 
 

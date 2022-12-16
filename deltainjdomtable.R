@@ -19,4 +19,5 @@ delta.inj.table["Penetrating Trauma", "Blunt Trauma"] <- paste.delta.inj.dominan
 delta.inj.table["Blunt Trauma", "Penetrating Trauma"] <- paste.delta.inj.dominant2
 
 
-deltainjtable <- kable(delta.inj.table) 
+deltainjtable <- kable(delta.inj.table)  %>%
+  kable_styling(latex_options="scale_down")

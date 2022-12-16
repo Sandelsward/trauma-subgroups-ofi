@@ -15,4 +15,5 @@ for (diag.name in table.names) {
 delta.gender.table["Women", "Men"] <- paste.delta.gender
 delta.gender.table["Men", "Women"] <- pate.delta.gender2
 
-deltagendertable <- kable(delta.gender.table) 
+deltagendertable <- kable(delta.gender.table) %>%
+  kable_styling(latex_options="scale_down")

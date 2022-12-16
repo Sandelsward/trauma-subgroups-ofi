@@ -31,6 +31,8 @@ library(assertthat)
 library(formattable)
 library(DiagrammeRsvg)
 library(rsvg)
+library(kableExtra)
+library(ggtext)
 
 noacsr::source_all_functions()
 
