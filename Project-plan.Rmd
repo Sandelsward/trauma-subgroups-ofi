@@ -41,6 +41,7 @@ Abbreviations
 •	NISS - The New Injury Severity Score
 •	OFI - Opportunity for improvement
 •	SweTrau - The Swedish trauma registry
+• TQIP - Trauma Quality Improvement Program
 
 Introduction: Trauma represents 9% of the annual global deaths and is the most common cause of death in people <45 years. Trauma patients constitute a heterogeneous group of patients with a large variety of injuries. This variety and complexity demands specific guidelines for treating all the different trauma subgroups. It is however poorly understood how the potential for trauma care improvement varies between these subgroups. One measure for this is Opportunity for improvement (OFI). 
 
@@ -92,7 +93,7 @@ Trauma Severity Scores
  
 The Abbreviated Injury Scale (AIS) defines traumatic injuries across 9 different body regions. The scale ranges from 1-5, where 1 is the least serious and 5 the most serious [@Kuo2017-dj].
 
-The Injury Severity Score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS score assigned to a patient is calculated based on the AIS points from the injured body regions. The higher ISS score the more serious trauma the patients suffers from. The score is calculated by squaring the AIS scores of the three most injured body region and then adding them toghether. The ISS does however only take into account the most severe injury in each body region, meaning that you could have two different injuries in the abdomen without it affecting the ISS score.[@Javali2019-wn]
+The Injury Severity Score (ISS) is an anatomic severity scale developed to assess multiple-injured patients. The ISS assigned to a patient is calculated based on the AIS points from the injured body regions. The higher ISS the more serious trauma the patients suffers from. The score is calculated by squaring the AIS scores of the three most injured body region and then adding them together. As the AIS ranges from 1-5, the ISS has a span between 1-75. The ISS does however only take into account the most severe injury in each body region, meaning that you could have two different injuries in the abdomen without it affecting the ISS score.[@Javali2019-wn]
 
 The New Injury Severity Score (NISS) was developed from the ISS. NISS also takes injuries from the same body regions as ISS into account. The NISS is the sum of the squares of the three highest AIS codes in these regions, meaning that all three injuries can be in the same region or in separate regions. As the AIS can vary from 1-5, the NISS ranges between 1-75 [@Li2021-ag]. The NISS score is also used internationally to define trauma severity. A NISS Score >15 is considered a major trauma and <15 a minor trauma [@Bagher2017].
 
@@ -112,24 +113,33 @@ sufficient understanding of OFIs for the different trauma subgroups.[@Coats2020-
 
 
 
+
  
 
 Trauma patients constitute a heterogeneous group and different subgroups require different interventions. You want to assess how common OFI are across different subgroups so that subsequent corrective actions can be better targeted
 
 In Sweden, 50% of trauma cases are traffic related and 33% are fall traumas. Blunt trauma, such as traffic accidents, fall trauma, and hit by blunt object, represents 90 % of all trauma cases [@arsrapportswetrau]. 
 
-Trauma patterns differ between subgroups. In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example, traumatic injuries from stabbing and from shooting violence are more common in men while women are over represented in fall traumas [@arsrapportswetrau]. As trauma patterns differs, it is also possible that OFI frequency differs between subgroups. 
+Trauma patterns differ between subgroups. In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example, traumatic injuries from stabbing and from shooting violence are more common in men while women are over represented in fall traumas [@arsrapportswetrau]. (As trauma patterns differs, it is also possible that OFI frequency differs between subgroups. )
+
+With this wast variety of injuries come completely different difficulties and problem areas in terms of trauma care. For example in xxxx subgruop this is the major problem osv....
+
+......
+
+As the problem areas and successrate varies between subgroups it is possible that OFI frequency differs between subgroups.
 
 <!-- I still feel that this section requires more work. Trauma patients constitute a heterogeneous group and different subgroups require different interventions. You want to assess how common OFI are across different subgroups so that subsequent corrective actions can be better targeted. -->
 <!-- I suggest that you try to expand on this, as it's the basis of your thesis. Ska jag lägga till exempel på skillnad i preventable death mellan subgrupperna här kanske? Flyttar up lite från diskussionen--> 
 skriva vad man vet om hur olika subgrupper skiljer sig åt. tex mortalitet och preventable death.
+
+"lägg till en del om varför det är viktigt att titta på subgrupper av traumapupulationen när man försöker identifiera potentiellt kvalitetsförbättrande åtgärder. Du skriver att traumapatienter är en heterogen grupp men det vore bra att skriva mer om på vilket sätt."
 
 There are studies looking in to mortality, morbidity and preventable death among these subgroups. What has been found is big differences in outcome between some of the subgroups. 
 
 Knowledge gap 
 ------------
 There is a lot of existing data about subgroups regarding transportation time to hospital, NISS score at the emergency department, rehabilitation, morbidity and mortality rate to state a few examples[@arsrapportswetrau]. But despite having all this data in the trauma registers, knowledge regarding OFI patterns among different trauma subgroups remains unknown. 
-<!-- See my comment above. You need to work more to tie it all together and I think elaborating on the rationale and potential implications of your study is key to that. So I suggest that you focus on why your study is important and what could be the changes in practice that it may result in.-->
+<!-- See my comment above. You need to work more to tie it all together and I think elaborating on the rationale and potential implications of your study is key to that. So I suggest that you focus on why your study is important and what could be the changes in practice that it may result in.--> Trycka mer på varför den här studien verkligen behövs.
 
 Aim
 ------------
@@ -151,7 +161,7 @@ Setting
 -------
 The Karolinska University Hospital in Solna, Stockholm is the largest trauma centre in Sweden. The hospital is also classified as a level 1 trauma center.[@Karolinska] The trauma center at the Karolinska University Hospital in Solna handles about 1800 trauma cases every year, out of which about 200 are children. The Karolinska University Hospital is the primary trauma center for a population of 2,8 million people.[@Traumanks, @Almskog2020] 
 
-Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. The trauma team at Karolinska Solna only handle those who are classified as a priority one by the pre hospital professionals. [@Granstrom2012]
+Trauma patients are divided into priority one and two by the paramedics using certain criteria, such as trauma mechanism, GCS points and blood pressure. The trauma team at Karolinska Solna only handle those who are classified as a priority one.[@Granstrom2012]
 
 A trauma priority one is considered directly life threatening. Therefore when arriving to Karolinska Solna every patient is taken care of by a full trauma team. This team consists of a trauma leader who is a general surgeon or a resident in general surgery and an anesthetist with a nurse specialized in anesthesiology. The team also has an orthopedic surgeon, radiologist, radiology nurse, emergency medicine nurse, surgical nurse and assistant nurses.[@Granstrom2012]
 
@@ -162,8 +172,8 @@ All patients are from the Karolinska University Hospital trauma registry and fro
 
 Variables and data sources/measurements
 ---------------------------------------
-
-There are several steps in the filtration of which patients that should be reviewed at a M&M for deciding if a certain case has OFI or not. Audit filters and for some cases, manual selection are used in the first steps. Some examples of audit filters that were used are GCS 8 or less but the patient was not intubated, time to CT longer than 20 minutes and time to surgery. Those patients who were triggered by an audit filter was then rewied by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation from best practice guidelines can be found (fig.1). The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified". 
+ 
+There are several steps in the filtration of which patients that should be reviewed at a M&M to detect OFIs. Audit filters and for some cases, manual selection are used in the first steps. Examples of audit filters that were used are GCS 8 or less but the patient was not intubated and time to CT longer than 30 minutes after hospital arrival. Those patients who were triggered by an audit filter was then reviewed by one or two nurses, during which some cases are removed from the group of potential OFI cases because obvious reasons for the deviation from best practice guidelines can be found (fig.1). The patients who are then left are discussed at a M&M where doctors and nurses from several specialties participate. At this conference every case is carefully reviewed. When OFI is found in a case, that specific OFI is described in the trauma quality database. Then it is recoded as "Yes, at least one OFI identified" or "No, no OFIs identified". 
 
 With "yes" and "no" as the only possible outcome, OFI  was treated as a categorical variable. For the M&M conference to put a "yes" in the OFI section a consensus decision is required regarding the presence of at least one OFI.
 
@@ -171,11 +181,9 @@ The frequency of OFI were analysed in each of the following subgroups: men and w
 
 Minor and major trauma was treated as a categorical variable. To group patients with minor and major trauma the NISS score was used. Patients with a NISS > 15 were defined as major trauma and those with NISS < 15 were defined as minor trauma [@Bagher2017].
 
-Dominating type of injury was treated as a categorical variable. Penetrating trauma and blunt trauma were the only possible outcomes. This variable had the values of 1 and 2 in the registries. 1 represented Blunt trauma and 2 penetrating trauma.
+Dominating type of injury was also treated as a categorical variable. Penetrating trauma and blunt trauma were the only possible outcomes. This variable had the values of 1 and 2 in the registries. 1 represented Blunt trauma and 2 penetrating trauma.
 
-The most severely injured body region was identified using the AIS codes of each patient's injuries. For patients who had two or more different injuries and thereby multiple AIS codes, the most severe injury was selected.
 
-If more than one region had injuries of the same severity, the second most severe injury in those regions were compared, and then the third. If two or more regions had exactly the same pattern of injuries, the region was classified as "Multiple".
 
 ```{r, echo = FALSE, out.width="400px"} 
 ofi_selection()
@@ -196,6 +204,8 @@ NISS, age and AIS codes were treated as continuous variables. The range of NISS 
 
 The most severe region injured had 10 different values (found in the AIS codes): head, neck, face, thorax, upper extremity, lower extremity, abdomen, spine, multiple and unspecified. These 10 values were regrouped according to the ISS system into the following 7 cohorts."Head and neck", "Face",  "Chest, diaphragm or spine", "Abdomen", "Extremities", "Unspecified" and "Multiple".
 
+For patients that had two or more different injuries and thereby multiple AIS codes, the most severe injury was selected. If more than one region had injuries of the same severity, the second most severe injury in those regions were compared, and then the third. If two or more regions had exactly the same pattern of injuries, the region was classified as "Multiple".
+
 Statistical methods
 -------------------
 For handling the data and conducting the statistical analysis the program R was used [@R]. First all data that was not needed for this study was removed, including columns with non essential information, patients without complete data, and those who did not meet the inclusion criteria. The frequencies of OFI for each subgroup was calculated by dividing the number of patients which had OFI with the total number of patients in that subgroup. 
@@ -207,11 +217,19 @@ Ethical considerations
 
 As this is a study based on data from severely injured and deceased people, it must be considered a vulnerable patient group. Because of this it is extra important to carefully weigh the potential risks and benefits against each other when deciding if the study can be granted ethical permission. 
 
-In this case trauma patients were the patient group that needed to be studied, and therefor no other less vunurable patient group would have been sufficient. This is however a registry based study, meaning that no interventions were made that could harm the patients. Measures was also taken to prevent personal information to be leaked about the patients. For example all data was scrambled for as long as possible, and to get access to the unscrambled data a VPN had to be used. Even then, the social security number of all patients was scrabled. 
+In this case trauma patients were the patient group that needed to be studied, and therefor no other less vulnerable patient group would have been sufficient. This is however a registry based study, meaning that no interventions were made that could harm the patients. Measures was also taken to prevent personal information to be leaked about the patients. For example all data was scrambled for as long as possible, and to get access to the unscrambled data a VPN had to be used. Even then, the social security number of all patients was scrambled. 
 
 This study follows the principal of presumed consent, meaning that patients included in the study not actively have given their consent or actively have said no to being included in the registries. This is common for trauma research as the patients often is not capable to making such a decision due to their injuries. 
 
 Despite the measures taken there is still a theoretical risk that a patient could be identified based on age, gender, trauma type and other information in the registries. The risk for risk is however very small given the large number of patients and the limited number of people having access to the data.
+
+- Rätt att få uppgifter borttagnia ur registret.
+
+- får behandla uppgifter i kvalitetsregister då
+det anses utgöra en nödvändig uppgift av allmänt intresse i samhället (art. 6.1 e).
+
+- Uppgifter från kvalitetsregister får endast användas för att utveckla och säkra vårdens kvalitet, framställa statistik samt för
+forskning inom hälso- och sjukvården
 
 Possible benefits from these type of studies are the possibility that the result can improve the trauma care and by that decrease morbidity and mortality for trauma patients by leading to further research based in the study results. Therefore the conclusion is that the potential risks of this study is overturned by the possible benefits.
 

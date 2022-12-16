@@ -16,21 +16,25 @@ d [label = '@@4']
 e [label = '@@5']
 f [label = '@@6']
 g [label = '@@7']
-a -> b -> c 
-c -> d [style=full label ='Second opinion needed.']
-d -> e -> f 
-c -> e [style =full label='Suspected OFI or audit filter trigger. ']
-c -> g [style = full label='No potential OFI.']
-d -> g [style = full label='No potential OFI.']
+h [label = '@@8']
+a -> b -> c -> d
+d -> e [style=full label ='Second opinion needed.']
+d -> f [style =full label='Suspected OFI. ']
+f -> g
+e -> h [style = full label='No potential OFI.']
+e -> f [style =full label='Suspected OFI. ']
+d -> h [style = full label='No potential OFI.']
+b -> h [style =full label='No audit filter triggered. ']
  
 }
 [1]:  paste0('Trauma team activation')
 [2]: paste0('Inclusion in the trauma registry')
-[3]: paste0('First review done by a nurse.') 
-[4]: paste0('Secondary review done by a nurse')
-[5]: paste0('Mortality and morbidity conference')
-[6]: paste0('Motivation wether OFI is found or not')
-[7]: paste0('Excluded, not suitable for Mortality and morbidity conference')
+[3]: paste0('Audit filter triggered.')
+[4]: paste0('First review done by a nurse.') 
+[5]: paste0('Secondary review done by a nurse')
+[6]: paste0('Mortality and morbidity conference')
+[7]: paste0('Motivation whether OFI is found or not')
+[8]: paste0('Not suitable for Mortality and morbidity conference')
 ")   
 
 ofi_selection %>% export_svg() %>% charToRaw() %>% rsvg::rsvg_png(paste0("images/ofi.png"))

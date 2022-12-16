@@ -67,7 +67,7 @@ create_table_one <- function(cleaned.data)
   
   
   
-  ## Fixing weird rounding issues + removing mean from table
+  ## Fixing weird rounding issues + removing mean from table. 
   my.render.cont <- function(x) {
     with(stats.default(x), 
          c("",
