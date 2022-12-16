@@ -1,4 +1,4 @@
-[1] @ARTICLE{Adams2012-mo,
+ @ARTICLE{Adams2012,
   title     = "Unique pattern of complications in elderly trauma patients at a
                Level {I} trauma center",
   author    = "Adams, Sasha D and Cotton, Bryan A and McGuire, Mary F and
@@ -47,7 +47,7 @@
 
 
 
-[2] @ARTICLE{S_Punla2022-vw,
+@ARTICLE{S_Punla2022,
   title     = "Are we there yet?: An analysis of the competencies of {BEED}
                graduates of {BPSU-DC}",
   author    = "S. Punla, Candida and {https://orcid.org/ 0000-0002-1094-0018,
@@ -94,7 +94,7 @@
   year      =  2022
 }
 
- [3] @ARTICLE{Davoodabadi2021-yv,
+ @ARTICLE{Davoodabadi2021,
   title     = "Predicting factors and incidence of preventable trauma induced
                mortality",
   author    = "Davoodabadi, Abdoulhosein and Abdorrahim Kashi, Esmail and
@@ -141,7 +141,7 @@
   language  = "en"
  }
 
-[4] @ARTICLE{Bolandparvaz2017-oj,
+@ARTICLE{Bolandparvaz2017,
   title     = "Injury patterns among various age and gender groups of trauma
                patients in southern Iran",
   author    = "Bolandparvaz, Shahram and Yadollahi, Mahnaz and Abbasi, Hamid
@@ -155,7 +155,7 @@
   year      =  2017,
   language  = "en"
 }
- [5] @ARTICLE{Bolandparvaz2017-gw,
+@ARTICLE{Bolandparvaz2017-gw,
     title     = "Injury patterns among various age and gender groups of trauma
                patients in southern Iran",
     author    = "Bolandparvaz, Shahram and Yadollahi, Mahnaz and Abbasi, Hamid
@@ -169,7 +169,7 @@
     year      =  2017,
     language  = "en"
  }
-[6] @ARTICLE{Davoodabadi2021-he,
+@ARTICLE{Davoodabadi2021-he,
   title     = "Predicting factors and incidence of preventable trauma induced
                mortality",
   author    = "Davoodabadi, Abdoulhosein and Abdorrahim Kashi, Esmail and
@@ -215,7 +215,7 @@
   copyright = "http://creativecommons.org/licenses/by-nc-nd/4.0/",
   language  = "en"
 }
-[7] @ARTICLE{Pape2019-uq,
+@ARTICLE{Pape2019,
   title     = "Is there an association between female gender and outcome in
                severe trauma? A multi-center analysis in the Netherlands",
   author    = "Pape, M and Giannak{\'o}poulos, G F and Zuidema, W P and de
@@ -273,7 +273,7 @@
   language  = "en"
 }
 
-[8]@ARTICLE{Ang2022-rn,
+@ARTICLE{Ang2022,
   title     = "Understanding preventable deaths in the geriatric trauma
                population: Analysis of 3,452,339 patients from the center of
                medicare and medicaid services database",
@@ -319,7 +319,7 @@
                deaths",
   language  = "en"
 }
-[9]@ARTICLE{Brattstrom2015-mx,
+@ARTICLE{Brattstrom2015,
   title     = "Socio-economic status and co-morbidity as risk factors for
                trauma",
   author    = "Brattstr{\"o}m, Olof and Eriksson, Mikael and Larsson, Emma and
@@ -362,7 +362,7 @@
   language  = "en"
 }
 
-[10]@ARTICLE{Schoeneberg2017-oc,
+@ARTICLE{Schoeneberg2017,
   title    = "Preventable and potentially preventable deaths in severely
               injured patients: a retrospective analysis including patterns of
               errors",
@@ -399,7 +399,7 @@
   keywords = "Adults; Errors; Mortality; Severely injured; Trauma",
   language = "en"
 }
-[11]@ARTICLE{Kleber2013-bm,
+@ARTICLE{Kleber2013,
   title     = "Trauma-related preventable deaths in Berlin 2010: need to change
                prehospital management strategies and trauma management
                education",

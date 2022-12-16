@@ -81,7 +81,7 @@ create_table_one <- function(cleaned.data)
   
   ## Making table one
   vars2 <- c("pt_age_yrs", "pt_Gender", "survival30d", "trauma.severity", "inj_dominant", "ofi", "NISS", "most.severe.region")
-  table.1 <- table1(~ pt_age_yrs + pt_Gender + NISS + survival30d + inj_dominant + trauma.severity + most.severe.region | ofi, 
+  table.1 <- table1(~ pt_age_yrs + NISS + survival30d + pt_Gender + inj_dominant + trauma.severity + most.severe.region | ofi, 
                     data=cleaned.data[,vars2], overall = FALSE, render.categorical="FREQ (PCTnoNA%)", render.continuous = my.render.cont)
   
   return(table.1)
