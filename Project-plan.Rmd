@@ -111,8 +111,11 @@ Trauma subgroups
 As trauma patients is a heterogeneous group, it is important to have a 
 sufficient understanding of OFIs for the different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury [@arsrapportswetrau].
 
+In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example, traumatic injuries from stabbing and from shooting violence are more common in men while women are over represented in fall traumas. [@arsrapportswetrau].
 
+With this wast variety of injuries in a heterogeneous patient group comes large range difficulties and problem areas in terms of trauma care. This can for exammple be illustrated by pointing at different casues for preventable death in subgroups. 
 
+In xxxx subgruop this is the major problem while xxxx had this as the most common are to cause preventable death. 
 
  
 
@@ -120,9 +123,9 @@ Trauma patients constitute a heterogeneous group and different subgroups require
 
 In Sweden, 50% of trauma cases are traffic related and 33% are fall traumas. Blunt trauma, such as traffic accidents, fall trauma, and hit by blunt object, represents 90 % of all trauma cases [@arsrapportswetrau]. 
 
-Trauma patterns differ between subgroups. In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example, traumatic injuries from stabbing and from shooting violence are more common in men while women are over represented in fall traumas [@arsrapportswetrau]. (As trauma patterns differs, it is also possible that OFI frequency differs between subgroups. )
+ (As trauma patterns differs, it is also possible that OFI frequency differs between subgroups. )
 
-With this wast variety of injuries come completely different difficulties and problem areas in terms of trauma care. For example in xxxx subgruop this is the major problem osv....
+
 
 ......
 
@@ -138,7 +141,9 @@ There are studies looking in to mortality, morbidity and preventable death among
 
 Knowledge gap 
 ------------
-There is a lot of existing data about subgroups regarding transportation time to hospital, NISS score at the emergency department, rehabilitation, morbidity and mortality rate to state a few examples[@arsrapportswetrau]. But despite having all this data in the trauma registers, knowledge regarding OFI patterns among different trauma subgroups remains unknown. 
+There is a lot of existing data about subgroups regarding transportation time to hospital, NISS score at the emergency department, rehabilitation, morbidity and mortality rate to state a few examples[@arsrapportswetrau]. But despite having all this data, and facts about the how problem areas in treatment varies between subgroups, knowledge regarding OFI patterns among different trauma subgroups remains unknown. To get a deeper understanding and to know which trauma subgroups that has the most potential for care improvement a study looking into OFI freequency between subgroups is needed. 
+
+in the trauma registers, knowledge regarding OFI patterns among different trauma subgroups remains unknown. 
 <!-- See my comment above. You need to work more to tie it all together and I think elaborating on the rationale and potential implications of your study is key to that. So I suggest that you focus on why your study is important and what could be the changes in practice that it may result in.--> Trycka mer på varför den här studien verkligen behövs.
 
 Aim
