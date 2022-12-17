@@ -102,7 +102,7 @@ Opportunity for improvement
 ------------
 Opportunity for improvement (OFI) is defined as when the trauma care for a patient does not match best practices in at least one aspect. Whether there is opportunity for improvement in the care of a specific case or not is decided during M&M where selected trauma cases are reviewed. Examples of OFI could be too long transportation time to the hospital from the site of injury, insufficient vital signs documentation in the emergency department or missing trauma surgeon/consultant.[@Sanddal2011-cl] 
 
-The most common cause of death after trauma is hemorrhage. Among patients with hemorrhage, problems in decision making, technical skills and making decisions between surgery and radiology are some of the  OFIs that have been identified.[@OReilly2013].
+The most common cause of death after trauma is hemorrhage[@Chambers2019]. Among patients with hemorrhage, problems in decision making, technical skills and making decisions between surgery and radiology are some of the  OFIs that have been identified.[@OReilly2013].
 
 OFI can be a more nuanced measure for trauma care improvement than the more established terms preventable deaths and non preventable deaths. This is because there can be OFI in a case where a patient has died, even if the death was not preventable [@Traumaguidelines09]. Furthermore there is no consensus for classification of preventable and non preventable death, leading authors to use different classifications [@Montmany2016-hz]. The term OFI also has the advantage over the term preventable death by sounding more positive and encouraging, preventing review board members from having to classify colleagues patient care as inappropriate [@Sanddal2011-cl].
 
@@ -113,10 +113,16 @@ sufficient understanding of OFIs for the different trauma subgroups.[@Coats2020-
 
 In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example, traumatic injuries from stabbing and from shooting violence are more common in men while women are over represented in fall traumas. [@arsrapportswetrau].
 
-With this wast variety of injuries in a heterogeneous patient group comes large range difficulties and problem areas in terms of trauma care. This can for exammple be illustrated by pointing at different casues for preventable death in subgroups. 
+With this wast variety of injuries in a heterogeneous patient group comes large range difficulties and problem areas in terms of trauma care [@OReilly2013]. This can further be illustrated by pointing at the differences in distribution of preventable death among trauma patients. For example, there are several studies showing that old age increases the risk for preventable death and mortality after trauma [@Ang2022; @Adams2012; @S_Punla2022]. Major trauma has also been found to have a higher preventable death then minor trauma[@Schoeneberg2017; @Kleber2013].
+
+
+
+
+
+
+As the problem areas and successrate varies between subgroups it is possible that OFI frequency differs between subgroups.
 
 In xxxx subgruop this is the major problem while xxxx had this as the most common are to cause preventable death. 
-
  
 
 Trauma patients constitute a heterogeneous group and different subgroups require different interventions. You want to assess how common OFI are across different subgroups so that subsequent corrective actions can be better targeted
@@ -129,7 +135,7 @@ In Sweden, 50% of trauma cases are traffic related and 33% are fall traumas. Blu
 
 ......
 
-As the problem areas and successrate varies between subgroups it is possible that OFI frequency differs between subgroups.
+
 
 <!-- I still feel that this section requires more work. Trauma patients constitute a heterogeneous group and different subgroups require different interventions. You want to assess how common OFI are across different subgroups so that subsequent corrective actions can be better targeted. -->
 <!-- I suggest that you try to expand on this, as it's the basis of your thesis. Ska jag lägga till exempel på skillnad i preventable death mellan subgrupperna här kanske? Flyttar up lite från diskussionen--> 
@@ -141,7 +147,7 @@ There are studies looking in to mortality, morbidity and preventable death among
 
 Knowledge gap 
 ------------
-There is a lot of existing data about subgroups regarding transportation time to hospital, NISS score at the emergency department, rehabilitation, morbidity and mortality rate to state a few examples[@arsrapportswetrau]. But despite having all this data, and facts about the how problem areas in treatment varies between subgroups, knowledge regarding OFI patterns among different trauma subgroups remains unknown. To get a deeper understanding and to know which trauma subgroups that has the most potential for care improvement a study looking into OFI freequency between subgroups is needed. 
+There is a lot of available data about subgroups regarding transportation time to hospital, NISS score at the emergency department, rehabilitation, morbidity and mortality rate to state a few examples[@arsrapportswetrau]. But despite having all this data, and studies showing varying incidence of preventable death, knowledge regarding OFI patterns among different trauma subgroups remains unknown. To find out which trauma subgroups that has the most potential for care improvement and to to understand how OFI is distributed in all trauma patients, a study looking into OFI frequency between trauma subgroups is needed. 
 
 in the trauma registers, knowledge regarding OFI patterns among different trauma subgroups remains unknown. 
 <!-- See my comment above. You need to work more to tie it all together and I think elaborating on the rationale and potential implications of your study is key to that. So I suggest that you focus on why your study is important and what could be the changes in practice that it may result in.--> Trycka mer på varför den här studien verkligen behövs.
@@ -321,7 +327,7 @@ When comparing the results of this study with previous research one must keep in
 
 As for the high frequency of OFI the Abdomen cohort, the results was rather unexpected. To the best of our knowledge there is no existing research indicating that abdominal trauma has ha higher frequency of OFI, mortality or preventable death. We can only speculate why this higher OFI frequency has been found. For example, one reason could be that those admitted to a level one trauma center with the  abdomen as the most severely injured body region has suffered from a more extensive trauma then the other subgroups. It could also be that an abdominal trauma is not always as visually obvious in the pre hospital examinations or in the trauma room as the average head or thorax trauma for example. It can however be established that there is a statistically significant higher OFI frequency in the abdomen subgroup compared with the other body regions.<!-- I guess it could also be that these are the patients who might require an emergency laparotomy and that there are several instances where things can go wrong there. Do you have a table comparing characteristics of the different body region subgroups? A table like that would be interesting because then you could discuss whether these patients were generally more severely injured or more unstable etc--> 
 
-The find of a higher OFI frequency in major trauma compared with minor trauma is consistent with previous research. The mortality has been found to be higher in Major trauma cohort than in Minor trauma. @Ghorbani2018-dh. What also can be seen from previous studies is a correlation between major trauma and high preventable death(@Schoeneberg2017; @Kleber2013). That major and complex trauma has ha greater risk for non optimal trauma care was also consistent with the our results, as the median NISS was higher in the OFI cohort then in the non OFI cohort.
+The find of a higher OFI frequency in major trauma compared with minor trauma is consistent with previous research. The mortality has been found to be higher in Major trauma cohort than in Minor trauma. [@Ghorbani2018-dh]. What also can be seen from previous studies is a correlation between major trauma and high preventable death[@Schoeneberg2017; @Kleber2013]. That major and complex trauma has ha greater risk for non optimal trauma care was also consistent with the our results, as the median NISS was higher in the OFI cohort then in the non OFI cohort.
 
 It might however not be those with the highest NISS that has the very highest frequency of preventable deaths. Having the higest NISS, over 50 for example means that the patient suffers from extensive injuries and it is probably more obvious that everything than can be done should be done. If that is true, the OFI will be lower even if the mortality is high. Patients with major trauma but not as high NISS might on the other hand not be injured enough for it to be obvious that all resources available should be used to treat the patient. That will increase the OFI frequency.
 
