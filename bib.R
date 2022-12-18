@@ -1234,3 +1234,18 @@
   year      =  2013,
   language  = "en"
 }
+@ARTICLE{Chambers2019,
+  title     = "``stop the bleed'': A U.s. military installation's model for
+               implementation of a rapid hemorrhage control program",
+  author    = "Chambers, James Alan and Seastedt, Kenneth and Krell, Robert and
+               Caterson, Edward and Levy, Matthew and Turner, Nancy",
+  journal   = "Mil. Med.",
+  publisher = "Oxford University Press (OUP)",
+  volume    =  184,
+  number    = "3-4",
+  pages     = "67--71",
+  month     =  mar,
+  year      =  2019,
+  keywords  = "bleed; casualty; hemorrhage; preparedness",
+  language  = "en"
+}

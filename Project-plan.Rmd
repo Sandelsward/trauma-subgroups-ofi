@@ -43,15 +43,17 @@ Abbreviations
 •	SweTrau - The Swedish trauma registry
 • TQIP - Trauma Quality Improvement Program
 
-Introduction: Trauma represents 9% of the annual global deaths and is the most common cause of death in people <45 years. Trauma patients constitute a heterogeneous group of patients with a large variety of injuries. This variety and complexity demands specific guidelines for treating all the different trauma subgroups. It is however poorly understood how the potential for trauma care improvement varies between these subgroups. One measure for this is Opportunity for improvement (OFI). 
 
-Aims: In this study we assessed the OFI frequency in the clinically important trauma subgroups; men and women, blunt and penetrating trauma, minor and major trauma, and most severely injured body region. 
 
-Material and methods: A registry based cohort study using the trauma registry and the trauma quality database at the Karolinska University hospital in Solna. 11864 patients included in the registries between 2014-2021 were screened against the inclusion criteria. Patients were excluded due to either age <15 years or missing necessary information. 
+Introduction: Trauma represents 9% of the annual global deaths and is the most common cause of death in people <45 years. Trauma patients constitute a heterogeneous group with a large variety of injuries. This variety demands specific guidelines for treating all the different trauma subgroups. It is however poorly understood how the potential for trauma care improvement varies between these subgroups. One measure for this is Opportunity for improvement (OFI).
 
-Results: 6146 patients met the inclusion criteria. For all included patients the mean OFI was 7%. Looking at the most serious body region, the OFI frequency was highest among abdominal trauma patients at 12,73% (95% CI:`r ci.abdomen`). In the binary subgroups only major trauma OFI at 12,2% (95% CI: `r ci.major.trauma`) was statistically significant. 
+Aims: In this study we assessed the OFI frequency in the clinically important trauma subgroups; men and women, blunt and penetrating trauma, minor and major trauma, and most severely injured body region.
 
-Conclusion: Our results suggest that OFI varies between trauma subgroups and that some subgroups have significantly higher OFI than baseline<!-- Is it really baseline or rather compared with some other subgroup?. Är baseline fel ord? Syftar till genomsnittliga OFI för alla patienter som är 7%.-->. Further research is however needed to identify what kind of OFIs that are more frequent in different cohorts and to identify potential risk factors for OFI.
+Material and methods: A registry based cohort study using the trauma registry and the trauma quality database at the Karolinska University hospital in Solna. 11864 patients included in the registries between 2014-2021 were screened against the inclusion criteria. The exclusion criteria was patients <15 years or missing necessary information.
+
+Results: 6146 patients met the inclusion criteria. The OFI baseline for all patients was 7%. Looking at the most serious body region, the OFI frequency was highest among abdominal trauma patients at 12,73% (95% CI:( 10.55 - 16.87 )). In the binary subgroups only the OFI of major trauma at 12,2% (95% CI: ( 11.23 - 13.35 )) was statistically higher than the counterpart.
+
+Conclusion: Our results suggest that OFI varies between trauma subgroups and that some subgroups have significantly higher OFI than baseline.<!-- Is it really baseline or rather compared with some other subgroup?. Är baseline fel ord? Syftar till genomsnittliga OFI för alla patienter som är 7%.-->. Further research is however needed to identify what kind of OFIs that are more frequent in different cohorts and to identify potential risk factors for OFI.
 
 <!-- Är det okej att inte jämföra ex major och minor i abstract utan bara skriva de som har högtst. KI har en maxgräns på 250 ord och de orden är slut... :) -->
 
@@ -102,55 +104,22 @@ Opportunity for improvement
 ------------
 Opportunity for improvement (OFI) is defined as when the trauma care for a patient does not match best practices in at least one aspect. Whether there is opportunity for improvement in the care of a specific case or not is decided during M&M where selected trauma cases are reviewed. Examples of OFI could be too long transportation time to the hospital from the site of injury, insufficient vital signs documentation in the emergency department or missing trauma surgeon/consultant.[@Sanddal2011-cl] 
 
-The most common cause of death after trauma is hemorrhage[@Chambers2019]. Among patients with hemorrhage, problems in decision making, technical skills and making decisions between surgery and radiology are some of the  OFIs that have been identified.[@OReilly2013].
-
 OFI can be a more nuanced measure for trauma care improvement than the more established terms preventable deaths and non preventable deaths. This is because there can be OFI in a case where a patient has died, even if the death was not preventable [@Traumaguidelines09]. Furthermore there is no consensus for classification of preventable and non preventable death, leading authors to use different classifications [@Montmany2016-hz]. The term OFI also has the advantage over the term preventable death by sounding more positive and encouraging, preventing review board members from having to classify colleagues patient care as inappropriate [@Sanddal2011-cl].
 
 Trauma subgroups
 ------------
 As trauma patients is a heterogeneous group, it is important to have a 
-sufficient understanding of OFIs for the different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury [@arsrapportswetrau].
+sufficient understanding of trauma care quality for the different trauma subgroups.[@Coats2020-wj]. Some examples of subgroups are men and women, blunt and penetrating trauma, geriatric, major and minor trauma and traumatic brain injury [@arsrapportswetrau].
 
 In Sweden almost two thirds of trauma patients are men and just over 60% are in the age between 18-64. For example, traumatic injuries from stabbing and from shooting violence are more common in men while women are over represented in fall traumas. [@arsrapportswetrau].
 
-With this wast variety of injuries in a heterogeneous patient group comes large range difficulties and problem areas in terms of trauma care [@OReilly2013]. This can further be illustrated by pointing at the differences in distribution of preventable death among trauma patients. For example, there are several studies showing that old age increases the risk for preventable death and mortality after trauma [@Ang2022; @Adams2012; @S_Punla2022]. Major trauma has also been found to have a higher preventable death then minor trauma[@Schoeneberg2017; @Kleber2013].
+With this wast variety of injuries in a heterogeneous patient group comes a large span of difficulties and problem areas in terms of trauma care [@OReilly2013]. The most common cause of death after trauma is hemorrhage [@Chambers2019]. Among patients with hemorrhage, problems in decision making, technical skills and making decisions between surgery and radiology are some of the  OFIs that have been identified.[@OReilly2013].
 
-
-
-
-
-
-As the problem areas and successrate varies between subgroups it is possible that OFI frequency differs between subgroups.
-
-In xxxx subgruop this is the major problem while xxxx had this as the most common are to cause preventable death. 
- 
-
-Trauma patients constitute a heterogeneous group and different subgroups require different interventions. You want to assess how common OFI are across different subgroups so that subsequent corrective actions can be better targeted
-
-In Sweden, 50% of trauma cases are traffic related and 33% are fall traumas. Blunt trauma, such as traffic accidents, fall trauma, and hit by blunt object, represents 90 % of all trauma cases [@arsrapportswetrau]. 
-
- (As trauma patterns differs, it is also possible that OFI frequency differs between subgroups. )
-
-
-
-......
-
-
-
-<!-- I still feel that this section requires more work. Trauma patients constitute a heterogeneous group and different subgroups require different interventions. You want to assess how common OFI are across different subgroups so that subsequent corrective actions can be better targeted. -->
-<!-- I suggest that you try to expand on this, as it's the basis of your thesis. Ska jag lägga till exempel på skillnad i preventable death mellan subgrupperna här kanske? Flyttar up lite från diskussionen--> 
-skriva vad man vet om hur olika subgrupper skiljer sig åt. tex mortalitet och preventable death.
-
-"lägg till en del om varför det är viktigt att titta på subgrupper av traumapupulationen när man försöker identifiera potentiellt kvalitetsförbättrande åtgärder. Du skriver att traumapatienter är en heterogen grupp men det vore bra att skriva mer om på vilket sätt."
-
-There are studies looking in to mortality, morbidity and preventable death among these subgroups. What has been found is big differences in outcome between some of the subgroups. 
+The heterogeneity can further be illustrated by pointing at the differences in distribution of preventable death among trauma patients. For example, there are several studies showing that old age increases the risk for preventable death and mortality after trauma [@Ang2022; @Adams2012; @S_Punla2022]. Major trauma has also been found to have a higher preventable death then minor trauma[@Schoeneberg2017; @Kleber2013].As the problem areas and the frequency of preventable death varies between subgroups it is possible that OFI frequency also differs between subgroups.
 
 Knowledge gap 
 ------------
-There is a lot of available data about subgroups regarding transportation time to hospital, NISS score at the emergency department, rehabilitation, morbidity and mortality rate to state a few examples[@arsrapportswetrau]. But despite having all this data, and studies showing varying incidence of preventable death, knowledge regarding OFI patterns among different trauma subgroups remains unknown. To find out which trauma subgroups that has the most potential for care improvement and to to understand how OFI is distributed in all trauma patients, a study looking into OFI frequency between trauma subgroups is needed. 
-
-in the trauma registers, knowledge regarding OFI patterns among different trauma subgroups remains unknown. 
-<!-- See my comment above. You need to work more to tie it all together and I think elaborating on the rationale and potential implications of your study is key to that. So I suggest that you focus on why your study is important and what could be the changes in practice that it may result in.--> Trycka mer på varför den här studien verkligen behövs.
+There is a lot of available data about subgroups regarding transportation time to hospital, NISS score at the emergency department, rehabilitation, morbidity and mortality rate to state a few examples[@arsrapportswetrau]. Despite having all this data, and studies showing varying quality of trauma care between subgroups, knowledge regarding OFI patterns among different trauma subgroups remains unknown. To find out which trauma subgroups that has the most potential for care improvement and to to understand how OFI is distributed in trauma patients, a study looking into OFI frequency between trauma subgroups is needed. 
 
 Aim
 ------------
@@ -228,23 +197,16 @@ Ethical considerations
 
 As this is a study based on data from severely injured and deceased people, it must be considered a vulnerable patient group. Because of this it is extra important to carefully weigh the potential risks and benefits against each other when deciding if the study can be granted ethical permission. 
 
-In this case trauma patients were the patient group that needed to be studied, and therefor no other less vulnerable patient group would have been sufficient. This is however a registry based study, meaning that no interventions were made that could harm the patients. Measures was also taken to prevent personal information to be leaked about the patients. For example all data was scrambled for as long as possible, and to get access to the unscrambled data a VPN had to be used. Even then, the social security number of all patients was scrambled. 
+In this case trauma patients were the patient group that needed to be studied, and therefor no other less vulnerable patient group would have been sufficient. This is however a registry based study, meaning that no interventions were made that could harm the patients. Measures was also taken to prevent personal information to be leaked about the patients. For example all data was scrambled for as long as possible, and to get access to the unscrambled data a virtual private network had to be used. Even then, the social security number of all patients was scrambled. 
 
-This study follows the principal of presumed consent, meaning that patients included in the study not actively have given their consent or actively have said no to being included in the registries. This is common for trauma research as the patients often is not capable to making such a decision due to their injuries. 
+Patients included in the study not actively have given their consent or actively have said no to being included in the registries. This is common for trauma research as the patients often is not capable to making such a decision due to their injuries. This exception from patient consent is motivated by the fact that this kind of registry based research is in the public interest. However all patients have the right to request that their data is removed from the registries or sent a copy of the data stored about them in the registries.[@swetrauetik]
 
-Despite the measures taken there is still a theoretical risk that a patient could be identified based on age, gender, trauma type and other information in the registries. The risk for risk is however very small given the large number of patients and the limited number of people having access to the data.
-
-- Rätt att få uppgifter borttagnia ur registret.
-
-- får behandla uppgifter i kvalitetsregister då
-det anses utgöra en nödvändig uppgift av allmänt intresse i samhället (art. 6.1 e).
-
-- Uppgifter från kvalitetsregister får endast användas för att utveckla och säkra vårdens kvalitet, framställa statistik samt för
-forskning inom hälso- och sjukvården
+Despite the measures taken there is still a theoretical risk that a patient could be identified based on age, gender, trauma type and other information in the registries. The risk for this is however very small given the large number of patients and the limited number of people having access to the data.
 
 Possible benefits from these type of studies are the possibility that the result can improve the trauma care and by that decrease morbidity and mortality for trauma patients by leading to further research based in the study results. Therefore the conclusion is that the potential risks of this study is overturned by the possible benefits.
 
-Ethical permission has been granted for this project by xxxx. Dnr number for this permission is 2021-02541 and 2021-0253.
+Ethical permission has been granted for this project by the Stockholm Research Ethics Review Board. Approval number for this permission is 2021-02541 and 2021-0253.
+
 
 Results
 =====
@@ -294,7 +256,7 @@ Abbreviations: MSR - Most severe region. OFI - Opportunity for improvement.
 
 Differences
 ------------
-The difference in OFI frequency is presented in table 3-6 for each subgroup. The over all largest difference was found when comparing the face and abdomen cohorts with a difference of 10,48 ( -1.04 - 12.88 ). The smallest difference was found in the xxx subgroup with a difference of ` min delta`.
+The difference in OFI frequency is presented in table 3-6 for each subgroup. The over all largest difference was found when comparing the face and abdomen cohorts with a difference of 10,48 ( -1.04 - 12.88 ). The smallest difference was found when comparing the head and neck cohort with the extremity cohort  with a difference of 0.31 ( -1.11 - 1.78 ).
 
 
 Table 3. A table for the delta values for the Gender subgroup. The values in the parentheses is the 95% confidence interval for each delta value. 
@@ -318,14 +280,14 @@ deltamsrtable
 
 Discussion
 =====
-<!-- biblioghraphy fungerar inte sedan jag bytte till den riktiga servern. Har därför sparat källor till diskussionen i temporary.bib.R -->
+
 Today it is poorly understood wether the frequency of OFI varies between different trauma subgroups. The purpose of this study was therefore to asses the OFI Frequencies for some of the clinically important trauma subgroups in a registry based cohort study.<!-- I would remove this first paragraph and directly state the key findings. Det är KI som vill att man ska ha en kort repetition här -->
 
 We found that the Abdomen cohort in the subgroup Most severely injured body region had the  highest OFI frequency followed by the Major trauma subgroup. It was also found that penetrating trauma had a higher OFI frequency then blunt trauma and that men had a higher OFI frequency then women. The difference between blunt and penetrating trauma and the difference between the genders was not statistically significant. 
 
 When comparing the results of this study with previous research one must keep in mind the fact that the OFI term is not a unanimously defined term between hospitals and that little trauma research exist that uses OFI as the primary outcome measure. It can however still be relevant to compare the result of this study with research looking into outcomes like preventable death, morbidity and mortality for the same trauma subgroups as this study. 
 
-As for the high frequency of OFI the Abdomen cohort, the results was rather unexpected. To the best of our knowledge there is no existing research indicating that abdominal trauma has ha higher frequency of OFI, mortality or preventable death. We can only speculate why this higher OFI frequency has been found. For example, one reason could be that those admitted to a level one trauma center with the  abdomen as the most severely injured body region has suffered from a more extensive trauma then the other subgroups. It could also be that an abdominal trauma is not always as visually obvious in the pre hospital examinations or in the trauma room as the average head or thorax trauma for example. It can however be established that there is a statistically significant higher OFI frequency in the abdomen subgroup compared with the other body regions.<!-- I guess it could also be that these are the patients who might require an emergency laparotomy and that there are several instances where things can go wrong there. Do you have a table comparing characteristics of the different body region subgroups? A table like that would be interesting because then you could discuss whether these patients were generally more severely injured or more unstable etc--> 
+As for the high frequency of OFI the Abdomen cohort, the results was rather unexpected. To the best of our knowledge there is no existing research indicating that abdominal trauma has ha higher frequency of OFI, mortality or preventable death. We can only speculate why this higher OFI frequency has been found. For example, one reason could be that those admitted to a level one trauma center with the  abdomen as the most severely injured body region has suffered from a more extensive trauma then the other subgroups. It could also be that an abdominal trauma is not always as visually obvious in the pre hospital examinations or in the trauma room as the average head or thorax trauma for example. It can however be established that there is a statistically significant higher OFI frequency in the abdomen subgroup compared with the other body regions.<!-- I guess it could also be that these are the patients who might require an emergency laparotomy and that there are several instances where things can go wrong there. Do you have a table comparing characteristics of the different body region subgroups? A table like that would be interesting because then you could discuss whether these patients were generally more severely injured or more unstable etc. Jag har inte plats för mer text i diskussionen...Kanske kan göra detta till publikationsversionen?--> 
 
 The find of a higher OFI frequency in major trauma compared with minor trauma is consistent with previous research. The mortality has been found to be higher in Major trauma cohort than in Minor trauma. [@Ghorbani2018-dh]. What also can be seen from previous studies is a correlation between major trauma and high preventable death[@Schoeneberg2017; @Kleber2013]. That major and complex trauma has ha greater risk for non optimal trauma care was also consistent with the our results, as the median NISS was higher in the OFI cohort then in the non OFI cohort.
 
