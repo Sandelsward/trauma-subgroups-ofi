@@ -5,3 +5,9 @@ doc <- body_add_table(doc, value = table.1.df, style = "Normal Table")
 
 # Save the Word document
 print(doc, target = "table.docx")
+
+
+doc.gender <- read_docx()
+doc.gender <- body_add_table(doc, value = deltagendertable.df, style = "Normal Table")
+print(doc, target = "table.docx")
+
