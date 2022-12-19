@@ -33,6 +33,7 @@ library(DiagrammeRsvg)
 library(rsvg)
 library(kableExtra)
 library(ggtext)
+library(writexl)
 
 noacsr::source_all_functions()
 
