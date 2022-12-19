@@ -2,15 +2,14 @@
 title: "In what trauma patient subgroups are oppotunities for improvement most frequent?"
 author: "George Sandelswärd"
 output:
+  word_document: default
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
-  word_document: default
 bibliography: bibliography.bib
 csl: vancouver.csl
 fontsize: 11pt
 always_allow_html: true
-
 ---
 
 
@@ -315,8 +314,6 @@ The audit filters that is a big part of the selection for M&M conferences is is 
 
 As the total number of patients is relatively small, the size of some of the more uncommon trauma cohorts are very small, which is something one must keep in mind when studying the results. furthermore the delta values has for some cohorts a CI with quite a big range. This is most likely because of the low number of patients in these cohorts, making the delta value more sensitive to outliers.
 
-
-Those who did not have OFI were more likely to be alive after 30 days (92,1%) compared to those in which OFI were identified (90,1%)
 
 Clinical/Practical applications
 -------------
