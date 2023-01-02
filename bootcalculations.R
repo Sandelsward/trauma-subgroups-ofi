@@ -3,11 +3,11 @@ library("boot") # load boot
 source("functions/bootfunctions.R")
 
 ### data = datan du stoppar in, statistic = funktionen som genererar resultat, R= antalet körningar. 
-boot_out_gender <- boot(data=cleaned.data, statistic = boot_function_gender,R = 10)
-boot_out_inj_type <- boot(data=cleaned.data, statistic = boot_function_inj_type,R = 10)
-boot_out_moi <- boot(data=cleaned.data, statistic = boot_function_moi,R = 10)
-boot_out_msr <- boot(data=cleaned.data, statistic = boot_function_msr,R = 10)
-boot_out_min_maj <- boot(data=cleaned.data, statistic = boot_function_min_maj,R = 10)
+boot_out_gender <- boot(data=cleaned.data, statistic = boot_function_gender,R = 1000)
+boot_out_inj_type <- boot(data=cleaned.data, statistic = boot_function_inj_type,R = 1000)
+boot_out_moi <- boot(data=cleaned.data, statistic = boot_function_moi,R = 1000)
+boot_out_msr <- boot(data=cleaned.data, statistic = boot_function_msr,R = 1000)
+boot_out_min_maj <- boot(data=cleaned.data, statistic = boot_function_min_maj,R = 1000)
 
 #### The output from the function boot contains all vectors that you want CI from but its hard to find the one you want,
 # You need to specify index. For example above: index=1 (delta.gender), index=2(freq.ofi.vomen) and so on. 

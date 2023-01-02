@@ -226,7 +226,7 @@ The mean age for all patients were `r mean.age` years and the mean NISS score wa
 
 Table 1. A descriptive table of OFI percentage across all subgroups as well as the variables age, NISS and 30-day survival rate.
 ```{r, echo = FALSE} 
-table.1 
+table.1
 ```
 Abbreviations: NISS - The New Injury Severity Score. OFI - Opportunity for improvement.
 
