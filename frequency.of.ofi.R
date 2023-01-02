@@ -534,7 +534,8 @@ sd.niss <- round(sd(cleaned.data$NISS), digits = 2)
 df.ofi.cleaned.data <- cleaned.data[cleaned.data$ofi =="Yes",]
 ofi.cleaned.data <- nrow(df.ofi.cleaned.data)
 
-mean.ofi <- round((((ofi.cleaned.data)/(total.cohort)) * 100))
+mean.ofi <- round(((((ofi.cleaned.data)/(total.cohort)) * 100)),digits = 2)
+
 
 ####
 ####
